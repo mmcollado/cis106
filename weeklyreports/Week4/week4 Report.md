@@ -8,7 +8,11 @@ semester: spring 2022
    
 #        A table of the commands in the presentation including what the command does and some examples
 
-
+|Command |	Function| Examples|
+|--------|-----------|---------|
+|pwd |Use to display the current working directory| pwd -L |
+|cd| Used for changing the current working directory  | cd Music |
+|ls| Used for displaying all the files  inside a given directory | ls -a||
 
 
 
