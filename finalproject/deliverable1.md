@@ -18,7 +18,7 @@ semester: spring 22
   
 ##  What is Linux?
 
- * Just like windows os and mac os Linux is an operating system. Still, with the difference that it is open compared to mac os and windows os since it is available to the user, so the user can see the source code and modified at will, also distributed to anyone at 0 costs. Meanwhile, their homolog has a price for a license and controls the hardware and software the same way or better since communities or people around the globe can fix problems quickly and more efficiently than Microsoft or apple. 
+ * Just like windows os and mac os Linux is an operating system. Still, with the difference that it is open compared to mac os and windows os since it is available to the user, so the user can see the source code and modified at will, also distributed to anyone at 0 costs. Meanwhile, their homologue has a price for a license and controls the hardware and software the same way or better since communities or people around the globe can fix problems quickly and more efficiently than Microsoft or apple. 
 
 ###    Short history of linux
 ![short-history-of-linux](short-history-of-linux-one-picture.png)
