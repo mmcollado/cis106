@@ -79,8 +79,8 @@ semester: spring 22
 * The freedom to run the program as you wish, for any purpose (freedom 0): This means that you have the right to run any kind of program you want to run without the need to say anything to the developer or any entity. And can be distributed and used by many people for their purposes, and you cant not impose your purpose on the person that downloaded it.
   
 * The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this: Is the ability to see and edit the source code as you want it and knows how it works also deleted if you're going to see how the program works. 
-* The freedom to redistribute copies so you can help others (freedom 2).
-* The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+* The freedom to redistribute copies so you can help others (freedom 2): means that you can distribute copies either paying or for free for distribution to any one any where.
+* The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this: this means that any one can change it and be able to read the source code even it is in binary.
 
   
 ## sources
@@ -98,4 +98,5 @@ semester: spring 22
 * Advantage of close source:  https://www.hitechwhizz.com/2021/05/6-advantages-and-disadvantages-drawbacks-benefits-of-closed-source-software.html
 * The-free-software-Movement: https://en.wikipedia.org/wiki/Free_software_movement 
 * Richard stallman: https://en.wikipedia.org/wiki/Richard_Stallman
+* The-four-freedoms: https://www.gnu.org/philosophy/free-sw.html#four-freedoms
   
