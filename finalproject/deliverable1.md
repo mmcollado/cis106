@@ -25,6 +25,9 @@ semester: spring 22
 
 * A message sends from Linux Torvalds to the Minix community across the world. Describing what he has until that moment and accepting some suggestions, but he doesn't promise anything, yep, and with this start 25 years of a beautiful operating system.
 
+![short-history-of-linux-events](1.png)
+![short-history-of-linux-events2](2.png)
+
 ### Linux distribution
 
 * **Slackware**: It is a Gnu/Linux distribution, but with the ability to change it as you want without a graphical environment to enable or disable services at will is also accessible for any dependencies problems since it uses the kiss principle.
@@ -99,4 +102,7 @@ semester: spring 22
 * The-free-software-Movement: https://en.wikipedia.org/wiki/Free_software_movement 
 * Richard stallman: https://en.wikipedia.org/wiki/Richard_Stallman
 * The-four-freedoms: https://www.gnu.org/philosophy/free-sw.html#four-freedoms
+* is a Foos The Earliest Linux Distros: Before Mainstream Distros Became So Popular: https://itsfoss.com/earliest-linux-distros/
+* cgw  Linux Invades Hollywood : https://www.cgw.com/Publications/CGW/2001/Volume-24-Issue-9-September-2001-/Linux-Invades-Hollywood.aspx
+* znet  Linux turns 30: The biggest events in its history so far : https://www.zdnet.com/pictures/linux-turns-30-the-biggest-events-in-its-history-so-far/13/
   
