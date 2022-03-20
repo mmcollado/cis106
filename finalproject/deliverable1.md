@@ -18,7 +18,7 @@ semester: spring 22
   
 ##  What is Linux?
 
- * Just like windows os and mac os Linux is an operating system. Still, with the difference that it is open compared to mac os and windows os since it is available to the user, so the user can see the source code and modified at will, also distributed to anyone at 0 costs. Meanwhile, their homologue has a price for a license and controls the hardware and software the same way or better since communities or people around the globe can fix problems quickly and more efficiently than Microsoft or apple. 
+ * Just like windows os, Mac or Linux is an operating system. Still, with the difference that it is open compared to mac os and windows os since it is available to the user, so the user can see the source code and modified at will, also distributed to anyone at 0 costs. Meanwhile, their homologue has a price for a license and controls the hardware and software the same way or better since communities or people around the globe can fix problems quickly and more efficiently than Microsoft or apple. 
 
 ###    Short history of linux
 ![short-history-of-linux](short-history-of-linux-one-picture.png)
@@ -28,16 +28,24 @@ semester: spring 22
 ![short-history-of-linux-events](1.png)
 ![short-history-of-linux-events2](2.png)
 
+* Many events passed in Linux history from 1991 to 2001 the first message. The Linux Torvalds sent one day to Minix to red had been founded even the war for web servers that Linux ended up winning since runs in most of the servers of present days. Also, Corel Linux set the path to popular distros like ubuntu and deviates from it like Debian, Ubuntu, Kubuntu, Zorin os, and much more. 
+
 ### Linux distribution
+![slackware-linux](Slackware-linux.png)
 
 * **Slackware**: It is a Gnu/Linux distribution, but with the ability to change it as you want without a graphical environment to enable or disable services at will is also accessible for any dependencies problems since it uses the kiss principle.
   
+  ![debian-linux](Debian.png)
+
 * **Debian**:  is a particular distribution of the Linux operating system, and numerous packages that run on it. 
 
 > **Debian base linux distributions**
 > Ubuntu: is a complete Linux operating system, freely available with both community and professional support. The Ubuntu community is built on the ideas enshrined in the Ubuntu Manifesto: that software should be available free of charge, that software tools should be usable by people in their local language and despite any disabilities, and that people should have the freedom to customize and alter their software in whatever way they see fit. 
 
+
 > Kali Linux: is an open-source, Debian-base  Linux distribution aimed at advanced penetration testing and security Auditing.
+
+![Red-hat](Red-hat.png)
 
 * Red Hat Enterprise Linux:
 >Fedora: is a Linux distribution developed by Fedora project sponsored by redhat and Ibm, giving support for companies and organizations.
