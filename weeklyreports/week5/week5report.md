@@ -10,8 +10,8 @@ semester: spring 2022
 
 |Command |	Definition |uses| Examples|
 |--------|-----------|---------|------------|
-|mkdir |is a command that makes directories |make directories |mkdir -p directory/path/newdir  |
-|touch|  | || |
+|mkdir |is a command that makes directories |make directories |mkdir -p directory/path/newdir   mkdir -p home/cis106/beans|
+|touch| A FILE argument that does not exist is created empty, unless -c  or  -h is supplied.|change file timestamps| touch file1 file2 file3 |
 |rm| Used for displaying all the files  inside a given directory | ls -a||
 |rmdir| Used for displaying all the files  inside a given directory | ls -a||
 |mv| Used for displaying all the files  inside a given directory | ls -a||
