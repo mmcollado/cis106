@@ -14,7 +14,8 @@ semester: spring 2022
 |touch| A FILE argument that does not exist is created empty, unless -c  or  -h is supplied.|change file timestamps| touch file1 file2 file3 |
 |rm| rm is a command-line utility for removing files and directories|remove files or directories | rm -i d.txt  ```rm -i howards.txt```|
 |rmdir|Remove the DIRECTORies, if they are empty.|remove empty directories | rmdir [-p] [-v –verbose [–ignore-fail-on-non-empty] ``` rmdir -p home/island ```||
-|mv|  | ls -a||
+|mv|  Rename SOURCE to DEST, or move SOURCEs to DIRECTORY.| move (rename) files
+ | mv [options] source dest ```mv -f ~/home/games ~home/games/steam/destiny2```||
 |cp| Used for displaying all the files  inside a given directory | ls -a||
 |ln| Used for displaying all the files  inside a given directory | ls -a||
 |man| Used for displaying all the files  inside a given directory | ls -a||
