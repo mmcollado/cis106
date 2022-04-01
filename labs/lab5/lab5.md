@@ -26,4 +26,9 @@ Semester: Spring22
 ![q4](q4.3.png)<br>
 
 ## Question 5
-![q]()<br>
+![q5](q5.1.png)<br>
+![q5](q5.2.png)<br>
+![q5](q5.3.png)<br>
+![q5](q5.4.png)<br>
+![q5](q5.5.png)<br>
+![q5](q5.6.png)<br>
