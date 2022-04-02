@@ -1,0 +1,39 @@
+===> INFO: Changes for /etc/grub.d/30_os-prober:
+213c213
+<         LINITRD="`echo ${LINUX} | cut -d ':' -f 5 | tr '^' ' '`"
+---
+>         LINITRD="`echo ${LINUX} | cut -d ':' -f 5`"
+222c222
+< 	  LINITRD=($LINITRD); LINITRD=${LINITRD[@]#/boot}
+---
+> 	  LINITRD="${LINITRD#/boot}"
+===> INFO: Backup to /etc/grub.d/30_os-prober.bak.
+===> INFO: Changes for /etc/grub.d/10_linux:
+34c34
+<   OS="${GRUB_DISTRIBUTOR}"
+---
+>   OS="${GRUB_DISTRIBUTOR} Linux"
+95c95
+< 	      title="$(gettext_printf "%s, on %s (booster initramfs)" "${os}" "${version}")" ;;
+---
+> 	      title="$(gettext_printf "%s, with Linux %s (booster initramfs)" "${os}" "${version}")" ;;
+97c97
+< 	      title="$(gettext_printf "%s, on %s (fallback initramfs)" "${os}" "${version}")" ;;
+---
+> 	      title="$(gettext_printf "%s, with Linux %s (fallback initramfs)" "${os}" "${version}")" ;;
+99c99
+< 	      title="$(gettext_printf "%s, on %s (recovery mode)" "${os}" "${version}")" ;;
+---
+> 	      title="$(gettext_printf "%s, with Linux %s (recovery mode)" "${os}" "${version}")" ;;
+101c101
+< 	      title="$(gettext_printf "%s, on %s" "${os}" "${version}")" ;;
+---
+> 	      title="$(gettext_printf "%s, with Linux %s" "${os}" "${version}")" ;;
+145c145
+<   message="$(gettext_printf "Loading kernel %s ..." ${version})"
+---
+>   message="$(gettext_printf "Loading Linux %s ..." ${version})"
+===> INFO: Backup to /etc/grub.d/10_linux.bak.
+===> INFO: /etc/default/grub not changed.
+===> INFO: /etc/default/grub not changed.
+===> INFO: /usr/lib/linux-boot-probes/mounted/40grub2 not changed.

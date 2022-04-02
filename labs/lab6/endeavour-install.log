@@ -1,0 +1,2732 @@
+########## /home/liveuser/endeavour-install.log by eos-install-mode-run-calamares
+########## Started (UTC): 03/03/2022 12:20:40 AM
+########## Install mode: online
+########## ISO version: 2021.12.17
+
+## >>> Preliminary log before starting calamares:
+==> New bootloader id: 'endeavouros-3771'
+==> Hotfixes definition file from https://gitlab.com/endeavouros-filemirror/ISO-hotfixes/-/raw/main/hotfix-start.bash executed.
+==> File settings.conf updated.
+## <<< End of preliminary log.
+
+00:20:41 [6]: Calamares::Settings::Settings(const QString&, bool)
+    Using Calamares settings file at "/etc/calamares/settings.conf" 
+00:20:41 [6]: void Logger::setupLogfile()
+    Using log file: "/root/.cache/calamares/session.log" 
+00:20:41 [6]: void CalamaresApplication::init()
+    Calamares version: 3.2.49.1 
+    ..  languages: "ar, as, ast, az, az_AZ, be, bg, bn, ca, ca@valencia, cs_CZ, da, de, el, en, en_GB, eo, es, es_MX, et, eu, fa, fi_FI, fr, fur, gl, he, hi, hr, hu, id, is, it_IT, ja, ko, lt, ml, mr, nb, nl, pl, pt_BR, pt_PT, ro, ru, si, sk, sl, sq, sr, sr@latin, sv, tg, th, tr_TR, uk, vi, zh_CN, zh_TW" 
+00:20:41 [6]: bool CalamaresUtils::initQmlModulesDir()
+    Using Calamares QML directory "/etc/calamares/qml" 
+00:20:41 [6]: Calamares::Branding::Branding(const QString&, QObject*)
+    Using Calamares branding file at "/etc/calamares/branding/endeavouros/branding.desc" 
+00:20:41 [6]: Calamares::Branding::Branding(const QString&, QObject*)
+    Loaded branding component "endeavouros" 
+    ..  Loaded QRC translation "tz_" "en_US" 
+    ..  Loaded QRC translation "calamares_" "en_US" 
+    ..  STARTUP: initSettings, initQmlPath, initBranding done 
+    ..  STARTUP: initModuleManager: module init started 
+00:20:41 [6]: void Calamares::ModuleManager::doInit()
+    Found 41 modules 
+00:20:41 [6]: void CalamaresApplication::initView()
+    STARTUP: initModuleManager: all modules init done 
+00:20:41 [6]: void CalamaresApplication::initView()
+    STARTUP: initJobQueue done 
+00:20:41 [6]: CalamaresWindow::CalamaresWindow(QWidget*)
+    Available desktop QSize(1360, 733) minimum size QSize(1024, 520) 
+    ..  Proposed window size: 1200 700 
+00:20:41 [6]: void CalamaresApplication::initView()
+    STARTUP: CalamaresWindow created; loadModules started 
+00:20:41 [6]: void Config::initLanguages()
+    Matching locale QLocale(English, Latin, United States) 
+00:20:41 [6]: void Config::setLocaleIndex(int)
+    Index 14 Selected locale "en" 
+    ..  Branding no translation for "en" using default (en) 
+    ..  Loaded QRC translation "tz_" "en" 
+    ..  Loaded QRC translation "calamares_" "en" 
+00:20:42 [6]: virtual void Calamares::ViewModule::loadSelf()
+    ViewModule "welcome@online" loading complete. 
+00:20:42 [6]: virtual void Calamares::ViewModule::loadSelf()
+    ViewModule "locale@locale" loading complete. 
+00:20:42 [6]: KeyboardModelsModel::KeyboardModelsModel(QObject*)
+    Loaded 188 keyboard models 
+00:20:42 [6]: KeyboardPage::KeyboardPage(Config*, QWidget*)
+    Variants now total= 0 selected= -1 
+    ..  Loaded QRC translation "kb_" "en" 
+00:20:42 [6]: void Config::detectCurrentKeyboardLayout()
+    ("pc", "us", "inet(evdev)\"") 
+00:20:42 [6]: QStringList CalamaresUtils::GeoIP::getElementTexts(const QByteArray&, const QString&)
+    GeoIP found 1 elements 
+00:20:42 [6]: virtual void Calamares::ViewModule::loadSelf()
+    ViewModule "keyboard@keyboard" loading complete. 
+00:20:42 [6]: CalamaresUtils::Partition::InternalManager::InternalManager()
+    KPMCore backend starting .. 
+00:20:42 [6]: Loaded backend plugin:  "pmsfdiskbackendplugin"
+    ..  Backend @0x558423aaeff0 "pmsfdiskbackendplugin" "1" 
+00:20:42 [2]: virtual void PartitionViewStep::setConfigurationMap(const QVariantMap&)
+    WARNING: Partition-module setting *defaultPartitionTableType* is unset, will use gpt for efi or msdos for bios 
+00:20:42 [6]: virtual void Calamares::ViewModule::loadSelf()
+    ViewModule "partition@partition" loading complete. 
+00:20:42 [6]: void Config::setConfigurationMap(const QVariantMap&)
+    Loading netinstall from 2 alternate sources. 
+00:20:42 [6]: virtual void Calamares::ViewModule::loadSelf()
+    ViewModule "netinstall@netinstall" loading complete. 
+    ..  minLength set to 1 
+00:20:42 [6]: virtual void Calamares::ViewModule::loadSelf()
+    ViewModule "users@users" loading complete. 
+00:20:43 [6]: virtual void Calamares::ViewModule::loadSelf()
+    ViewModule "summary@summary" loading complete. 
+00:20:43 [6]: void Calamares::ModuleManager::loadModules()
+    Module "partition@partition" already loaded. 
+00:20:43 [6]: Calamares::SlideshowQML::SlideshowQML(QWidget*)
+    QML import paths: 
+     "/etc/calamares/qml" 
+     "/usr/bin" 
+     "qrc:/qt-project.org/imports" 
+     "/usr/lib/qt/qml" 
+00:20:43 [6]: Calamares::SlideshowQML::SlideshowQML(QWidget*)
+    QML load on startup, API 2. 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "shellprocess@modify_mk_hook" loading complete. 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "shellprocess@initialize_pacman" loading complete. 
+00:20:43 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+    WARNING: No config file for "pacstrap" found anywhere at 
+     "/etc/calamares/modules/pacstrap.conf" 
+00:20:43 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+    WARNING: No config file for "get_root_username" found anywhere at 
+     "/etc/calamares/modules/get_root_username.conf" 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "machineid@machineid" loading complete. 
+00:20:43 [6]: void Calamares::ModuleManager::loadModules()
+    Module "locale@locale" already loaded. 
+00:20:43 [6]: void Calamares::ModuleManager::loadModules()
+    Module "keyboard@keyboard" already loaded. 
+00:20:43 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+    WARNING: No config file for "user_pkglist" found anywhere at 
+     "/etc/calamares/modules/user_pkglist.conf" 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "luksbootkeyfile@luksbootkeyfile" loading complete. 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "initcpio@initcpio" loading complete. 
+00:20:43 [6]: void Calamares::ModuleManager::loadModules()
+    Module "users@users" already loaded. 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "shellprocess@cleaner_script" loading complete. 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "shellprocess@chrooted_cleaner_script" loading complete. 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "shellprocess@reset_mk_hook" loading complete. 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "preservefiles@preservefiles" loading complete. 
+00:20:43 [6]: virtual void Calamares::CppJobModule::loadSelf()
+    CppJobModule "shellprocess@copyfiles" loading complete. 
+00:20:43 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+    WARNING: Found empty module configuration "/etc/calamares/modules/umount.conf" 
+00:20:43 [6]: virtual void Calamares::ViewModule::loadSelf()
+    ViewModule "finished@finished" loading complete. 
+00:20:43 [6]: void Config::xkbApply()
+    xkbmap selection changed to:  "us" - "" 
+00:20:43 [6]: setGeoIP(Config*, const QVariantMap&)::<lambda()>
+    GeoIP result for welcome= "US" 
+00:20:43 [6]: void setCountry(Config*, const QString&, CalamaresUtils::GeoIP::Handler*)
+    Unusable country code "US" 
+    ..  Obtained from "https://geoip.kde.org/v1/ubiquity"  ( 2 "CountryCode" ) 
+00:20:43 [6]: void LoaderQueue::fetch(const QUrl&)
+    NetInstall loading groups from QUrl("https://gitlab.com/endeavouros-filemirror/EndeavourOS-calamares/-/raw/main/netinstall.yaml") 
+00:20:43 [6]: void CalamaresApplication::initViewSteps()
+    STARTUP: loadModules for all modules done 
+00:20:43 [6]: void Calamares::ModuleManager::checkRequirements()
+    Checking module requirements .. 
+00:20:43 [6]: void CalamaresApplication::initViewSteps()
+    STARTUP: Window now visible and ProgressTreeView populated 
+    ..  9 view steps loaded. 
+    ..  Loaded QRC translation "kb_" "en" 
+00:20:43 [6]: void Calamares::SlideshowQML::loadQmlV2Complete()
+    QML component complete, API 2 
+    ..  Loading "/etc/calamares/branding/endeavouros/show.qml" 
+00:20:43 [6]: void LoaderQueue::dataArrived()
+    NetInstall group data received 13103 bytes from QUrl("https://gitlab.com/endeavouros-filemirror/EndeavourOS-calamares/-/raw/main/netinstall.yaml") 
+00:20:43 [6]: QList<Device*> PartUtils::getDevices(PartUtils::DeviceType)
+    Removing unsuitable devices: 1 candidates. 
+    ..  there are 1 devices left. 
+00:20:43 [6]: void PartitionCoreModule::doInit()
+    LIST OF DETECTED DEVICES: 
+    ..  node	capacity	name	prettyName 
+    ..  "/dev/sda" 107372805120 DevName$e2c17eee DevNamePretty$200b584b 
+    ..  1 devices detected. 
+00:20:44 [6]: OsproberEntryList PartUtils::runOsprober(DeviceModel*)
+    os-prober gave no output. 
+00:20:44 [6]: void Calamares::RequirementsChecker::addCheckedRequirements(Calamares::Module*)
+    Got 1 requirement results from "partition" 
+00:20:44 [6]: void ChoicePage::updateDeviceStatePreview()
+    Updating partitioning state widgets. 
+00:20:44 [6]: void ChoicePage::setupActions()
+    Setting up actions for "/dev/sda" with 0 entries. 
+    ..  Can not resize "/dev/sda" , filesystem "unknown" does not support resize. 
+    ..  Checking if "/dev/sda" can be replaced. 
+    ..  Partition "/dev/sda" authorized for replace install. 
+    ..  contains replaceable "unallocated" 
+00:20:44 [6]: ChoicePage::setupActions()::<lambda()>
+    Setting texts for 0 osprober entries 
+00:20:44 [6]: void ChoicePage::setupActions()
+    No partitions available for resize-action. 
+00:20:44 [6]: void ChoicePage::continueApplyDeviceChoice()
+    Previous device -1 new device 0 
+00:20:44 [6]: void ChoicePage::applyActionChoice(InstallChoice)
+    Prev -1 InstallChoice Config::NoChoice "none" 
+00:20:44 [6]: bool ChoicePage::calculateNextEnabled() const
+    No partitioning choice 
+00:20:44 [6]: void ChoicePage::updateActionChoicePreview(InstallChoice)
+    Updating partitioning preview widgets. 
+00:20:44 [6]: Calamares::RequirementsList GeneralRequirements::checkRequirements()
+    GeneralRequirements output: 
+     storage :   5905580032 
+     enoughStorage :   true 
+     RAM :   1503238553 
+     enoughRam :   true 
+     hasPower :   true 
+     hasInternet :   true 
+     isRoot :   true 
+00:20:44 [6]: void Calamares::RequirementsChecker::addCheckedRequirements(Calamares::Module*)
+    Got 6 requirement results from "welcome" 
+00:20:44 [6]: void Calamares::RequirementsChecker::finished()
+    All requirements have been checked. 
+00:20:44 [6]: void Calamares::RequirementsModel::describe() const
+    Requirements model has 7 items 
+    ..  requirement 0 "partitions" satisfied? true mandatory? true 
+    ..  requirement 1 "storage" satisfied? true mandatory? false 
+    ..  requirement 2 "ram" satisfied? true mandatory? true 
+    ..  requirement 3 "power" satisfied? true mandatory? false 
+    ..  requirement 4 "internet" satisfied? true mandatory? true 
+    ..  requirement 5 "root" satisfied? true mandatory? false 
+    ..  requirement 6 "screen" satisfied? true mandatory? false 
+19:20:47 [6]: void Config::guessLocaleKeyboardLayout()
+    Got locale language "en_US.UTF-8" 
+    ..  looking for locale part "US" 
+    ..  matched "us" 
+19:20:47 [6]: void guessLayout(const QStringList&, KeyboardLayoutModel*, KeyboardVariantsModel*)
+    Next level: "en" 
+19:20:50 [6]: void ChoicePage::applyActionChoice(InstallChoice)
+    Prev -1 InstallChoice Config::Erase "erase" 
+19:20:50 [6]: PartitionTable* CreatePartitionTableJob::createTable()
+    CreatePartitionTableJob::createTable trying to make table for device "/dev/sda" 
+19:20:50 [6]: void PartitionCoreModule::dumpQueue() const
+    # Queue: 
+    ..  ## Device: "/dev/sda" 
+    ..  - CreatePartitionTableJob 
+    ..  - CreatePartitionJob 
+    ..  - SetPartFlagsJob 
+19:20:50 [6]: void ChoicePage::updateActionChoicePreview(InstallChoice)
+    Updating partitioning preview widgets. 
+19:20:52 [6]: void ChoicePage::applyActionChoice(InstallChoice)
+    Prev -1 InstallChoice Config::Erase "erase" 
+19:20:52 [6]: void ChoicePage::updateActionChoicePreview(InstallChoice)
+    Updating partitioning preview widgets. 
+19:20:52 [6]: void Calamares::restoreSelectedBootLoader(QComboBox&, const QString&)
+    No path to restore, choosing default 
+19:20:52 [6]: void PartitionCoreModule::setBootLoaderInstallPath(const QString&)
+    PCM::setBootLoaderInstallPath "/dev/sda" 
+19:20:52 [6]: void PartitionCoreModule::setBootLoaderInstallPath(const QString&)
+    PCM::setBootLoaderInstallPath "/dev/sda" 
+19:20:52 [6]: PartitionTable* CreatePartitionTableJob::createTable()
+    CreatePartitionTableJob::createTable trying to make table for device "/dev/sda" 
+19:20:52 [6]: void PartitionCoreModule::setBootLoaderInstallPath(const QString&)
+    PCM::setBootLoaderInstallPath "/dev/sda" 
+19:20:53 [6]: void PartitionCoreModule::setBootLoaderInstallPath(const QString&)
+    PCM::setBootLoaderInstallPath "/dev/sda" 
+19:20:53 [6]: void PartitionCoreModule::dumpQueue() const
+    # Queue: 
+    ..  ## Device: "/dev/sda" 
+    ..  - CreatePartitionTableJob 
+    ..  - CreatePartitionJob 
+    ..  - SetPartFlagsJob 
+19:21:04 [6]: void PartitionCoreModule::setBootLoaderInstallPath(const QString&)
+    PCM::setBootLoaderInstallPath "/dev/sda" 
+19:21:14 [6]: QML Component (default slideshow) Next slide
+19:21:40 [6]: bool additions(Calamares::GlobalStorage*, const QString&, const QVariantList&, const QVariantList&)
+    Existing package operations length 0 
+    ..  167 critical packages. 
+    ..  2 non-critical packages. 
+19:21:44 [6]: QML Component (default slideshow) Next slide
+19:22:14 [6]: QML Component (default slideshow) Next slide
+19:22:16 [2]: QObject::setParent: Cannot set parent, new parent is in a different thread
+19:22:16 [6]: virtual QString PartitionViewStep::prettyStatus() const
+    Summary for Partition 1 Config::Erase 
+19:22:16 [6]: QStringList findEssentialLVs(const QList<PartitionCoreModule::DeviceInfo*>&)
+    Checking LVM use on 1 devices 
+19:22:16 [6]: QVariantList FillGlobalStorageJob::createPartitionList() const
+    Building partition information map 
+    ..  partitions on "/dev/sda" 
+    ..  mapping for "" "New Partition" 
+     partlabel :   "root" 
+     partition-uuid (partuuid) :   "PartUUID$aa4d3236" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/" 
+     fs: :   "btrfs" 
+     fsName :   "btrfs" 
+     filesystem-uuid (uuid) :   "FSUUID$dc8d2124" 
+     claimed :   "true" 
+19:22:16 [6]: QVariantList FillGlobalStorageJob::createPartitionList() const
+    Building partition information map 
+    ..  partitions on "/dev/sda" 
+    ..  mapping for "" "New Partition" 
+     partlabel :   "root" 
+     partition-uuid (partuuid) :   "PartUUID$aa4d3236" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/" 
+     fs: :   "btrfs" 
+     fsName :   "btrfs" 
+     filesystem-uuid (uuid) :   "FSUUID$dc8d2124" 
+     claimed :   "true" 
+19:22:16 [2]: QLayout: Attempting to add QLayout "" to QWidget "", which already has a layout
+19:22:16 [2]: QObject::setParent: Cannot set parent, new parent is in a different thread
+19:22:16 [6]: QStringList findEssentialLVs(const QList<PartitionCoreModule::DeviceInfo*>&)
+    Checking LVM use on 1 devices 
+19:22:16 [6]: QVariantList FillGlobalStorageJob::createPartitionList() const
+    Building partition information map 
+    ..  partitions on "/dev/sda" 
+    ..  mapping for "" "New Partition" 
+     partlabel :   "root" 
+     partition-uuid (partuuid) :   "PartUUID$aa4d3236" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/" 
+     fs: :   "btrfs" 
+     fsName :   "btrfs" 
+     filesystem-uuid (uuid) :   "FSUUID$dc8d2124" 
+     claimed :   "true" 
+19:22:16 [6]: QVariantList FillGlobalStorageJob::createPartitionList() const
+    Building partition information map 
+    ..  partitions on "/dev/sda" 
+    ..  mapping for "" "New Partition" 
+     partlabel :   "root" 
+     partition-uuid (partuuid) :   "PartUUID$aa4d3236" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/" 
+     fs: :   "btrfs" 
+     fsName :   "btrfs" 
+     filesystem-uuid (uuid) :   "FSUUID$dc8d2124" 
+     claimed :   "true" 
+19:22:20 [6]: QML Component (default slideshow) activated
+19:22:20 [6]: QStringList findEssentialLVs(const QList<PartitionCoreModule::DeviceInfo*>&)
+    Checking LVM use on 1 devices 
+19:22:20 [6]: void Calamares::JobThread::finalize()
+    There are 42 jobs, total weight 30 
+    ..  Job 1 "Manage auto-mount settings" +wt 0.125 tot.wt 0.125 
+    ..  Job 2 "Clear all temporary mounts." +wt 0.125 tot.wt 0.25 
+    ..  Job 3 "Clear mounts for partitioning operations on /dev/sda" +wt 0.125 tot.wt 0.375 
+    ..  Job 4 "Create new msdos partition table on /dev/sda." +wt 0.125 tot.wt 0.5 
+    ..  Job 5 "Create new 102397MiB partition on /dev/sda (QEMU HARDDISK) with file system btrfs." +wt 0.125 tot.wt 0.625 
+    ..  Job 6 "Set flags on 102397MiB btrfs partition." +wt 0.125 tot.wt 0.75 
+    ..  Job 7 "Set partition information" +wt 0.125 tot.wt 0.875 
+    ..  Job 8 "Manage auto-mount settings" +wt 0.125 tot.wt 1 
+    ..  Job 9 "mount" +wt 1 tot.wt 2 
+    ..  Job 10 "modify 90-mkinitcpio-install.hook on host and chroot" +wt 1 tot.wt 3 
+    ..  Job 11 "initialize pacman ... ranking mirrors ... copy pacman mirrorlist and keyring to target ..." +wt 1 tot.wt 4 
+    ..  Job 12 "pacstrap" +wt 1 tot.wt 5 
+    ..  Job 13 "get_root_username" +wt 1 tot.wt 6 
+    ..  Job 14 "Generate machine-id." +wt 1 tot.wt 7 
+    ..  Job 15 "fstab" +wt 1 tot.wt 8 
+    ..  Job 16 "Set timezone to America/New_York" +wt 1 tot.wt 9 
+    ..  Job 17 "Set keyboard model to pc105, layout to us-" +wt 1 tot.wt 10 
+    ..  Job 18 "localecfg" +wt 1 tot.wt 11 
+    ..  Job 19 "packages" +wt 1 tot.wt 12 
+    ..  Job 20 "user_pkglist" +wt 1 tot.wt 13 
+    ..  Job 21 "Configuring LUKS key file." +wt 1 tot.wt 14 
+    ..  Job 22 "luksopenswaphookcfg" +wt 1 tot.wt 15 
+    ..  Job 23 "initcpiocfg" +wt 1 tot.wt 16 
+    ..  Job 24 "Creating initramfs with mkinitcpio." +wt 1 tot.wt 17 
+    ..  Job 25 "Configure <pre>sudo</pre> users." +wt 0.166667 tot.wt 17.1667 
+    ..  Job 26 "Preparing groups." +wt 0.166667 tot.wt 17.3333 
+    ..  Job 27 "Create user cis106" +wt 0.166667 tot.wt 17.5 
+    ..  Job 28 "Set password for user cis106" +wt 0.166667 tot.wt 17.6667 
+    ..  Job 29 "Set password for user root" +wt 0.166667 tot.wt 17.8333 
+    ..  Job 30 "Set hostname cis106-standardpci440fxpiix1996" +wt 0.166667 tot.wt 18 
+    ..  Job 31 "networkcfg" +wt 1 tot.wt 19 
+    ..  Job 32 "displaymanager" +wt 1 tot.wt 20 
+    ..  Job 33 "hwclock" +wt 1 tot.wt 21 
+    ..  Job 34 "grubcfg" +wt 1 tot.wt 22 
+    ..  Job 35 "bootloader" +wt 1 tot.wt 23 
+    ..  Job 36 "prepare post-installation cleanup tasks ..." +wt 1 tot.wt 24 
+    ..  Job 37 "running post-installation cleanup tasks" +wt 1 tot.wt 25 
+    ..  Job 38 "reset 90-mkinitcpio-install.hook" +wt 1 tot.wt 26 
+    ..  Job 39 "services-systemd" +wt 1 tot.wt 27 
+    ..  Job 40 "Saving files for later ..." +wt 1 tot.wt 28 
+    ..  Job 41 "copy logs and files from host to target" +wt 1 tot.wt 29 
+    ..  Job 42 "umount" +wt 1 tot.wt 30 
+19:22:20 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Manage auto-mount settings" ( 1 / 42 ) 
+19:22:20 [8]: virtual Calamares::JobResult AutoMountManagementJob::exec()
+    this @0x55842641ec60 value S@0x0 disable 
+19:22:20 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Clear all temporary mounts." ( 2 / 42 ) 
+19:22:20 [8]: virtual Calamares::JobResult ClearTempMountsJob::exec()
+    Opened mtab. Lines: 
+    ..  "proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "sys /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "dev /dev devtmpfs rw,nosuid,relatime,size=4937960k,nr_inodes=1234490,mode=755,inode64 0 0" 
+    ..  "run /run tmpfs rw,nosuid,nodev,relatime,mode=755,inode64 0 0" 
+    ..  "/dev/sr0 /run/archiso/bootmnt iso9660 ro,relatime,nojoliet,check=s,map=n,blocksize=2048,iocharset=utf8 0 0" 
+    ..  "cowspace /run/archiso/cowspace tmpfs rw,relatime,size=10485760k,mode=755,inode64 0 0" 
+    ..  "/dev/loop0 /run/archiso/airootfs squashfs ro,relatime,errors=continue 0 0" 
+    ..  "airootfs / overlay rw,relatime,lowerdir=/run/archiso/airootfs,upperdir=/run/archiso/cowspace/persistent_EOS_202112/x86_64/upperdir,workdir=/run/archiso/cowspace/persistent_EOS_202112/x86_64/workdir 0 0" 
+    ..  "securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "tmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0" 
+    ..  "devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0" 
+    ..  "cgroup2 /sys/fs/cgroup cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot 0 0" 
+    ..  "pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "none /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0" 
+    ..  "systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=11632 0 0" 
+    ..  "tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0" 
+    ..  "tmpfs /tmp tmpfs rw,nosuid,nodev,nr_inodes=409600,inode64 0 0" 
+    ..  "fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0" 
+    ..  "none /run/credentials/systemd-sysusers.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0" 
+    ..  "tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=997456k,nr_inodes=249364,mode=700,uid=1000,gid=987,inode64 0 0" 
+    ..  "gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=987 0 0" 
+19:22:20 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Clear mounts for partitioning operations on /dev/sda" ( 3 / 42 ) 
+19:22:21 [6]: QStringList getPartitionsForDevice(const QString&)
+    Reading from "/proc/partitions" looking for "sda" 
+19:22:21 [6]: virtual Calamares::JobResult ClearMountsJob::exec()
+    ClearMountsJob finished. Here's what was done: 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+19:22:21 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Create new msdos partition table on /dev/sda." ( 4 / 42 ) 
+19:22:21 [6]: virtual Calamares::JobResult CreatePartitionTableJob::exec()
+    Creating new partition table of type "msdos" , uncommitted partitions: 
+    ..  "New Partition" 
+    ..  lsblk output:
+ NAME  MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+loop0   7:0    0  1.7G  1 loop /run/archiso/airootfs
+sda     8:0    0  100G  0 disk 
+sr0    11:0    1  1.9G  0 rom  /run/archiso/bootmnt
+
+    ..  mount output:
+ proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+sys on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+dev on /dev type devtmpfs (rw,nosuid,relatime,size=4937960k,nr_inodes=1234490,mode=755,inode64)
+run on /run type tmpfs (rw,nosuid,nodev,relatime,mode=755,inode64)
+/dev/sr0 on /run/archiso/bootmnt type iso9660 (ro,relatime,nojoliet,check=s,map=n,blocksize=2048,iocharset=utf8)
+cowspace on /run/archiso/cowspace type tmpfs (rw,relatime,size=10485760k,mode=755,inode64)
+/dev/loop0 on /run/archiso/airootfs type squashfs (ro,relatime,errors=continue)
+airootfs on / type overlay (rw,relatime,lowerdir=/run/archiso/airootfs,upperdir=/run/archiso/cowspace/persistent_EOS_202112/x86_64/upperdir,workdir=/run/archiso/cowspace/persistent_EOS_202112/x86_64/workdir)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev,inode64)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+cgroup2 on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+none on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=11632)
+tracefs on /sys/kernel/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+tmpfs on /tmp type tmpfs (rw,nosuid,nodev,nr_inodes=409600,inode64)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,nosuid,nodev,noexec,relatime)
+configfs on /sys/kernel/config type configfs (rw,nosuid,nodev,noexec,relatime)
+none on /run/credentials/systemd-sysusers.service type ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=997456k,nr_inodes=249364,mode=700,uid=1000,gid=987,inode64)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=987)
+
+19:22:21 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Create new 102397MiB partition on /dev/sda (QEMU HARDDISK) with file system btrfs." ( 5 / 42 ) 
+19:22:33 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Set flags on partition /dev/sda1." ( 6 / 42 ) 
+19:22:33 [6]: virtual Calamares::JobResult SetPartFlagsJob::exec()
+    Setting flags on "/dev/sda" partition "/dev/sda1" 
+     "boot" 
+19:22:33 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Set partition information" ( 7 / 42 ) 
+19:22:33 [6]: QVariantList FillGlobalStorageJob::createPartitionList() const
+    Building partition information map 
+    ..  partitions on "/dev/sda" 
+    ..  mapping for "/dev/sda1" "/dev/sda1" 
+     partlabel :   "root" 
+     partition-uuid (partuuid) :   "PartUUID$aa4d3236" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/" 
+     fs: :   "btrfs" 
+     fsName :   "btrfs" 
+     filesystem-uuid (uuid) :   "FSUUID$b2856128" 
+     claimed :   "true" 
+19:22:33 [6]: virtual Calamares::JobResult FillGlobalStorageJob::exec()
+    Saving partition information map to GlobalStorage["partitions"] 
+19:22:33 [6]: virtual Calamares::JobResult FillGlobalStorageJob::exec()
+    FillGlobalStorageJob writing bootLoader path: QVariant(QVariantMap, QMap(("installPath", QVariant(QString, "/dev/sda")))) 
+19:22:33 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Manage auto-mount settings" ( 8 / 42 ) 
+19:22:33 [8]: virtual Calamares::JobResult AutoMountManagementJob::exec()
+    this @0x55842641ec60 value S@0x7f9dd4000b70 restore 
+19:22:33 [6]: virtual void Calamares::JobThread::run()
+    Starting job "mount" ( 9 / 42 ) 
+19:22:33 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/mount/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "mount" = "Mounting partitions." 
+    ..  Running ("mount", "-t", "btrfs", "/dev/sda1", "/tmp/calamares-root-ybu216o9/") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+Create subvolume '/tmp/calamares-root-ybu216o9/@'
+Create subvolume '/tmp/calamares-root-ybu216o9/@home'
+Create subvolume '/tmp/calamares-root-ybu216o9/@cache'
+Create subvolume '/tmp/calamares-root-ybu216o9/@log'
+    ..  Running ("mount", "-t", "btrfs", "-o", "subvol=/@,", "/dev/sda1", "/tmp/calamares-root-ybu216o9/") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+    ..  Running ("mount", "-t", "btrfs", "-o", "subvol=/@home,", "/dev/sda1", "/tmp/calamares-root-ybu216o9/home") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+    ..  Running ("mount", "-t", "btrfs", "-o", "subvol=/@cache,", "/dev/sda1", "/tmp/calamares-root-ybu216o9/var/cache") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+    ..  Running ("mount", "-t", "btrfs", "-o", "subvol=/@log,", "/dev/sda1", "/tmp/calamares-root-ybu216o9/var/log") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+    ..  Running ("mount", "-o", "bind", "/dev", "/tmp/calamares-root-ybu216o9/dev") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+    ..  Running ("mount", "-t", "proc", "proc", "/tmp/calamares-root-ybu216o9/proc") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+    ..  Running ("mount", "-t", "tmpfs", "tmpfs", "/tmp/calamares-root-ybu216o9/run") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+    ..  Running ("mount", "-o", "bind", "/run/udev", "/tmp/calamares-root-ybu216o9/run/udev") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+    ..  Running ("mount", "-t", "sysfs", "sys", "/tmp/calamares-root-ybu216o9/sys") 
+    ..  Running ("udevadm", "settle") 
+    ..  Running ("sync") 
+19:22:35 [6]: virtual void Calamares::JobThread::run()
+    Starting job "modify 90-mkinitcpio-install.hook on host and chroot" ( 10 / 42 ) 
+    ..  Running ("/bin/sh", "-c", "mkdir -p /etc/pacman.d/hooks/") 
+    ..  Running ("/bin/sh", "-c", "cp /etc/calamares/scripts/90-mkinitcpio-install.hook /etc/pacman.d/hooks/") 
+    ..  Running ("/bin/sh", "-c", "mkdir -p /tmp/calamares-root-ybu216o9/usr/share/libalpm/scripts/") 
+    ..  Running ("/bin/sh", "-c", "cp /etc/calamares/scripts/mkinitcpio-install-calamares /tmp/calamares-root-ybu216o9/usr/share/libalpm/scripts/") 
+    ..  Running ("/bin/sh", "-c", "chmod +x /tmp/calamares-root-ybu216o9/usr/share/libalpm/scripts/mkinitcpio-install-calamares") 
+    ..  Running ("/bin/sh", "-c", "mkdir -p /tmp/calamares-root-ybu216o9/etc/pacman.d/hooks/") 
+    ..  Running ("/bin/sh", "-c", "cp /etc/calamares/scripts/90-mkinitcpio-install.hook /tmp/calamares-root-ybu216o9/etc/pacman.d/hooks/") 
+19:22:35 [6]: virtual void Calamares::JobThread::run()
+    Starting job "initialize pacman ... ranking mirrors ... copy pacman mirrorlist and keyring to target ..." ( 11 / 42 ) 
+    ..  Running ("/bin/sh", "-c", "chmod +x /etc/calamares/scripts/create-pacman-keyring") 
+    ..  Running ("/bin/sh", "-c", "bash /etc/calamares/scripts/create-pacman-keyring") 
+    ..  Finished. Exit code: 0 output:
+ haveged: command socket is listening at fd 3
+==> Updating trust database...
+gpg: next trustdb check due at 2022-05-06
+  -> Locally signed 1 keys.
+==> Updating trust database...
+gpg: next trustdb check due at 2022-05-06
+==> Appending keys from archlinux.gpg...
+==> Appending keys from endeavouros.gpg...
+==> Updating trust database...
+gpg: next trustdb check due at 2022-05-06
+    ..  Running ("/bin/sh", "-c", "bash /etc/calamares/scripts/update-mirrorlist") 
+19:22:44 [6]: QML Component (default slideshow) Next slide
+    ..  Finished. Exit code: 0 output:
+ ==> update-mirrorlist: version 2.0.9
+==> update-mirrorlist: Updating mirrorlist.
+==> update-mirrorlist: detected country: United States
+==> update-mirrorlist: command: rate-mirrors --allow-root arch
+==> update-mirrorlist: please wait...
+
+'time' output:
+
+real	0m17.067s
+user	0m0.397s
+sys	0m0.467s
+
+==> update-mirrorlist: Arch mirrorlist by rate-mirrors:
+
+# STARTED AT: 2022-03-02 19:22:39.999267627 -05:00
+# ARGS: rate-mirrors --allow-root arch
+# FETCHED MIRRORS: 947
+# MIRRORS LEFT AFTER FILTERING: 469
+# JUMP #1
+# EXPLORING US
+# VISITED US
+#     + NEIGHBOR ID (by HubsFirst)
+#     + NEIGHBOR UK (by HubsFirst)
+#     + NEIGHBOR FR (by HubsFirst)
+#     + NEIGHBOR DE (by DistanceFirst)
+#     + NEIGHBOR CA (by DistanceFirst)
+#     + NEIGHBOR NL (by DistanceFirst)
+# [US] SpeedTestResult { speed: 33.45 MB/s; elapsed: 782.747295ms; connection_time: 56.557353ms}
+# [US] SpeedTestResult { speed: 2.27 MB/s; elapsed: 1.39659244s; connection_time: 73.194943ms}
+# [UK] SpeedTestResult { speed: 5.01 MB/s; elapsed: 948.092292ms; connection_time: 535.560215ms}
+# [FR] SpeedTestResult { speed: 3.68 MB/s; elapsed: 936.092896ms; connection_time: 557.193129ms}
+# [FR] SpeedTestResult { speed: 1.42 MB/s; elapsed: 578.686261ms; connection_time: 924.174505ms}
+# [UK] SpeedTestResult { speed: 3.38 MB/s; elapsed: 711.992029ms; connection_time: 782.782416ms}
+# [DE] SpeedTestResult { speed: 4.45 MB/s; elapsed: 1.074153734s; connection_time: 388.555745ms}
+# [DE] SpeedTestResult { speed: 1.01 MB/s; elapsed: 881.568035ms; connection_time: 556.597126ms}
+# [CA] SpeedTestResult { speed: 2.34 MB/s; elapsed: 1.254683278s; connection_time: 240.101676ms}
+# [CA] SpeedTestResult { speed: 7.18 MB/s; elapsed: 1.214082259s; connection_time: 281.889416ms}
+# [NL] SpeedTestResult { speed: 5.26 MB/s; elapsed: 1.140289081s; connection_time: 356.708514ms}
+# [NL] SpeedTestResult { speed: 287.83 KB/s; elapsed: 1.115942811s; connection_time: 304.962375ms}
+#     TOP CONNECTION TIME: US - 56.557353ms
+#     TOP NEIGHBOR - CONNECTION TIME: CA - 240.101676ms
+#     TOP SPEED: US - 33.45 MB/s
+#     TOP NEIGHBOR - SPEED: CA - 7.18 MB/s
+# 
+# JUMP #2
+# EXPLORING CA
+#     + NEIGHBOR CN (by HubsFirst)
+#     + NEIGHBOR AU (by HubsFirst)
+#     + NEIGHBOR SG (by HubsFirst)
+#     + NEIGHBOR NZ (by DistanceFirst)
+#     + NEIGHBOR TW (by DistanceFirst)
+#     + NEIGHBOR CL (by DistanceFirst)
+# [SG] SpeedTestResult { speed: 185.25 KB/s; elapsed: 529.294651ms; connection_time: 898.745673ms}
+# [TW] SpeedTestResult { speed: 170.72 KB/s; elapsed: 524.459461ms; connection_time: 863.824287ms}
+# [CL] SpeedTestResult { speed: 774.82 KB/s; elapsed: 848.051684ms; connection_time: 585.919301ms}
+# [CL] SpeedTestResult { speed: 178.66 KB/s; elapsed: 1.164350882s; connection_time: 325.884444ms}
+#     TOP NEIGHBOR - CONNECTION TIME: CL - 325.884444ms
+#     TOP NEIGHBOR - SPEED: CL - 774.82 KB/s
+# 
+# JUMP #3
+# EXPLORING CL
+#     + NEIGHBOR BR (by DistanceFirst)
+#     + NEIGHBOR CO (by DistanceFirst)
+# [BR] SpeedTestResult { speed: 1.24 MB/s; elapsed: 959.745633ms; connection_time: 538.255768ms}
+# [CO] SpeedTestResult { speed: 5.01 MB/s; elapsed: 1.094715242s; connection_time: 405.594956ms}
+#     TOP NEIGHBOR - CONNECTION TIME: CO - 405.594956ms
+#     TOP NEIGHBOR - SPEED: CO - 5.01 MB/s
+# 
+# JUMP #4
+# EXPLORING CO
+# BLANK ITERATION
+# 
+
+# RE-TESTING TOP MIRRORS
+# [US] SpeedTestResult { speed: 35.38 MB/s; elapsed: 740.17555ms; connection_time: 38.880668ms}
+# [CA] SpeedTestResult { speed: 10.90 MB/s; elapsed: 1.390354601s; connection_time: 108.007123ms}
+# [NL] SpeedTestResult { speed: 9.70 MB/s; elapsed: 1.339964655s; connection_time: 160.786793ms}
+# [UK] SpeedTestResult { speed: 8.51 MB/s; elapsed: 1.225863405s; connection_time: 160.634362ms}
+# [CO] SpeedTestResult { speed: 5.54 MB/s; elapsed: 1.297444988s; connection_time: 200.194171ms}
+# ==== RESULTS (top re-tested) ====
+#   1. [US] SpeedTestResult { speed: 35.38 MB/s; elapsed: 740.17555ms; connection_time: 38.880668ms} -> http://arch.mirror.constant.com/
+#   2. [CA] SpeedTestResult { speed: 10.90 MB/s; elapsed: 1.390354601s; connection_time: 108.007123ms} -> https://mirror.sergal.org/archlinux/
+#   3. [NL] SpeedTestResult { speed: 9.70 MB/s; elapsed: 1.339964655s; connection_time: 160.786793ms} -> http://arch.mirrors.lavatech.top/
+#   4. [UK] SpeedTestResult { speed: 8.51 MB/s; elapsed: 1.225863405s; connection_time: 160.634362ms} -> http://archlinux.uk.mirror.allworldit.com/archlinux/
+#   5. [CO] SpeedTestResult { speed: 5.54 MB/s; elapsed: 1.297444988s; connection_time: 200.194171ms} -> http://mirrors.udenar.edu.co/archlinux/
+#   6. [DE] SpeedTestResult { speed: 4.45 MB/s; elapsed: 1.074153734s; connection_time: 388.555745ms} -> http://arch.jensgutermuth.de/
+#   7. [FR] SpeedTestResult { speed: 3.68 MB/s; elapsed: 936.092896ms; connection_time: 557.193129ms} -> http://mirror.cyberbits.eu/archlinux/
+#   8. [UK] SpeedTestResult { speed: 3.38 MB/s; elapsed: 711.992029ms; connection_time: 782.782416ms} -> https://archlinux.uk.mirror.allworldit.com/archlinux/
+#   9. [CA] SpeedTestResult { speed: 2.34 MB/s; elapsed: 1.254683278s; connection_time: 240.101676ms} -> http://mirror.sergal.org/archlinux/
+#  10. [US] SpeedTestResult { speed: 2.27 MB/s; elapsed: 1.39659244s; connection_time: 73.194943ms} -> http://tick-tack.mynetgear.com/archlinux/
+#  11. [FR] SpeedTestResult { speed: 1.42 MB/s; elapsed: 578.686261ms; connection_time: 924.174505ms} -> https://archlinux.mailtunnel.eu/
+#  12. [BR] SpeedTestResult { speed: 1.24 MB/s; elapsed: 959.745633ms; connection_time: 538.255768ms} -> http://mirror.ufscar.br/archlinux/
+#  13. [DE] SpeedTestResult { speed: 1.01 MB/s; elapsed: 881.568035ms; connection_time: 556.597126ms} -> http://mirror.ubrco.de/archlinux/
+#  14. [CL] SpeedTestResult { speed: 774.82 KB/s; elapsed: 848.051684ms; connection_time: 585.919301ms} -> http://mirror.archlinux.cl/
+#  15. [NL] SpeedTestResult { speed: 287.83 KB/s; elapsed: 1.115942811s; connection_time: 304.962375ms} -> http://mirror.ams1.nl.leaseweb.net/archlinux/
+#  16. [SG] SpeedTestResult { speed: 185.25 KB/s; elapsed: 529.294651ms; connection_time: 898.745673ms} -> http://mirror.guillaumea.fr/archlinux/
+#  17. [CL] SpeedTestResult { speed: 178.66 KB/s; elapsed: 1.164350882s; connection_time: 325.884444ms} -> http://mirror1.cl.netactuate.com/archlinux/
+#  18. [TW] SpeedTestResult { speed: 170.72 KB/s; elapsed: 524.459461ms; connection_time: 863.824287ms} -> http://mirror.archlinux.tw/ArchLinux/
+# FINISHED AT: 2022-03-02 19:22:56.911880243 -05:00
+Server = http://arch.mirror.constant.com/$repo/os/$arch
+Server = https://mirror.sergal.org/archlinux/$repo/os/$arch
+Server = http://arch.mirrors.lavatech.top/$repo/os/$arch
+Server = http://archlinux.uk.mirror.allworldit.com/archlinux/$repo/os/$arch
+Server = http://mirrors.udenar.edu.co/archlinux/$repo/os/$arch
+Server = http://arch.jensgutermuth.de/$repo/os/$arch
+Server = http://mirror.cyberbits.eu/archlinux/$repo/os/$arch
+Server = https://archlinux.uk.mirror.allworldit.com/archlinux/$repo/os/$arch
+Server = http://mirror.sergal.org/archlinux/$repo/os/$arch
+Server = http://tick-tack.mynetgear.com/archlinux/$repo/os/$arch
+Server = https://archlinux.mailtunnel.eu/$repo/os/$arch
+Server = http://mirror.ufscar.br/archlinux/$repo/os/$arch
+Server = http://mirror.ubrco.de/archlinux/$repo/os/$arch
+Server = http://mirror.archlinux.cl/$repo/os/$arch
+Server = http://mirror.ams1.nl.leaseweb.net/archlinux/$repo/os/$arch
+Server = http://mirror.guillaumea.fr/archlinux/$repo/os/$arch
+Server = http://mirror1.cl.netactuate.com/archlinux/$repo/os/$arch
+Server = http://mirror.archlinux.tw/ArchLinux/$repo/os/$arch
+
+==> update-mirrorlist: writing file /etc/pacman.d/mirrorlist
+    ..  Running ("/bin/sh", "-c", "cp /etc/pacman.d/mirrorlist /tmp/calamares-root-ybu216o9/etc/pacman.d/") 
+    ..  Running ("/bin/sh", "-c", "cp -a /etc/pacman.d/gnupg /tmp/calamares-root-ybu216o9/etc/pacman.d/") 
+    ..  Running ("/bin/sh", "-c", "cp /etc/resolv.conf /tmp/calamares-root-ybu216o9/etc/") 
+19:22:56 [6]: virtual void Calamares::JobThread::run()
+    Starting job "pacstrap" ( 12 / 42 ) 
+19:22:56 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/pacstrap/main.py" 
+    ..  Job description from __doc__ "pacstrap" = "Installing base system. Please be patient!" 
+==> Creating install root at /tmp/calamares-root-ybu216o9
+==> Installing packages to /tmp/calamares-root-ybu216o9
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+ community downloading...
+ multilib downloading...
+ endeavouros downloading...
+:: There are 24 members in group base-devel:
+:: Repository core
+   1) autoconf  2) automake  3) binutils  4) bison  5) fakeroot  6) file  7) findutils  8) flex  9) gawk  10) gcc  11) gettext  12) grep  13) groff  14) gzip  15) libtool  16) m4  17) make  18) pacman  19) patch  20) pkgconf  21) sed  22) sudo  23) texinfo  24) which
+
+Enter a selection (default=all): 
+resolving dependencies...
+:: There are 2 providers available for resolvconf:
+:: Repository core
+   1) openresolv  2) systemd-resolvconf
+
+Enter a number (default=1): 
+looking for conflicting packages...
+
+Package (209)                        New Version           Net Change  Download Size
+
+core/acl                             2.3.1-2                 0.31 MiB       0.13 MiB
+core/archlinux-keyring               20220224-1              1.44 MiB       1.02 MiB
+core/argon2                          20190702-4              0.11 MiB       0.03 MiB
+core/attr                            2.5.1-2                 0.20 MiB       0.07 MiB
+core/audit                           3.0.7-1                 0.99 MiB       0.37 MiB
+core/bash                            5.1.016-1               8.19 MiB       1.63 MiB
+core/brotli                          1.0.9-7                 2.55 MiB       0.38 MiB
+core/bzip2                           1.0.8-4                 0.14 MiB       0.06 MiB
+core/ca-certificates                 20210603-1              0.00 MiB       0.00 MiB
+core/ca-certificates-mozilla         3.75-1                  0.93 MiB       0.34 MiB
+core/ca-certificates-utils           20210603-1              0.01 MiB       0.01 MiB
+core/coreutils                       9.0-2                  16.37 MiB       2.69 MiB
+core/curl                            7.81.0-3                1.78 MiB       1.10 MiB
+core/db                              5.3.28-5                6.41 MiB       1.07 MiB
+core/dbus                            1.14.0-1                0.89 MiB       0.30 MiB
+core/efivar                          38-2                    0.55 MiB       0.14 MiB
+core/expat                           2.4.6-1                 0.40 MiB       0.11 MiB
+core/filesystem                      2021.12.07-1            0.02 MiB       0.01 MiB
+extra/fontconfig                     2:2.13.96-1             1.06 MiB       0.35 MiB
+extra/freetype2                      2.11.1-1                1.59 MiB       0.48 MiB
+extra/fuse-common                    3.10.5-1                0.00 MiB       0.00 MiB
+extra/fuse2                          2.9.9-4                 0.45 MiB       0.12 MiB
+extra/gc                             8.2.0-2                 0.75 MiB       0.23 MiB
+core/gcc-libs                        11.2.0-4              123.79 MiB      30.62 MiB
+core/gdbm                            1.23-1                  0.77 MiB       0.26 MiB
+core/glib2                           2.70.4-2               15.28 MiB       2.77 MiB
+core/glibc                           2.35-2                 48.28 MiB       9.95 MiB
+core/gmp                             6.2.1-1                 0.98 MiB       0.43 MiB
+core/gnupg                           2.2.32-2                9.96 MiB       2.38 MiB
+core/gnutls                          3.7.3-1                 5.75 MiB       2.75 MiB
+core/gpgme                           1.17.0-2                1.25 MiB       0.43 MiB
+extra/graphite                       1:1.3.14-1              0.67 MiB       0.22 MiB
+extra/guile                          2.2.7-2                44.10 MiB       6.32 MiB
+extra/harfbuzz                       4.0.0-1                 5.78 MiB       0.95 MiB
+core/hwdata                          0.356-1                 1.98 MiB       0.46 MiB
+core/iana-etc                        20220205-1              3.92 MiB       0.38 MiB
+core/icu                             70.1-1                 38.75 MiB      10.67 MiB
+core/iproute2                        5.16.0-1                2.78 MiB       1.05 MiB
+core/iptables                        1:1.8.7-1               2.41 MiB       0.42 MiB
+core/iputils                         20211215-1              0.46 MiB       0.13 MiB
+core/json-c                          0.15-3                  0.17 MiB       0.05 MiB
+core/kbd                             2.4.0-2                 2.89 MiB       1.19 MiB
+core/keyutils                        1.6.3-1                 0.19 MiB       0.10 MiB
+core/kmod                            29-2                    0.28 MiB       0.11 MiB
+core/krb5                            1.19.2-2                4.50 MiB       1.28 MiB
+core/libaio                          0.3.112-2               0.02 MiB       0.01 MiB
+core/libarchive                      3.6.0-1                 1.11 MiB       0.50 MiB
+core/libassuan                       2.5.5-1                 0.21 MiB       0.10 MiB
+core/libcap                          2.63-2                  0.21 MiB       0.08 MiB
+core/libcap-ng                       0.8.2-7                 0.12 MiB       0.04 MiB
+core/libelf                          0.186-5                 2.84 MiB       0.52 MiB
+core/libffi                          3.4.2-4                 0.09 MiB       0.04 MiB
+extra/libfontenc                     1.1.4-3                 0.04 MiB       0.02 MiB
+core/libgcrypt                       1.9.4-1                 1.44 MiB       0.55 MiB
+core/libgpg-error                    1.44-1                  1.01 MiB       0.24 MiB
+extra/libice                         1.0.10-3                0.35 MiB       0.08 MiB
+core/libidn2                         2.3.2-1                 0.44 MiB       0.14 MiB
+core/libinih                         53-1                    0.04 MiB       0.01 MiB
+extra/libisl                         0.24-3                  9.56 MiB       1.48 MiB
+core/libksba                         1.6.0-1                 0.32 MiB       0.13 MiB
+core/libldap                         2.6.1-1                 0.66 MiB       0.27 MiB
+core/libmnl                          1.0.4-3                 0.03 MiB       0.01 MiB
+core/libmpc                          1.2.1-2                 0.14 MiB       0.07 MiB
+core/libnetfilter_conntrack          1.0.8-1                 0.15 MiB       0.05 MiB
+core/libnfnetlink                    1.0.1-4                 0.04 MiB       0.02 MiB
+core/libnftnl                        1.2.1-1                 0.24 MiB       0.07 MiB
+core/libnghttp2                      1.47.0-1                0.34 MiB       0.09 MiB
+core/libnl                           3.5.0-3                 2.02 MiB       0.39 MiB
+core/libnsl                          2.0.0-2                 0.07 MiB       0.02 MiB
+core/libp11-kit                      0.24.1-1                2.70 MiB       0.46 MiB
+core/libpcap                         1.10.1-2                0.60 MiB       0.27 MiB
+core/libpipeline                     1.5.5-1                 0.07 MiB       0.03 MiB
+extra/libpng                         1.6.37-3                0.55 MiB       0.24 MiB
+core/libpsl                          0.21.1-1                0.18 MiB       0.08 MiB
+core/libsasl                         2.1.27-3                0.50 MiB       0.14 MiB
+core/libseccomp                      2.5.3-3                 0.25 MiB       0.09 MiB
+core/libsecret                       0.20.5-1                1.16 MiB       0.19 MiB
+extra/libsm                          1.2.3-2                 0.26 MiB       0.04 MiB
+core/libssh2                         1.10.0-1                0.41 MiB       0.21 MiB
+extra/libsysprof-capture             3.42.1-3                0.23 MiB       0.04 MiB
+core/libtasn1                        4.18.0-1                0.31 MiB       0.12 MiB
+core/libtirpc                        1.3.2-1                 0.42 MiB       0.17 MiB
+core/libunistring                    0.9.10-3                2.25 MiB       0.62 MiB
+community/liburcu                    0.13.1-1                0.75 MiB       0.12 MiB
+core/libusb                          1.0.25-2                0.20 MiB       0.07 MiB
+extra/libutempter                    1.2.1-1                 0.03 MiB       0.01 MiB
+extra/libx11                         1.7.3.1-1              10.16 MiB       2.05 MiB
+extra/libxau                         1.0.9-3                 0.02 MiB       0.01 MiB
+extra/libxaw                         1.0.14-1                1.69 MiB       0.35 MiB
+extra/libxcb                         1.14-1                  3.73 MiB       0.98 MiB
+core/libxcrypt                       4.4.28-2                0.18 MiB       0.08 MiB
+extra/libxdmcp                       1.1.3-3                 0.13 MiB       0.03 MiB
+extra/libxext                        1.3.4-3                 0.30 MiB       0.10 MiB
+extra/libxft                         2.3.4-1                 0.11 MiB       0.05 MiB
+extra/libxkbfile                     1.1.0-2                 0.19 MiB       0.07 MiB
+extra/libxml2                        2.9.13-1                9.30 MiB       1.33 MiB
+extra/libxmu                         1.1.3-2                 0.33 MiB       0.08 MiB
+extra/libxpm                         3.5.13-2                0.15 MiB       0.05 MiB
+extra/libxrender                     0.9.10-4                0.08 MiB       0.03 MiB
+extra/libxt                          1.2.1-1                 2.03 MiB       0.52 MiB
+core/licenses                        20220125-1              0.41 MiB       0.07 MiB
+core/linux-api-headers               5.16.8-1                5.04 MiB       1.14 MiB
+core/linux-firmware-whence           20220209.6342082-1      0.18 MiB       0.03 MiB
+extra/luit                           20210218-1              0.07 MiB       0.03 MiB
+core/lz4                             1:1.9.3-2               0.41 MiB       0.12 MiB
+core/lzo                             2.10-3                  0.39 MiB       0.08 MiB
+core/mpfr                            4.1.0.p13-2             0.94 MiB       0.40 MiB
+core/ncurses                         6.3-2                   3.91 MiB       1.14 MiB
+core/nettle                          3.7.3-1                 0.94 MiB       0.41 MiB
+core/npth                            1.6-3                   0.07 MiB       0.02 MiB
+core/openresolv                      3.12.0-1                0.06 MiB       0.02 MiB
+core/openssl                         1.1.1.m-1               7.33 MiB       3.57 MiB
+core/p11-kit                         0.24.1-1                0.70 MiB       0.14 MiB
+core/pacman-mirrorlist               20220227-1              0.04 MiB       0.01 MiB
+extra/pahole                         1.23-1                  0.86 MiB       0.28 MiB
+core/pam                             1.5.2-1                 2.69 MiB       0.56 MiB
+core/pambase                         20211210-1              0.00 MiB       0.00 MiB
+core/pciutils                        3.7.0-2                 0.26 MiB       0.10 MiB
+core/pcre                            8.45-1                  3.47 MiB       0.96 MiB
+core/pcre2                           10.39-1                 3.96 MiB       1.09 MiB
+core/pinentry                        1.2.0-1                 0.55 MiB       0.12 MiB
+core/popt                            1.18-3                  0.21 MiB       0.07 MiB
+core/procps-ng                       3.3.17-1                1.53 MiB       0.50 MiB
+core/psmisc                          23.4-1                  0.62 MiB       0.18 MiB
+core/readline                        8.1.002-1               0.71 MiB       0.31 MiB
+core/shadow                          4.11.1-1                3.60 MiB       1.16 MiB
+core/sqlite                          3.38.0-1                7.47 MiB       1.72 MiB
+core/systemd                         250.3-4                28.40 MiB       7.17 MiB
+core/systemd-libs                    250.3-4                 1.95 MiB       0.61 MiB
+core/tar                             1.34-1                  2.88 MiB       0.80 MiB
+core/thin-provisioning-tools         0.9.0-1                 1.57 MiB       0.48 MiB
+community/tpm2-tss                   3.2.0-1                 2.87 MiB       0.82 MiB
+core/tzdata                          2021e-1                 2.17 MiB       0.38 MiB
+core/util-linux                      2.37.4-1               11.73 MiB       2.34 MiB
+core/util-linux-libs                 2.37.4-1                0.91 MiB       0.34 MiB
+extra/xbitmaps                       1.1.2-2                 0.18 MiB       0.03 MiB
+extra/xcb-proto                      1.14.1-5                0.82 MiB       0.11 MiB
+extra/xorg-fonts-encodings           1.0.5-2                 0.61 MiB       0.55 MiB
+extra/xorgproto                      2021.5-1                1.43 MiB       0.23 MiB
+core/xz                              5.2.5-2                 0.93 MiB       0.29 MiB
+core/zlib                            1:1.2.11-5              0.33 MiB       0.09 MiB
+core/zstd                            1.5.2-2                 2.38 MiB       0.64 MiB
+core/autoconf                        2.71-1                  2.20 MiB       0.63 MiB
+core/automake                        1.16.5-1                1.57 MiB       0.60 MiB
+core/base                            2-2                     0.00 MiB       0.00 MiB
+core/binutils                        2.38-3                 30.45 MiB       6.02 MiB
+core/bison                           3.8.2-3                 2.53 MiB       0.75 MiB
+core/btrfs-progs                     5.16.2-1                5.03 MiB       0.92 MiB
+core/cryptsetup                      2.4.3-2                 2.38 MiB       0.57 MiB
+core/device-mapper                   2.03.15-1               0.83 MiB       0.29 MiB
+core/diffutils                       3.8-1                   1.47 MiB       0.35 MiB
+core/dosfstools                      4.2-2                   0.40 MiB       0.13 MiB
+core/e2fsprogs                       1.46.5-3                4.93 MiB       1.17 MiB
+core/efibootmgr                      17-2                    0.08 MiB       0.03 MiB
+endeavouros/endeavouros-keyring      1-5                     0.00 MiB       0.01 MiB
+endeavouros/endeavouros-mirrorlist   4.4.2-1                 0.00 MiB       0.01 MiB
+community/exfatprogs                 1.1.3-1                 0.15 MiB       0.04 MiB
+extra/f2fs-tools                     1.14.0-3                0.53 MiB       0.19 MiB
+core/fakeroot                        1.27-1                  0.13 MiB       0.07 MiB
+core/file                            5.41-1                  7.14 MiB       0.35 MiB
+core/findutils                       4.9.0-1                 1.38 MiB       0.44 MiB
+core/flex                            2.6.4-3                 0.95 MiB       0.29 MiB
+core/gawk                            5.1.1-1                 2.86 MiB       1.15 MiB
+core/gcc                             11.2.0-4              137.58 MiB      33.23 MiB
+core/gettext                         0.21-2                  6.83 MiB       1.79 MiB
+core/grep                            3.7-1                   0.81 MiB       0.24 MiB
+core/groff                           1.22.4-6                9.71 MiB       2.14 MiB
+core/grub                            2:2.06-4               34.10 MiB       6.74 MiB
+endeavouros/grub2-theme-endeavouros  20211129-1              2.54 MiB       1.06 MiB
+core/gzip                            1.11-1                  0.15 MiB       0.08 MiB
+core/inetutils                       2.2-1                   1.19 MiB       0.34 MiB
+core/jfsutils                        1.1.15-7                1.02 MiB       0.17 MiB
+core/less                            1:590-1                 0.26 MiB       0.11 MiB
+core/libtool                         2.4.6+59+gb55b1cc8-2    2.21 MiB       0.40 MiB
+core/linux                           5.16.11.arch1-2       160.49 MiB     155.13 MiB
+core/linux-firmware                  20220209.6342082-1    149.79 MiB     134.44 MiB
+core/linux-headers                   5.16.11.arch1-2       139.54 MiB      25.75 MiB
+core/logrotate                       3.19.0-1                0.10 MiB       0.05 MiB
+community/lsb-release                2.0.r48.3cf5103-1       0.02 MiB       0.01 MiB
+core/lvm2                            2.03.15-1               6.26 MiB       1.81 MiB
+core/m4                              1.4.19-1                0.49 MiB       0.25 MiB
+core/make                            4.3-3                   1.52 MiB       0.47 MiB
+core/man-db                          2.10.1-1                2.19 MiB       1.04 MiB
+core/man-pages                       5.13-1                  5.73 MiB       5.86 MiB
+core/mdadm                           4.2-1                   0.91 MiB       0.37 MiB
+core/mkinitcpio                      31-2                    0.11 MiB       0.04 MiB
+core/mkinitcpio-busybox              1.35.0-1                0.51 MiB       0.27 MiB
+core/mkinitcpio-nfs-utils            0.3-7                   0.06 MiB       0.02 MiB
+endeavouros/mkinitcpio-openswap      0.1.0-3                 0.00 MiB       0.01 MiB
+core/nano                            6.2-1                   2.38 MiB       0.55 MiB
+core/netctl                          1.27-1                  0.09 MiB       0.04 MiB
+extra/ntfs-3g                        2021.8.22-1             1.76 MiB       0.54 MiB
+community/os-prober                  1.79-1                  0.06 MiB       0.02 MiB
+core/pacman                          6.0.1-3                 4.69 MiB       0.89 MiB
+core/patch                           2.7.6-8                 0.19 MiB       0.09 MiB
+core/perl                            5.34.0-3               58.85 MiB      15.37 MiB
+core/pkgconf                         1.8.0-1                 0.16 MiB       0.06 MiB
+core/python                          3.10.2-1               53.85 MiB      11.35 MiB
+core/reiserfsprogs                   3.6.27-3                0.58 MiB       0.20 MiB
+core/s-nail                          14.9.23-1               0.97 MiB       0.51 MiB
+core/sed                             4.8-1                   0.72 MiB       0.23 MiB
+core/sudo                            1.9.9-2                 6.75 MiB       1.64 MiB
+core/sysfsutils                      2.1.1-1                 0.09 MiB       0.03 MiB
+core/systemd-sysvcompat              250.3-4                 0.00 MiB       0.01 MiB
+core/texinfo                         6.8-2                   8.75 MiB       1.39 MiB
+core/usbutils                        014-2                   0.31 MiB       0.08 MiB
+core/which                           2.21-5                  0.03 MiB       0.02 MiB
+core/xfsprogs                        5.14.2-1                5.46 MiB       1.05 MiB
+extra/xterm                          371-1                   1.04 MiB       0.42 MiB
+
+Total Download Size:    546.56 MiB
+Total Installed Size:  1402.31 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ linux-5.16.11.arch1-2-x86_64 downloading...
+ linux-firmware-20220209.6342082-1-any downloading...
+ gcc-11.2.0-4-x86_64 downloading...
+ gcc-libs-11.2.0-4-x86_64 downloading...
+ linux-headers-5.16.11.arch1-2-x86_64 downloading...
+ perl-5.34.0-3-x86_64 downloading...
+ python-3.10.2-1-x86_64 downloading...
+ icu-70.1-1-x86_64 downloading...
+ glibc-2.35-2-x86_64 downloading...
+ systemd-250.3-4-x86_64 downloading...
+ grub-2:2.06-4-x86_64 downloading...
+ guile-2.2.7-2-x86_64 downloading...
+ binutils-2.38-3-x86_64 downloading...
+ man-pages-5.13-1-any downloading...
+ openssl-1.1.1.m-1-x86_64 downloading...
+ glib2-2.70.4-2-x86_64 downloading...
+ gnutls-3.7.3-1-x86_64 downloading...
+ coreutils-9.0-2-x86_64 downloading...
+ gnupg-2.2.32-2-x86_64 downloading...
+ util-linux-2.37.4-1-x86_64 downloading...
+ groff-1.22.4-6-x86_64 downloading...
+ libx11-1.7.3.1-1-x86_64 downloading...
+ lvm2-2.03.15-1-x86_64 downloading...
+ gettext-0.21-2-x86_64 downloading...
+ sqlite-3.38.0-1-x86_64 downloading...
+ sudo-1.9.9-2-x86_64 downloading...
+ bash-5.1.016-1-x86_64 downloading...
+ libisl-0.24-3-x86_64 downloading...
+ texinfo-6.8-2-x86_64 downloading...
+ libxml2-2.9.13-1-x86_64 downloading...
+ krb5-1.19.2-2-x86_64 downloading...
+ kbd-2.4.0-2-x86_64 downloading...
+ e2fsprogs-1.46.5-3-x86_64 downloading...
+ shadow-4.11.1-1-x86_64 downloading...
+ gawk-5.1.1-1-x86_64 downloading...
+ ncurses-6.3-2-x86_64 downloading...
+ linux-api-headers-5.16.8-1-any downloading...
+ curl-7.81.0-3-x86_64 downloading...
+ pcre2-10.39-1-x86_64 downloading...
+ db-5.3.28-5-x86_64 downloading...
+ grub2-theme-endeavouros-20211129-1-any downloading...
+ xfsprogs-5.14.2-1-x86_64 downloading...
+ iproute2-5.16.0-1-x86_64 downloading...
+ man-db-2.10.1-1-x86_64 downloading...
+ archlinux-keyring-20220224-1-any downloading...
+ libxcb-1.14-1-x86_64 downloading...
+ pcre-8.45-1-x86_64 downloading...
+ harfbuzz-4.0.0-1-x86_64 downloading...
+ btrfs-progs-5.16.2-1-x86_64 downloading...
+ pacman-6.0.1-3-x86_64 downloading...
+ tpm2-tss-3.2.0-1-x86_64 downloading...
+ tar-1.34-1-x86_64 downloading...
+ bison-3.8.2-3-x86_64 downloading...
+ zstd-1.5.2-2-x86_64 downloading...
+ autoconf-2.71-1-any downloading...
+ libunistring-0.9.10-3-x86_64 downloading...
+ systemd-libs-250.3-4-x86_64 downloading...
+ automake-1.16.5-1-any downloading...
+ cryptsetup-2.4.3-2-x86_64 downloading...
+ pam-1.5.2-1-x86_64 downloading...
+ xorg-fonts-encodings-1.0.5-2-any downloading...
+ nano-6.2-1-x86_64 downloading...
+ libgcrypt-1.9.4-1-x86_64 downloading...
+ ntfs-3g-2021.8.22-1-x86_64 downloading...
+ libxt-1.2.1-1-x86_64 downloading...
+ libelf-0.186-5-x86_64 downloading...
+ s-nail-14.9.23-1-x86_64 downloading...
+ procps-ng-3.3.17-1-x86_64 downloading...
+ libarchive-3.6.0-1-x86_64 downloading...
+ thin-provisioning-tools-0.9.0-1-x86_64 downloading...
+ freetype2-2.11.1-1-x86_64 downloading...
+ make-4.3-3-x86_64 downloading...
+ hwdata-0.356-1-any downloading...
+ libp11-kit-0.24.1-1-x86_64 downloading...
+ findutils-4.9.0-1-x86_64 downloading...
+ gpgme-1.17.0-2-x86_64 downloading...
+ gmp-6.2.1-1-x86_64 downloading...
+ iptables-1:1.8.7-1-x86_64 downloading...
+ xterm-371-1-x86_64 downloading...
+ nettle-3.7.3-1-x86_64 downloading...
+ libtool-2.4.6+59+gb55b1cc8-2-x86_64 downloading...
+ mpfr-4.1.0.p13-2-x86_64 downloading...
+ libnl-3.5.0-3-x86_64 downloading...
+ tzdata-2021e-1-x86_64 downloading...
+ iana-etc-20220205-1-any downloading...
+ brotli-1.0.9-7-x86_64 downloading...
+ mdadm-4.2-1-x86_64 downloading...
+ audit-3.0.7-1-x86_64 downloading...
+ diffutils-3.8-1-x86_64 downloading...
+ fontconfig-2:2.13.96-1-x86_64 downloading...
+ libxaw-1.0.14-1-x86_64 downloading...
+ file-5.41-1-x86_64 downloading...
+ util-linux-libs-2.37.4-1-x86_64 downloading...
+ inetutils-2.2-1-x86_64 downloading...
+ ca-certificates-mozilla-3.75-1-x86_64 downloading...
+ readline-8.1.002-1-x86_64 downloading...
+ dbus-1.14.0-1-x86_64 downloading...
+ xz-5.2.5-2-x86_64 downloading...
+ flex-2.6.4-3-x86_64 downloading...
+ device-mapper-2.03.15-1-x86_64 downloading...
+ pahole-1.23-1-x86_64 downloading...
+ libldap-2.6.1-1-x86_64 downloading...
+ libpcap-1.10.1-2-x86_64 downloading...
+ mkinitcpio-busybox-1.35.0-1-x86_64 downloading...
+ gdbm-1.23-1-x86_64 downloading...
+ m4-1.4.19-1-x86_64 downloading...
+ grep-3.7-1-x86_64 downloading...
+ libpng-1.6.37-3-x86_64 downloading...
+ libgpg-error-1.44-1-x86_64 downloading...
+ xorgproto-2021.5-1-any downloading...
+ sed-4.8-1-x86_64 downloading...
+ gc-8.2.0-2-x86_64 downloading...
+ graphite-1:1.3.14-1-x86_64 downloading...
+ libssh2-1.10.0-1-x86_64 downloading...
+ reiserfsprogs-3.6.27-3-x86_64 downloading...
+ f2fs-tools-1.14.0-3-x86_64 downloading...
+ libsecret-0.20.5-1-x86_64 downloading...
+ psmisc-23.4-1-x86_64 downloading...
+ jfsutils-1.1.15-7-x86_64 downloading...
+ libtirpc-1.3.2-1-x86_64 downloading...
+ libsasl-2.1.27-3-x86_64 downloading...
+ efivar-38-2-x86_64 downloading...
+ p11-kit-0.24.1-1-x86_64 downloading...
+ libidn2-2.3.2-1-x86_64 downloading...
+ libksba-1.6.0-1-x86_64 downloading...
+ acl-2.3.1-2-x86_64 downloading...
+ dosfstools-4.2-2-x86_64 downloading...
+ iputils-20211215-1-x86_64 downloading...
+ liburcu-0.13.1-1-x86_64 downloading...
+ libtasn1-4.18.0-1-x86_64 downloading...
+ pinentry-1.2.0-1-x86_64 downloading...
+ lz4-1:1.9.3-2-x86_64 downloading...
+ fuse2-2.9.9-4-x86_64 downloading...
+ expat-2.4.6-1-x86_64 downloading...
+ kmod-29-2-x86_64 downloading...
+ less-1:590-1-x86_64 downloading...
+ xcb-proto-1.14.1-5-any downloading...
+ libxext-1.3.4-3-x86_64 downloading...
+ libassuan-2.5.5-1-x86_64 downloading...
+ keyutils-1.6.3-1-x86_64 downloading...
+ pciutils-3.7.0-2-x86_64 downloading...
+ patch-2.7.6-8-x86_64 downloading...
+ libnghttp2-1.47.0-1-x86_64 downloading...
+ zlib-1:1.2.11-5-x86_64 downloading...
+ libseccomp-2.5.3-3-x86_64 downloading...
+ usbutils-014-2-x86_64 downloading...
+ libxcrypt-4.4.28-2-x86_64 downloading...
+ libcap-2.63-2-x86_64 downloading...
+ lzo-2.10-3-x86_64 downloading...
+ gzip-1.11-1-x86_64 downloading...
+ libpsl-0.21.1-1-x86_64 downloading...
+ libice-1.0.10-3-x86_64 downloading...
+ libxmu-1.1.3-2-x86_64 downloading...
+ libxkbfile-1.1.0-2-x86_64 downloading...
+ popt-1.18-3-x86_64 downloading...
+ fakeroot-1.27-1-x86_64 downloading...
+ libnftnl-1.2.1-1-x86_64 downloading...
+ libmpc-1.2.1-2-x86_64 downloading...
+ libusb-1.0.25-2-x86_64 downloading...
+ licenses-20220125-1-any downloading...
+ attr-2.5.1-2-x86_64 downloading...
+ pkgconf-1.8.0-1-x86_64 downloading...
+ bzip2-1.0.8-4-x86_64 downloading...
+ libxpm-3.5.13-2-x86_64 downloading...
+ json-c-0.15-3-x86_64 downloading...
+ libnetfilter_conntrack-1.0.8-1-x86_64 downloading...
+ libxft-2.3.4-1-x86_64 downloading...
+ logrotate-3.19.0-1-x86_64 downloading...
+ libsm-1.2.3-2-x86_64 downloading...
+ libsysprof-capture-3.42.1-3-x86_64 downloading...
+ libffi-3.4.2-4-x86_64 downloading...
+ mkinitcpio-31-2-any downloading...
+ libcap-ng-0.8.2-7-x86_64 downloading...
+ netctl-1.27-1-any downloading...
+ exfatprogs-1.1.3-1-x86_64 downloading...
+ libpipeline-1.5.5-1-x86_64 downloading...
+ argon2-20190702-4-x86_64 downloading...
+ luit-20210218-1-x86_64 downloading...
+ linux-firmware-whence-20220209.6342082-1-any downloading...
+ sysfsutils-2.1.1-1-x86_64 downloading...
+ xbitmaps-1.1.2-2-any downloading...
+ libxdmcp-1.1.3-3-x86_64 downloading...
+ efibootmgr-17-2-x86_64 downloading...
+ libxrender-0.9.10-4-x86_64 downloading...
+ npth-1.6-3-x86_64 downloading...
+ openresolv-3.12.0-1-any downloading...
+ libnsl-2.0.0-2-x86_64 downloading...
+ mkinitcpio-nfs-utils-0.3-7-x86_64 downloading...
+ os-prober-1.79-1-x86_64 downloading...
+ libnfnetlink-1.0.1-4-x86_64 downloading...
+ which-2.21-5-x86_64 downloading...
+ libfontenc-1.1.4-3-x86_64 downloading...
+ libinih-53-1-x86_64 downloading...
+ filesystem-2021.12.07-1-x86_64 downloading...
+ endeavouros-keyring-1-5-any downloading...
+ endeavouros-mirrorlist-4.4.2-1-any downloading...
+ mkinitcpio-openswap-0.1.0-3-any downloading...
+ libxau-1.0.9-3-x86_64 downloading...
+ libmnl-1.0.4-3-x86_64 downloading...
+ libutempter-1.2.1-1-x86_64 downloading...
+ lsb-release-2.0.r48.3cf5103-1-any downloading...
+ ca-certificates-utils-20210603-1-any downloading...
+ pacman-mirrorlist-20220227-1-any downloading...
+ libaio-0.3.112-2-x86_64 downloading...
+ systemd-sysvcompat-219:23:14 [6]: QML Component (default slideshow) Next slide
+50.3-4-x86_64 downloading...
+ pambase-20211210-1-any downloading...
+ fuse-common-3.10.5-1-x86_64 downloading...
+ base-2-2-any downloading...
+ ca-certificates-20210603-1-any downloading...
+checking keyring...
+downloading required keys...
+:: Import PGP key C132293954BBE4AD, "Sergej Pupykin <spupykin@archlinux.org>"? [Y/n] 
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+installing iana-etc...
+installing filesystem...
+installing linux-api-headers...
+installing tzdata...
+installing glibc...
+Optional dependencies for glibc
+    gd: for memusagestat
+installing gcc-libs...
+installing ncurses...
+Optional dependencies for ncurses
+    bash: for ncursesw6-config [pending]
+installing readline...
+installing bash...
+Optional dependencies for bash
+    bash-completion: for tab completion
+installing attr...
+installing acl...
+installing gmp...
+installing util-linux-libs...
+installing e2fsprogs...
+installing openssl...
+Optional dependencies for openssl
+    ca-certificates [pending]
+    perl [pending]
+installing libsasl...
+installing libldap...
+installing keyutils...
+installing krb5...
+installing libtirpc...
+installing pambase...
+installing libcap-ng...
+installing audit...
+installing libxcrypt...
+installing pam...
+installing libcap...
+installing coreutils...
+installing zlib...
+installing xz...
+installing bzip2...
+installing libseccomp...
+installing file...
+installing findutils...
+installing mpfr...
+installing gawk...
+installing pcre...
+installing grep...
+installing libgpg-error...
+installing libgcrypt...
+installing libtasn1...
+installing libffi...
+installing libp11-kit...
+installing lz4...
+installing zstd...
+installing systemd-libs...
+installing procps-ng...
+installing sed...
+installing tar...
+installing libunistring...
+installing icu...
+installing libxml2...
+Optional dependencies for libxml2
+    python: Python bindings [pending]
+installing gettext...
+Optional dependencies for gettext
+    git: for autopoint infrastructure updates
+installing hwdata...
+installing kmod...
+installing pciutils...
+installing psmisc...
+installing shadow...
+installing util-linux...
+Optional dependencies for util-linux
+    python: python bindings to libmount [pending]
+    words: default dictionary for look
+installing pcre2...
+installing less...
+installing gzip...
+installing licenses...
+installing expat...
+installing libarchive...
+installing p11-kit...
+installing ca-certificates-utils...
+installing ca-certificates-mozilla...
+installing ca-certificates...
+installing brotli...
+installing libidn2...
+installing libnghttp2...
+installing libpsl...
+installing libssh2...
+installing curl...
+installing npth...
+installing libksba...
+installing libassuan...
+installing libsysprof-capture...
+installing glib2...
+Optional dependencies for glib2
+    python: gdbus-codegen, glib-genmarshal, glib-mkenums, gtester-report [pending]
+    libelf: gresource inspection tool [pending]
+installing json-c...
+installing tpm2-tss...
+installing libsecret...
+Optional dependencies for libsecret
+    org.freedesktop.secrets: secret storage backend
+installing pinentry...
+Optional dependencies for pinentry
+    gtk2: gtk2 backend
+    qt5-base: qt backend
+    gcr: gnome3 backend
+installing nettle...
+installing gnutls...
+Optional dependencies for gnutls
+    guile: for use with Guile bindings [pending]
+installing sqlite...
+installing gnupg...
+Optional dependencies for gnupg
+    libldap: gpg2keys_ldap [installed]
+    libusb-compat: scdaemon
+    pcsclite: scdaemon
+installing gpgme...
+installing pacman-mirrorlist...
+installing archlinux-keyring...
+installing pacman...
+Optional dependencies for pacman
+    perl-locale-gettext: translation support in makepkg-template
+installing device-mapper...
+installing popt...
+installing argon2...
+installing cryptsetup...
+installing dbus...
+installing libmnl...
+installing libnftnl...
+installing libnl...
+installing libpcap...
+installing libnfnetlink...
+installing libnetfilter_conntrack...
+installing iptables...
+installing kbd...
+installing libelf...
+installing systemd...
+Initializing machine ID from random generator.
+Creating group 'sys' with GID 3.
+Creating group 'mem' with GID 8.
+Creating group 'ftp' with GID 11.
+Creating group 'mail' with GID 12.
+Creating group 'log' with GID 19.
+Creating group 'smmsp' with GID 25.
+Creating group 'proc' with GID 26.
+Creating group 'games' with GID 50.
+Creating group 'lock' with GID 54.
+Creating group 'network' with GID 90.
+Creating group 'floppy' with GID 94.
+Creating group 'scanner' with GID 96.
+Creating group 'power' with GID 98.
+Creating group 'nobody' with GID 65534.
+Creating group 'adm' with GID 999.
+Creating group 'wheel' with GID 998.
+Creating group 'utmp' with GID 997.
+Creating group 'audio' with GID 996.
+Creating group 'disk' with GID 995.
+Creating group 'input' with GID 994.
+Creating group 'kmem' with GID 993.
+Creating group 'kvm' with GID 992.
+Creating group 'lp' with GID 991.
+Creating group 'optical' with GID 990.
+Creating group 'render' with GID 989.
+Creating group 'sgx' with GID 988.
+Creating group 'storage' with GID 987.
+Creating group 'tty' with GID 5.
+Creating group 'uucp' with GID 986.
+Creating group 'video' with GID 985.
+Creating group 'users' with GID 984.
+Creating group 'systemd-journal' with GID 983.
+Creating group 'rfkill' with GID 982.
+Creating group 'bin' with GID 1.
+Creating user 'bin' (n/a) with UID 1 and GID 1.
+Creating group 'daemon' with GID 2.
+Creating user 'daemon' (n/a) with UID 2 and GID 2.
+Creating user 'mail' (n/a) with UID 8 and GID 12.
+Creating user 'ftp' (n/a) with UID 14 and GID 11.
+Creating group 'http' with GID 33.
+Creating user 'http' (n/a) with UID 33 and GID 33.
+Creating user 'nobody' (Nobody) with UID 65534 and GID 65534.
+Creating group 'dbus' with GID 81.
+Creating user 'dbus' (System Message Bus) with UID 81 and GID 81.
+Creating group 'systemd-coredump' with GID 981.
+Creating user 'systemd-coredump' (systemd Core Dumper) with UID 981 and GID 981.
+Creating group 'systemd-network' with GID 980.
+Creating user 'systemd-network' (systemd Network Management) with UID 980 and GID 980.
+Creating group 'systemd-oom' with GID 979.
+Creating user 'systemd-oom' (systemd Userspace OOM Killer) with UID 979 and GID 979.
+Creating group 'systemd-journal-remote' with GID 978.
+Creating user 'systemd-journal-remote' (systemd Journal Remote) with UID 978 and GID 978.
+Creating group 'systemd-resolve' with GID 977.
+Creating user 'systemd-resolve' (systemd Resolver) with UID 977 and GID 977.
+Creating group 'systemd-timesync' with GID 976.
+Creating user 'systemd-timesync' (systemd Time Synchronization) with UID 976 and GID 976.
+Creating group 'tss' with GID 975.
+Creating user 'tss' (tss user for tpm2) with UID 975 and GID 975.
+Creating group 'uuidd' with GID 68.
+Creating user 'uuidd' (n/a) with UID 68 and GID 68.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Optional dependencies for systemd
+    libmicrohttpd: remote journald capabilities
+    quota-tools: kernel-level quota management
+    systemd-sysvcompat: symlink package to provide sysvinit binaries [pending]
+    polkit: allow administration as unprivileged user
+    curl: machinectl pull-tar and pull-raw [installed]
+    libfido2: unlocking LUKS2 volumes with FIDO2 token
+    tpm2-tss: unlocking LUKS2 volumes with TPM2 [installed]
+installing systemd-sysvcompat...
+installing iputils...
+installing iproute2...
+Optional dependencies for iproute2
+    db: userspace arp daemon [pending]
+    libcap: tipc [installed]
+    linux-atm: ATM support
+installing base...
+Optional dependencies for base
+    linux: bare metal support [pending]
+installing m4...
+installing diffutils...
+installing gdbm...
+installing db...
+installing perl...
+installing autoconf...
+installing automake...
+installing binutils...
+Optional dependencies for binutils
+    debuginfod: for debuginfod server/client functionality
+installing bison...
+installing fakeroot...
+installing flex...
+installing libmpc...
+installing libisl...
+installing gcc...
+Optional dependencies for gcc
+    lib32-gcc-libs: for generating code for 32-bit ABI
+installing groff...
+Optional dependencies for groff
+    netpbm: for use together with man -H command interaction in browsers
+    psutils: for use together with man -H command interaction in browsers
+    libxaw: for gxditview [pending]
+    perl-file-homedir: for use with glilypond
+installing libtool...
+installing texinfo...
+installing gc...
+installing guile...
+installing make...
+installing patch...
+Optional dependencies for patch
+    ed: for patch -e functionality
+installing pkgconf...
+installing sudo...
+installing which...
+installing lzo...
+installing btrfs-progs...
+Optional dependencies for btrfs-progs
+    python: libbtrfsutil python bindings [pending]
+    e2fsprogs: btrfs-convert [installed]
+    reiserfsprogs: btrfs-convert [pending]
+installing dosfstools...
+installing efivar...
+installing efibootmgr...
+installing endeavouros-keyring...
+==> Updating trust database...
+gpg: next trustdb check due at 2022-05-06
+  -> Locally signed 1 keys.
+==> Updating trust database...
+gpg: next trustdb check due at 2022-05-06
+==> Appending keys from archlinux.gpg...
+==> Appending keys from endeavouros.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signed 1 keys.
+==> Importing owner trust values...
+gpg: inserting ownertrust of 4
+==> Disabling revoked keys in keyring...
+  -> Disabled 5 keys.
+==> Updating trust database...
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   7  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   7  signed:  94  trust: 1-, 0q, 0n, 6m, 0f, 0u
+gpg: depth: 2  valid:  88  signed:  32  trust: 88-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2022-05-06
+installing endeavouros-mirrorlist...
+installing exfatprogs...
+installing f2fs-tools...
+installing grub...
+:: Generate your bootloader configuration with:
+     grub-mkconfig -o /boot/grub/grub.cfg
+Optional dependencies for grub
+    freetype2: For grub-mkfont usage [pending]
+    fuse2: For grub-mount usage [pending]
+    dosfstools: For grub-mkrescue FAT FS and EFI support [installed]
+    lzop: For grub-mkrescue LZO support
+    efibootmgr: For grub-install EFI support [installed]
+    libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+    os-prober: To detect other OSes when generating grub.cfg in BIOS systems [pending]
+    mtools: For grub-mkrescue FAT FS support
+installing grub2-theme-endeavouros...
+Optional dependencies for grub2-theme-endeavouros
+    grub-customizer: GUI tool to configure grub
+installing inetutils...
+installing jfsutils...
+installing mkinitcpio-busybox...
+installing mkinitcpio...
+Optional dependencies for mkinitcpio
+    gzip: Use gzip compression for the initramfs image [installed]
+    xz: Use lzma or xz compression for the initramfs image [installed]
+    bzip2: Use bzip2 compression for the initramfs image [installed]
+    lzop: Use lzo compression for the initramfs image
+    lz4: Use lz4 compression for the initramfs image [installed]
+    mkinitcpio-nfs-utils: Support for root filesystem on NFS [pending]
+installing linux...
+Optional dependencies for linux
+    crda: to set the correct wireless channels of your country
+    linux-firmware: firmware images needed for some devices [pending]
+installing linux-firmware-whence...
+installing linux-firmware...
+installing libnsl...
+installing python...
+Optional dependencies for python
+    python-setuptools
+    python-pip
+    sqlite [installed]
+    mpdecimal: for decimal
+    xz: for lzma [installed]
+    tk: for tkinter
+installing pahole...
+installing linux-headers...
+installing logrotate...
+installing lsb-release...
+installing libaio...
+installing thin-provisioning-tools...
+installing lvm2...
+installing libpipeline...
+installing man-db...
+Optional dependencies for man-db
+    gzip [installed]
+installing man-pages...
+installing mdadm...
+installing mkinitcpio-nfs-utils...
+installing mkinitcpio-openswap...
+
+Alter /etc/openswap.conf file for your swap device name, keyfiles, etc...
+
+For more information see: https://wiki.archlinux.org/index.php/Dm-crypt/Swap_encryption#mkinitcpio_hook
+
+Don't forget to add the openswap hook after encrypt and before resume in your /etc/mkinitcpio.conf and run mkinitcpio -p linux...
+
+installing nano...
+installing openresolv...
+installing netctl...
+Optional dependencies for netctl
+    dialog: for the menu based wifi assistant
+    dhclient: for DHCP support (or dhcpcd)
+    dhcpcd: for DHCP support (or dhclient)
+    wpa_supplicant: for wireless networking support
+    ifplugd: for automatic wired connections through netctl-ifplugd
+    ppp: for PPP connections
+    openvswitch: for Open vSwitch connections
+    wireguard-tools: for WireGuard connections
+installing fuse-common...
+installing fuse2...
+installing ntfs-3g...
+installing os-prober...
+installing reiserfsprogs...
+installing s-nail...
+Optional dependencies for s-nail
+    smtp-forwarder: for sending mail
+installing sysfsutils...
+installing libusb...
+installing usbutils...
+Optional dependencies for usbutils
+    python: for lsusb.py usage [installed]
+    coreutils: for lsusb.py usage [installed]
+installing libinih...
+installing liburcu...
+installing xfsprogs...
+Optional dependencies for xfsprogs
+    python: for xfs_scrub_all script [installed]
+    smtp-forwarder: for xfs_scrub_fail script
+installing libpng...
+installing graphite...
+installing harfbuzz...
+Optional dependencies for harfbuzz
+    cairo: hb-view program
+    chafa: hb-view program
+installing freetype2...
+installing fontconfig...
+Creating fontconfig configuration...
+Rebuilding fontconfig cache...
+installing xcb-proto...
+installing libxdmcp...
+installing libxau...
+installing libxcb...
+installing xorgproto...
+installing libx11...
+installing libxrender...
+installing libxft...
+installing libxext...
+installing libice...
+installing libsm...
+installing libxt...
+installing libxmu...
+installing libxpm...
+installing libxaw...
+installing xorg-fonts-encodings...
+installing libfontenc...
+installing luit...
+installing xbitmaps...
+installing libutempter...
+installing libxkbfile...
+installing xterm...
+:: Running post-transaction hooks...
+( 1/16) Creating system user accounts...
+( 2/16) Updating journal message catalog...
+( 3/16) Reloading system manager configuration...
+  Skipped: Running in chroot.
+( 4/16) Updating udev hardware database...
+( 5/16) Applying kernel sysctl settings...
+  Skipped: Running in chroot.
+( 6/16) Creating temporary files...
+( 7/16) Reloading device manager configuration...
+  Skipped: Running in chroot.
+( 8/16) Arming ConditionNeedsUpdate...
+( 9/16) Updating fontconfig configuration...
+(10/16) Rebuilding certificate stores...
+(11/16) Updating module dependencies...
+(12/16) Updating linux initcpios...
+(13/16) Reloading system bus configuration...
+  Skipped: Running in chroot.
+(14/16) Warn about old perl modules
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+(15/16) Updating fontconfig cache...
+(16/16) Updating the info directory file...
+sending incremental file list
+/etc/
+/etc/pacman.conf
+
+sent 3,183 bytes  received 39 bytes  6,444.00 bytes/sec
+total size is 3,044  speedup is 0.94
+sending incremental file list
+/tmp/
+/tmp/run_once
+
+sent 132 bytes  received 39 bytes  342.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+/etc/default/
+/etc/default/grub
+
+sent 2,033 bytes  received 44 bytes  4,154.00 bytes/sec
+total size is 1,872  speedup is 0.90
+sending incremental file list
+/etc/mkinitcpio.conf
+
+sent 2,649 bytes  received 36 bytes  5,370.00 bytes/sec
+total size is 2,509  speedup is 0.93
+19:23:42 [6]: virtual void Calamares::JobThread::run()
+    Starting job "get_root_username" ( 13 / 42 ) 
+19:23:42 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/get_root_username/main.py" 
+    ..  Job description from __doc__ "get_root_username" = "Get root and username directly from calamares." 
+sending incremental file list
+/tmp/chrootpath.txt
+
+sent 169 bytes  received 36 bytes  410.00 bytes/sec
+total size is 28  speedup is 0.14
+sending incremental file list
+/tmp/new_username.txt
+
+sent 149 bytes  received 36 bytes  370.00 bytes/sec
+total size is 6  speedup is 0.03
+19:23:42 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Generate machine-id." ( 14 / 42 ) 
+    ..  Running ("systemd-machine-id-setup") 
+    ..  Finished. Exit code: 0 output:
+ Initializing machine ID from random generator.
+    ..  Running ("ln", "-sf", "/etc/machine-id", "/var/lib/dbus/machine-id") 
+19:23:42 [6]: virtual void Calamares::JobThread::run()
+    Starting job "fstab" ( 15 / 42 ) 
+19:23:42 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/fstab/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "fstab" = "Writing fstab." 
+19:23:42 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Set timezone to America/New_York" ( 16 / 42 ) 
+    ..  Running ("rm", "-f", "/etc/localtime") 
+    ..  Running ("ln", "-s", "/usr/share/zoneinfo/America/New_York", "/etc/localtime") 
+19:23:42 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Set keyboard model to pc105, layout to us-" ( 17 / 42 ) 
+19:23:42 [6]: virtual Calamares::JobResult SetKeyboardLayoutJob::exec()
+    Executing SetKeyboardLayoutJob 
+19:23:42 [6]: bool SetKeyboardLayoutJob::writeVConsoleData(const QString&, const QString&) const
+    Writing vconsole data to "/tmp/calamares-root-ybu216o9/etc/vconsole.conf" 
+19:23:42 [6]: QString SetKeyboardLayoutJob::findConvertedKeymap(const QString&) const
+    Looking for converted keymap in "" 
+19:23:42 [6]: QString findLegacyKeymap(const QString&, const QString&, const QString&)
+    Looking for legacy keymap "us" "pc105" "" in QRC 
+    ..  Found legacy keymap "us" with score 11 
+    ..  Found legacy keymap "us-acentos" with score 11 
+    ..  Found legacy keymap "dvorak" with score 11 
+    ..  Found legacy keymap "dvorak" with score 11 
+    ..  Written KEYMAP= "us" to vconsole.conf 0 
+19:23:42 [6]: bool SetKeyboardLayoutJob::writeX11Data(const QString&) const
+    Writing X11 configuration to "/tmp/calamares-root-ybu216o9/etc/X11/xorg.conf.d/00-keyboard.conf" 
+    ..  Written XkbLayout "us" ; XkbModel "pc105" ; XkbVariant "" to X.org file "/tmp/calamares-root-ybu216o9/etc/X11/xorg.conf.d/00-keyboard.conf" 0 
+19:23:42 [6]: bool SetKeyboardLayoutJob::writeDefaultKeyboardData(const QString&) const
+    Writing default keyboard data to "/tmp/calamares-root-ybu216o9/etc/default/keyboard" 
+    ..  Written XKBMODEL "pc105" ; XKBLAYOUT "us" ; XKBVARIANT "" to /etc/default/keyboard file "/tmp/calamares-root-ybu216o9/etc/default/keyboard" 0 
+19:23:42 [6]: virtual void Calamares::JobThread::run()
+    Starting job "localecfg" ( 18 / 42 ) 
+19:23:42 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/localecfg/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "localecfg" = "Configuring locales." 
+    ..  Running ("locale-gen") 
+    ..  Finished. Exit code: 0 output:
+ Generating locales...
+  en_US.UTF-8... done
+Generation complete.
+[PYTHON JOB]: "/tmp/calamares-root-ybu216o9/etc/locale.gen done" 
+[PYTHON JOB]: "/tmp/calamares-root-ybu216o9/etc/locale.conf done" 
+[PYTHON JOB]: "/tmp/calamares-root-ybu216o9/etc/default done" 
+19:23:43 [6]: virtual void Calamares::JobThread::run()
+    Starting job "packages" ( 19 / 42 ) 
+19:23:43 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/packages/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "packages" = "Install packages." 
+[PYTHON JOB]: "Install packages." 
+    ..  Running ("pacman", "-Sy", "--noconfirm", "--needed", "--disable-download-timeout", "libwnck3", "mesa-utils", "xf86-input-libinput", "xorg-xdpyinfo", "xorg-server", "xorg-xinit", "xorg-xinput", "xorg-xkill", "xorg-xrandr", "xf86-video-amdgpu", "xf86-video-ati", "xf86-video-intel", "b43-fwcutter", "broadcom-wl-dkms", "crda", "dhclient", "dialog", "dnsmasq", "dnsutils", "ethtool", "gnu-netcat", "ipw2100-fw", "ipw2200-fw", "iwd", "linux-atm", "modemmanager", "nbd", "ndisc6", "networkmanager", "networkmanager-openvpn", "nmap", "nss-mdns", "openconnect", "openvpn", "ppp", "pptpclient", "rp-pppoe", "sshfs", "usb_modeswitch", "vpnc", "whois", "wireless-regdb", "wireless_tools", "wpa_supplicant", "xl2tpd", "downgrade", "pacman-contrib", "pkgfile", "rebuild-detector", "reflector", "yay", "accountsservice", "bash-completion", "ffmpegthumbnailer", "gst-libav", "gst-plugin-pipewire", "gst-plugins-bad", "gst-plugins-ugly", "libdvdcss", "libgsf", "libopenraw", "mlocate", "poppler-glib", "xdg-user-dirs", "xdg-utils", "efitools", "haveged", "nfs-utils", "nilfs-utils", "ntp", "smartmontools", "unrar", "unzip", "xz", "adobe-source-han-sans-cn-fonts", "adobe-source-han-sans-jp-fonts", "adobe-source-han-sans-kr-fonts", "cantarell-fonts", "freetype2", "noto-fonts", "opendesktop-fonts", "ttf-bitstream-vera", "ttf-dejavu", "ttf-liberation", "ttf-opensans", "alsa-firmware", "alsa-plugins", "alsa-utils", "pavucontrol", "pipewire-pulse", "pipewire-media-session", "pipewire-alsa", "pipewire-jack", "amd-ucode", "dmidecode", "dmraid", "hdparm", "hwdetect", "intel-ucode", "lsscsi", "mtools", "sg3_utils", "sof-firmware", "power-profiles-daemon", "upower", "endeavouros-theming", "eos-apps-info", "eos-hooks", "eos-log-tool", "eos-rankmirrors", "eos-update-notifier", "grub-tools", "reflector-simple", "welcome", "yad-eos", "duf", "findutils", "fsarchiver", "git", "glances", "hwinfo", "inxi", "meld", "nano-syntax-highlighting", "neofetch", "pcurses", "pv", "python-defusedxml", "python-packaging", "rsync", "tldr", "sed", "wget", "adwaita-icon-theme", "arc-gtk-theme-eos", "arc-x-icons-theme", "eog", "evince", "file-roller", "gdm", "gedit", "gnome-calculator", "gnome-control-center", "gnome-disk-utility", "gnome-keyring", "gnome-nettool", "gnome-power-manager", "gnome-screenshot", "gnome-shell", "gnome-terminal", "gnome-themes-extra", "gnome-tweaks", "gnome-usage", "gvfs", "gvfs-afc", "gvfs-gphoto2", "gvfs-mtp", "gvfs-nfs", "gvfs-smb", "nautilus", "nautilus-sendto", "sushi", "totem", "xdg-user-dirs-gtk", "espeak-ng", "mousetweaks", "orca") 
+19:23:44 [6]: QML Component (default slideshow) Next slide
+19:24:14 [6]: QML Component (default slideshow) Next slide
+[PYTHON JOB]: "installing atk...\n" 
+[PYTHON JOB]: "installing pixman...\n" 
+[PYTHON JOB]: "installing cairo...\n" 
+[PYTHON JOB]: "installing libxfixes...\n" 
+[PYTHON JOB]: "installing libxcursor...\n" 
+[PYTHON JOB]: "installing libxinerama...\n" 
+[PYTHON JOB]: "installing libxrandr...\n" 
+[PYTHON JOB]: "installing libxi...\n" 
+[PYTHON JOB]: "installing libepoxy...\n" 
+[PYTHON JOB]: "installing libjpeg-turbo...\n" 
+[PYTHON JOB]: "installing libtiff...\n" 
+[PYTHON JOB]: "installing shared-mime-info...\n" 
+[PYTHON JOB]: "installing gdk-pixbuf2...\n" 
+[PYTHON JOB]: "installing dconf...\n" 
+[PYTHON JOB]: "installing libxcomposite...\n" 
+[PYTHON JOB]: "installing libxdamage...\n" 
+[PYTHON JOB]: "installing libdatrie...\n" 
+[PYTHON JOB]: "installing libthai...\n" 
+[PYTHON JOB]: "installing fribidi...\n" 
+[PYTHON JOB]: "installing pango...\n" 
+[PYTHON JOB]: "installing libxtst...\n" 
+[PYTHON JOB]: "installing at-spi2-core...\n" 
+[PYTHON JOB]: "installing at-spi2-atk...\n" 
+[PYTHON JOB]: "installing wayland...\n" 
+[PYTHON JOB]: "installing xkeyboard-config...\n" 
+[PYTHON JOB]: "installing libxkbcommon...\n" 
+[PYTHON JOB]: "installing hicolor-icon-theme...\n" 
+[PYTHON JOB]: "installing librsvg...\n" 
+[PYTHON JOB]: "installing gtk-update-icon-cache...\n" 
+[PYTHON JOB]: "installing adwaita-icon-theme...\n" 
+[PYTHON JOB]: "installing json-glib...\n" 
+[PYTHON JOB]: "installing desktop-file-utils...\n" 
+[PYTHON JOB]: "installing libpciaccess...\n" 
+[PYTHON JOB]: "installing libdrm...\n" 
+[PYTHON JOB]: "installing libxxf86vm...\n" 
+[PYTHON JOB]: "installing libxshmfence...\n" 
+[PYTHON JOB]: "installing libomxil-bellagio...\n" 
+[PYTHON JOB]: "installing libunwind...\n" 
+[PYTHON JOB]: "installing libedit...\n" 
+[PYTHON JOB]: "installing llvm-libs...\n" 
+[PYTHON JOB]: "installing lm_sensors...\n" 
+[PYTHON JOB]: "installing libglvnd...\n" 
+[PYTHON JOB]: "installing vulkan-icd-loader...\n" 
+[PYTHON JOB]: "installing mesa...\n" 
+[PYTHON JOB]: "installing cantarell-fonts...\n" 
+[PYTHON JOB]: "installing lcms2...\n" 
+[PYTHON JOB]: "installing libcolord...\n" 
+[PYTHON JOB]: "installing libproxy...\n" 
+[PYTHON JOB]: "installing adobe-source-code-pro-fonts...\n" 
+[PYTHON JOB]: "installing gsettings-desktop-schemas...\n" 
+[PYTHON JOB]: "installing glib-networking...\n" 
+[PYTHON JOB]: "installing libsoup...\n" 
+[PYTHON JOB]: "installing rest...\n" 
+[PYTHON JOB]: "installing libdaemon...\n" 
+[PYTHON JOB]: "installing avahi...\n" 
+[PYTHON JOB]: "installing libcups...\n" 
+[PYTHON JOB]: "installing iso-codes...\n" 
+[PYTHON JOB]: "installing libcloudproviders...\n" 
+[PYTHON JOB]: "installing libstemmer...\n" 
+[PYTHON JOB]: "installing libsoup3...\n" 
+[PYTHON JOB]: "installing tracker3...\n" 
+[PYTHON JOB]: "installing gtk3...\n" 
+[PYTHON JOB]: "installing xcb-util...\n" 
+[PYTHON JOB]: "installing startup-notification...\n" 
+[PYTHON JOB]: "installing libxres...\n" 
+[PYTHON JOB]: "installing libwnck3...\n" 
+[PYTHON JOB]: "installing mesa-utils...\n" 
+[PYTHON JOB]: "installing mtdev...\n" 
+[PYTHON JOB]: "installing libevdev...\n" 
+[PYTHON JOB]: "installing libgudev...\n" 
+[PYTHON JOB]: "installing libwacom...\n" 
+[PYTHON JOB]: "installing libinput...\n" 
+[PYTHON JOB]: "installing xf86-input-libinput...\n" 
+[PYTHON JOB]: "installing xorg-xdpyinfo...\n" 
+[PYTHON JOB]: "installing libxfont2...\n" 
+[PYTHON JOB]: "installing xorg-xkbcomp...\n" 
+[PYTHON JOB]: "installing xorg-setxkbmap...\n" 
+[PYTHON JOB]: "installing xorg-server-common...\n" 
+[PYTHON JOB]: "installing libxcvt...\n" 
+[PYTHON JOB]: "installing xorg-server...\n" 
+[PYTHON JOB]: "installing xorg-xauth...\n" 
+[PYTHON JOB]: "installing xorg-xrdb...\n" 
+[PYTHON JOB]: "installing xorg-xmodmap...\n" 
+[PYTHON JOB]: "installing xorg-xinit...\n" 
+[PYTHON JOB]: "installing xorg-xrandr...\n" 
+[PYTHON JOB]: "installing xorg-xinput...\n" 
+[PYTHON JOB]: "installing xorg-xkill...\n" 
+[PYTHON JOB]: "installing xf86-video-amdgpu...\n" 
+[PYTHON JOB]: "installing xf86-video-ati...\n" 
+[PYTHON JOB]: "installing libxvmc...\n" 
+[PYTHON JOB]: "installing xf86-video-intel...\n" 
+[PYTHON JOB]: "installing b43-fwcutter...\n" 
+[PYTHON JOB]: "installing dkms...\n" 
+[PYTHON JOB]: "installing broadcom-wl-dkms...\n" 
+[PYTHON JOB]: "installing wireless-regdb...\n" 
+[PYTHON JOB]: "installing iw...\n" 
+[PYTHON JOB]: "installing crda...\n" 
+[PYTHON JOB]: "installing run-parts...\n" 
+[PYTHON JOB]: "installing dhclient...\n" 
+[PYTHON JOB]: "installing dialog...\n" 
+[PYTHON JOB]: "installing dnsmasq...\n" 
+[PYTHON JOB]: "installing dnssec-anchors...\n" 
+[PYTHON JOB]: "installing libmaxminddb...\n" 
+[PYTHON JOB]: "installing libuv...\n" 
+[PYTHON JOB]: "installing lmdb...\n" 
+[PYTHON JOB]: "installing python-ply...\n" 
+[PYTHON JOB]: "installing jemalloc...\n" 
+[PYTHON JOB]: "installing bind...\n" 
+[PYTHON JOB]: "installing ethtool...\n" 
+[PYTHON JOB]: "installing gnu-netcat...\n" 
+[PYTHON JOB]: "installing ipw2100-fw...\n" 
+[PYTHON JOB]: "installing ipw2200-fw...\n" 
+[PYTHON JOB]: "installing ell...\n" 
+[PYTHON JOB]: "installing iwd...\n" 
+[PYTHON JOB]: "installing linux-atm...\n" 
+[PYTHON JOB]: "installing js78...\n" 
+[PYTHON JOB]: "installing polkit...\n" 
+[PYTHON JOB]: "installing ppp...\n" 
+[PYTHON JOB]: "installing libmbim...\n" 
+[PYTHON JOB]: "installing libqrtr-glib...\n" 
+[PYTHON JOB]: "installing libqmi...\n" 
+[PYTHON JOB]: "installing mobile-broadband-provider-info...\n" 
+[PYTHON JOB]: "installing libmm-glib...\n" 
+[PYTHON JOB]: "installing modemmanager...\n" 
+[PYTHON JOB]: "installing nbd...\n" 
+[PYTHON JOB]: "installing ndisc6...\n" 
+[PYTHON JOB]: "installing nspr...\n" 
+[PYTHON JOB]: "installing nss...\n" 
+[PYTHON JOB]: "installing jansson...\n" 
+[PYTHON JOB]: "installing libnm...\n" 
+[PYTHON JOB]: "installing wpa_supplicant...\n" 
+[PYTHON JOB]: "installing gpm...\n" 
+[PYTHON JOB]: "installing slang...\n" 
+[PYTHON JOB]: "installing libnewt...\n" 
+[PYTHON JOB]: "installing libndp...\n" 
+[PYTHON JOB]: "installing libsodium...\n" 
+[PYTHON JOB]: "installing libpgm...\n" 
+[PYTHON JOB]: "installing zeromq...\n" 
+[PYTHON JOB]: "installing libteam...\n" 
+[PYTHON JOB]: "installing bluez-libs...\n" 
+[PYTHON JOB]: "installing networkmanager...\n" 
+[PYTHON JOB]: "installing pkcs11-helper...\n" 
+[PYTHON JOB]: "installing openvpn...\n" 
+[PYTHON JOB]: "installing networkmanager-openvpn...\n" 
+[PYTHON JOB]: "installing lua53...\n" 
+[PYTHON JOB]: "installing nmap...\n" 
+[PYTHON JOB]: "installing nss-mdns...\n" 
+[PYTHON JOB]: "installing vpnc...\n" 
+[PYTHON JOB]: "installing pcsclite...\n" 
+[PYTHON JOB]: "installing stoken...\n" 
+[PYTHON JOB]: "installing openconnect...\n" 
+[PYTHON JOB]: "installing pptpclient...\n" 
+[PYTHON JOB]: "installing rp-pppoe...\n" 
+[PYTHON JOB]: "installing fuse3...\n" 
+[PYTHON JOB]: "installing ldns...\n" 
+[PYTHON JOB]: "installing openssh...\n" 
+[PYTHON JOB]: "installing sshfs...\n" 
+[PYTHON JOB]: "installing tcl...\n" 
+[PYTHON JOB]: "installing usb_modeswitch...\n" 
+[PYTHON JOB]: "installing whois...\n" 
+[PYTHON JOB]: "installing wireless_tools...\n" 
+[PYTHON JOB]: "installing xl2tpd...\n" 
+[PYTHON JOB]: "installing pacman-contrib...\n" 
+[PYTHON JOB]: "installing fzf...\n" 
+[PYTHON JOB]: "installing downgrade...\n" 
+[PYTHON JOB]: "installing pkgfile...\n" 
+[PYTHON JOB]: "installing parallel...\n" 
+[PYTHON JOB]: "installing pacutils...\n" 
+[PYTHON JOB]: "installing rebuild-detector...\n" 
+[PYTHON JOB]: "installing reflector...\n" 
+[PYTHON JOB]: "installing perl-error...\n" 
+[PYTHON JOB]: "installing perl-timedate...\n" 
+[PYTHON JOB]: "installing perl-mailtools...\n" 
+[PYTHON JOB]: "installing git...\n" 
+[PYTHON JOB]: "installing yay...\n" 
+[PYTHON JOB]: "installing accountsservice...\n" 
+[PYTHON JOB]: "installing bash-completion...\n" 
+[PYTHON JOB]: "installing alsa-topology-conf...\n" 
+[PYTHON JOB]: "installing alsa-ucm-conf...\n" 
+[PYTHON JOB]: "installing alsa-lib...\n" 
+[PYTHON JOB]: "installing aom...\n" 
+[PYTHON JOB]: "installing gsm...\n" 
+[PYTHON JOB]: "installing alsa-card-profiles...\n" 
+[PYTHON JOB]: "installing opus...\n" 
+[PYTHON JOB]: "installing libogg...\n" 
+[PYTHON JOB]: "installing speexdsp...\n" 
+[PYTHON JOB]: "installing speex...\n" 
+[PYTHON JOB]: "installing flac...\n" 
+[PYTHON JOB]: "installing libvorbis...\n" 
+[PYTHON JOB]: "installing libsndfile...\n" 
+[PYTHON JOB]: "installing sbc...\n" 
+[PYTHON JOB]: "installing libldac...\n" 
+[PYTHON JOB]: "installing libfreeaptx...\n" 
+[PYTHON JOB]: "installing libfdk-aac...\n" 
+[PYTHON JOB]: "installing lv2...\n" 
+[PYTHON JOB]: "installing serd...\n" 
+[PYTHON JOB]: "installing sord...\n" 
+[PYTHON JOB]: "installing sratom...\n" 
+[PYTHON JOB]: "installing lilv...\n" 
+[PYTHON JOB]: "installing webrtc-audio-processing...\n" 
+[PYTHON JOB]: "installing pipewire...\n" 
+[PYTHON JOB]: "installing pipewire-media-session...\n" 
+[PYTHON JOB]: "installing pipewire-jack...\n" 
+[PYTHON JOB]: "installing lame...\n" 
+[PYTHON JOB]: "installing libass...\n" 
+[PYTHON JOB]: "installing libraw1394...\n" 
+[PYTHON JOB]: "installing libavc1394...\n" 
+[PYTHON JOB]: "installing libbluray...\n" 
+[PYTHON JOB]: "installing dav1d...\n" 
+[PYTHON JOB]: "installing libiec61883...\n" 
+[PYTHON JOB]: "installing libmfx...\n" 
+[PYTHON JOB]: "installing libmodplug...\n" 
+[PYTHON JOB]: "installing libasyncns...\n" 
+[PYTHON JOB]: "installing libpulse...\n" 
+[PYTHON JOB]: "installing rav1e...\n" 
+[PYTHON JOB]: "installing libsoxr...\n" 
+[PYTHON JOB]: "installing libssh...\n" 
+[PYTHON JOB]: "installing libtheora...\n" 
+[PYTHON JOB]: "installing libva...\n" 
+[PYTHON JOB]: "installing libvdpau...\n" 
+[PYTHON JOB]: "installing vid.stab...\n" 
+[PYTHON JOB]: "installing libvpx...\n" 
+[PYTHON JOB]: "installing giflib...\n" 
+[PYTHON JOB]: "installing libwebp...\n" 
+[PYTHON JOB]: "installing l-smash...\n" 
+[PYTHON JOB]: "installing x264...\n" 
+[PYTHON JOB]: "installing x265...\n" 
+[PYTHON JOB]: "installing libxv...\n" 
+[PYTHON JOB]: "installing xvidcore...\n" 
+[PYTHON JOB]: "installing zimg...\n" 
+[PYTHON JOB]: "installing opencore-amr...\n" 
+[PYTHON JOB]: "installing openjpeg2...\n" 
+[PYTHON JOB]: "installing libibus...\n" 
+[PYTHON JOB]: "installing hidapi...\n" 
+[PYTHON JOB]: "installing sdl2...\n" 
+[PYTHON JOB]: "installing srt...\n" 
+[PYTHON JOB]: "installing svt-av1...\n" 
+[PYTHON JOB]: "installing v4l-utils...\n" 
+[PYTHON JOB]: "installing vmaf...\n" 
+[PYTHON JOB]: "installing ffmpeg...\n" 
+[PYTHON JOB]: "installing ffmpegthumbnailer...\n" 
+[PYTHON JOB]: "installing gstreamer...\n" 
+[PYTHON JOB]: "installing orc...\n" 
+[PYTHON JOB]: "installing gst-plugins-base-libs...\n" 
+[PYTHON JOB]: "installing gst-libav...\n" 
+[PYTHON JOB]: "installing gst-plugin-pipewire...\n" 
+[PYTHON JOB]: "installing libxkbcommon-x11...\n" 
+[PYTHON JOB]: "installing gst-plugins-bad-libs...\n" 
+[PYTHON JOB]: "installing libbs2b...\n" 
+[PYTHON JOB]: "installing chromaprint...\n" 
+[PYTHON JOB]: "installing libdc1394...\n" 
+[PYTHON JOB]: "installing libde265...\n" 
+[PYTHON JOB]: "installing libdca...\n" 
+[PYTHON JOB]: "installing faac...\n" 
+[PYTHON JOB]: "installing faad2...\n" 
+[PYTHON JOB]: "installing libinstpatch...\n" 
+[PYTHON JOB]: "installing portaudio...\n" 
+[PYTHON JOB]: "installing fluidsynth...\n" 
+[PYTHON JOB]: "installing libgme...\n" 
+[PYTHON JOB]: "installing libkate...\n" 
+[PYTHON JOB]: "installing libxslt...\n" 
+[PYTHON JOB]: "installing raptor...\n" 
+[PYTHON JOB]: "installing liblrdf...\n" 
+[PYTHON JOB]: "installing libdv...\n" 
+[PYTHON JOB]: "installing mjpegtools...\n" 
+[PYTHON JOB]: "installing libmpcdec...\n" 
+[PYTHON JOB]: "installing neon...\n" 
+[PYTHON JOB]: "installing openal...\n" 
+[PYTHON JOB]: "installing imath...\n" 
+[PYTHON JOB]: "installing openexr...\n" 
+[PYTHON JOB]: "installing libdvdread...\n" 
+[PYTHON JOB]: "installing libdvdnav...\n" 
+[PYTHON JOB]: "installing rtmpdump...\n" 
+[PYTHON JOB]: "installing libltc...\n" 
+[PYTHON JOB]: "installing soundtouch...\n" 
+[PYTHON JOB]: "installing spandsp...\n" 
+[PYTHON JOB]: "installing libsrtp...\n" 
+[PYTHON JOB]: "installing zvbi...\n" 
+[PYTHON JOB]: "installing gssdp...\n" 
+[PYTHON JOB]: "installing gupnp...\n" 
+[PYTHON JOB]: "installing gupnp-igd...\n" 
+[PYTHON JOB]: "installing libnice...\n" 
+[PYTHON JOB]: "installing wildmidi...\n" 
+[PYTHON JOB]: "installing liblqr...\n" 
+[PYTHON JOB]: "installing libraqm...\n" 
+[PYTHON JOB]: "installing imagemagick...\n" 
+[PYTHON JOB]: "installing zbar...\n" 
+[PYTHON JOB]: "installing mpg123...\n" 
+[PYTHON JOB]: "installing libopenmpt...\n" 
+[PYTHON JOB]: "installing qrencode...\n" 
+[PYTHON JOB]: "installing libavtp...\n" 
+[PYTHON JOB]: "installing libmicrodns...\n" 
+[PYTHON JOB]: "installing svt-hevc...\n" 
+[PYTHON JOB]: "installing zxing-cpp...\n" 
+[PYTHON JOB]: "installing gst-plugins-bad...\n" 
+[PYTHON JOB]: "installing libmpeg2...\n" 
+[PYTHON JOB]: "installing a52dec...\n" 
+[PYTHON JOB]: "installing libsidplay...\n" 
+[PYTHON JOB]: "installing libcddb...\n" 
+[PYTHON JOB]: "installing libcdio...\n" 
+[PYTHON JOB]: "installing gst-plugins-ugly...\n" 
+[PYTHON JOB]: "installing libdvdcss...\n" 
+[PYTHON JOB]: "installing libgsf...\n" 
+[PYTHON JOB]: "installing libopenraw...\n" 
+[PYTHON JOB]: "installing mlocate...\n" 
+[PYTHON JOB]: "installing poppler...\n" 
+[PYTHON JOB]: "installing poppler-glib...\n" 
+[PYTHON JOB]: "installing xdg-user-dirs...\n" 
+[PYTHON JOB]: "installing xorg-xset...\n" 
+[PYTHON JOB]: "installing xorg-xprop...\n" 
+[PYTHON JOB]: "installing xdg-utils...\n" 
+[PYTHON JOB]: "installing efitools...\n" 
+[PYTHON JOB]: "installing haveged...\n" 
+[PYTHON JOB]: "installing rpcbind...\n" 
+[PYTHON JOB]: "installing nfsidmap...\n" 
+[PYTHON JOB]: "installing ding-libs...\n" 
+[PYTHON JOB]: "installing gssproxy...\n" 
+[PYTHON JOB]: "installing libevent...\n" 
+[PYTHON JOB]: "installing nfs-utils...\n" 
+[PYTHON JOB]: "installing nilfs-utils...\n" 
+[PYTHON JOB]: "installing ntp...\n" 
+[PYTHON JOB]: "installing smartmontools...\n" 
+[PYTHON JOB]: "installing unrar...\n" 
+[PYTHON JOB]: "installing unzip...\n" 
+[PYTHON JOB]: "installing adobe-source-han-sans-cn-fonts...\n" 
+[PYTHON JOB]: "installing adobe-source-han-sans-jp-fonts...\n" 
+[PYTHON JOB]: "installing adobe-source-han-sans-kr-fonts...\n" 
+[PYTHON JOB]: "installing noto-fonts...\n" 
+[PYTHON JOB]: "installing opendesktop-fonts...\n" 
+[PYTHON JOB]: "installing ttf-bitstream-vera...\n" 
+[PYTHON JOB]: "installing ttf-dejavu...\n" 
+[PYTHON JOB]: "installing ttf-liberation...\n" 
+[PYTHON JOB]: "installing ttf-opensans...\n" 
+[PYTHON JOB]: "installing alsa-firmware...\n" 
+[PYTHON JOB]: "installing alsa-plugins...\n" 
+[PYTHON JOB]: "installing libsamplerate...\n" 
+[PYTHON JOB]: "installing alsa-utils...\n" 
+[PYTHON JOB]: "installing tdb...\n" 
+[PYTHON JOB]: "installing sound-theme-freedesktop...\n" 
+[PYTHON JOB]: "installing libcanberra...\n" 
+[PYTHON JOB]: "installing libsigc++...\n" 
+[PYTHON JOB]: "installing glibmm...\n" 
+[PYTHON JOB]: "installing cairomm...\n" 
+[PYTHON JOB]: "installing pangomm...\n" 
+[PYTHON JOB]: "installing atkmm...\n" 
+[PYTHON JOB]: "installing gtkmm3...\n" 
+[PYTHON JOB]: "installing pavucontrol...\n" 
+[PYTHON JOB]: "installing pipewire-pulse...\n" 
+[PYTHON JOB]: "installing pipewire-alsa...\n" 
+[PYTHON JOB]: "installing amd-ucode...\n" 
+[PYTHON JOB]: "installing dmidecode...\n" 
+[PYTHON JOB]: "installing dmraid...\n" 
+[PYTHON JOB]: "installing hdparm...\n" 
+[PYTHON JOB]: "installing hwdetect...\n" 
+[PYTHON JOB]: "installing intel-ucode...\n" 
+[PYTHON JOB]: "installing lsscsi...\n" 
+[PYTHON JOB]: "installing mtools...\n" 
+[PYTHON JOB]: "installing sg3_utils...\n" 
+[PYTHON JOB]: "installing sof-firmware...\n" 
+[PYTHON JOB]: "installing libplist...\n" 
+[PYTHON JOB]: "installing libusbmuxd...\n" 
+[PYTHON JOB]: "installing usbmuxd...\n" 
+[PYTHON JOB]: "installing libimobiledevice...\n" 
+[PYTHON JOB]: "installing upower...\n" 
+[PYTHON JOB]: "installing power-profiles-daemon...\n" 
+[PYTHON JOB]: "installing endeavouros-theming...\n" 
+[PYTHON JOB]: "installing harfbuzz-icu...\n" 
+[PYTHON JOB]: "installing libwpe...\n" 
+[PYTHON JOB]: "installing wpebackend-fdo...\n" 
+[PYTHON JOB]: "installing enchant...\n" 
+[PYTHON JOB]: "installing libnotify...\n" 
+[PYTHON JOB]: "installing hyphen...\n" 
+[PYTHON JOB]: "installing woff2...\n" 
+[PYTHON JOB]: "installing bubblewrap...\n" 
+[PYTHON JOB]: "installing xdg-dbus-proxy...\n" 
+[PYTHON JOB]: "installing libmanette...\n" 
+[PYTHON JOB]: "installing webkit2gtk...\n" 
+[PYTHON JOB]: "installing gtksourceview3...\n" 
+[PYTHON JOB]: "installing gspell...\n" 
+[PYTHON JOB]: "installing yad-eos...\n" 
+[PYTHON JOB]: "installing eos-apps-info...\n" 
+[PYTHON JOB]: "installing eos-hooks...\n" 
+[PYTHON JOB]: "installing eos-translations...\n" 
+[PYTHON JOB]: "installing dbus-python...\n" 
+[PYTHON JOB]: "installing eos-bash-shared...\n" 
+[PYTHON JOB]: "installing eos-log-tool...\n" 
+[PYTHON JOB]: "installing eos-rankmirrors...\n" 
+[PYTHON JOB]: "installing eos-update-notifier...\n" 
+[PYTHON JOB]: "installing grub-tools...\n" 
+[PYTHON JOB]: "installing geoip-database...\n" 
+[PYTHON JOB]: "installing geoip...\n" 
+[PYTHON JOB]: "installing reflector-simple...\n" 
+[PYTHON JOB]: "installing welcome...\n" 
+[PYTHON JOB]: "installing duf...\n" 
+[PYTHON JOB]: "installing fsarchiver...\n" 
+[PYTHON JOB]: "installing python-psutil...\n" 
+[PYTHON JOB]: "installing python-future...\n" 
+[PYTHON JOB]: "installing python-defusedxml...\n" 
+[PYTHON JOB]: "installing glances...\n" 
+[PYTHON JOB]: "installing libx86emu...\n" 
+[PYTHON JOB]: "installing perl-encode-locale...\n" 
+[PYTHON JOB]: "installing perl-http-date...\n" 
+[PYTHON JOB]: "installing perl-file-listing...\n" 
+[PYTHON JOB]: "installing perl-html-tagset...\n" 
+[PYTHON JOB]: "installing perl-clone...\n" 
+[PYTHON JOB]: "installing perl-io-html...\n" 
+[PYTHON JOB]: "installing perl-lwp-mediatypes...\n" 
+[PYTHON JOB]: "installing perl-uri...\n" 
+[PYTHON JOB]: "installing perl-http-message...\n" 
+[PYTHON JOB]: "installing perl-html-parser...\n" 
+[PYTHON JOB]: "installing perl-http-cookies...\n" 
+[PYTHON JOB]: "installing perl-http-daemon...\n" 
+[PYTHON JOB]: "installing perl-http-negotiate...\n" 
+[PYTHON JOB]: "installing perl-net-http...\n" 
+[PYTHON JOB]: "installing perl-try-tiny...\n" 
+[PYTHON JOB]: "installing perl-www-robotrules...\n" 
+[PYTHON JOB]: "installing perl-libwww...\n" 
+[PYTHON JOB]: "installing perl-xml-parser...\n" 
+[PYTHON JOB]: "installing perl-xml-writer...\n" 
+[PYTHON JOB]: "installing hwinfo...\n" 
+[PYTHON JOB]: "installing inxi...\n" 
+[PYTHON JOB]: "installing gobject-introspection-runtime...\n" 
+[PYTHON JOB]: "installing python-gobject...\n" 
+[PYTHON JOB]: "installing python-cairo...\n" 
+[PYTHON JOB]: "installing meld...\n" 
+[PYTHON JOB]: "installing nano-syntax-highlighting...\n" 
+[PYTHON JOB]: "installing neofetch...\n" 
+[PYTHON JOB]: "installing pcurses...\n" 
+[PYTHON JOB]: "installing pv...\n" 
+[PYTHON JOB]: "installing python-pyparsing...\n" 
+[PYTHON JOB]: "installing python-six...\n" 
+[PYTHON JOB]: "installing python-packaging...\n" 
+[PYTHON JOB]: "installing xxhash...\n" 
+[PYTHON JOB]: "installing rsync...\n" 
+[PYTHON JOB]: "installing python-shtab...\n" 
+[PYTHON JOB]: "installing python-colorama...\n" 
+[PYTHON JOB]: "installing python-termcolor...\n" 
+[PYTHON JOB]: "installing tldr...\n" 
+[PYTHON JOB]: "installing wget...\n" 
+[PYTHON JOB]: "installing arc-gtk-theme-eos...\n" 
+[PYTHON JOB]: "installing paper-icon-theme...\n" 
+[PYTHON JOB]: "installing arc-x-icons-theme...\n" 
+[PYTHON JOB]: "installing gnome-desktop...\n" 
+[PYTHON JOB]: "installing libexif...\n" 
+[PYTHON JOB]: "installing exempi...\n" 
+[PYTHON JOB]: "installing libpeas...\n" 
+[PYTHON JOB]: "installing eog...\n" 
+[PYTHON JOB]: "installing libgxps...\n" 
+[PYTHON JOB]: "installing jbig2dec...\n" 
+[PYTHON JOB]: "installing libpaper...\n" 
+[PYTHON JOB]: "installing ijs...\n" 
+[PYTHON JOB]: "installing libidn...\n" 
+[PYTHON JOB]: "installing ghostscript...\n" 
+[PYTHON JOB]: "installing libspectre...\n" 
+[PYTHON JOB]: "installing gsfonts...\n" 
+[PYTHON JOB]: "installing djvulibre...\n" 
+[PYTHON JOB]: "installing t1lib...\n" 
+[PYTHON JOB]: "installing libsynctex...\n" 
+[PYTHON JOB]: "installing libhandy...\n" 
+[PYTHON JOB]: "installing libcdio-paranoia...\n" 
+[PYTHON JOB]: "installing libatasmart...\n" 
+[PYTHON JOB]: "installing gptfdisk...\n" 
+[PYTHON JOB]: "installing libbytesize...\n" 
+[PYTHON JOB]: "installing iniparser...\n" 
+[PYTHON JOB]: "installing ndctl...\n" 
+[PYTHON JOB]: "installing parted...\n" 
+[PYTHON JOB]: "installing volume_key...\n" 
+[PYTHON JOB]: "installing libyaml...\n" 
+[PYTHON JOB]: "installing libblockdev...\n" 
+[PYTHON JOB]: "installing udisks2...\n" 
+[PYTHON JOB]: "installing gcr...\n" 
+[PYTHON JOB]: "installing gvfs...\n" 
+[PYTHON JOB]: "installing evince...\n" 
+[PYTHON JOB]: "installing zip...\n" 
+[PYTHON JOB]: "installing file-roller...\n" 
+[PYTHON JOB]: "installing gjs...\n" 
+[PYTHON JOB]: "installing libical...\n" 
+[PYTHON JOB]: "installing bluez...\n" 
+[PYTHON JOB]: "installing gnome-bluetooth...\n" 
+[PYTHON JOB]: "installing gnome-session...\n" 
+[PYTHON JOB]: "installing graphene...\n" 
+[PYTHON JOB]: "installing gtk4...\n" 
+[PYTHON JOB]: "installing geocode-glib...\n" 
+[PYTHON JOB]: "installing libgweather...\n" 
+[PYTHON JOB]: "installing geoclue...\n" 
+[PYTHON JOB]: "installing gnome-settings-daemon...\n" 
+[PYTHON JOB]: "installing libgdm...\n" 
+[PYTHON JOB]: "installing zenity...\n" 
+[PYTHON JOB]: "installing xorg-xwayland...\n" 
+[PYTHON JOB]: "installing mutter...\n" 
+[PYTHON JOB]: "installing libnma...\n" 
+[PYTHON JOB]: "installing nm-connection-editor...\n" 
+[PYTHON JOB]: "installing gnome-autoar...\n" 
+[PYTHON JOB]: "installing cracklib...\n" 
+[PYTHON JOB]: "installing libpwquality...\n" 
+[PYTHON JOB]: "installing gnome-disk-utility...\n" 
+[PYTHON JOB]: "installing gnome-shell...\n" 
+[PYTHON JOB]: "installing xorg-xhost...\n" 
+[PYTHON JOB]: "installing gdm...\n" 
+[PYTHON JOB]: "installing gtksourceview4...\n" 
+[PYTHON JOB]: "installing gedit...\n" 
+[PYTHON JOB]: "installing libgee...\n" 
+[PYTHON JOB]: "installing gnome-calculator...\n" 
+[PYTHON JOB]: "installing cups-pk-helper...\n" 
+[PYTHON JOB]: "installing gnome-online-accounts...\n" 
+[PYTHON JOB]: "installing libgtop...\n" 
+[PYTHON JOB]: "installing shared-color-targets...\n" 
+[PYTHON JOB]: "installing libgusb...\n" 
+[PYTHON JOB]: "installing colord...\n" 
+[PYTHON JOB]: "installing gnome-color-manager...\n" 
+[PYTHON JOB]: "installing talloc...\n" 
+[PYTHON JOB]: "installing cifs-utils...\n" 
+[PYTHON JOB]: "installing tevent...\n" 
+[PYTHON JOB]: "installing ldb...\n" 
+[PYTHON JOB]: "installing python-zipp...\n" 
+[PYTHON JOB]: "installing python-importlib-metadata...\n" 
+[PYTHON JOB]: "installing python-markdown...\n" 
+[PYTHON JOB]: "installing python-dnspython...\n" 
+[PYTHON JOB]: "installing libmd...\n" 
+[PYTHON JOB]: "installing libbsd...\n" 
+[PYTHON JOB]: "installing smbclient...\n" 
+[PYTHON JOB]: "installing libxklavier...\n" 
+[PYTHON JOB]: "installing libgnomekbd...\n" 
+[PYTHON JOB]: "installing cogl...\n" 
+[PYTHON JOB]: "installing clutter...\n" 
+[PYTHON JOB]: "installing clutter-gtk...\n" 
+[PYTHON JOB]: "installing clutter-gst...\n" 
+[PYTHON JOB]: "installing libcheese...\n" 
+[PYTHON JOB]: "installing bolt...\n" 
+[PYTHON JOB]: "installing gsound...\n" 
+[PYTHON JOB]: "installing colord-gtk-common...\n" 
+[PYTHON JOB]: "installing colord-gtk...\n" 
+[PYTHON JOB]: "installing gnome-control-center...\n" 
+[PYTHON JOB]: "installing gnome-keyring...\n" 
+[PYTHON JOB]: "installing gnome-nettool...\n" 
+[PYTHON JOB]: "installing gnome-power-manager...\n" 
+[PYTHON JOB]: "installing gnome-screenshot...\n" 
+[PYTHON JOB]: "installing vte-common...\n" 
+[PYTHON JOB]: "installing vte3...\n" 
+[PYTHON JOB]: "installing gnome-terminal...\n" 
+[PYTHON JOB]: "installing gnome-themes-extra...\n" 
+[PYTHON JOB]: "installing gnome-tweaks...\n" 
+[PYTHON JOB]: "installing libdazzle...\n" 
+[PYTHON JOB]: "installing gnome-usage...\n" 
+[PYTHON JOB]: "installing gvfs-afc...\n" 
+[PYTHON JOB]: "installing libyuv...\n" 
+[PYTHON JOB]: "installing libavif...\n" 
+[PYTHON JOB]: "installing libheif...\n" 
+[PYTHON JOB]: "installing gd...\n" 
+[PYTHON JOB]: "installing libgphoto2...\n" 
+[PYTHON JOB]: "installing gvfs-gphoto2...\n" 
+[PYTHON JOB]: "installing libmtp...\n" 
+19:24:44 [6]: QML Component (default slideshow) Next slide
+[PYTHON JOB]: "installing gvfs-mtp...\n" 
+[PYTHON JOB]: "installing libnfs...\n" 
+[PYTHON JOB]: "installing gvfs-nfs...\n" 
+[PYTHON JOB]: "installing gvfs-smb...\n" 
+[PYTHON JOB]: "installing exiv2...\n" 
+[PYTHON JOB]: "installing libgexiv2...\n" 
+[PYTHON JOB]: "installing libcue...\n" 
+[PYTHON JOB]: "installing libgrss...\n" 
+[PYTHON JOB]: "installing libiptcdata...\n" 
+[PYTHON JOB]: "installing osinfo-db...\n" 
+[PYTHON JOB]: "installing libosinfo...\n" 
+[PYTHON JOB]: "installing totem-pl-parser...\n" 
+[PYTHON JOB]: "installing gupnp-dlna...\n" 
+[PYTHON JOB]: "installing tracker3-miners...\n" 
+[PYTHON JOB]: "installing libportal...\n" 
+[PYTHON JOB]: "installing libportal-gtk3...\n" 
+[PYTHON JOB]: "installing libnautilus-extension...\n" 
+[PYTHON JOB]: "installing nautilus...\n" 
+[PYTHON JOB]: "installing nautilus-sendto...\n" 
+[PYTHON JOB]: "installing webkit2gtk-4.1...\n" 
+[PYTHON JOB]: "installing gst-plugin-gtk...\n" 
+[PYTHON JOB]: "installing sushi...\n" 
+[PYTHON JOB]: "installing liboauth...\n" 
+[PYTHON JOB]: "installing grilo...\n" 
+[PYTHON JOB]: "installing python-pyxdg...\n" 
+[PYTHON JOB]: "installing cdparanoia...\n" 
+[PYTHON JOB]: "installing libvisual...\n" 
+[PYTHON JOB]: "installing gst-plugins-base...\n" 
+[PYTHON JOB]: "installing wavpack...\n" 
+[PYTHON JOB]: "installing aalib...\n" 
+[PYTHON JOB]: "installing taglib...\n" 
+[PYTHON JOB]: "installing libshout...\n" 
+[PYTHON JOB]: "installing libid3tag...\n" 
+[PYTHON JOB]: "installing imlib2...\n" 
+[PYTHON JOB]: "installing libcaca...\n" 
+[PYTHON JOB]: "installing twolame...\n" 
+[PYTHON JOB]: "installing gst-plugins-good...\n" 
+[PYTHON JOB]: "installing totem...\n" 
+[PYTHON JOB]: "installing xdg-user-dirs-gtk...\n" 
+[PYTHON JOB]: "installing pcaudiolib...\n" 
+[PYTHON JOB]: "installing espeak-ng...\n" 
+[PYTHON JOB]: "installing mousetweaks...\n" 
+[PYTHON JOB]: "installing python-atspi...\n" 
+[PYTHON JOB]: "installing libspeechd...\n" 
+[PYTHON JOB]: "installing dotconf...\n" 
+[PYTHON JOB]: "installing libao...\n" 
+[PYTHON JOB]: "installing speech-dispatcher...\n" 
+[PYTHON JOB]: "installing liblouis...\n" 
+[PYTHON JOB]: "installing brltty...\n" 
+[PYTHON JOB]: "installing orca...\n" 
+[PYTHON JOB]: "Pretty name: Install packages., setting progress.." 
+[PYTHON JOB]: "Package-list from netinstall@netinstall" 
+[PYTHON JOB]: "Pretty name: Install packages., setting progress.." 
+[PYTHON JOB]: "Install packages." 
+[PYTHON JOB]: "Package-list from netinstall@netinstall" 
+[PYTHON JOB]: "Pretty name: Install packages., setting progress.." 
+    ..  Running ("pacman", "-Sy", "--noconfirm", "--needed", "--disable-download-timeout", "firefox") 
+[PYTHON JOB]: "installing mailcap...\n" 
+[PYTHON JOB]: "installing dbus-glib...\n" 
+[PYTHON JOB]: "installing ffmpeg4.4...\n" 
+[PYTHON JOB]: "installing firefox...\n" 
+[PYTHON JOB]: "Pretty name: Install packages., setting progress.." 
+19:25:04 [6]: virtual void Calamares::JobThread::run()
+    Starting job "user_pkglist" ( 20 / 42 ) 
+19:25:04 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/user_pkglist/main.py" 
+    ..  Job description from __doc__ "user_pkglist" = "Installing user packages. Please be patient!" 
+19:25:04 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Configuring LUKS key file." ( 21 / 42 ) 
+19:25:04 [6]: virtual Calamares::JobResult LuksBootKeyFileJob::exec()
+    There are 0 LUKS partitions 
+    ..  Nothing to do for LUKS. 
+19:25:04 [6]: virtual void Calamares::JobThread::run()
+    Starting job "luksopenswaphookcfg" ( 22 / 42 ) 
+19:25:04 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/luksopenswaphookcfg/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "luksopenswaphookcfg" = "Configuring encrypted swap." 
+19:25:04 [6]: virtual void Calamares::JobThread::run()
+    Starting job "initcpiocfg" ( 23 / 42 ) 
+19:25:04 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/initcpiocfg/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "initcpiocfg" = "Configuring mkinitcpio." 
+    ..  Running ("sh", "-c", "which plymouth") 
+    ..  Target cmd: ("sh", "-c", "which plymouth") Exit code: 1 output:
+ which: no plymouth in (/usr/sbin:/usr/bin:/sbin:/bin:/root/bin)
+19:25:04 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Creating initramfs with mkinitcpio." ( 24 / 42 ) 
+19:25:04 [6]: virtual Calamares::JobResult InitcpioJob::exec()
+    Updating initramfs with kernel "linux" 
+    ..  Running ("mkinitcpio", "-P") 
+    ..  Finished. Exit code: 0 output:
+ ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+==> Starting build: 5.16.11-arch1-2
+  -> Running build hook: [base]
+  -> Running build hook: [udev]
+  -> Running build hook: [autodetect]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+  -> Running build hook: [keyboard]
+  -> Running build hook: [keymap]
+  -> Running build hook: [consolefont]
+==> WARNING: consolefont: no font found in configuration
+  -> Running build hook: [filesystems]
+==> Generating module dependencies
+==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
+==> Image generation successful
+==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+==> Starting build: 5.16.11-arch1-2
+  -> Running build hook: [base]
+  -> Running build hook: [udev]
+  -> Running build hook: [modconf]
+  -> Running build hook: [block]
+==> WARNING: Possibly missing firmware for module: aic94xx
+==> WARNING: Possibly missing firmware for module: bfa
+==> WARNING: Possibly missing firmware for module: qed
+==> WARNING: Possibly missing firmware for module: qla1280
+==> WARNING: Possibly missing firmware for module: qla2xxx
+==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missing firmware for module: xhci_pci
+  -> Running build hook: [keyboard]
+  -> Running build hook: [keymap]
+  -> Running build hook: [consolefont]
+==> WARNING: consolefont: no font found in configuration
+  -> Running build hook: [filesystems]
+==> Generating module dependencies
+==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
+==> Image generation successful
+19:25:12 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Configure <pre>sudo</pre> users." ( 25 / 42 ) 
+19:25:12 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Preparing groups." ( 26 / 42 ) 
+19:25:12 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Create user cis106" ( 27 / 42 ) 
+19:25:12 [6]: virtual Calamares::JobResult CreateUserJob::exec()
+    [CREATEUSER]: creating user 
+    ..  Running ("useradd", "-m", "-U", "-s", "/bin/bash", "-c", "cis106", "cis106") 
+    ..  Running "usermod" "-aG" "wheel,rfkill,sys,users,wheel" "cis106" 
+    ..  Running ("chown", "-R", "cis106:cis106", "/home/cis106") 
+19:25:13 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Set password for user cis106" ( 28 / 42 ) 
+    ..  Running "usermod" "-p" <password> "cis106" 
+19:25:13 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Set password for user root" ( 29 / 42 ) 
+    ..  Running "usermod" "-p" <password> "root" 
+19:25:13 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Set hostname cis106-standardpci440fxpiix1996" ( 30 / 42 ) 
+19:25:13 [6]: virtual void Calamares::JobThread::run()
+    Starting job "networkcfg" ( 31 / 42 ) 
+19:25:13 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/networkcfg/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "networkcfg" = "Saving network configuration." 
+19:25:13 [6]: virtual void Calamares::JobThread::run()
+    Starting job "displaymanager" ( 32 / 42 ) 
+19:25:13 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/displaymanager/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from __doc__ "displaymanager" = "Configure display managers." 
+[PYTHON JOB]: "sddm selected but not installed" 
+[PYTHON JOB]: "lightdm selected but not installed" 
+[PYTHON JOB]: "lxdm selected but not installed" 
+[PYTHON JOB]: "Using rootMountPoint '/tmp/calamares-root-ybu216o9'" 
+[PYTHON JOB]: ".. selected DE gnome" 
+19:25:13 [2]: boost::python::api::object CalamaresPython::GlobalStoragePythonWrapper::value(const string&) const
+    WARNING: Unknown GS key autoLoginUser 
+[PYTHON JOB]: "Unsetting autologin." 
+19:25:13 [6]: virtual void Calamares::JobThread::run()
+    Starting job "hwclock" ( 33 / 42 ) 
+19:25:13 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/hwclock/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "hwclock" = "Setting hardware clock." 
+    ..  Running ("hwclock", "--systohc", "--utc") 
+[PYTHON JOB]: "Hwclock set using RTC method." 
+19:25:13 [6]: virtual void Calamares::JobThread::run()
+    Starting job "grubcfg" ( 34 / 42 ) 
+19:25:13 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/grubcfg/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "grubcfg" = "Configure GRUB." 
+    ..  Running ("sh", "-c", "which dracut") 
+    ..  Target cmd: ("sh", "-c", "which dracut") Exit code: 1 output:
+ which: no dracut in (/usr/sbin:/usr/bin:/sbin:/bin:/root/bin)
+    ..  Running ("sh", "-c", "which plymouth") 
+    ..  Target cmd: ("sh", "-c", "which plymouth") Exit code: 1 output:
+ which: no plymouth in (/usr/sbin:/usr/bin:/sbin:/bin:/root/bin)
+19:25:13 [6]: virtual void Calamares::JobThread::run()
+    Starting job "bootloader" ( 35 / 42 ) 
+19:25:13 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/bootloader/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "bootloader" = "Install bootloader." 
+[PYTHON JOB]: "Bootloader: grub (bios)" 
+    ..  Running ("grub-install", "--target=i386-pc", "--recheck", "--force", "/dev/sda") 
+19:25:14 [6]: QML Component (default slideshow) Next slide
+    ..  Finished. Exit code: 0 output:
+ Installing for i386-pc platform.
+Installation finished. No error reported.
+    ..  Running ("grub-mkconfig", "-o", "/boot/grub/grub.cfg") 
+    ..  Finished. Exit code: 0 output:
+ Generating grub configuration file ...
+Found theme: /boot/grub/themes/EndeavourOS/theme.txt
+Found linux image: /boot/vmlinuz-linux
+Found initrd image: /boot/intel-ucode.img /boot/amd-ucode.img /boot/initramfs-linux.img
+Found fallback initrd image(s) in /boot:  intel-ucode.img amd-ucode.img initramfs-linux-fallback.img
+Warning: os-prober will be executed to detect other bootable partitions.
+Its output will be used to detect bootable binaries on them and create new boot entries.
+done
+19:25:17 [6]: virtual void Calamares::JobThread::run()
+    Starting job "prepare post-installation cleanup tasks ..." ( 36 / 42 ) 
+    ..  Running ("/bin/sh", "-c", "rsync -vaRI /etc/calamares/scripts /tmp/calamares-root-ybu216o9") 
+    ..  Finished. Exit code: 0 output:
+ sending incremental file list
+/etc/
+/etc/calamares/
+/etc/calamares/scripts/
+/etc/calamares/scripts/90-mkinitcpio-install.hook
+/etc/calamares/scripts/chrooted_cleaner_script.sh
+/etc/calamares/scripts/cleaner_script.sh
+/etc/calamares/scripts/create-pacman-keyring
+/etc/calamares/scripts/eos-pacman-conf-fix
+/etc/calamares/scripts/mkinitcpio-install-calamares
+/etc/calamares/scripts/pacstrap_calamares
+/etc/calamares/scripts/update-mirrorlist
+
+sent 42,075 bytes  received 184 bytes  84,518.00 bytes/sec
+total size is 41,342  speedup is 0.98
+    ..  Running ("/bin/sh", "-c", "/etc/calamares/scripts/cleaner_script.sh") 
+    ..  Finished. Exit code: 0 output:
+ ==> info: copying user_commands.bash to target
+==> info: copying 30-touchpad.conf to target
+==> info: copying extra drivers to target
+==> info: copying /usr/lib/endeavouros-release to target
+sending incremental file list
+/usr/
+/usr/lib/
+/usr/lib/endeavouros-release
+
+sent 185 bytes  received 47 bytes  464.00 bytes/sec
+total size is 19  speedup is 0.08
+19:25:18 [6]: virtual void Calamares::JobThread::run()
+    Starting job "running post-installation cleanup tasks" ( 37 / 42 ) 
+    ..  Running ("/bin/sh", "-c", "/etc/calamares/scripts/chrooted_cleaner_script.sh") 
+    ..  Finished. Exit code: 0 output:
+ ==> info: Kvm VM detected.
+lspci: Unable to load libkmod resources: error -2
+==> info: Qemu VM detected.
+==> uninstalling open-vm-tools
+error: target not found: open-vm-tools
+==> uninstalling xf86-input-vmmouse
+error: target not found: xf86-input-vmmouse
+==> uninstalling virtualbox-guest-utils
+error: target not found: virtualbox-guest-utils
+==> uninstalling xf86-video-vmware
+error: target not found: xf86-video-vmware
+==> uninstalling power-profiles-daemon
+checking dependencies...
+:: gnome-control-center optionally requires power-profiles-daemon: Power profiles support
+
+Package (1)            Old Version  Net Change
+
+power-profiles-daemon  0.10.1-2      -0.08 MiB
+
+Total Removed Size:  0.08 MiB
+
+:: Do you want to remove these packages? [Y/n] 
+:: Processing package changes...
+removing power-profiles-daemon...
+:: Running post-transaction hooks...
+(1/3) Reloading system manager configuration...
+  Skipped: Running in chroot.
+(2/3) Arming ConditionNeedsUpdate...
+(3/3) Reloading system bus configuration...
+  Skipped: Running in chroot.
+==> installing if missing: qemu-guest-agent
+resolving dependencies...
+looking for conflicting packages...
+
+Package (2)             New Version  Net Change  Download Size
+
+extra/liburing          2.1-1          0.09 MiB       0.05 MiB
+extra/qemu-guest-agent  6.2.0-4        0.63 MiB       0.20 MiB
+
+Total Download Size:   0.25 MiB
+Total Installed Size:  0.71 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ qemu-guest-agent-6.2.0-4-x86_64 downloading...
+ liburing-2.1-1-x86_64 downloading...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+installing liburing...
+installing qemu-guest-agent...
+:: Running post-transaction hooks...
+(1/2) Reloading system manager configuration...
+  Skipped: Running in chroot.
+(2/2) Arming ConditionNeedsUpdate...
+sed: can't read /etc/lightdm/lightdm.conf: No such file or directory
+sed: can't read /etc/lightdm/lightdm.conf: No such file or directory
+sed: can't read /etc/lightdm/lightdm.conf: No such file or directory
+==> uninstalling amd-ucode
+checking dependencies...
+
+Package (1)  Old Version         Net Change
+
+amd-ucode    20220209.6342082-1   -0.05 MiB
+
+Total Removed Size:  0.05 MiB
+
+:: Do you want to remove these packages? [Y/n] 
+:: Processing package changes...
+removing amd-ucode...
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Update grub after installing or removing a kernel or microcode.
+Generating grub configuration file ...
+Found theme: /boot/grub/themes/EndeavourOS/theme.txt
+Found linux image: /boot/vmlinuz-linux
+Found initrd image: /boot/intel-ucode.img /boot/initramfs-linux.img
+Found fallback initrd image(s) in /boot:  intel-ucode.img initramfs-linux-fallback.img
+Warning: os-prober will be executed to detect other bootable partitions.
+Its output will be used to detect bootable binaries on them and create new boot entries.
+done
+==> uninstalling xf86-video-intel
+checking dependencies...
+
+Package (2)       Old Version                 Net Change
+
+libxvmc           1.0.12-3                     -0.09 MiB
+xf86-video-intel  1:2.99.917+916+g31486f40-2   -2.16 MiB
+
+Total Removed Size:  2.25 MiB
+
+:: Do you want to remove these packages? [Y/n] 
+:: Processing package changes...
+removing xf86-video-intel...
+removing libxvmc...
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+==> uninstalling xf86-video-amdgpu
+checking dependencies...
+
+Package (1)        Old Version  Net Change
+
+xf86-video-amdgpu  22.0.0-1      -0.17 MiB
+
+Total Removed Size:  0.17 MiB
+
+:: Do you want to remove these packages? [Y/n] 
+:: Processing package changes...
+removing xf86-video-amdgpu...
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+==> uninstalling xf86-video-ati
+checking dependencies...
+
+Package (1)     Old Version              Net Change
+
+xf86-video-ati  1:19.1.0.r9.g5eba006e-2   -0.50 MiB
+
+Total Removed Size:  0.50 MiB
+
+:: Do you want to remove these packages? [Y/n] 
+:: Processing package changes...
+removing xf86-video-ati...
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+==> uninstalling broadcom-wl-dkms
+checking dependencies...
+
+Package (2)       Old Version      Net Change
+
+dkms              3.0.3-1           -0.10 MiB
+broadcom-wl-dkms  6.30.223.271-28   -7.60 MiB
+
+Total Removed Size:  7.71 MiB
+
+:: Do you want to remove these packages? [Y/n] 
+:: Running pre-transaction hooks...
+(1/1) Remove DKMS modules
+==> dkms remove --no-depmod broadcom-wl/6.30.223.271 -k 5.16.11-arch1-2
+==> depmod 5.16.11-arch1-2
+:: Processing package changes...
+removing broadcom-wl-dkms...
+removing dkms...
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+==> info: removing file /etc/resolv.conf.pacnew
+==> info: running /usr/bin/eos-select-file-server
+==> info: running script user_commands.bash
+==> info: running eos-hooks-runner
+==> info: running eos-grub-fix-initrd-generation
+===> INFO: grub-tools / grub-fix-initrd-generation:
+===> INFO: /etc/grub.d/30_os-prober changed. See file /var/log/grub-fix-initrd-generation.log.
+===> INFO: /etc/grub.d/10_linux changed. See file /var/log/grub-fix-initrd-generation.log.
+===> INFO: /usr/lib/linux-boot-probes/mounted/40grub2 changed. See file /var/log/grub-fix-initrd-generation.log.
+Generating grub configuration file ...
+Found theme: /boot/grub/themes/EndeavourOS/theme.txt
+Found linux image: /boot/vmlinuz-linux
+Found initrd image: /boot/intel-ucode.img /boot/initramfs-linux.img
+Found fallback initrd image(s) in /boot:  intel-ucode.img initramfs-linux-fallback.img
+Warning: os-prober will be executed to detect other bootable partitions.
+Its output will be used to detect bootable binaries on them and create new boot entries.
+done
+SSL_INIT
+==> info: running script hotfix-end.bash
+==> hotfix-end.bash: info: hotfixes after ISO 2021.12.17.
+19:25:27 [6]: virtual void Calamares::JobThread::run()
+    Starting job "reset 90-mkinitcpio-install.hook" ( 38 / 42 ) 
+    ..  Running ("/bin/sh", "-c", "rm /etc/pacman.d/hooks/90-mkinitcpio-install.hook") 
+    ..  Running ("/bin/sh", "-c", "rm /usr/share/libalpm/scripts/mkinitcpio-install-calamares") 
+19:25:27 [6]: virtual void Calamares::JobThread::run()
+    Starting job "services-systemd" ( 39 / 42 ) 
+19:25:27 [6]: virtual Calamares::JobResult Calamares::PythonJob::exec()
+    Job file "/usr/lib/calamares/modules/services-systemd/main.py" 
+[PYTHON JOB]: Found gettext "en_US" in "/usr/share/locale/en_US" 
+    ..  Job description from pretty_name "services-systemd" = "Configure systemd services" 
+    ..  Running ("systemctl", "enable", "NetworkManager.service") 
+    ..  Finished. Exit code: 0 output:
+ Created symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service -> /usr/lib/systemd/system/NetworkManager.service.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service -> /usr/lib/systemd/system/NetworkManager-dispatcher.service.
+Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service -> /usr/lib/systemd/system/NetworkManager-wait-online.service.
+    ..  Running ("systemctl", "enable", "cups.service") 
+    ..  Target cmd: ("systemctl", "enable", "cups.service") Exit code: 1 output:
+ Failed to enable unit, unit cups.service does not exist.
+WARNING: [PYTHON JOB]: "Cannot enable systemd .service cups" 
+WARNING: [PYTHON JOB]: "systemctl enable call in chroot returned error code 1" 
+    ..  Running ("systemctl", "enable", "avahi-daemon.service") 
+    ..  Finished. Exit code: 0 output:
+ Created symlink /etc/systemd/system/dbus-org.freedesktop.Avahi.service -> /usr/lib/systemd/system/avahi-daemon.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/avahi-daemon.service -> /usr/lib/systemd/system/avahi-daemon.service.
+Created symlink /etc/systemd/system/sockets.target.wants/avahi-daemon.socket -> /usr/lib/systemd/system/avahi-daemon.socket.
+    ..  Running ("systemctl", "enable", "systemd-timesyncd.service") 
+    ..  Finished. Exit code: 0 output:
+ Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service -> /usr/lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service -> /usr/lib/systemd/system/systemd-timesyncd.service.
+    ..  Running ("systemctl", "enable", "power-profiles-daemon.service") 
+    ..  Target cmd: ("systemctl", "enable", "power-profiles-daemon.service") Exit code: 1 output:
+ Failed to enable unit, unit power-profiles-daemon.service does not exist.
+WARNING: [PYTHON JOB]: "Cannot enable systemd .service power-profiles-daemon" 
+WARNING: [PYTHON JOB]: "systemctl enable call in chroot returned error code 1" 
+    ..  Running ("systemctl", "enable", "gdm.service") 
+    ..  Finished. Exit code: 0 output:
+ Created symlink /etc/systemd/system/display-manager.service -> /usr/lib/systemd/system/gdm.service.
+    ..  Running ("systemctl", "enable", "lightdm.service") 
+    ..  Target cmd: ("systemctl", "enable", "lightdm.service") Exit code: 1 output:
+ Failed to enable unit, unit lightdm.service does not exist.
+WARNING: [PYTHON JOB]: "Cannot enable systemd .service lightdm" 
+WARNING: [PYTHON JOB]: "systemctl enable call in chroot returned error code 1" 
+    ..  Running ("systemctl", "enable", "sddm.service") 
+    ..  Target cmd: ("systemctl", "enable", "sddm.service") Exit code: 1 output:
+ Failed to enable unit, unit sddm.service does not exist.
+WARNING: [PYTHON JOB]: "Cannot enable systemd .service sddm" 
+WARNING: [PYTHON JOB]: "systemctl enable call in chroot returned error code 1" 
+    ..  Running ("systemctl", "enable", "vboxservice.service") 
+    ..  Target cmd: ("systemctl", "enable", "vboxservice.service") Exit code: 1 output:
+ Failed to enable unit, unit vboxservice.service does not exist.
+WARNING: [PYTHON JOB]: "Cannot enable systemd .service vboxservice" 
+WARNING: [PYTHON JOB]: "systemctl enable call in chroot returned error code 1" 
+    ..  Running ("systemctl", "enable", "vmtoolsd.service") 
+    ..  Target cmd: ("systemctl", "enable", "vmtoolsd.service") Exit code: 1 output:
+ Failed to enable unit, unit vmtoolsd.service does not exist.
+WARNING: [PYTHON JOB]: "Cannot enable systemd .service vmtoolsd" 
+WARNING: [PYTHON JOB]: "systemctl enable call in chroot returned error code 1" 
+    ..  Running ("systemctl", "enable", "vmware-vmblock-fuse.service") 
+    ..  Target cmd: ("systemctl", "enable", "vmware-vmblock-fuse.service") Exit code: 1 output:
+ Failed to enable unit, unit vmware-vmblock-fuse.service does not exist.
+WARNING: [PYTHON JOB]: "Cannot enable systemd .service vmware-vmblock-fuse" 
+WARNING: [PYTHON JOB]: "systemctl enable call in chroot returned error code 1" 
+    ..  Running ("systemctl", "enable", "fstrim.timer") 
+    ..  Finished. Exit code: 0 output:
+ Created symlink /etc/systemd/system/timers.target.wants/fstrim.timer -> /usr/lib/systemd/system/fstrim.timer.
+    ..  Running ("systemctl", "disable", "pacman-init.service") 
+    ..  Finished. Exit code: 0 output:
+ Failed to disable unit, unit pacman-init.service does not exist.
+    ..  Running ("systemctl", "disable", "multi-user.target") 
+19:25:27 [6]: virtual void Calamares::JobThread::run()
+    Starting job "Saving files for later ..." ( 40 / 42 ) 
+    ..  Running ("chown", "root:wheel", "/tmp/calamares-root-ybu216o9/var/log/Calamares.log") 
+19:25:27 [6]: virtual void Calamares::JobThread::run()
+    Starting job "copy logs and files from host to target" ( 41 / 42 ) 
+    ..  Running ("/bin/sh", "-c", "cp /home/liveuser/endeavour-install.log /tmp/calamares-root-ybu216o9/var/log/endeavour-install.log") 

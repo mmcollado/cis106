@@ -1,0 +1,13 @@
+doc-warnings: true
+test-warnings: false
+autodetect: true
+ignore-paths:
+  - contrib
+python-targets:
+  - 2
+  - 3
+pylint:
+  disable:
+    - unused-argument
+pyflakes:
+  run: false

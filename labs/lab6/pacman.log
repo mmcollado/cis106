@@ -1,0 +1,2258 @@
+[2022-03-02T19:22:57-0500] [PACMAN] Running 'pacman -r /tmp/calamares-root-ybu216o9 -Sy --noconfirm base base-devel btrfs-progs cryptsetup device-mapper diffutils dosfstools e2fsprogs efibootmgr endeavouros-keyring endeavouros-mirrorlist exfatprogs f2fs-tools grub2-theme-endeavouros inetutils jfsutils less linux linux-firmware linux-headers logrotate lsb-release lvm2 man-db man-pages mdadm mkinitcpio-busybox mkinitcpio-nfs-utils mkinitcpio-openswap nano netctl ntfs-3g os-prober perl python reiserfsprogs s-nail sudo grub sysfsutils systemd-sysvcompat texinfo usbutils which xfsprogs xterm mkinitcpio'
+[2022-03-02T19:22:57-0500] [PACMAN] synchronizing package lists
+[2022-03-02T19:23:22-0500] [ALPM] transaction started
+[2022-03-02T19:23:22-0500] [ALPM] installed iana-etc (20220205-1)
+[2022-03-02T19:23:22-0500] [ALPM] warning: /tmp/calamares-root-ybu216o9/etc/resolv.conf installed as /tmp/calamares-root-ybu216o9/etc/resolv.conf.pacnew
+[2022-03-02T19:23:22-0500] [ALPM] warning: directory permissions differ on /tmp/calamares-root-ybu216o9/run/
+filesystem: 1777  package: 755
+[2022-03-02T19:23:22-0500] [ALPM] installed filesystem (2021.12.07-1)
+[2022-03-02T19:23:22-0500] [ALPM] installed linux-api-headers (5.16.8-1)
+[2022-03-02T19:23:23-0500] [ALPM] installed tzdata (2021e-1)
+[2022-03-02T19:23:23-0500] [ALPM] installed glibc (2.35-2)
+[2022-03-02T19:23:23-0500] [ALPM] installed gcc-libs (11.2.0-4)
+[2022-03-02T19:23:23-0500] [ALPM] installed ncurses (6.3-2)
+[2022-03-02T19:23:23-0500] [ALPM] installed readline (8.1.002-1)
+[2022-03-02T19:23:23-0500] [ALPM] installed bash (5.1.016-1)
+[2022-03-02T19:23:23-0500] [ALPM] installed attr (2.5.1-2)
+[2022-03-02T19:23:23-0500] [ALPM] installed acl (2.3.1-2)
+[2022-03-02T19:23:23-0500] [ALPM] installed gmp (6.2.1-1)
+[2022-03-02T19:23:23-0500] [ALPM] installed util-linux-libs (2.37.4-1)
+[2022-03-02T19:23:23-0500] [ALPM] installed e2fsprogs (1.46.5-3)
+[2022-03-02T19:23:24-0500] [ALPM] installed openssl (1.1.1.m-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libsasl (2.1.27-3)
+[2022-03-02T19:23:24-0500] [ALPM] installed libldap (2.6.1-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed keyutils (1.6.3-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed krb5 (1.19.2-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed libtirpc (1.3.2-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed pambase (20211210-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libcap-ng (0.8.2-7)
+[2022-03-02T19:23:24-0500] [ALPM] installed audit (3.0.7-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libxcrypt (4.4.28-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed pam (1.5.2-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libcap (2.63-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed coreutils (9.0-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed zlib (1:1.2.11-5)
+[2022-03-02T19:23:24-0500] [ALPM] installed xz (5.2.5-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed bzip2 (1.0.8-4)
+[2022-03-02T19:23:24-0500] [ALPM] installed libseccomp (2.5.3-3)
+[2022-03-02T19:23:24-0500] [ALPM] installed file (5.41-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed findutils (4.9.0-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed mpfr (4.1.0.p13-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed gawk (5.1.1-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed pcre (8.45-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed grep (3.7-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libgpg-error (1.44-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libgcrypt (1.9.4-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libtasn1 (4.18.0-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libffi (3.4.2-4)
+[2022-03-02T19:23:24-0500] [ALPM] installed libp11-kit (0.24.1-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed lz4 (1:1.9.3-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed zstd (1.5.2-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed systemd-libs (250.3-4)
+[2022-03-02T19:23:24-0500] [ALPM] installed procps-ng (3.3.17-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed sed (4.8-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed tar (1.34-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libunistring (0.9.10-3)
+[2022-03-02T19:23:24-0500] [ALPM] installed icu (70.1-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libxml2 (2.9.13-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed gettext (0.21-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed hwdata (0.356-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed kmod (29-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed pciutils (3.7.0-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed psmisc (23.4-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed shadow (4.11.1-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed util-linux (2.37.4-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed pcre2 (10.39-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed less (1:590-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed gzip (1.11-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed licenses (20220125-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed expat (2.4.6-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libarchive (3.6.0-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed p11-kit (0.24.1-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed ca-certificates-utils (20210603-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed ca-certificates-mozilla (3.75-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed ca-certificates (20210603-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed brotli (1.0.9-7)
+[2022-03-02T19:23:24-0500] [ALPM] installed libidn2 (2.3.2-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libnghttp2 (1.47.0-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libpsl (0.21.1-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libssh2 (1.10.0-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed curl (7.81.0-3)
+[2022-03-02T19:23:24-0500] [ALPM] installed npth (1.6-3)
+[2022-03-02T19:23:24-0500] [ALPM] installed libksba (1.6.0-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libassuan (2.5.5-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libsysprof-capture (3.42.1-3)
+[2022-03-02T19:23:24-0500] [ALPM] installed glib2 (2.70.4-2)
+[2022-03-02T19:23:24-0500] [ALPM] installed json-c (0.15-3)
+[2022-03-02T19:23:24-0500] [ALPM] installed tpm2-tss (3.2.0-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed libsecret (0.20.5-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed pinentry (1.2.0-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed nettle (3.7.3-1)
+[2022-03-02T19:23:24-0500] [ALPM] installed gnutls (3.7.3-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed sqlite (3.38.0-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed gnupg (2.2.32-2)
+[2022-03-02T19:23:25-0500] [ALPM] installed gpgme (1.17.0-2)
+[2022-03-02T19:23:25-0500] [ALPM] warning: /tmp/calamares-root-ybu216o9/etc/pacman.d/mirrorlist installed as /tmp/calamares-root-ybu216o9/etc/pacman.d/mirrorlist.pacnew
+[2022-03-02T19:23:25-0500] [ALPM] installed pacman-mirrorlist (20220227-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed archlinux-keyring (20220224-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed pacman (6.0.1-3)
+[2022-03-02T19:23:25-0500] [ALPM] installed device-mapper (2.03.15-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed popt (1.18-3)
+[2022-03-02T19:23:25-0500] [ALPM] installed argon2 (20190702-4)
+[2022-03-02T19:23:25-0500] [ALPM] installed cryptsetup (2.4.3-2)
+[2022-03-02T19:23:25-0500] [ALPM] installed dbus (1.14.0-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed libmnl (1.0.4-3)
+[2022-03-02T19:23:25-0500] [ALPM] installed libnftnl (1.2.1-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed libnl (3.5.0-3)
+[2022-03-02T19:23:25-0500] [ALPM] installed libpcap (1.10.1-2)
+[2022-03-02T19:23:25-0500] [ALPM] installed libnfnetlink (1.0.1-4)
+[2022-03-02T19:23:25-0500] [ALPM] installed libnetfilter_conntrack (1.0.8-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed iptables (1:1.8.7-1)
+[2022-03-02T19:23:25-0500] [ALPM] installed kbd (2.4.0-2)
+[2022-03-02T19:23:25-0500] [ALPM] installed libelf (0.186-5)
+[2022-03-02T19:23:25-0500] [ALPM] installed systemd (250.3-4)
+[2022-03-02T19:23:25-0500] [ALPM-SCRIPTLET] Initializing machine ID from random generator.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'sys' with GID 3.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'mem' with GID 8.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'ftp' with GID 11.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'mail' with GID 12.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'log' with GID 19.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'smmsp' with GID 25.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'proc' with GID 26.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'games' with GID 50.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'lock' with GID 54.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'network' with GID 90.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'floppy' with GID 94.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'scanner' with GID 96.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'power' with GID 98.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'nobody' with GID 65534.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'adm' with GID 999.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'wheel' with GID 998.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'utmp' with GID 997.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'audio' with GID 996.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'disk' with GID 995.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'input' with GID 994.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'kmem' with GID 993.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'kvm' with GID 992.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'lp' with GID 991.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'optical' with GID 990.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'render' with GID 989.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'sgx' with GID 988.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'storage' with GID 987.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'tty' with GID 5.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'uucp' with GID 986.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'video' with GID 985.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'users' with GID 984.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'systemd-journal' with GID 983.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'rfkill' with GID 982.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'bin' with GID 1.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'bin' (n/a) with UID 1 and GID 1.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'daemon' with GID 2.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'daemon' (n/a) with UID 2 and GID 2.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'mail' (n/a) with UID 8 and GID 12.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'ftp' (n/a) with UID 14 and GID 11.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'http' with GID 33.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'http' (n/a) with UID 33 and GID 33.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'nobody' (Nobody) with UID 65534 and GID 65534.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'dbus' with GID 81.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'dbus' (System Message Bus) with UID 81 and GID 81.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'systemd-coredump' with GID 981.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'systemd-coredump' (systemd Core Dumper) with UID 981 and GID 981.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'systemd-network' with GID 980.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'systemd-network' (systemd Network Management) with UID 980 and GID 980.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'systemd-oom' with GID 979.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'systemd-oom' (systemd Userspace OOM Killer) with UID 979 and GID 979.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'systemd-journal-remote' with GID 978.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'systemd-journal-remote' (systemd Journal Remote) with UID 978 and GID 978.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'systemd-resolve' with GID 977.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'systemd-resolve' (systemd Resolver) with UID 977 and GID 977.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'systemd-timesync' with GID 976.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'systemd-timesync' (systemd Time Synchronization) with UID 976 and GID 976.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'tss' with GID 975.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'tss' (tss user for tpm2) with UID 975 and GID 975.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating group 'uuidd' with GID 68.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Creating user 'uuidd' (n/a) with UID 68 and GID 68.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+[2022-03-02T19:23:26-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+[2022-03-02T19:23:26-0500] [ALPM] installed systemd-sysvcompat (250.3-4)
+[2022-03-02T19:23:26-0500] [ALPM] installed iputils (20211215-1)
+[2022-03-02T19:23:26-0500] [ALPM] installed iproute2 (5.16.0-1)
+[2022-03-02T19:23:26-0500] [ALPM] installed base (2-2)
+[2022-03-02T19:23:26-0500] [ALPM] installed m4 (1.4.19-1)
+[2022-03-02T19:23:26-0500] [ALPM] installed diffutils (3.8-1)
+[2022-03-02T19:23:26-0500] [ALPM] installed gdbm (1.23-1)
+[2022-03-02T19:23:26-0500] [ALPM] installed db (5.3.28-5)
+[2022-03-02T19:23:26-0500] [ALPM] installed perl (5.34.0-3)
+[2022-03-02T19:23:26-0500] [ALPM] installed autoconf (2.71-1)
+[2022-03-02T19:23:27-0500] [ALPM] installed automake (1.16.5-1)
+[2022-03-02T19:23:27-0500] [ALPM] installed binutils (2.38-3)
+[2022-03-02T19:23:27-0500] [ALPM] installed bison (3.8.2-3)
+[2022-03-02T19:23:27-0500] [ALPM] installed fakeroot (1.27-1)
+[2022-03-02T19:23:27-0500] [ALPM] installed flex (2.6.4-3)
+[2022-03-02T19:23:27-0500] [ALPM] installed libmpc (1.2.1-2)
+[2022-03-02T19:23:27-0500] [ALPM] installed libisl (0.24-3)
+[2022-03-02T19:23:27-0500] [ALPM] installed gcc (11.2.0-4)
+[2022-03-02T19:23:27-0500] [ALPM] installed groff (1.22.4-6)
+[2022-03-02T19:23:27-0500] [ALPM] installed libtool (2.4.6+59+gb55b1cc8-2)
+[2022-03-02T19:23:27-0500] [ALPM] installed texinfo (6.8-2)
+[2022-03-02T19:23:27-0500] [ALPM] installed gc (8.2.0-2)
+[2022-03-02T19:23:28-0500] [ALPM] installed guile (2.2.7-2)
+[2022-03-02T19:23:28-0500] [ALPM] installed make (4.3-3)
+[2022-03-02T19:23:28-0500] [ALPM] installed patch (2.7.6-8)
+[2022-03-02T19:23:28-0500] [ALPM] installed pkgconf (1.8.0-1)
+[2022-03-02T19:23:28-0500] [ALPM] installed sudo (1.9.9-2)
+[2022-03-02T19:23:28-0500] [ALPM] installed which (2.21-5)
+[2022-03-02T19:23:28-0500] [ALPM] installed lzo (2.10-3)
+[2022-03-02T19:23:28-0500] [ALPM] installed btrfs-progs (5.16.2-1)
+[2022-03-02T19:23:28-0500] [ALPM] installed dosfstools (4.2-2)
+[2022-03-02T19:23:28-0500] [ALPM] installed efivar (38-2)
+[2022-03-02T19:23:28-0500] [ALPM] installed efibootmgr (17-2)
+[2022-03-02T19:23:28-0500] [ALPM] installed endeavouros-keyring (1-5)
+[2022-03-02T19:23:28-0500] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2022-03-02T19:23:28-0500] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2022-05-06
+[2022-03-02T19:23:28-0500] [ALPM-SCRIPTLET]   -> Locally signed 1 keys.
+[2022-03-02T19:23:28-0500] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2022-03-02T19:23:28-0500] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2022-05-06
+[2022-03-02T19:23:28-0500] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2022-03-02T19:23:30-0500] [ALPM-SCRIPTLET] ==> Appending keys from endeavouros.gpg...
+[2022-03-02T19:23:30-0500] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2022-03-02T19:23:30-0500] [ALPM-SCRIPTLET]   -> Locally signed 1 keys.
+[2022-03-02T19:23:30-0500] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2022-03-02T19:23:30-0500] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2022-03-02T19:23:30-0500] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET]   -> Disabled 5 keys.
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   7  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   7  signed:  94  trust: 1-, 0q, 0n, 6m, 0f, 0u
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  88  signed:  32  trust: 88-, 0q, 0n, 0m, 0f, 0u
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2022-05-06
+[2022-03-02T19:23:31-0500] [ALPM] installed endeavouros-mirrorlist (4.4.2-1)
+[2022-03-02T19:23:31-0500] [ALPM] installed exfatprogs (1.1.3-1)
+[2022-03-02T19:23:31-0500] [ALPM] installed f2fs-tools (1.14.0-3)
+[2022-03-02T19:23:31-0500] [ALPM] installed grub (2:2.06-4)
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET] :: Generate your bootloader configuration with:
+[2022-03-02T19:23:31-0500] [ALPM-SCRIPTLET]      grub-mkconfig -o /boot/grub/grub.cfg
+[2022-03-02T19:23:31-0500] [ALPM] installed grub2-theme-endeavouros (20211129-1)
+[2022-03-02T19:23:31-0500] [ALPM] installed inetutils (2.2-1)
+[2022-03-02T19:23:31-0500] [ALPM] installed jfsutils (1.1.15-7)
+[2022-03-02T19:23:31-0500] [ALPM] installed mkinitcpio-busybox (1.35.0-1)
+[2022-03-02T19:23:31-0500] [ALPM] installed mkinitcpio (31-2)
+[2022-03-02T19:23:32-0500] [ALPM] installed linux (5.16.11.arch1-2)
+[2022-03-02T19:23:32-0500] [ALPM] installed linux-firmware-whence (20220209.6342082-1)
+[2022-03-02T19:23:32-0500] [ALPM] installed linux-firmware (20220209.6342082-1)
+[2022-03-02T19:23:32-0500] [ALPM] installed libnsl (2.0.0-2)
+[2022-03-02T19:23:33-0500] [ALPM] installed python (3.10.2-1)
+[2022-03-02T19:23:33-0500] [ALPM] installed pahole (1.23-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed linux-headers (5.16.11.arch1-2)
+[2022-03-02T19:23:34-0500] [ALPM] installed logrotate (3.19.0-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed lsb-release (2.0.r48.3cf5103-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed libaio (0.3.112-2)
+[2022-03-02T19:23:34-0500] [ALPM] installed thin-provisioning-tools (0.9.0-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed lvm2 (2.03.15-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed libpipeline (1.5.5-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed man-db (2.10.1-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed man-pages (5.13-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed mdadm (4.2-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed mkinitcpio-nfs-utils (0.3-7)
+[2022-03-02T19:23:34-0500] [ALPM] installed mkinitcpio-openswap (0.1.0-3)
+[2022-03-02T19:23:34-0500] [ALPM-SCRIPTLET] 
+[2022-03-02T19:23:34-0500] [ALPM-SCRIPTLET] Alter /etc/openswap.conf file for your swap device name, keyfiles, etc...
+[2022-03-02T19:23:34-0500] [ALPM-SCRIPTLET] 
+[2022-03-02T19:23:34-0500] [ALPM-SCRIPTLET] For more information see: https://wiki.archlinux.org/index.php/Dm-crypt/Swap_encryption#mkinitcpio_hook
+[2022-03-02T19:23:34-0500] [ALPM-SCRIPTLET] 
+[2022-03-02T19:23:34-0500] [ALPM-SCRIPTLET] Don't forget to add the openswap hook after encrypt and before resume in your /etc/mkinitcpio.conf and run mkinitcpio -p linux...
+[2022-03-02T19:23:34-0500] [ALPM-SCRIPTLET] 
+[2022-03-02T19:23:34-0500] [ALPM] installed nano (6.2-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed openresolv (3.12.0-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed netctl (1.27-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed fuse-common (3.10.5-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed fuse2 (2.9.9-4)
+[2022-03-02T19:23:34-0500] [ALPM] installed ntfs-3g (2021.8.22-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed os-prober (1.79-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed reiserfsprogs (3.6.27-3)
+[2022-03-02T19:23:34-0500] [ALPM] installed s-nail (14.9.23-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed sysfsutils (2.1.1-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed libusb (1.0.25-2)
+[2022-03-02T19:23:34-0500] [ALPM] installed usbutils (014-2)
+[2022-03-02T19:23:34-0500] [ALPM] installed libinih (53-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed liburcu (0.13.1-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed xfsprogs (5.14.2-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed libpng (1.6.37-3)
+[2022-03-02T19:23:34-0500] [ALPM] installed graphite (1:1.3.14-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed harfbuzz (4.0.0-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed freetype2 (2.11.1-1)
+[2022-03-02T19:23:34-0500] [ALPM] installed fontconfig (2:2.13.96-1)
+[2022-03-02T19:23:34-0500] [ALPM-SCRIPTLET] Creating fontconfig configuration...
+[2022-03-02T19:23:35-0500] [ALPM-SCRIPTLET] Rebuilding fontconfig cache...
+[2022-03-02T19:23:35-0500] [ALPM] installed xcb-proto (1.14.1-5)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxdmcp (1.1.3-3)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxau (1.0.9-3)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxcb (1.14-1)
+[2022-03-02T19:23:35-0500] [ALPM] installed xorgproto (2021.5-1)
+[2022-03-02T19:23:35-0500] [ALPM] installed libx11 (1.7.3.1-1)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxrender (0.9.10-4)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxft (2.3.4-1)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxext (1.3.4-3)
+[2022-03-02T19:23:35-0500] [ALPM] installed libice (1.0.10-3)
+[2022-03-02T19:23:35-0500] [ALPM] installed libsm (1.2.3-2)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxt (1.2.1-1)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxmu (1.1.3-2)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxpm (3.5.13-2)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxaw (1.0.14-1)
+[2022-03-02T19:23:35-0500] [ALPM] installed xorg-fonts-encodings (1.0.5-2)
+[2022-03-02T19:23:35-0500] [ALPM] installed libfontenc (1.1.4-3)
+[2022-03-02T19:23:35-0500] [ALPM] installed luit (20210218-1)
+[2022-03-02T19:23:35-0500] [ALPM] installed xbitmaps (1.1.2-2)
+[2022-03-02T19:23:35-0500] [ALPM] installed libutempter (1.2.1-1)
+[2022-03-02T19:23:35-0500] [ALPM] installed libxkbfile (1.1.0-2)
+[2022-03-02T19:23:35-0500] [ALPM] installed xterm (371-1)
+[2022-03-02T19:23:37-0500] [ALPM] transaction completed
+[2022-03-02T19:23:38-0500] [ALPM] running '20-systemd-sysusers.hook'...
+[2022-03-02T19:23:38-0500] [ALPM] running '30-systemd-catalog.hook'...
+[2022-03-02T19:23:38-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-02T19:23:38-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:23:38-0500] [ALPM] running '30-systemd-hwdb.hook'...
+[2022-03-02T19:23:38-0500] [ALPM] running '30-systemd-sysctl.hook'...
+[2022-03-02T19:23:38-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:23:38-0500] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-03-02T19:23:38-0500] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-02T19:23:38-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:23:38-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:23:38-0500] [ALPM] running '40-fontconfig-config.hook'...
+[2022-03-02T19:23:38-0500] [ALPM] running '40-update-ca-trust.hook'...
+[2022-03-02T19:23:39-0500] [ALPM] running '60-depmod.hook'...
+[2022-03-02T19:23:40-0500] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-03-02T19:23:40-0500] [ALPM] running 'dbus-reload.hook'...
+[2022-03-02T19:23:40-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:23:40-0500] [ALPM] running 'detect-old-perl-modules.hook'...
+[2022-03-02T19:23:40-0500] [ALPM-SCRIPTLET] perl: warning: Setting locale failed.
+[2022-03-02T19:23:40-0500] [ALPM-SCRIPTLET] perl: warning: Please check that your locale settings:
+[2022-03-02T19:23:40-0500] [ALPM-SCRIPTLET] 	LANGUAGE = (unset),
+[2022-03-02T19:23:40-0500] [ALPM-SCRIPTLET] 	LC_ALL = (unset),
+[2022-03-02T19:23:40-0500] [ALPM-SCRIPTLET] 	LANG = "en_US.UTF-8"
+[2022-03-02T19:23:40-0500] [ALPM-SCRIPTLET]     are supported and installed on your system.
+[2022-03-02T19:23:40-0500] [ALPM-SCRIPTLET] perl: warning: Falling back to the standard locale ("C").
+[2022-03-02T19:23:40-0500] [ALPM] running 'fontconfig.hook'...
+[2022-03-02T19:23:40-0500] [ALPM] running 'texinfo-install.hook'...
+[2022-03-02T19:23:43-0500] [PACMAN] Running 'pacman -Sy --noconfirm --needed --disable-download-timeout libwnck3 mesa-utils xf86-input-libinput xorg-xdpyinfo xorg-server xorg-xinit xorg-xinput xorg-xkill xorg-xrandr xf86-video-amdgpu xf86-video-ati xf86-video-intel b43-fwcutter broadcom-wl-dkms crda dhclient dialog dnsmasq dnsutils ethtool gnu-netcat ipw2100-fw ipw2200-fw iwd linux-atm modemmanager nbd ndisc6 networkmanager networkmanager-openvpn nmap nss-mdns openconnect openvpn ppp pptpclient rp-pppoe sshfs usb_modeswitch vpnc whois wireless-regdb wireless_tools wpa_supplicant xl2tpd downgrade pacman-contrib pkgfile rebuild-detector reflector yay accountsservice bash-completion ffmpegthumbnailer gst-libav gst-plugin-pipewire gst-plugins-bad gst-plugins-ugly libdvdcss libgsf libopenraw mlocate poppler-glib xdg-user-dirs xdg-utils efitools haveged nfs-utils nilfs-utils ntp smartmontools unrar unzip xz adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts cantarell-fonts freetype2 noto-fonts opendesktop-fonts ttf-bitstream-vera ttf-dejavu ttf-liberation ttf-opensans alsa-firmware alsa-plugins alsa-utils pavucontrol pipewire-pulse pipewire-media-session pipewire-alsa pipewire-jack amd-ucode dmidecode dmraid hdparm hwdetect intel-ucode lsscsi mtools sg3_utils sof-firmware power-profiles-daemon upower endeavouros-theming eos-apps-info eos-hooks eos-log-tool eos-rankmirrors eos-update-notifier grub-tools reflector-simple welcome yad-eos duf findutils fsarchiver git glances hwinfo inxi meld nano-syntax-highlighting neofetch pcurses pv python-defusedxml python-packaging rsync tldr sed wget adwaita-icon-theme arc-gtk-theme-eos arc-x-icons-theme eog evince file-roller gdm gedit gnome-calculator gnome-control-center gnome-disk-utility gnome-keyring gnome-nettool gnome-power-manager gnome-screenshot gnome-shell gnome-terminal gnome-themes-extra gnome-tweaks gnome-usage gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb nautilus nautilus-sendto sushi totem xdg-user-dirs-gtk espeak-ng mousetweaks orca'
+[2022-03-02T19:23:43-0500] [PACMAN] synchronizing package lists
+[2022-03-02T19:24:22-0500] [ALPM] transaction started
+[2022-03-02T19:24:22-0500] [ALPM] installed atk (2.36.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed pixman (0.40.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed cairo (1.17.4-5)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxfixes (6.0.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxcursor (1.2.0-2)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxinerama (1.1.4-3)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxrandr (1.5.2-3)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxi (1.8-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libepoxy (1.5.9-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libjpeg-turbo (2.1.3-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libtiff (4.3.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed shared-mime-info (2.0+115+gd74a913-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed gdk-pixbuf2 (2.42.6-2)
+[2022-03-02T19:24:23-0500] [ALPM] installed dconf (0.40.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxcomposite (0.4.5-3)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxdamage (1.1.5-3)
+[2022-03-02T19:24:23-0500] [ALPM] installed libdatrie (0.2.13-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libthai (0.1.29-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed fribidi (1.0.11-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed pango (1:1.50.4-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxtst (1.2.3-4)
+[2022-03-02T19:24:23-0500] [ALPM] installed at-spi2-core (2.42.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed at-spi2-atk (2.38.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed wayland (1.20.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed xkeyboard-config (2.35.1-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxkbcommon (1.4.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed hicolor-icon-theme (0.17-2)
+[2022-03-02T19:24:23-0500] [ALPM] installed librsvg (2:2.52.6-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed gtk-update-icon-cache (1:4.6.1-2)
+[2022-03-02T19:24:23-0500] [ALPM] installed adwaita-icon-theme (41.0-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed json-glib (1.6.6-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed desktop-file-utils (0.26-2)
+[2022-03-02T19:24:23-0500] [ALPM] installed libpciaccess (0.16-2)
+[2022-03-02T19:24:23-0500] [ALPM] installed libdrm (2.4.110-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxxf86vm (1.1.4-4)
+[2022-03-02T19:24:23-0500] [ALPM] installed libxshmfence (1.3-2)
+[2022-03-02T19:24:23-0500] [ALPM] installed libomxil-bellagio (0.9.3-3)
+[2022-03-02T19:24:23-0500] [ALPM] installed libunwind (1.6.2-1)
+[2022-03-02T19:24:23-0500] [ALPM] installed libedit (20210910_3.1-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed llvm-libs (13.0.1-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed lm_sensors (1:3.6.0.r41.g31d1f125-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed libglvnd (1.4.0-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed vulkan-icd-loader (1.2.203-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed mesa (21.3.7-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed cantarell-fonts (1:0.303.1-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed lcms2 (2.13.1-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed libcolord (1.4.6-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed libproxy (0.4.17-6)
+[2022-03-02T19:24:24-0500] [ALPM] installed adobe-source-code-pro-fonts (2.038ro+1.058it+1.018var-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed gsettings-desktop-schemas (41.0-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed glib-networking (1:2.70.1-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed libsoup (2.74.2-2)
+[2022-03-02T19:24:24-0500] [ALPM] installed rest (0.8.1+r4+ge5ee6ef-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed libdaemon (0.14-5)
+[2022-03-02T19:24:24-0500] [ALPM] installed avahi (0.8+22+gfd482a7-3)
+[2022-03-02T19:24:24-0500] [ALPM] installed libcups (1:2.4.1-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed iso-codes (4.9.0-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed libcloudproviders (0.3.1-2)
+[2022-03-02T19:24:24-0500] [ALPM] installed libstemmer (2.2.0-1)
+[2022-03-02T19:24:24-0500] [ALPM] installed libsoup3 (3.0.4-2)
+[2022-03-02T19:24:24-0500] [ALPM] installed tracker3 (3.2.1-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed gtk3 (1:3.24.31-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed xcb-util (0.4.0-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed startup-notification (0.12-7)
+[2022-03-02T19:24:25-0500] [ALPM] installed libxres (1.2.1-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libwnck3 (40.1-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed mesa-utils (8.4.0-7)
+[2022-03-02T19:24:25-0500] [ALPM] installed mtdev (1.1.6-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libevdev (1.12.0-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libgudev (237-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libwacom (2.1.0-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libinput (1.20.0-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed xf86-input-libinput (1.2.1-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xdpyinfo (1.3.2-4)
+[2022-03-02T19:24:25-0500] [ALPM] installed libxfont2 (2.0.5-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xkbcomp (1.4.5-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-setxkbmap (1.3.2-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-server-common (21.1.3-6)
+[2022-03-02T19:24:25-0500] [ALPM] installed libxcvt (0.1.1-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-server (21.1.3-6)
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] >>> xorg-server has now the ability to run without root rights with
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]     the help of systemd-logind. xserver will fail to run if not launched
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]     from the same virtual terminal as was used to log in.
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]     Without root rights, log files will be in ~/.local/share/xorg/ directory.
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] 
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]     Old behavior can be restored through Xorg.wrap config file.
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]     See Xorg.wrap man page (man xorg.wrap).
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xauth (1.1.1-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xrdb (1.2.1-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xmodmap (1.0.10-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xinit (1.4.1-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xrandr (1.5.1-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xinput (1.6.3-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed xorg-xkill (1.0.5-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed xf86-video-amdgpu (22.0.0-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed xf86-video-ati (1:19.1.0.r9.g5eba006e-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed libxvmc (1.0.12-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed xf86-video-intel (1:2.99.917+916+g31486f40-2)
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] >>> This driver now uses DRI3 as the default Direct Rendering
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]     Infrastructure. You can try falling back to DRI2 if you run
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]     into trouble. To do so, save a file with the following 
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]     content as /etc/X11/xorg.conf.d/20-intel.conf :
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]       Section "Device"
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]         Identifier  "Intel Graphics"
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]         Driver      "intel"
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]         Option      "DRI" "2"             # DRI3 is now default 
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]         #Option      "AccelMethod"  "sna" # default
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]         #Option      "AccelMethod"  "uxa" # fallback
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]       EndSection
+[2022-03-02T19:24:25-0500] [ALPM] installed b43-fwcutter (019-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed dkms (3.0.3-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed broadcom-wl-dkms (6.30.223.271-28)
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] 
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] Unload and load kernel modules (wl is provided by broadcom-wl-dkms):
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] 
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]   rmmod b43 b43legacy bcm43xx bcma brcm80211 brcmfmac brcmsmac ssb tg3 wl
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET]   modprobe wl
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] 
+[2022-03-02T19:24:25-0500] [ALPM] installed wireless-regdb (2021.08.28-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed iw (5.16-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed crda (4.14-4)
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] Uncomment the right regulatory domain in /etc/conf.d/wireless-regdom.
+[2022-03-02T19:24:25-0500] [ALPM-SCRIPTLET] It will automatically be set on boot.
+[2022-03-02T19:24:25-0500] [ALPM] installed run-parts (5.5-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed dhclient (4.4.2.P1-4)
+[2022-03-02T19:24:25-0500] [ALPM] installed dialog (1:1.3_20220117-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed dnsmasq (2.86-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed dnssec-anchors (20190629-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed libmaxminddb (1.6.0-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed libuv (1.43.0-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed lmdb (0.9.29-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed python-ply (3.11-10)
+[2022-03-02T19:24:25-0500] [ALPM] installed jemalloc (1:5.2.1-6)
+[2022-03-02T19:24:25-0500] [ALPM] installed bind (9.18.0-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed ethtool (1:5.16-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed gnu-netcat (0.7.1-8)
+[2022-03-02T19:24:25-0500] [ALPM] installed ipw2100-fw (1.3-10)
+[2022-03-02T19:24:25-0500] [ALPM] installed ipw2200-fw (3.1-8)
+[2022-03-02T19:24:25-0500] [ALPM] installed ell (0.49-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed iwd (1.25-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed linux-atm (2.5.2-7)
+[2022-03-02T19:24:25-0500] [ALPM] installed js78 (78.15.0-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed polkit (0.120-4)
+[2022-03-02T19:24:25-0500] [ALPM] installed ppp (2.4.9-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libmbim (1.26.2-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libqrtr-glib (1.2.2-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libqmi (1.30.4-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed mobile-broadband-provider-info (20210805-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libmm-glib (1.18.6-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed modemmanager (1.18.6-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed nbd (3.23-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed ndisc6 (1.0.4-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed nspr (4.33-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed nss (3.75-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed jansson (2.14-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libnm (1.36.0-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed wpa_supplicant (2:2.10-3)
+[2022-03-02T19:24:25-0500] [ALPM] installed gpm (1.20.7.r38.ge82d1a6-4)
+[2022-03-02T19:24:25-0500] [ALPM] installed slang (2.3.2-2)
+[2022-03-02T19:24:25-0500] [ALPM] installed libnewt (0.52.21-8)
+[2022-03-02T19:24:25-0500] [ALPM] installed libndp (1.8-1)
+[2022-03-02T19:24:25-0500] [ALPM] installed libsodium (1.0.18-2)
+[2022-03-02T19:24:26-0500] [ALPM] installed libpgm (5.3.128-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed zeromq (4.3.4-2)
+[2022-03-02T19:24:26-0500] [ALPM] installed libteam (1.31-5)
+[2022-03-02T19:24:26-0500] [ALPM] installed bluez-libs (5.63-2)
+[2022-03-02T19:24:26-0500] [ALPM] installed networkmanager (1.36.0-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed pkcs11-helper (1.28.0-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed openvpn (2.5.5-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed networkmanager-openvpn (1.8.16-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed lua53 (5.3.6-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed nmap (7.92-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed nss-mdns (0.15.1-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed vpnc (1:0.5.3.r501.r196-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed pcsclite (1.9.5-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed stoken (0.92-4)
+[2022-03-02T19:24:26-0500] [ALPM] installed openconnect (1:8.20-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed pptpclient (1.10.0-2)
+[2022-03-02T19:24:26-0500] [ALPM] installed rp-pppoe (3.15-2)
+[2022-03-02T19:24:26-0500] [ALPM-SCRIPTLET] >>> The kernel-mode plugin has a new place.
+[2022-03-02T19:24:26-0500] [ALPM-SCRIPTLET] >>> It's now located under /usr/lib/rp-pppoe/rp-pppoe.so
+[2022-03-02T19:24:26-0500] [ALPM-SCRIPTLET] >>> Change LINUX_PLUGIN to the new path in your /etc/ppp/pppoe.conf
+[2022-03-02T19:24:26-0500] [ALPM] installed fuse3 (3.10.5-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed ldns (1.8.1-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed openssh (8.9p1-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed sshfs (3.7.2-2)
+[2022-03-02T19:24:26-0500] [ALPM] installed tcl (8.6.12-3)
+[2022-03-02T19:24:26-0500] [ALPM] installed usb_modeswitch (2.6.1-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed whois (5.5.12-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed wireless_tools (30.pre9-3)
+[2022-03-02T19:24:26-0500] [ALPM] installed xl2tpd (1.3.17-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed pacman-contrib (1.4.0-4)
+[2022-03-02T19:24:26-0500] [ALPM] installed fzf (0.29.0-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed downgrade (11.0.0-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed pkgfile (21-2)
+[2022-03-02T19:24:26-0500] [ALPM-SCRIPTLET] ==> Run 'pkgfile --update' to initialize the database
+[2022-03-02T19:24:26-0500] [ALPM] installed parallel (20220222-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed pacutils (0.11.1-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed rebuild-detector (4.4.1-2)
+[2022-03-02T19:24:26-0500] [ALPM] installed reflector (2021.11-3)
+[2022-03-02T19:24:26-0500] [ALPM] installed perl-error (0.17029-3)
+[2022-03-02T19:24:26-0500] [ALPM] installed perl-timedate (2.33-3)
+[2022-03-02T19:24:26-0500] [ALPM] installed perl-mailtools (2.21-5)
+[2022-03-02T19:24:26-0500] [ALPM] installed git (2.35.1-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed yay (11.1.1-1)
+[2022-03-02T19:24:26-0500] [ALPM] installed accountsservice (22.08.8-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed bash-completion (2.11-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed alsa-topology-conf (1.2.5.1-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed alsa-ucm-conf (1.2.6.3-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed alsa-lib (1.2.6.1-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed aom (3.3.0-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed gsm (1.0.19-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed alsa-card-profiles (1:0.3.47-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed opus (1.3.1-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed libogg (1.3.5-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed speexdsp (1.2.0-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed speex (1.2.0-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed flac (1.3.4-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed libvorbis (1.3.7-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed libsndfile (1.0.31-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed sbc (1.5-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed libldac (2.0.2.3-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed libfreeaptx (0.1.1-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed libfdk-aac (2.0.2-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed lv2 (1.18.2-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed serd (0.30.10-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed sord (0.16.8-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed sratom (0.6.8-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed lilv (0.24.12-4)
+[2022-03-02T19:24:27-0500] [ALPM] installed webrtc-audio-processing (0.3.1-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed pipewire (1:0.3.47-2)
+[2022-03-02T19:24:27-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/sockets.target.wants/pipewire.socket -> /usr/lib/systemd/user/pipewire.socket.
+[2022-03-02T19:24:27-0500] [ALPM] installed pipewire-media-session (1:0.4.1-1)
+[2022-03-02T19:24:27-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/pipewire-session-manager.service -> /usr/lib/systemd/user/pipewire-media-session.service.
+[2022-03-02T19:24:27-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/pipewire.service.wants/pipewire-media-session.service -> /usr/lib/systemd/user/pipewire-media-session.service.
+[2022-03-02T19:24:27-0500] [ALPM] installed pipewire-jack (1:0.3.47-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed lame (3.100-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed libass (0.15.2-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed libraw1394 (2.1.2-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed libavc1394 (0.5.4-4)
+[2022-03-02T19:24:27-0500] [ALPM] installed libbluray (1.3.0-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed dav1d (0.9.2-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed libiec61883 (1.2.0-6)
+[2022-03-02T19:24:27-0500] [ALPM] installed libmfx (21.3.5-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed libmodplug (0.8.9.0-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed libasyncns (0.8+3+g68cd5af-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed libpulse (15.0-4)
+[2022-03-02T19:24:27-0500] [ALPM] installed rav1e (0.4.1-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed libsoxr (0.1.3-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed libssh (0.9.6-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed libtheora (1.1.1-5)
+[2022-03-02T19:24:27-0500] [ALPM] installed libva (2.13.0-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed libvdpau (1.4-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed vid.stab (1.1-3)
+[2022-03-02T19:24:27-0500] [ALPM] installed libvpx (1.11.0-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed giflib (5.2.1-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed libwebp (1.2.2-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed l-smash (2.14.5-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed x264 (3:0.164.r3081.19856cc-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed x265 (3.5-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed libxv (1.0.11-4)
+[2022-03-02T19:24:27-0500] [ALPM] installed xvidcore (1.3.7-2)
+[2022-03-02T19:24:27-0500] [ALPM] installed zimg (3.0.3-1)
+[2022-03-02T19:24:27-0500] [ALPM] installed opencore-amr (0.1.5-5)
+[2022-03-02T19:24:27-0500] [ALPM] installed openjpeg2 (2.4.0-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed libibus (1.5.25-5)
+[2022-03-02T19:24:28-0500] [ALPM] installed hidapi (0.11.2-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed sdl2 (2.0.20-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed srt (1.4.4-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed svt-av1 (0.9.0-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed v4l-utils (1.22.1-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed vmaf (2.3.0-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed ffmpeg (2:5.0-4)
+[2022-03-02T19:24:28-0500] [ALPM] installed ffmpegthumbnailer (2.2.2-4)
+[2022-03-02T19:24:28-0500] [ALPM] installed gstreamer (1.20.0-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed orc (0.4.32-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed gst-plugins-base-libs (1.20.0-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed gst-libav (1.20.0-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed gst-plugin-pipewire (1:0.3.47-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed libxkbcommon-x11 (1.4.0-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed gst-plugins-bad-libs (1.20.0-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed libbs2b (3.1.0-7)
+[2022-03-02T19:24:28-0500] [ALPM] installed chromaprint (1.5.1-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed libdc1394 (2.2.6-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed libde265 (1.0.8-2)
+[2022-03-02T19:24:28-0500] [ALPM] installed libdca (0.0.7-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed faac (1.30-3)
+[2022-03-02T19:24:28-0500] [ALPM] installed faad2 (2.10.0-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed libinstpatch (1.1.6-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed portaudio (1:19.7.0-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed fluidsynth (2.2.5-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed libgme (0.6.3-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed libkate (0.4.1-8)
+[2022-03-02T19:24:28-0500] [ALPM] installed libxslt (1.1.35-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed raptor (2.0.15-18)
+[2022-03-02T19:24:28-0500] [ALPM] installed liblrdf (0.6.1-4)
+[2022-03-02T19:24:28-0500] [ALPM] installed libdv (1.0.0-9)
+[2022-03-02T19:24:28-0500] [ALPM] installed mjpegtools (2.2.1-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed libmpcdec (1:0.1+r475-3)
+[2022-03-02T19:24:28-0500] [ALPM] installed neon (0.32.2-1)
+[2022-03-02T19:24:28-0500] [ALPM] installed openal (1.21.1-3)
+[2022-03-02T19:24:29-0500] [ALPM] installed imath (3.1.4-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed openexr (3.1.4-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libdvdread (6.1.2-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libdvdnav (6.1.1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed rtmpdump (1:2.4.r99.f1b83c1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libltc (1.3.1-3)
+[2022-03-02T19:24:29-0500] [ALPM] installed soundtouch (2.3.1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed spandsp (0.0.6-3)
+[2022-03-02T19:24:29-0500] [ALPM] installed libsrtp (1:2.4.2-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed zvbi (0.2.35-4)
+[2022-03-02T19:24:29-0500] [ALPM] installed gssdp (1.4.0.1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed gupnp (1:1.4.3-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed gupnp-igd (1.2.0-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed libnice (0.1.18-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed wildmidi (0.4.4-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed liblqr (0.4.2-3)
+[2022-03-02T19:24:29-0500] [ALPM] installed libraqm (0.9.0-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed imagemagick (7.1.0.26-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed zbar (0.23.1-9)
+[2022-03-02T19:24:29-0500] [ALPM] installed mpg123 (1.29.3-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libopenmpt (0.6.1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed qrencode (4.1.1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libavtp (0.2.0-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libmicrodns (0.2.0-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed svt-hevc (1.5.1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed zxing-cpp (1.2.0-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed gst-plugins-bad (1.20.0-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed libmpeg2 (0.5.1-7)
+[2022-03-02T19:24:29-0500] [ALPM] installed a52dec (0.7.4-11)
+[2022-03-02T19:24:29-0500] [ALPM] installed libsidplay (1.36.59-10)
+[2022-03-02T19:24:29-0500] [ALPM] installed libcddb (1.3.2-6)
+[2022-03-02T19:24:29-0500] [ALPM] installed libcdio (2.1.0-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed gst-plugins-ugly (1.20.0-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed libdvdcss (1.4.3-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libgsf (1.14.48-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libopenraw (0.3.0-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed mlocate (0.26.git.20170220-7)
+[2022-03-02T19:24:29-0500] [ALPM] installed poppler (22.02.0-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed poppler-glib (22.02.0-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed xdg-user-dirs (0.17-3)
+[2022-03-02T19:24:29-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service -> /usr/lib/systemd/user/xdg-user-dirs-update.service.
+[2022-03-02T19:24:29-0500] [ALPM] installed xorg-xset (1.2.4-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed xorg-xprop (1.2.5-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed xdg-utils (1.1.3+19+g9816ebb-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed efitools (1.9.2-4)
+[2022-03-02T19:24:29-0500] [ALPM] installed haveged (1.9.17-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed rpcbind (1.2.6-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed nfsidmap (2.6.1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed ding-libs (0.6.1-4)
+[2022-03-02T19:24:29-0500] [ALPM] installed gssproxy (0.8.4-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed libevent (2.1.12-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed nfs-utils (2.6.1-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed nilfs-utils (2.2.8-2)
+[2022-03-02T19:24:29-0500] [ALPM] installed ntp (4.2.8.p15-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed smartmontools (7.3-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed unrar (1:6.1.5-1)
+[2022-03-02T19:24:29-0500] [ALPM] installed unzip (6.0-18)
+[2022-03-02T19:24:30-0500] [ALPM] installed adobe-source-han-sans-cn-fonts (2.004-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed adobe-source-han-sans-jp-fonts (2.004-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed adobe-source-han-sans-kr-fonts (2.004-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed noto-fonts (20201226-2)
+[2022-03-02T19:24:30-0500] [ALPM] installed opendesktop-fonts (1.4.2-6)
+[2022-03-02T19:24:30-0500] [ALPM] installed ttf-bitstream-vera (1.10-14)
+[2022-03-02T19:24:30-0500] [ALPM] installed ttf-dejavu (2.37+18+g9b5d1b2f-3)
+[2022-03-02T19:24:30-0500] [ALPM] installed ttf-liberation (2.1.5-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed ttf-opensans (1.101-2)
+[2022-03-02T19:24:30-0500] [ALPM] installed alsa-firmware (1.2.4-2)
+[2022-03-02T19:24:30-0500] [ALPM] installed alsa-plugins (1:1.2.6-3)
+[2022-03-02T19:24:30-0500] [ALPM] installed libsamplerate (0.2.2-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed alsa-utils (1.2.6-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed tdb (1.4.6-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed sound-theme-freedesktop (0.8-4)
+[2022-03-02T19:24:30-0500] [ALPM] installed libcanberra (0.30+2+gc0620e4-5)
+[2022-03-02T19:24:30-0500] [ALPM] installed libsigc++ (2.10.8-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed glibmm (2.66.2-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed cairomm (1.14.3-2)
+[2022-03-02T19:24:30-0500] [ALPM] installed pangomm (2.46.2-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed atkmm (2.28.2-2)
+[2022-03-02T19:24:30-0500] [ALPM] installed gtkmm3 (3.24.5-2)
+[2022-03-02T19:24:30-0500] [ALPM] installed pavucontrol (1:5.0-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed pipewire-pulse (1:0.3.47-2)
+[2022-03-02T19:24:30-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/sockets.target.wants/pipewire-pulse.socket -> /usr/lib/systemd/user/pipewire-pulse.socket.
+[2022-03-02T19:24:30-0500] [ALPM] installed pipewire-alsa (1:0.3.47-2)
+[2022-03-02T19:24:30-0500] [ALPM] installed amd-ucode (20220209.6342082-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed dmidecode (3.3-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed dmraid (1.0.0.rc16.3-13)
+[2022-03-02T19:24:30-0500] [ALPM] installed hdparm (9.63-2)
+[2022-03-02T19:24:30-0500] [ALPM] installed hwdetect (2022.01-5)
+[2022-03-02T19:24:30-0500] [ALPM] installed intel-ucode (20220207-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed lsscsi (0.32-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed mtools (1:4.0.37-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed sg3_utils (1.47-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed sof-firmware (2.0-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed libplist (2.2.0-5)
+[2022-03-02T19:24:30-0500] [ALPM] installed libusbmuxd (2.0.2-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed usbmuxd (1.1.1-1)
+[2022-03-02T19:24:30-0500] [ALPM] installed libimobiledevice (1.3.0-5)
+[2022-03-02T19:24:31-0500] [ALPM] installed upower (0.99.16-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed power-profiles-daemon (0.10.1-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed endeavouros-theming (7.0-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed harfbuzz-icu (4.0.0-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed libwpe (1.12.0-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed wpebackend-fdo (1.12.0-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed enchant (2.3.2-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed libnotify (0.7.9-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed hyphen (2.8.8-3)
+[2022-03-02T19:24:31-0500] [ALPM] installed woff2 (1.0.2-3)
+[2022-03-02T19:24:31-0500] [ALPM] installed bubblewrap (0.6.1-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed xdg-dbus-proxy (0.1.3-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed libmanette (0.2.6-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed webkit2gtk (2.34.6-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed gtksourceview3 (3.24.11+28+g73e57b57-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed gspell (1.8.4-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed yad-eos (10.1-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed eos-apps-info (1.2.3-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed eos-hooks (1.4.20-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed eos-translations (1.1.67-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed dbus-python (1.2.18-3)
+[2022-03-02T19:24:31-0500] [ALPM] installed eos-bash-shared (1.10.31-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed eos-log-tool (1.4.13-1.1)
+[2022-03-02T19:24:31-0500] [ALPM] installed eos-rankmirrors (2.2.5-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed eos-update-notifier (1.15-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed grub-tools (1.6.6-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed geoip-database (20220222-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed geoip (1.6.12-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed reflector-simple (2021.12.31-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed welcome (3.17.19-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed duf (0.8.1-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed fsarchiver (0.8.6-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-psutil (5.9.0-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-future (0.18.2-7)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-defusedxml (0.7.1-4)
+[2022-03-02T19:24:31-0500] [ALPM] installed glances (3.2.4-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed libx86emu (3.5-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-encode-locale (1.05-8)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-http-date (6.05-4)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-file-listing (6.14-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-html-tagset (3.20-11)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-clone (0.45-3)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-io-html (1.004-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-lwp-mediatypes (6.04-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-uri (5.10-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-http-message (6.36-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-html-parser (3.76-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-http-cookies (6.10-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-http-daemon (6.13-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-http-negotiate (6.01-9)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-net-http (6.22-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-try-tiny (0.31-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-www-robotrules (6.02-9)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-libwww (6.58-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-xml-parser (2.46-3)
+[2022-03-02T19:24:31-0500] [ALPM] installed perl-xml-writer (0.625-7)
+[2022-03-02T19:24:31-0500] [ALPM] installed hwinfo (21.80-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed inxi (3.3.13.1-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed gobject-introspection-runtime (1.70.0-5)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-gobject (3.42.0-3)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-cairo (1.20.1-3)
+[2022-03-02T19:24:31-0500] [ALPM] installed meld (3.20.4-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed nano-syntax-highlighting (2020.10.10-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed neofetch (7.1.0-2)
+[2022-03-02T19:24:31-0500] [ALPM] installed pcurses (5-5)
+[2022-03-02T19:24:31-0500] [ALPM] installed pv (1.6.20-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-pyparsing (3.0.1-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-six (1.16.0-5)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-packaging (20.9-7)
+[2022-03-02T19:24:31-0500] [ALPM] installed xxhash (0.8.1-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed rsync (3.2.3-4)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-shtab (1.5.3-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-colorama (0.4.4-6)
+[2022-03-02T19:24:31-0500] [ALPM] installed python-termcolor (1.1.0-12)
+[2022-03-02T19:24:31-0500] [ALPM] installed tldr (3.1.0-1)
+[2022-03-02T19:24:31-0500] [ALPM] installed wget (1.21.2-1)
+[2022-03-02T19:24:32-0500] [ALPM] installed arc-gtk-theme-eos (20220102-1)
+[2022-03-02T19:24:34-0500] [ALPM] installed paper-icon-theme (1.5.0.832.aa3e8af-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed arc-x-icons-theme (2.1-3)
+[2022-03-02T19:24:37-0500] [ALPM] installed gnome-desktop (1:41.3-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed libexif (0.6.24-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed exempi (2.6.1-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed libpeas (1.30.0-3)
+[2022-03-02T19:24:37-0500] [ALPM] installed eog (41.1-2)
+[2022-03-02T19:24:37-0500] [ALPM] installed libgxps (0.3.2-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed jbig2dec (0.19-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed libpaper (1.1.28-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed ijs (0.35-3)
+[2022-03-02T19:24:37-0500] [ALPM] installed libidn (1.38-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed ghostscript (9.55.0-4)
+[2022-03-02T19:24:37-0500] [ALPM] installed libspectre (0.2.10-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed gsfonts (20200910-2)
+[2022-03-02T19:24:37-0500] [ALPM] installed djvulibre (3.5.28-3)
+[2022-03-02T19:24:37-0500] [ALPM] installed t1lib (5.1.2-8)
+[2022-03-02T19:24:37-0500] [ALPM] installed libsynctex (2021.59745-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed libhandy (1.4.0-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed libcdio-paranoia (10.2+2.0.1-2)
+[2022-03-02T19:24:37-0500] [ALPM] installed libatasmart (0.19-5)
+[2022-03-02T19:24:37-0500] [ALPM] installed gptfdisk (1.0.8-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed libbytesize (2.6-3)
+[2022-03-02T19:24:37-0500] [ALPM] installed iniparser (4.1-4)
+[2022-03-02T19:24:37-0500] [ALPM] installed ndctl (72.1-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed parted (3.4-2)
+[2022-03-02T19:24:37-0500] [ALPM] installed volume_key (0.3.12-7)
+[2022-03-02T19:24:37-0500] [ALPM] installed libyaml (0.2.5-1)
+[2022-03-02T19:24:37-0500] [ALPM] installed libblockdev (2.26-3)
+[2022-03-02T19:24:38-0500] [ALPM] installed udisks2 (2.9.4-1)
+[2022-03-02T19:24:38-0500] [ALPM] installed gcr (3.41.0-1)
+[2022-03-02T19:24:38-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/sockets.target.wants/gcr-ssh-agent.socket -> /usr/lib/systemd/user/gcr-ssh-agent.socket.
+[2022-03-02T19:24:38-0500] [ALPM-SCRIPTLET] >>> gcr contains /etc/security/limits.d/10-gcr.conf which sets the memlock limit
+[2022-03-02T19:24:38-0500] [ALPM-SCRIPTLET]     in order to allow GCR to lock private keys in memory. If you have configured
+[2022-03-02T19:24:38-0500] [ALPM-SCRIPTLET]     this limit differently before, please review your configuration.
+[2022-03-02T19:24:38-0500] [ALPM] installed gvfs (1.48.1-3)
+[2022-03-02T19:24:38-0500] [ALPM] installed evince (41.3-1)
+[2022-03-02T19:24:38-0500] [ALPM] installed zip (3.0-9)
+[2022-03-02T19:24:38-0500] [ALPM] installed file-roller (3.40.0-1)
+[2022-03-02T19:24:38-0500] [ALPM] installed gjs (2:1.70.1-2)
+[2022-03-02T19:24:38-0500] [ALPM] installed libical (3.0.14-1)
+[2022-03-02T19:24:38-0500] [ALPM] installed bluez (5.63-2)
+[2022-03-02T19:24:38-0500] [ALPM] installed gnome-bluetooth (3.34.5-2)
+[2022-03-02T19:24:38-0500] [ALPM] installed gnome-session (41.3-1)
+[2022-03-02T19:24:38-0500] [ALPM] installed graphene (1.10.6-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed gtk4 (1:4.6.1-2)
+[2022-03-02T19:24:39-0500] [ALPM] installed geocode-glib (3.26.2+r9+g6047da3-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed libgweather (40.0+r87+g80e5a652-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed geoclue (2.6.0-2)
+[2022-03-02T19:24:39-0500] [ALPM] installed gnome-settings-daemon (41.0-2)
+[2022-03-02T19:24:39-0500] [ALPM] installed libgdm (41.3-2)
+[2022-03-02T19:24:39-0500] [ALPM] installed zenity (3.41.0-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed xorg-xwayland (22.1.0-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed mutter (41.4-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed libnma (1.8.34-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed nm-connection-editor (1.24.0-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed gnome-autoar (0.4.2-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed cracklib (2.9.7-2)
+[2022-03-02T19:24:39-0500] [ALPM] installed libpwquality (1.4.4-5)
+[2022-03-02T19:24:39-0500] [ALPM] installed gnome-disk-utility (41.0-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed gnome-shell (1:41.4-1)
+[2022-03-02T19:24:39-0500] [ALPM] installed xorg-xhost (1.0.8-2)
+[2022-03-02T19:24:39-0500] [ALPM] installed gdm (41.3-2)
+[2022-03-02T19:24:40-0500] [ALPM] installed gtksourceview4 (4.8.2-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed gedit (41.0-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed libgee (0.20.5-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed gnome-calculator (41.1-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed cups-pk-helper (0.2.6-4)
+[2022-03-02T19:24:40-0500] [ALPM] installed gnome-online-accounts (3.40.1-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed libgtop (2.40.0+2+g31db82ef-2)
+[2022-03-02T19:24:40-0500] [ALPM] installed shared-color-targets (0.1.7-3)
+[2022-03-02T19:24:40-0500] [ALPM] installed libgusb (0.3.10-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed colord (1.4.6-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed gnome-color-manager (3.36.0+r24+ge7eb7b53-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed talloc (2.3.3-3)
+[2022-03-02T19:24:40-0500] [ALPM] installed cifs-utils (6.14-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed tevent (1:0.11.0-3)
+[2022-03-02T19:24:40-0500] [ALPM] installed ldb (2:2.4.2-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed python-zipp (3.7.0-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed python-importlib-metadata (4.8.1-3)
+[2022-03-02T19:24:40-0500] [ALPM] installed python-markdown (3.3.6-3)
+[2022-03-02T19:24:40-0500] [ALPM] installed python-dnspython (1:2.2.0-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed libmd (1.0.4-1)
+[2022-03-02T19:24:40-0500] [ALPM] installed libbsd (0.11.5-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed smbclient (4.15.5-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed libxklavier (5.4-3)
+[2022-03-02T19:24:41-0500] [ALPM] installed libgnomekbd (3.26.1+2+g8d02ebd-2)
+[2022-03-02T19:24:41-0500] [ALPM] installed cogl (1.22.8-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed clutter (1.26.4-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed clutter-gtk (1.8.4-2)
+[2022-03-02T19:24:41-0500] [ALPM] installed clutter-gst (3.0.27-3)
+[2022-03-02T19:24:41-0500] [ALPM] installed libcheese (41.1-2)
+[2022-03-02T19:24:41-0500] [ALPM] installed bolt (0.9.2-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed gsound (1.0.3-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed colord-gtk-common (0.3.0-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed colord-gtk (0.3.0-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed gnome-control-center (41.4-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed gnome-keyring (1:40.0-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed gnome-nettool (3.8.1+205+g8550eef-3)
+[2022-03-02T19:24:41-0500] [ALPM] installed gnome-power-manager (3.32.0-2)
+[2022-03-02T19:24:41-0500] [ALPM] installed gnome-screenshot (41.0-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed vte-common (0.66.2-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed vte3 (0.66.2-1)
+[2022-03-02T19:24:41-0500] [ALPM] installed gnome-terminal (3.42.2-2)
+[2022-03-02T19:24:42-0500] [ALPM] installed gnome-themes-extra (3.28+r6+g45b1d457-1)
+[2022-03-02T19:24:42-0500] [ALPM] installed gnome-tweaks (40.0-2)
+[2022-03-02T19:24:42-0500] [ALPM] installed libdazzle (3.42.0.1-1)
+[2022-03-02T19:24:43-0500] [ALPM] installed gnome-usage (3.38.1-1)
+[2022-03-02T19:24:43-0500] [ALPM] installed gvfs-afc (1.48.1-3)
+[2022-03-02T19:24:43-0500] [ALPM] installed libyuv (r2266+eb6e7bb6-1)
+[2022-03-02T19:24:43-0500] [ALPM] installed libavif (0.9.3-1)
+[2022-03-02T19:24:43-0500] [ALPM] installed libheif (1.12.0-2)
+[2022-03-02T19:24:43-0500] [ALPM] installed gd (2.3.3-3)
+[2022-03-02T19:24:44-0500] [ALPM] installed libgphoto2 (2.5.28-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed gvfs-gphoto2 (1.48.1-3)
+[2022-03-02T19:24:44-0500] [ALPM] installed libmtp (1.1.19-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed gvfs-mtp (1.48.1-3)
+[2022-03-02T19:24:44-0500] [ALPM] installed libnfs (5.0.1-2)
+[2022-03-02T19:24:44-0500] [ALPM] installed gvfs-nfs (1.48.1-3)
+[2022-03-02T19:24:44-0500] [ALPM] installed gvfs-smb (1.48.1-3)
+[2022-03-02T19:24:44-0500] [ALPM] installed exiv2 (0.27.5-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed libgexiv2 (0.14.0-3)
+[2022-03-02T19:24:44-0500] [ALPM] installed libcue (2.2.1-2)
+[2022-03-02T19:24:44-0500] [ALPM] installed libgrss (0.7.0+16+g971c421-3)
+[2022-03-02T19:24:44-0500] [ALPM] installed libiptcdata (1.0.4-5)
+[2022-03-02T19:24:44-0500] [ALPM] installed osinfo-db (20211216-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed libosinfo (1.9.0-2)
+[2022-03-02T19:24:44-0500] [ALPM] installed totem-pl-parser (3.26.6-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed gupnp-dlna (0.12.0-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed tracker3-miners (3.2.1-2)
+[2022-03-02T19:24:44-0500] [ALPM] installed libportal (0.5-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed libportal-gtk3 (0.5-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed libnautilus-extension (41.2-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed nautilus (41.2-1)
+[2022-03-02T19:24:44-0500] [ALPM] installed nautilus-sendto (3.8.6+28+gc87aac4-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed webkit2gtk-4.1 (2.34.6-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed gst-plugin-gtk (1.20.0-2)
+[2022-03-02T19:24:45-0500] [ALPM] installed sushi (41.0-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed liboauth (1:1.0.3+r15+gac4cf3a-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed grilo (0.3.14-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed python-pyxdg (0.27-4)
+[2022-03-02T19:24:45-0500] [ALPM] installed cdparanoia (10.2-8)
+[2022-03-02T19:24:45-0500] [ALPM] installed libvisual (0.4.0-8)
+[2022-03-02T19:24:45-0500] [ALPM] installed gst-plugins-base (1.20.0-2)
+[2022-03-02T19:24:45-0500] [ALPM] installed wavpack (5.4.0-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed aalib (1.4rc5-14)
+[2022-03-02T19:24:45-0500] [ALPM] installed taglib (1.12-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed libshout (1:2.4.5-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed libid3tag (0.15.1b-11)
+[2022-03-02T19:24:45-0500] [ALPM] installed imlib2 (1.8.0-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed libcaca (0.99.beta20-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed twolame (0.4.0-2)
+[2022-03-02T19:24:45-0500] [ALPM] installed gst-plugins-good (1.20.0-2)
+[2022-03-02T19:24:45-0500] [ALPM] installed totem (3.38.2-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed xdg-user-dirs-gtk (0.10+9+g5b7efc6-3)
+[2022-03-02T19:24:45-0500] [ALPM] installed pcaudiolib (1.2-2)
+[2022-03-02T19:24:45-0500] [ALPM] installed espeak-ng (1.50-5)
+[2022-03-02T19:24:45-0500] [ALPM] installed mousetweaks (3.32.0-2)
+[2022-03-02T19:24:45-0500] [ALPM] installed python-atspi (2.38.2-1)
+[2022-03-02T19:24:45-0500] [ALPM] installed libspeechd (0.11.1-2)
+[2022-03-02T19:24:45-0500] [ALPM] installed dotconf (1.3-6)
+[2022-03-02T19:24:45-0500] [ALPM] installed libao (1.2.2-5)
+[2022-03-02T19:24:46-0500] [ALPM] installed speech-dispatcher (0.11.1-2)
+[2022-03-02T19:24:46-0500] [ALPM] installed liblouis (3.20.0-2)
+[2022-03-02T19:24:46-0500] [ALPM] installed brltty (6.4-9)
+[2022-03-02T19:24:46-0500] [ALPM-SCRIPTLET] brltty-genkey: key generated
+[2022-03-02T19:24:46-0500] [ALPM-SCRIPTLET] Please add your user to the brlapi group.
+[2022-03-02T19:24:46-0500] [ALPM] installed orca (41.2-1)
+[2022-03-02T19:24:47-0500] [ALPM] transaction completed
+[2022-03-02T19:24:47-0500] [ALPM] running '20-systemd-sysusers.hook'...
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'brlapi' with GID 974.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'gdm' with GID 120.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'locate' with GID 21.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'ntp' with GID 87.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'avahi' with GID 973.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'avahi' (Avahi mDNS/DNS-SD daemon) with UID 973 and GID 973.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'named' with GID 40.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'named' (BIND DNS Server) with UID 40 and GID 40.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'brltty' with GID 972.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'brltty' (Braille Device Daemon) with UID 972 and GID 972.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'colord' with GID 971.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'colord' (Color management daemon) with UID 971 and GID 971.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'dnsmasq' with GID 970.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'dnsmasq' (dnsmasq daemon) with UID 970 and GID 970.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'gdm' (Gnome Display Manager) with UID 120 and GID 120.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'geoclue' with GID 969.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'geoclue' (Geoinformation service) with UID 969 and GID 969.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'git' with GID 968.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'git' (git daemon user) with UID 968 and GID 968.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'nbd' with GID 967.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'nbd' (Network Block Device) with UID 967 and GID 967.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'nm-openvpn' with GID 966.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'nm-openvpn' (NetworkManager OpenVPN) with UID 966 and GID 966.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'ntp' (Network Time Protocol) with UID 87 and GID 87.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'openvpn' with GID 965.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'openvpn' (OpenVPN) with UID 965 and GID 965.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'polkitd' with GID 102.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'polkitd' (PolicyKit daemon) with UID 102 and GID 102.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'rpc' with GID 32.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'rpc' (Rpcbind Daemon) with UID 32 and GID 32.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating group 'usbmux' with GID 140.
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET] Creating user 'usbmux' (usbmux user) with UID 140 and GID 140.
+[2022-03-02T19:24:47-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-02T19:24:47-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:24:47-0500] [ALPM] running '30-systemd-hwdb.hook'...
+[2022-03-02T19:24:48-0500] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-03-02T19:24:48-0500] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-02T19:24:48-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:24:48-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:24:48-0500] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-02T19:24:48-0500] [ALPM] running '40-fontconfig-config.hook'...
+[2022-03-02T19:24:48-0500] [ALPM] running '70-dkms-install.hook'...
+[2022-03-02T19:24:48-0500] [ALPM-SCRIPTLET] ==> dkms install --no-depmod broadcom-wl/6.30.223.271 -k 5.16.11-arch1-2
+[2022-03-02T19:24:53-0500] [ALPM-SCRIPTLET] ==> depmod 5.16.11-arch1-2
+[2022-03-02T19:24:55-0500] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-03-02T19:24:55-0500] [ALPM] running 'dbus-reload.hook'...
+[2022-03-02T19:24:55-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:24:55-0500] [ALPM] running 'detect-old-perl-modules.hook'...
+[2022-03-02T19:24:55-0500] [ALPM] running 'eos-grub-update-after-kernel.hook'...
+[2022-03-02T19:24:55-0500] [ALPM-SCRIPTLET] Generating grub configuration file ...
+[2022-03-02T19:24:55-0500] [ALPM-SCRIPTLET] Found theme: /boot/grub/themes/EndeavourOS/theme.txt
+[2022-03-02T19:24:55-0500] [ALPM-SCRIPTLET] Found linux image: /boot/vmlinuz-linux
+[2022-03-02T19:24:55-0500] [ALPM-SCRIPTLET] Found initrd image: /boot/intel-ucode.img /boot/amd-ucode.img
+[2022-03-02T19:24:56-0500] [ALPM-SCRIPTLET] Warning: os-prober will be executed to detect other bootable partitions.
+[2022-03-02T19:24:56-0500] [ALPM-SCRIPTLET] Its output will be used to detect bootable binaries on them and create new boot entries.
+[2022-03-02T19:24:56-0500] [ALPM-SCRIPTLET] done
+[2022-03-02T19:24:56-0500] [ALPM] running 'eos-hooks.hook'...
+[2022-03-02T19:24:57-0500] [ALPM] running 'fontconfig.hook'...
+[2022-03-02T19:24:57-0500] [ALPM] running 'gdk-pixbuf-query-loaders.hook'...
+[2022-03-02T19:24:57-0500] [ALPM] running 'gio-querymodules.hook'...
+[2022-03-02T19:24:57-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-02T19:24:57-0500] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2022-03-02T19:24:57-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-02T19:24:58-0500] [ALPM] running 'gtk4-querymodules.hook'...
+[2022-03-02T19:24:58-0500] [ALPM] running 'gvfsd.hook'...
+[2022-03-02T19:24:58-0500] [ALPM] running 'texinfo-install.hook'...
+[2022-03-02T19:24:58-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-02T19:24:58-0500] [PACMAN] Running 'pacman -Sy --noconfirm --needed --disable-download-timeout firefox'
+[2022-03-02T19:24:58-0500] [PACMAN] synchronizing package lists
+[2022-03-02T19:25:02-0500] [ALPM] transaction started
+[2022-03-02T19:25:02-0500] [ALPM] installed mailcap (2.1.53-1)
+[2022-03-02T19:25:02-0500] [ALPM] installed dbus-glib (0.112-2)
+[2022-03-02T19:25:02-0500] [ALPM] installed ffmpeg4.4 (4.4.1-4)
+[2022-03-02T19:25:04-0500] [ALPM] installed firefox (97.0.1-1)
+[2022-03-02T19:25:04-0500] [ALPM] transaction completed
+[2022-03-02T19:25:04-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:25:04-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-02T19:25:04-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-02T19:25:18-0500] [PACMAN] Running 'pacman -Rns --noconfirm open-vm-tools'
+[2022-03-02T19:25:18-0500] [PACMAN] Running 'pacman -Rns --noconfirm xf86-input-vmmouse'
+[2022-03-02T19:25:18-0500] [PACMAN] Running 'pacman -Rns --noconfirm virtualbox-guest-utils'
+[2022-03-02T19:25:18-0500] [PACMAN] Running 'pacman -Rns --noconfirm xf86-video-vmware'
+[2022-03-02T19:25:18-0500] [PACMAN] Running 'pacman -Rns --noconfirm power-profiles-daemon'
+[2022-03-02T19:25:18-0500] [ALPM] transaction started
+[2022-03-02T19:25:18-0500] [ALPM] removed power-profiles-daemon (0.10.1-2)
+[2022-03-02T19:25:18-0500] [ALPM] transaction completed
+[2022-03-02T19:25:18-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-02T19:25:18-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:25:18-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:25:18-0500] [ALPM] running 'dbus-reload.hook'...
+[2022-03-02T19:25:18-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:25:19-0500] [PACMAN] Running 'pacman -S --needed --noconfirm qemu-guest-agent'
+[2022-03-02T19:25:19-0500] [ALPM] transaction started
+[2022-03-02T19:25:19-0500] [ALPM] installed liburing (2.1-1)
+[2022-03-02T19:25:19-0500] [ALPM] installed qemu-guest-agent (6.2.0-4)
+[2022-03-02T19:25:19-0500] [ALPM] transaction completed
+[2022-03-02T19:25:19-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-02T19:25:19-0500] [ALPM-SCRIPTLET]   Skipped: Running in chroot.
+[2022-03-02T19:25:19-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:25:19-0500] [PACMAN] Running 'pacman -Rsn --noconfirm amd-ucode'
+[2022-03-02T19:25:19-0500] [ALPM] transaction started
+[2022-03-02T19:25:19-0500] [ALPM] removed amd-ucode (20220209.6342082-1)
+[2022-03-02T19:25:19-0500] [ALPM] transaction completed
+[2022-03-02T19:25:19-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:25:19-0500] [ALPM] running 'eos-grub-update-after-kernel.hook'...
+[2022-03-02T19:25:19-0500] [ALPM-SCRIPTLET] Generating grub configuration file ...
+[2022-03-02T19:25:19-0500] [ALPM-SCRIPTLET] Found theme: /boot/grub/themes/EndeavourOS/theme.txt
+[2022-03-02T19:25:20-0500] [ALPM-SCRIPTLET] Found linux image: /boot/vmlinuz-linux
+[2022-03-02T19:25:20-0500] [ALPM-SCRIPTLET] Found initrd image: /boot/intel-ucode.img /boot/initramfs-linux.img
+[2022-03-02T19:25:20-0500] [ALPM-SCRIPTLET] Found fallback initrd image(s) in /boot:  intel-ucode.img initramfs-linux-fallback.img
+[2022-03-02T19:25:20-0500] [ALPM-SCRIPTLET] Warning: os-prober will be executed to detect other bootable partitions.
+[2022-03-02T19:25:20-0500] [ALPM-SCRIPTLET] Its output will be used to detect bootable binaries on them and create new boot entries.
+[2022-03-02T19:25:20-0500] [ALPM-SCRIPTLET] done
+[2022-03-02T19:25:20-0500] [PACMAN] Running 'pacman -Rsn --noconfirm xf86-video-intel'
+[2022-03-02T19:25:20-0500] [ALPM] transaction started
+[2022-03-02T19:25:20-0500] [ALPM] removed xf86-video-intel (1:2.99.917+916+g31486f40-2)
+[2022-03-02T19:25:20-0500] [ALPM] removed libxvmc (1.0.12-3)
+[2022-03-02T19:25:20-0500] [ALPM] transaction completed
+[2022-03-02T19:25:20-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:25:20-0500] [PACMAN] Running 'pacman -Rsn --noconfirm xf86-video-amdgpu'
+[2022-03-02T19:25:20-0500] [ALPM] transaction started
+[2022-03-02T19:25:20-0500] [ALPM] removed xf86-video-amdgpu (22.0.0-1)
+[2022-03-02T19:25:20-0500] [ALPM] transaction completed
+[2022-03-02T19:25:20-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:25:20-0500] [PACMAN] Running 'pacman -Rsn --noconfirm xf86-video-ati'
+[2022-03-02T19:25:20-0500] [ALPM] transaction started
+[2022-03-02T19:25:20-0500] [ALPM] removed xf86-video-ati (1:19.1.0.r9.g5eba006e-2)
+[2022-03-02T19:25:20-0500] [ALPM] transaction completed
+[2022-03-02T19:25:20-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:25:20-0500] [PACMAN] Running 'pacman -Rsn --noconfirm broadcom-wl-dkms'
+[2022-03-02T19:25:20-0500] [ALPM] running '71-dkms-remove.hook'...
+[2022-03-02T19:25:21-0500] [ALPM-SCRIPTLET] ==> dkms remove --no-depmod broadcom-wl/6.30.223.271 -k 5.16.11-arch1-2
+[2022-03-02T19:25:21-0500] [ALPM-SCRIPTLET] ==> depmod 5.16.11-arch1-2
+[2022-03-02T19:25:22-0500] [ALPM] transaction started
+[2022-03-02T19:25:22-0500] [ALPM] removed broadcom-wl-dkms (6.30.223.271-28)
+[2022-03-02T19:25:22-0500] [ALPM] removed dkms (3.0.3-1)
+[2022-03-02T19:25:22-0500] [ALPM] transaction completed
+[2022-03-02T19:25:22-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:28:12-0500] [PACMAN] Running '/usr/bin/pacman -S --noconfirm libreoffice-fresh'
+[2022-03-02T19:28:19-0500] [ALPM] transaction started
+[2022-03-02T19:28:19-0500] [ALPM] installed hunspell (1.7.0-3)
+[2022-03-02T19:28:19-0500] [ALPM] installed boost-libs (1.78.0-1)
+[2022-03-02T19:28:19-0500] [ALPM] installed librevenge (0.0.4-3)
+[2022-03-02T19:28:19-0500] [ALPM] installed libwpd (0.10.3-3)
+[2022-03-02T19:28:19-0500] [ALPM] installed libwps (0.4.12-1)
+[2022-03-02T19:28:19-0500] [ALPM] installed rasqal (1:0.9.33-5)
+[2022-03-02T19:28:19-0500] [ALPM] installed redland (1:1.0.17-8)
+[2022-03-02T19:28:19-0500] [ALPM] installed lpsolve (5.5.2.11-1)
+[2022-03-02T19:28:19-0500] [ALPM] installed libwpg (0.3.3-2)
+[2022-03-02T19:28:20-0500] [ALPM] installed libvisio (0.1.7-6)
+[2022-03-02T19:28:20-0500] [ALPM] installed liblangtag (0.6.3-2)
+[2022-03-02T19:28:20-0500] [ALPM] installed libetonyek (0.1.10-1)
+[2022-03-02T19:28:20-0500] [ALPM] installed libodfgen (0.1.8-1)
+[2022-03-02T19:28:20-0500] [ALPM] installed libcdr (0.1.7-3)
+[2022-03-02T19:28:20-0500] [ALPM] installed libmspub (0.1.4-11)
+[2022-03-02T19:28:20-0500] [ALPM] installed clucene (2.3.3.4-11)
+[2022-03-02T19:28:20-0500] [ALPM] installed libpagemaker (0.0.4-2)
+[2022-03-02T19:28:20-0500] [ALPM] installed libabw (0.1.3-2)
+[2022-03-02T19:28:20-0500] [ALPM] installed libmwaw (0.3.21-2)
+[2022-03-02T19:28:20-0500] [ALPM] installed libe-book (0.1.3-10)
+[2022-03-02T19:28:20-0500] [ALPM] installed libexttextcat (3.4.6-1)
+[2022-03-02T19:28:20-0500] [ALPM] installed libixion (0.17.0-1)
+[2022-03-02T19:28:20-0500] [ALPM] installed liborcus (0.17.2-1)
+[2022-03-02T19:28:20-0500] [ALPM] installed libtommath (1.2.0-3)
+[2022-03-02T19:28:20-0500] [ALPM] installed libzmf (0.0.2-11)
+[2022-03-02T19:28:20-0500] [ALPM] installed libatomic_ops (7.6.12-1)
+[2022-03-02T19:28:20-0500] [ALPM] installed xmlsec (1.2.33-1)
+[2022-03-02T19:28:20-0500] [ALPM] installed libnumbertext (1.0.8-1)
+[2022-03-02T19:28:21-0500] [ALPM] installed libfreehand (0.1.2-3)
+[2022-03-02T19:28:21-0500] [ALPM] installed libstaroffice (0.0.7-1)
+[2022-03-02T19:28:21-0500] [ALPM] installed libepubgen (0.1.1-2)
+[2022-03-02T19:28:21-0500] [ALPM] installed libqxp (0.0.2-7)
+[2022-03-02T19:28:21-0500] [ALPM] installed box2d (2.4.1-1)
+[2022-03-02T19:28:24-0500] [ALPM] installed libreoffice-fresh (7.3.0-6)
+[2022-03-02T19:28:24-0500] [ALPM] transaction completed
+[2022-03-02T19:28:25-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:28:25-0500] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-02T19:28:25-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-02T19:28:26-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-02T19:28:37-0500] [PACMAN] Running '/usr/bin/pacman -S --noconfirm chromium'
+[2022-03-02T19:28:41-0500] [ALPM] transaction started
+[2022-03-02T19:28:41-0500] [ALPM] installed libxss (1.2.3-3)
+[2022-03-02T19:28:41-0500] [ALPM] installed snappy (1.1.9-2)
+[2022-03-02T19:28:41-0500] [ALPM] installed minizip (1:1.2.11-5)
+[2022-03-02T19:28:41-0500] [ALPM] installed re2 (1:20220201-1)
+[2022-03-02T19:28:42-0500] [ALPM] installed chromium (99.0.4844.51-1)
+[2022-03-02T19:28:42-0500] [ALPM] transaction completed
+[2022-03-02T19:28:42-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:28:42-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-02T19:28:42-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-02T19:29:10-0500] [PACMAN] Running '/usr/bin/pacman -S --noconfirm akm'
+[2022-03-02T19:29:11-0500] [ALPM] transaction started
+[2022-03-02T19:29:11-0500] [ALPM] installed akm (2.9.3-1)
+[2022-03-02T19:29:11-0500] [ALPM] transaction completed
+[2022-03-02T19:29:11-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T19:29:11-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-02T22:23:13-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/lsof'
+[2022-03-02T22:23:15-0500] [ALPM] transaction started
+[2022-03-02T22:23:15-0500] [ALPM] installed lsof (4.94.0-1)
+[2022-03-02T22:23:15-0500] [ALPM] transaction completed
+[2022-03-02T22:23:15-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T22:23:15-0500] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- lsof'
+[2022-03-02T22:23:55-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/visual-studio-code-bin/visual-studio-code-bin-1.64.2-1-x86_64.pkg.tar.zst'
+[2022-03-02T22:23:55-0500] [ALPM] transaction started
+[2022-03-02T22:23:55-0500] [ALPM] installed visual-studio-code-bin (1.64.2-1)
+[2022-03-02T22:23:55-0500] [ALPM-SCRIPTLET] (B[m[1m[34m==>(B[m[1m[33m NOTE:(B[m[1m Custom flags should be put directly in: ~/.config/code-flags.conf(B[m
+[2022-03-02T22:23:56-0500] [ALPM] transaction completed
+[2022-03-02T22:23:56-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T22:23:56-0500] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-02T22:23:56-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-02T22:30:16-0500] [PACMAN] Running 'pacman -Syyu'
+[2022-03-02T22:30:16-0500] [PACMAN] synchronizing package lists
+[2022-03-02T22:30:17-0500] [PACMAN] starting full system upgrade
+[2022-03-02T22:30:19-0500] [ALPM] transaction started
+[2022-03-02T22:30:19-0500] [ALPM] upgraded usb_modeswitch (2.6.1-1 -> 2.6.1-2)
+[2022-03-02T22:30:19-0500] [ALPM] transaction completed
+[2022-03-02T22:30:19-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-02T22:30:20-0500] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-02T22:30:20-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-02T22:30:20-0500] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-02T22:30:26-0500] [PACMAN] Running 'pacman -S -y -y -u --config /etc/pacman.conf --'
+[2022-03-02T22:30:26-0500] [PACMAN] synchronizing package lists
+[2022-03-02T22:30:27-0500] [PACMAN] starting full system upgrade
+[2022-03-03T22:51:59-0500] [PACMAN] Running 'pacman -S -u -y -y --config /etc/pacman.conf --'
+[2022-03-03T22:51:59-0500] [PACMAN] synchronizing package lists
+[2022-03-03T22:52:00-0500] [PACMAN] starting full system upgrade
+[2022-03-03T22:52:08-0500] [ALPM] transaction started
+[2022-03-03T22:52:08-0500] [ALPM] upgraded yad-eos (10.1-1 -> 11.0-1)
+[2022-03-03T22:52:08-0500] [ALPM] upgraded eos-bash-shared (1.10.31-1 -> 1.10.32-1)
+[2022-03-03T22:52:08-0500] [ALPM] upgraded eos-update-notifier (1.15-1 -> 1.15.1-1)
+[2022-03-03T22:52:08-0500] [ALPM] upgraded libisl (0.24-3 -> 0.24-4)
+[2022-03-03T22:52:08-0500] [ALPM] upgraded poppler (22.02.0-2 -> 22.03.0-1)
+[2022-03-03T22:52:10-0500] [ALPM] upgraded libreoffice-fresh (7.3.0-6 -> 7.3.1-1)
+[2022-03-03T22:52:11-0500] [ALPM] upgraded poppler-glib (22.02.0-2 -> 22.03.0-1)
+[2022-03-03T22:52:11-0500] [ALPM] transaction completed
+[2022-03-03T22:52:11-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-03T22:52:11-0500] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-03T22:52:12-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-03T22:52:12-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-03T22:52:12-0500] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-03T22:52:13-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-03T22:52:47-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/visual-studio-code-bin/visual-studio-code-bin-1.65.0-1-x86_64.pkg.tar.zst'
+[2022-03-03T22:52:47-0500] [ALPM] transaction started
+[2022-03-03T22:52:49-0500] [ALPM] upgraded visual-studio-code-bin (1.64.2-1 -> 1.65.0-1)
+[2022-03-03T22:52:49-0500] [ALPM-SCRIPTLET] (B[m[1m[34m==>(B[m[1m[33m NOTE:(B[m[1m Custom flags should be put directly in: ~/.config/code-flags.conf(B[m
+[2022-03-03T22:52:49-0500] [ALPM] transaction completed
+[2022-03-03T22:52:49-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-03T22:52:49-0500] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-03T22:52:49-0500] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-03T22:52:49-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/flameshot'
+[2022-03-03T22:52:50-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-03T22:53:01-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/flameshot'
+[2022-03-03T22:53:04-0500] [ALPM] transaction started
+[2022-03-03T22:53:04-0500] [ALPM] installed xcb-util-keysyms (0.4.0-3)
+[2022-03-03T22:53:04-0500] [ALPM] installed xcb-util-renderutil (0.3.9-3)
+[2022-03-03T22:53:04-0500] [ALPM] installed xcb-util-wm (0.4.1-3)
+[2022-03-03T22:53:04-0500] [ALPM] installed xcb-util-image (0.4.0-3)
+[2022-03-03T22:53:04-0500] [ALPM] installed tslib (1.22-1)
+[2022-03-03T22:53:04-0500] [ALPM] installed double-conversion (3.2.0-1)
+[2022-03-03T22:53:04-0500] [ALPM] installed md4c (0.4.8-1)
+[2022-03-03T22:53:04-0500] [ALPM] installed qt5-translations (5.15.2+kde+r22-1)
+[2022-03-03T22:53:05-0500] [ALPM] installed qt5-base (5.15.2+kde+r305-1)
+[2022-03-03T22:53:05-0500] [ALPM] installed qt5-svg (5.15.2+kde+r16-2)
+[2022-03-03T22:53:05-0500] [ALPM] installed qt5-x11extras (5.15.2-2)
+[2022-03-03T22:53:05-0500] [ALPM] installed qt5-declarative (5.15.2+kde+r46-1)
+[2022-03-03T22:53:05-0500] [ALPM] installed qt5-wayland (5.15.2+kde+r54-1)
+[2022-03-03T22:53:05-0500] [ALPM] installed kguiaddons (5.91.0-1)
+[2022-03-03T22:53:05-0500] [ALPM] installed flameshot (11.0.0-4)
+[2022-03-03T22:53:06-0500] [ALPM] transaction completed
+[2022-03-03T22:53:06-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-03T22:53:06-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-03T22:53:06-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-05T22:40:19-0500] [PACMAN] Running 'pacman -S qt5-svg'
+[2022-03-05T22:42:07-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/gnome-shell-extension-topicons-plus/gnome-shell-extension-topicons-plus-27-4-any.pkg.tar.zst'
+[2022-03-05T22:42:07-0500] [ALPM] transaction started
+[2022-03-05T22:42:07-0500] [ALPM] installed gnome-shell-extension-topicons-plus (27-4)
+[2022-03-05T22:42:07-0500] [ALPM] transaction completed
+[2022-03-05T22:42:07-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T22:42:07-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-05T22:48:11-0500] [PACMAN] Running '/usr/bin/pacman -S --asdeps python-requests'
+[2022-03-05T22:48:12-0500] [ALPM] transaction started
+[2022-03-05T22:48:12-0500] [ALPM] installed python-urllib3 (1.26.8-1)
+[2022-03-05T22:48:13-0500] [ALPM] installed python-chardet (4.0.0-5)
+[2022-03-05T22:48:13-0500] [ALPM] installed python-idna (3.3-4)
+[2022-03-05T22:48:13-0500] [ALPM] installed python-requests (2.27.1-1)
+[2022-03-05T22:48:13-0500] [ALPM] transaction completed
+[2022-03-05T22:48:13-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T22:48:13-0500] [PACMAN] Running '/usr/bin/pacman -S --asdeps cmake jq'
+[2022-03-05T22:49:49-0500] [ALPM] transaction started
+[2022-03-05T22:49:49-0500] [ALPM] installed jsoncpp (1.9.5-1)
+[2022-03-05T22:49:49-0500] [ALPM] installed rhash (1.4.2-1)
+[2022-03-05T22:49:50-0500] [ALPM] installed cmake (3.22.2-1)
+[2022-03-05T22:49:50-0500] [ALPM] installed oniguruma (6.9.7.1-2)
+[2022-03-05T22:49:50-0500] [ALPM] installed jq (1.6-4)
+[2022-03-05T22:49:50-0500] [ALPM] transaction completed
+[2022-03-05T22:49:50-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T22:49:50-0500] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-05T22:49:50-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-05T22:49:50-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-05T22:49:52-0500] [PACMAN] Running '/usr/bin/pacman -U /home/cis106/chrome-gnome-shell/chrome-gnome-shell-10.1-6-any.pkg.tar.zst'
+[2022-03-05T23:02:01-0500] [ALPM] transaction started
+[2022-03-05T23:02:01-0500] [ALPM] installed chrome-gnome-shell (10.1-6)
+[2022-03-05T23:02:01-0500] [ALPM] transaction completed
+[2022-03-05T23:02:01-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:02:01-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-05T23:02:01-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-05T23:09:02-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/qt5-tools'
+[2022-03-05T23:09:04-0500] [ALPM] transaction started
+[2022-03-05T23:09:04-0500] [ALPM] installed qt5-tools (5.15.2+kde+r17-6)
+[2022-03-05T23:09:04-0500] [ALPM] transaction completed
+[2022-03-05T23:09:04-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:09:04-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-05T23:09:04-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-05T23:09:04-0500] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- qt5-tools'
+[2022-03-05T23:09:42-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/python-docopt community/python-xlib community/python-ewmh community/python-setproctitle extra/python-appdirs community/python-more-itertools extra/python-ordered-set extra/python-setuptools community/python-wheel extra/python-tomli community/python-setuptools-scm'
+[2022-03-05T23:09:44-0500] [ALPM] transaction started
+[2022-03-05T23:09:44-0500] [ALPM] installed python-docopt (0.6.2-11)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-xlib (0.31-3)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-ewmh (0.1.6-4)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-setproctitle (1.2.2-3)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-appdirs (1.4.4-6)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-more-itertools (8.10.0-4)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-ordered-set (4.0.2-6)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-setuptools (1:59.3.0-1)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-wheel (0.37.1-1)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-tomli (2.0.0-1)
+[2022-03-05T23:09:44-0500] [ALPM] installed python-setuptools-scm (6.4.2-1)
+[2022-03-05T23:09:44-0500] [ALPM] transaction completed
+[2022-03-05T23:09:44-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:09:44-0500] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- python-docopt python-xlib python-ewmh python-setproctitle python-appdirs python-more-itertools python-ordered-set python-setuptools python-wheel python-tomli python-setuptools-scm'
+[2022-03-05T23:09:51-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/python-pulsectl/python-pulsectl-1:22.1.3-1-any.pkg.tar.zst'
+[2022-03-05T23:09:51-0500] [ALPM] transaction started
+[2022-03-05T23:09:51-0500] [ALPM] installed python-pulsectl (1:22.1.3-1)
+[2022-03-05T23:09:51-0500] [ALPM] transaction completed
+[2022-03-05T23:09:51-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:09:51-0500] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- python-pulsectl'
+[2022-03-05T23:09:59-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/caffeine-ng/caffeine-ng-3.5.1-2-any.pkg.tar.zst'
+[2022-03-05T23:10:00-0500] [ALPM] transaction started
+[2022-03-05T23:10:00-0500] [ALPM] installed caffeine-ng (3.5.1-2)
+[2022-03-05T23:10:00-0500] [ALPM] transaction completed
+[2022-03-05T23:10:00-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:10:00-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-05T23:10:00-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-05T23:10:00-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-05T23:10:00-0500] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- python-tomli python-setuptools-scm'
+[2022-03-05T23:10:00-0500] [ALPM] transaction started
+[2022-03-05T23:10:00-0500] [ALPM] removed python-setuptools-scm (6.4.2-1)
+[2022-03-05T23:10:00-0500] [ALPM] removed python-tomli (2.0.0-1)
+[2022-03-05T23:10:00-0500] [ALPM] transaction completed
+[2022-03-05T23:10:00-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:10:11-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/gnome-shell-extensions'
+[2022-03-05T23:10:12-0500] [ALPM] transaction started
+[2022-03-05T23:10:12-0500] [ALPM] installed gnome-shell-extensions (41.2-1)
+[2022-03-05T23:10:13-0500] [ALPM] transaction completed
+[2022-03-05T23:10:13-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:10:13-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-05T23:10:13-0500] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- gnome-shell-extensions'
+[2022-03-05T23:10:19-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/gnome-shell-extension-caffeine-git/gnome-shell-extension-caffeine-git-39.r6.gec25a9f-1-any.pkg.tar.zst'
+[2022-03-05T23:10:19-0500] [ALPM] transaction started
+[2022-03-05T23:10:19-0500] [ALPM] installed gnome-shell-extension-caffeine-git (39.r6.gec25a9f-1)
+[2022-03-05T23:10:19-0500] [ALPM-SCRIPTLET] Don't forget to restart GNOME Shell ([Alt]+[F2], r)
+[2022-03-05T23:10:19-0500] [ALPM-SCRIPTLET] and enable the extension with gnome-tweak-tool.
+[2022-03-05T23:10:19-0500] [ALPM] transaction completed
+[2022-03-05T23:10:19-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:10:19-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-05T23:13:04-0500] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/cis106/.cache/yay/flameshot-git/flameshot-git-r1675.a6144df3-1-x86_64.pkg.tar.zst'
+[2022-03-05T23:13:58-0500] [ALPM] transaction started
+[2022-03-05T23:13:58-0500] [ALPM] removed flameshot (11.0.0-4)
+[2022-03-05T23:13:58-0500] [ALPM] installed flameshot-git (r1675.a6144df3-1)
+[2022-03-05T23:13:58-0500] [ALPM] transaction completed
+[2022-03-05T23:13:58-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:13:58-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-05T23:13:58-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-05T23:13:58-0500] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- qt5-tools'
+[2022-03-05T23:13:58-0500] [ALPM] transaction started
+[2022-03-05T23:13:58-0500] [ALPM] removed qt5-tools (5.15.2+kde+r17-6)
+[2022-03-05T23:13:58-0500] [ALPM] transaction completed
+[2022-03-05T23:13:58-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-05T23:13:58-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-05T23:13:58-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-05T23:15:40-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/waybar'
+[2022-03-05T23:15:42-0500] [ALPM] transaction started
+[2022-03-05T23:15:42-0500] [ALPM] installed fmt (8.1.1-1)
+[2022-03-05T23:15:42-0500] [ALPM] installed chrono-date (3.0.1-3)
+[2022-03-05T23:15:42-0500] [ALPM] installed spdlog (1.9.2-3)
+[2022-03-05T23:15:42-0500] [ALPM] installed gtk-layer-shell (0.7.0-2)
+[2022-03-05T23:15:42-0500] [ALPM] installed libdbusmenu-glib (16.04.0-4)
+[2022-03-05T23:15:42-0500] [ALPM] installed libdbusmenu-gtk3 (16.04.0-4)
+[2022-03-05T23:15:42-0500] [ALPM] installed libindicator-gtk3 (12.10.1-9)
+[2022-03-05T23:15:42-0500] [ALPM] installed libappindicator-gtk3 (12.10.0.r296-1)
+[2022-03-05T23:15:42-0500] [ALPM] installed libmpdclient (2.20-2)
+[2022-03-05T23:15:42-0500] [ALPM] installed sndio (1.8.1-2)
+[2022-03-05T23:15:42-0500] [ALPM] installed waybar (0.9.9-2)
+[2022-03-05T23:15:42-0500] [ALPM] transaction completed
+[2022-03-05T23:15:42-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-05T23:15:42-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T01:04:24-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/libsass community/sassc'
+[2022-03-06T01:04:26-0500] [ALPM] transaction started
+[2022-03-06T01:04:26-0500] [ALPM] installed libsass (3.6.5-2)
+[2022-03-06T01:04:26-0500] [ALPM] installed sassc (3.6.2-3)
+[2022-03-06T01:04:26-0500] [ALPM] transaction completed
+[2022-03-06T01:04:26-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T01:04:26-0500] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- libsass sassc'
+[2022-03-06T01:05:15-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/graphite-gtk-theme/graphite-gtk-theme-2022.01.22-1-any.pkg.tar.zst'
+[2022-03-06T01:05:16-0500] [ALPM] transaction started
+[2022-03-06T01:05:18-0500] [ALPM] installed graphite-gtk-theme (2022.01.22-1)
+[2022-03-06T01:05:18-0500] [ALPM] transaction completed
+[2022-03-06T01:05:18-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T01:05:18-0500] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- libsass sassc'
+[2022-03-06T01:05:18-0500] [ALPM] transaction started
+[2022-03-06T01:05:18-0500] [ALPM] removed sassc (3.6.2-3)
+[2022-03-06T01:05:18-0500] [ALPM] removed libsass (3.6.5-2)
+[2022-03-06T01:05:18-0500] [ALPM] transaction completed
+[2022-03-06T01:05:18-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T01:07:40-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/qt5-quickcontrols'
+[2022-03-06T01:07:42-0500] [ALPM] transaction started
+[2022-03-06T01:07:42-0500] [ALPM] installed qt5-quickcontrols (5.15.2-2)
+[2022-03-06T01:07:42-0500] [ALPM] transaction completed
+[2022-03-06T01:07:42-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T01:07:42-0500] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- qt5-quickcontrols'
+[2022-03-06T01:08:06-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/ocs-url/ocs-url-3.1.0-7-x86_64.pkg.tar.zst'
+[2022-03-06T01:08:06-0500] [ALPM] transaction started
+[2022-03-06T01:08:06-0500] [ALPM] installed ocs-url (3.1.0-7)
+[2022-03-06T01:08:06-0500] [ALPM] transaction completed
+[2022-03-06T01:08:06-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T01:08:06-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-06T01:08:06-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-06T01:24:17-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/grub-customizer'
+[2022-03-06T01:24:19-0500] [ALPM] transaction started
+[2022-03-06T01:24:19-0500] [ALPM] installed grub-customizer (5.1.0-3)
+[2022-03-06T01:24:19-0500] [ALPM] transaction completed
+[2022-03-06T01:24:19-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T01:24:19-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-06T01:24:19-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-06T01:43:07-0500] [PACMAN] Running 'pacman -Syyu'
+[2022-03-06T01:43:07-0500] [PACMAN] synchronizing package lists
+[2022-03-06T01:43:08-0500] [PACMAN] starting full system upgrade
+[2022-03-06T01:43:27-0500] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2022-03-06T01:43:27-0500] [ALPM] transaction started
+[2022-03-06T01:43:27-0500] [ALPM] upgraded alsa-card-profiles (1:0.3.47-2 -> 1:0.3.48-1)
+[2022-03-06T01:43:27-0500] [ALPM] upgraded arc-gtk-theme-eos (20220102-1 -> 20220223-1)
+[2022-03-06T01:43:27-0500] [ALPM] upgraded ca-certificates-mozilla (3.75-1 -> 3.76-1)
+[2022-03-06T01:43:28-0500] [ALPM] upgraded cmake (3.22.2-1 -> 3.22.3-1)
+[2022-03-06T01:43:28-0500] [ALPM] upgraded pango (1:1.50.4-1 -> 1:1.50.5-1)
+[2022-03-06T01:43:28-0500] [ALPM] upgraded mesa (21.3.7-1 -> 21.3.7-2)
+[2022-03-06T01:43:28-0500] [ALPM] upgraded gtk-update-icon-cache (1:4.6.1-2 -> 1:4.6.1-3)
+[2022-03-06T01:43:28-0500] [ALPM] upgraded gtk3 (1:3.24.31-3 -> 1:3.24.33-1)
+[2022-03-06T01:43:29-0500] [ALPM] upgraded gstreamer (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:29-0500] [ALPM] upgraded gst-plugins-base-libs (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:29-0500] [ALPM] upgraded eos-apps-info (1.2.3-1 -> 1.2.4-1)
+[2022-03-06T01:43:29-0500] [ALPM] upgraded nss (3.75-1 -> 3.76-1)
+[2022-03-06T01:43:29-0500] [ALPM] upgraded pipewire (1:0.3.47-2 -> 1:0.3.48-1)
+[2022-03-06T01:43:29-0500] [ALPM] upgraded pipewire-jack (1:0.3.47-2 -> 1:0.3.48-1)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded firefox (97.0.1-1 -> 97.0.2-1)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gnome-autoar (0.4.2-1 -> 0.4.3-1)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded pipewire-alsa (1:0.3.47-2 -> 1:0.3.48-1)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded pipewire-pulse (1:0.3.47-2 -> 1:0.3.48-1)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gnome-tweaks (40.0-2 -> 40.10-1)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gst-libav (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gst-plugin-gtk (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gst-plugin-pipewire (1:0.3.47-2 -> 1:0.3.48-1)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gst-plugins-bad-libs (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded imagemagick (7.1.0.26-1 -> 7.1.0.27-1)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gst-plugins-bad (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gst-plugins-base (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gst-plugins-good (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:30-0500] [ALPM] upgraded gst-plugins-ugly (1.20.0-2 -> 1.20.0-3)
+[2022-03-06T01:43:31-0500] [ALPM] upgraded gtk4 (1:4.6.1-2 -> 1:4.6.1-3)
+[2022-03-06T01:43:31-0500] [ALPM] upgraded libgphoto2 (2.5.28-1 -> 2.5.29-1)
+[2022-03-06T01:43:32-0500] [ALPM] upgraded linux (5.16.11.arch1-2 -> 5.16.12.arch1-1)
+[2022-03-06T01:43:36-0500] [ALPM] upgraded linux-headers (5.16.11.arch1-2 -> 5.16.12.arch1-1)
+[2022-03-06T01:43:36-0500] [ALPM] upgraded mtools (1:4.0.37-1 -> 1:4.0.38-1)
+[2022-03-06T01:43:36-0500] [ALPM] upgraded unrar (1:6.1.5-1 -> 1:6.1.6-1)
+[2022-03-06T01:43:36-0500] [ALPM] upgraded wireless-regdb (2021.08.28-1 -> 2022.02.18-1)
+[2022-03-06T01:43:37-0500] [ALPM] transaction completed
+[2022-03-06T01:43:37-0500] [ALPM] running '30-systemd-hwdb.hook'...
+[2022-03-06T01:43:38-0500] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-06T01:43:38-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T01:43:38-0500] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-06T01:43:38-0500] [ALPM] running '40-update-ca-trust.hook'...
+[2022-03-06T01:43:38-0500] [ALPM] running '60-depmod.hook'...
+[2022-03-06T01:43:40-0500] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-03-06T01:43:40-0500] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2022-03-06T01:43:40-0500] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2022-03-06T01:43:40-0500] [ALPM-SCRIPTLET] ==> Starting build: 5.16.12-arch1-1
+[2022-03-06T01:43:40-0500] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-06T01:43:40-0500] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-06T01:43:41-0500] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-03-06T01:43:41-0500] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-06T01:43:41-0500] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-06T01:43:41-0500] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET] ==> Starting build: 5.16.12-arch1-1
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-06T01:43:42-0500] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-06T01:43:43-0500] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-06T01:43:43-0500] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-06T01:43:43-0500] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-03-06T01:43:43-0500] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: bfa
+[2022-03-06T01:43:43-0500] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qed
+[2022-03-06T01:43:43-0500] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla1280
+[2022-03-06T01:43:43-0500] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla2xxx
+[2022-03-06T01:43:44-0500] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-03-06T01:43:44-0500] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-03-06T01:43:45-0500] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-06T01:43:46-0500] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-06T01:43:46-0500] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-06T01:43:46-0500] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-06T01:43:46-0500] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-06T01:43:46-0500] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-06T01:43:47-0500] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2022-03-06T01:43:47-0500] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-06T01:43:47-0500] [ALPM] running 'detect-old-perl-modules.hook'...
+[2022-03-06T01:43:47-0500] [ALPM] running 'eos-reboot-required.hook'...
+[2022-03-06T01:43:47-0500] [ALPM-SCRIPTLET] ==> INFO: Reboot is recommended due to the upgrade of core system package(s).
+[2022-03-06T01:43:47-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-06T01:43:47-0500] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2022-03-06T01:43:47-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-06T01:43:47-0500] [ALPM] running 'gtk4-querymodules.hook'...
+[2022-03-06T01:43:47-0500] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-06T01:43:49-0500] [ALPM] running 'texinfo-install.hook'...
+[2022-03-06T01:43:49-0500] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-06T01:44:19-0500] [PACMAN] Running 'pacman -S -y -y -u --config /etc/pacman.conf --'
+[2022-03-06T01:44:19-0500] [PACMAN] synchronizing package lists
+[2022-03-06T01:44:20-0500] [PACMAN] starting full system upgrade
+[2022-03-06T15:50:26-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/spice-vdagent'
+[2022-03-06T15:50:27-0500] [ALPM] transaction started
+[2022-03-06T15:50:27-0500] [ALPM] installed spice-vdagent (0.22.1-1)
+[2022-03-06T15:50:27-0500] [ALPM] transaction completed
+[2022-03-06T15:50:27-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-06T15:50:28-0500] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-03-06T15:50:28-0500] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-06T15:50:28-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T15:50:42-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/xf86-video-qxl'
+[2022-03-06T15:50:44-0500] [ALPM] transaction started
+[2022-03-06T15:50:44-0500] [ALPM] installed spice (0.15.0-1)
+[2022-03-06T15:50:44-0500] [ALPM] installed xf86-video-qxl (0.1.5.r16.g52c421c-2)
+[2022-03-06T15:50:44-0500] [ALPM] transaction completed
+[2022-03-06T15:50:44-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-06T17:43:44-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/tree'
+[2022-03-06T17:43:45-0500] [ALPM] transaction started
+[2022-03-06T17:43:45-0500] [ALPM] installed tree (2.0.2-1)
+[2022-03-06T17:43:45-0500] [ALPM] transaction completed
+[2022-03-06T17:43:45-0500] [ALPM] running '30-systemd-update.hook'...
+[2022-03-13T18:44:21-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-03-13T18:44:21-0400] [PACMAN] synchronizing package lists
+[2022-03-13T18:44:22-0400] [PACMAN] starting full system upgrade
+[2022-03-13T18:44:46-0400] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2022-03-13T18:44:46-0400] [ALPM] transaction started
+[2022-03-13T18:44:46-0400] [ALPM] upgraded zstd (1.5.2-2 -> 1.5.2-3)
+[2022-03-13T18:44:46-0400] [ALPM] upgraded systemd-libs (250.3-4 -> 250.4-1)
+[2022-03-13T18:44:47-0400] [ALPM] upgraded curl (7.81.0-3 -> 7.82.0-1)
+[2022-03-13T18:44:47-0400] [ALPM] upgraded expat (2.4.6-1 -> 2.4.7-1)
+[2022-03-13T18:44:47-0400] [ALPM] upgraded dhclient (4.4.2.P1-4 -> 4.4.3-1)
+[2022-03-13T18:44:47-0400] [ALPM] upgraded fakeroot (1.27-1 -> 1.28-1)
+[2022-03-13T18:44:47-0400] [ALPM] upgraded gpgme (1.17.0-2 -> 1.17.1-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded pacman (6.0.1-3 -> 6.0.1-4)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded downgrade (11.0.0-1 -> 11.1.0-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded eos-translations (1.1.67-1 -> 1.1.68-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded harfbuzz (4.0.0-1 -> 4.0.1-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded librsvg (2:2.52.6-1 -> 2:2.52.7-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded llvm-libs (13.0.1-1 -> 13.0.1-2)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded vulkan-icd-loader (1.2.203-1 -> 1.3.207-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded hwdata (0.356-1 -> 0.357-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded systemd (250.3-4 -> 250.4-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded harfbuzz-icu (4.0.0-1 -> 4.0.1-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded eos-bash-shared (1.10.32-1 -> 1.10.35-1)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded libbluray (1.3.0-1 -> 1.3.0-2)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded polkit (0.120-4 -> 0.120-5)
+[2022-03-13T18:44:48-0400] [ALPM] upgraded libinih (53-1 -> 53-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded evince (41.3-1 -> 41.4-1)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded libass (0.15.2-1 -> 0.15.2-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded libmfx (21.3.5-3 -> 22.1.0-1)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded rav1e (0.4.1-1 -> 0.4.1-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded libva (2.13.0-1 -> 2.13.0-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded libvdpau (1.4-1 -> 1.4-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded libvorbis (1.3.7-2 -> 1.3.7-3)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded libvpx (1.11.0-1 -> 1.11.0-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded x264 (3:0.164.r3081.19856cc-1 -> 3:0.164.r3081.19856cc-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded x265 (3.5-1 -> 3.5-3)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded zimg (3.0.3-1 -> 3.0.3-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded svt-av1 (0.9.0-1 -> 0.9.0-2)
+[2022-03-13T18:44:49-0400] [ALPM] upgraded ffmpeg (2:5.0-4 -> 2:5.0-5)
+[2022-03-13T18:44:50-0400] [ALPM] upgraded firefox (97.0.2-1 -> 98.0-1)
+[2022-03-13T18:44:50-0400] [ALPM] upgraded fmt (8.1.1-1 -> 8.1.1-2)
+[2022-03-13T18:44:50-0400] [ALPM] upgraded libgusb (0.3.10-1 -> 0.3.10-2)
+[2022-03-13T18:44:50-0400] [ALPM] upgraded libheif (1.12.0-2 -> 1.12.0-3)
+[2022-03-13T18:44:50-0400] [ALPM] upgraded liblouis (3.20.0-2 -> 3.21.0-1)
+[2022-03-13T18:44:50-0400] [ALPM] upgraded libnm (1.36.0-1 -> 1.36.2-1)
+[2022-03-13T18:44:50-0400] [ALPM] upgraded osinfo-db (20211216-1 -> 20220214-1)
+[2022-03-13T18:44:50-0400] [ALPM] upgraded libosinfo (1.9.0-2 -> 1.10.0-1)
+[2022-03-13T18:44:52-0400] [ALPM] upgraded linux (5.16.12.arch1-1 -> 5.16.14.arch1-1)
+[2022-03-13T18:44:52-0400] [ALPM] upgraded linux-firmware-whence (20220209.6342082-1 -> 20220309.cd01f85-1)
+[2022-03-13T18:44:53-0400] [ALPM] upgraded linux-firmware (20220209.6342082-1 -> 20220309.cd01f85-1)
+[2022-03-13T18:44:56-0400] [ALPM] upgraded linux-headers (5.16.12.arch1-1 -> 5.16.14.arch1-1)
+[2022-03-13T18:44:56-0400] [ALPM] upgraded nbd (3.23-1 -> 3.24-1)
+[2022-03-13T18:44:56-0400] [ALPM] upgraded networkmanager (1.36.0-1 -> 1.36.2-1)
+[2022-03-13T18:44:56-0400] [ALPM] upgraded networkmanager-openvpn (1.8.16-1 -> 1.8.18-1)
+[2022-03-13T18:44:56-0400] [ALPM] upgraded python-cairo (1.20.1-3 -> 1.21.0-1)
+[2022-03-13T18:44:56-0400] [ALPM] upgraded python-more-itertools (8.10.0-4 -> 8.12.0-1)
+[2022-03-13T18:44:56-0400] [ALPM] upgraded qt5-translations (5.15.2+kde+r22-1 -> 5.15.3+kde+r2-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded qt5-base (5.15.2+kde+r305-1 -> 5.15.3+kde+r133-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded qt5-declarative (5.15.2+kde+r46-1 -> 5.15.3+kde+r20-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded qt5-quickcontrols (5.15.2-2 -> 5.15.3+kde+r0-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded qt5-svg (5.15.2+kde+r16-2 -> 5.15.3+kde+r12-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded qt5-wayland (5.15.2+kde+r54-1 -> 5.15.3+kde+r40-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded qt5-x11extras (5.15.2-2 -> 5.15.3+kde+r0-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded rtmpdump (1:2.4.r99.f1b83c1-1 -> 1:2.4.r99.f1b83c1-2)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded soundtouch (2.3.1-1 -> 2.3.1-2)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded sudo (1.9.9-2 -> 1.9.10-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded svt-hevc (1.5.1-1 -> 1.5.1-2)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded systemd-sysvcompat (250.3-4 -> 250.4-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded upower (0.99.16-2 -> 0.99.17-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded tracker3-miners (3.2.1-2 -> 3.2.2-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded usb_modeswitch (2.6.1-2 -> 2.6.1-3)
+[2022-03-13T18:44:57-0400] [ALPM] warning: /etc/xdg/waybar/style.css installed as /etc/xdg/waybar/style.css.pacnew
+[2022-03-13T18:44:57-0400] [ALPM] upgraded waybar (0.9.9-2 -> 0.9.12-2)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded welcome (3.17.19-1 -> 3.17.23-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded xterm (371-1 -> 372-1)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded xxhash (0.8.1-1 -> 0.8.1-2)
+[2022-03-13T18:44:57-0400] [ALPM] upgraded yay (11.1.1-1 -> 11.1.2-1)
+[2022-03-13T18:44:58-0400] [ALPM] transaction completed
+[2022-03-13T18:44:59-0400] [ALPM] running '20-systemd-sysusers.hook'...
+[2022-03-13T18:44:59-0400] [ALPM] running '30-systemd-catalog.hook'...
+[2022-03-13T18:44:59-0400] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-13T18:44:59-0400] [ALPM] running '30-systemd-hwdb.hook'...
+[2022-03-13T18:45:00-0400] [ALPM] running '30-systemd-sysctl.hook'...
+[2022-03-13T18:45:00-0400] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-03-13T18:45:00-0400] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-13T18:45:00-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-13T18:45:00-0400] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-13T18:45:00-0400] [ALPM] running '60-depmod.hook'...
+[2022-03-13T18:45:02-0400] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-03-13T18:45:02-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2022-03-13T18:45:02-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2022-03-13T18:45:02-0400] [ALPM-SCRIPTLET] ==> Starting build: 5.16.14-arch1-1
+[2022-03-13T18:45:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-13T18:45:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-13T18:45:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-03-13T18:45:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-13T18:45:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-13T18:45:03-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-13T18:45:03-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-13T18:45:03-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-13T18:45:03-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-13T18:45:03-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-13T18:45:03-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-13T18:45:03-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET] ==> Starting build: 5.16.14-arch1-1
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-03-13T18:45:04-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: bfa
+[2022-03-13T18:45:05-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qed
+[2022-03-13T18:45:05-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla1280
+[2022-03-13T18:45:05-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla2xxx
+[2022-03-13T18:45:05-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-03-13T18:45:05-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-03-13T18:45:06-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-13T18:45:07-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-13T18:45:07-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-13T18:45:07-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-13T18:45:07-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-13T18:45:08-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-13T18:45:08-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2022-03-13T18:45:08-0400] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-13T18:45:08-0400] [ALPM] running 'dbus-reload.hook'...
+[2022-03-13T18:45:08-0400] [ALPM] running 'eos-reboot-required.hook'...
+[2022-03-13T18:45:08-0400] [ALPM-SCRIPTLET] ==> INFO: Reboot is recommended due to the upgrade of core system package(s).
+[2022-03-13T18:45:08-0400] [ALPM] running 'gdk-pixbuf-query-loaders.hook'...
+[2022-03-13T18:45:08-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-13T18:45:08-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-13T18:45:09-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-13T18:45:10-0400] [ALPM] running 'texinfo-install.hook'...
+[2022-03-13T18:45:10-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-13T20:58:51-0400] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/flameshot'
+[2022-03-13T20:58:54-0400] [ALPM] transaction started
+[2022-03-13T20:58:54-0400] [ALPM] removed flameshot-git (r1675.a6144df3-1)
+[2022-03-13T20:58:54-0400] [ALPM] installed flameshot (11.0.0-4)
+[2022-03-13T20:58:54-0400] [ALPM] transaction completed
+[2022-03-13T20:58:54-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-13T20:58:54-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-13T20:58:54-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-15T20:35:20-0400] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/deepin-screenshot'
+[2022-03-17T20:03:14-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-03-17T20:03:14-0400] [PACMAN] synchronizing package lists
+[2022-03-17T20:03:15-0400] [PACMAN] starting full system upgrade
+[2022-03-17T20:03:35-0400] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2022-03-17T20:03:35-0400] [ALPM] transaction started
+[2022-03-17T20:03:36-0400] [ALPM] upgraded openssl (1.1.1.m-1 -> 1.1.1.n-1)
+[2022-03-17T20:03:36-0400] [ALPM] upgraded bind (9.18.0-1 -> 9.18.1-1)
+[2022-03-17T20:03:36-0400] [ALPM] upgraded bluez (5.63-2 -> 5.64-1)
+[2022-03-17T20:03:36-0400] [ALPM] upgraded bluez-libs (5.63-2 -> 5.64-1)
+[2022-03-17T20:03:36-0400] [ALPM] upgraded librsvg (2:2.52.7-1 -> 2:2.54.0-1)
+[2022-03-17T20:03:36-0400] [ALPM] upgraded libvdpau (1.4-2 -> 1.5-1)
+[2022-03-17T20:03:36-0400] [ALPM] upgraded libusb (1.0.25-2 -> 1.0.25-3)
+[2022-03-17T20:03:36-0400] [ALPM] upgraded sqlite (3.38.0-1 -> 3.38.1-1)
+[2022-03-17T20:03:37-0400] [ALPM] upgraded chromium (99.0.4844.51-1 -> 99.0.4844.74-1)
+[2022-03-17T20:03:37-0400] [ALPM] upgraded gstreamer (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:37-0400] [ALPM] upgraded gst-plugins-base-libs (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:37-0400] [ALPM] upgraded eos-apps-info (1.2.4-1 -> 1.2.5-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded firefox (98.0-1 -> 98.0.1-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded gst-libav (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded gst-plugin-gtk (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded gst-plugins-bad-libs (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded libopenmpt (0.6.1-1 -> 0.6.2-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded gst-plugins-bad (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded gst-plugins-base (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded imlib2 (1.8.0-1 -> 1.8.1-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded gst-plugins-good (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:38-0400] [ALPM] upgraded gst-plugins-ugly (1.20.0-3 -> 1.20.1-1)
+[2022-03-17T20:03:39-0400] [ALPM] upgraded qt5-base (5.15.3+kde+r133-1 -> 5.15.3+kde+r136-1)
+[2022-03-17T20:03:39-0400] [ALPM] upgraded kguiaddons (5.91.0-1 -> 5.92.0-1)
+[2022-03-17T20:03:41-0400] [ALPM] upgraded linux (5.16.14.arch1-1 -> 5.16.15.arch1-1)
+[2022-03-17T20:03:46-0400] [ALPM] upgraded linux-headers (5.16.14.arch1-1 -> 5.16.15.arch1-1)
+[2022-03-17T20:03:47-0400] [ALPM] upgraded openvpn (2.5.5-1 -> 2.5.6-1)
+[2022-03-17T20:03:47-0400] [ALPM] upgraded python-pyparsing (3.0.1-1 -> 3.0.2-1)
+[2022-03-17T20:03:47-0400] [ALPM] upgraded smbclient (4.15.5-1 -> 4.15.6-1)
+[2022-03-17T20:03:47-0400] [ALPM] transaction completed
+[2022-03-17T20:03:48-0400] [ALPM] running '20-systemd-sysusers.hook'...
+[2022-03-17T20:03:48-0400] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-17T20:03:48-0400] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-03-17T20:03:48-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-17T20:03:48-0400] [ALPM] running '60-depmod.hook'...
+[2022-03-17T20:03:50-0400] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-03-17T20:03:50-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2022-03-17T20:03:50-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2022-03-17T20:03:50-0400] [ALPM-SCRIPTLET] ==> Starting build: 5.16.15-arch1-1
+[2022-03-17T20:03:50-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-17T20:03:50-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-17T20:03:50-0400] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-03-17T20:03:50-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-17T20:03:50-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-17T20:03:51-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-17T20:03:51-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-17T20:03:51-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-17T20:03:51-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-17T20:03:51-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET] ==> Starting build: 5.16.15-arch1-1
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-17T20:03:52-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-17T20:03:53-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-03-17T20:03:53-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: bfa
+[2022-03-17T20:03:53-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qed
+[2022-03-17T20:03:53-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla1280
+[2022-03-17T20:03:53-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla2xxx
+[2022-03-17T20:03:53-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-03-17T20:03:54-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-03-17T20:03:54-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-17T20:03:55-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-17T20:03:55-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-17T20:03:55-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-17T20:03:55-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-17T20:03:56-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-17T20:03:56-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2022-03-17T20:03:57-0400] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-17T20:03:57-0400] [ALPM] running 'dbus-reload.hook'...
+[2022-03-17T20:03:57-0400] [ALPM] running 'eos-reboot-required.hook'...
+[2022-03-17T20:03:57-0400] [ALPM-SCRIPTLET] ==> INFO: Reboot is recommended due to the upgrade of core system package(s).
+[2022-03-17T20:03:57-0400] [ALPM] running 'gdk-pixbuf-query-loaders.hook'...
+[2022-03-17T20:03:57-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-17T20:03:57-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-17T20:03:58-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-23T23:31:21-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-03-23T23:31:21-0400] [PACMAN] synchronizing package lists
+[2022-03-23T23:31:22-0400] [PACMAN] starting full system upgrade
+[2022-03-23T23:31:48-0400] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2022-03-23T23:31:48-0400] [ALPM] transaction started
+[2022-03-23T23:31:48-0400] [ALPM] upgraded tzdata (2021e-1 -> 2022a-1)
+[2022-03-23T23:31:48-0400] [ALPM] upgraded glibc (2.35-2 -> 2.35-3)
+[2022-03-23T23:31:48-0400] [ALPM-SCRIPTLET] Generating locales...
+[2022-03-23T23:31:49-0400] [ALPM-SCRIPTLET]   en_US.UTF-8... done
+[2022-03-23T23:31:49-0400] [ALPM-SCRIPTLET] Generation complete.
+[2022-03-23T23:31:50-0400] [ALPM] upgraded glib2 (2.70.4-2 -> 2.72.0-1)
+[2022-03-23T23:31:50-0400] [ALPM] upgraded systemd-libs (250.4-1 -> 250.4-2)
+[2022-03-23T23:31:50-0400] [ALPM] upgraded at-spi2-core (2.42.0-1 -> 2.44.0-1)
+[2022-03-23T23:31:50-0400] [ALPM] upgraded bluez (5.64-1 -> 5.64-2)
+[2022-03-23T23:31:50-0400] [ALPM] upgraded bluez-libs (5.64-1 -> 5.64-2)
+[2022-03-23T23:31:50-0400] [ALPM] upgraded harfbuzz (4.0.1-1 -> 4.1.0-1)
+[2022-03-23T23:31:50-0400] [ALPM] upgraded cairo (1.17.4-5 -> 1.17.6-1)
+[2022-03-23T23:31:51-0400] [ALPM] upgraded gnutls (3.7.3-1 -> 3.7.4-1)
+[2022-03-23T23:31:51-0400] [ALPM] upgraded systemd (250.4-1 -> 250.4-2)
+[2022-03-23T23:31:52-0400] [ALPM] upgraded vulkan-icd-loader (1.3.207-1 -> 1.3.208-1)
+[2022-03-23T23:31:52-0400] [ALPM] upgraded gdk-pixbuf2 (2.42.6-2 -> 2.42.8-1)
+[2022-03-23T23:31:52-0400] [ALPM] upgraded pango (1:1.50.5-1 -> 1:1.50.6-1)
+[2022-03-23T23:31:52-0400] [ALPM] upgraded chromaprint (1.5.1-2 -> 1.5.1-3)
+[2022-03-23T23:31:52-0400] [ALPM] upgraded libepoxy (1.5.9-1 -> 1.5.10-1)
+[2022-03-23T23:31:53-0400] [ALPM] upgraded glib-networking (1:2.70.1-1 -> 1:2.72.0-1)
+[2022-03-23T23:31:53-0400] [ALPM] upgraded libsoup3 (3.0.4-2 -> 3.0.5-1)
+[2022-03-23T23:31:53-0400] [ALPM] upgraded tracker3 (3.2.1-2 -> 3.3.0-1)
+[2022-03-23T23:31:53-0400] [ALPM] upgraded gtk-update-icon-cache (1:4.6.1-3 -> 1:4.6.2-1)
+[2022-03-23T23:31:53-0400] [ALPM] upgraded gtk3 (1:3.24.33-1 -> 1:3.24.33-2)
+[2022-03-23T23:31:54-0400] [ALPM] upgraded chromium (99.0.4844.74-1 -> 99.0.4844.82-1)
+[2022-03-23T23:31:54-0400] [ALPM] upgraded gnome-desktop (1:41.3-1 -> 1:41.5-1)
+[2022-03-23T23:31:54-0400] [ALPM] upgraded gobject-introspection-runtime (1.70.0-5 -> 1.72.0-1)
+[2022-03-23T23:31:54-0400] [ALPM] upgraded libpeas (1.30.0-3 -> 1.32.0-1)
+[2022-03-23T23:31:54-0400] [ALPM] upgraded eog (41.1-2 -> 41.2-1)
+[2022-03-23T23:31:54-0400] [ALPM] upgraded eos-translations (1.1.68-1 -> 1.1.71-1)
+[2022-03-23T23:31:54-0400] [ALPM] upgraded harfbuzz-icu (4.0.1-1 -> 4.1.0-1)
+[2022-03-23T23:31:55-0400] [ALPM] upgraded webkit2gtk (2.34.6-1 -> 2.36.0-1)
+[2022-03-23T23:31:55-0400] [ALPM] upgraded eos-bash-shared (1.10.35-1 -> 1.10.36-1)
+[2022-03-23T23:31:55-0400] [ALPM] upgraded eos-rankmirrors (2.2.5-1 -> 2.2.6-1)
+[2022-03-23T23:31:55-0400] [ALPM] upgraded libhandy (1.4.0-1 -> 1.6.1-1)
+[2022-03-23T23:31:55-0400] [ALPM] upgraded zip (3.0-9 -> 3.0-10)
+[2022-03-23T23:31:55-0400] [ALPM] upgraded file-roller (3.40.0-1 -> 3.42.0-1)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded firefox (98.0.1-1 -> 98.0.2-1)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded fluidsynth (2.2.5-1 -> 2.2.6-1)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded gc (8.2.0-2 -> 8.2.0-3)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded geoip-database (20220222-1 -> 20220315-1)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded js78 (78.15.0-3 -> 78.15.0-4)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded gjs (2:1.70.1-2 -> 2:1.70.2-1)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded graphene (1.10.6-1 -> 1.10.8-1)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded gtk4 (1:4.6.1-3 -> 1:4.6.2-1)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded libnm (1.36.2-1 -> 1.36.4-1)
+[2022-03-23T23:31:56-0400] [ALPM] upgraded libtool (2.4.6+59+gb55b1cc8-2 -> 2.4.7-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded mutter (41.4-1 -> 41.5-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded nm-connection-editor (1.24.0-1 -> 1.26.0-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded gnome-shell (1:41.4-1 -> 1:41.5-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded gtksourceview4 (4.8.2-1 -> 4.8.3-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded gvfs (1.48.1-3 -> 1.50.0-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded gvfs-afc (1.48.1-3 -> 1.50.0-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded gvfs-gphoto2 (1.48.1-3 -> 1.50.0-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded gvfs-mtp (1.48.1-3 -> 1.50.0-1)
+[2022-03-23T23:31:57-0400] [ALPM] upgraded gvfs-nfs (1.48.1-3 -> 1.50.0-1)
+[2022-03-23T23:31:58-0400] [ALPM] upgraded python (3.10.2-1 -> 3.10.3-1)
+[2022-03-23T23:31:58-0400] [ALPM] upgraded gvfs-smb (1.48.1-3 -> 1.50.0-1)
+[2022-03-23T23:31:59-0400] [ALPM] upgraded imagemagick (7.1.0.27-1 -> 7.1.0.28-1)
+[2022-03-23T23:31:59-0400] [ALPM] upgraded libdazzle (3.42.0.1-1 -> 3.44.0-1)
+[2022-03-23T23:31:59-0400] [ALPM] upgraded libgsf (1.14.48-1 -> 1.14.49-1)
+[2022-03-23T23:31:59-0400] [ALPM] upgraded libportal (0.5-1 -> 0.6-1)
+[2022-03-23T23:31:59-0400] [ALPM] upgraded libportal-gtk3 (0.5-1 -> 0.6-1)
+[2022-03-23T23:31:59-0400] [ALPM] upgraded libsynctex (2021.59745-1 -> 2021.59745-2)
+[2022-03-23T23:32:01-0400] [ALPM] upgraded linux (5.16.15.arch1-1 -> 5.16.16.arch1-1)
+[2022-03-23T23:32:04-0400] [ALPM] upgraded linux-headers (5.16.15.arch1-1 -> 5.16.16.arch1-1)
+[2022-03-23T23:32:05-0400] [ALPM] upgraded man-db (2.10.1-1 -> 2.10.2-1)
+[2022-03-23T23:32:05-0400] [ALPM] upgraded networkmanager (1.36.2-1 -> 1.36.4-1)
+[2022-03-23T23:32:05-0400] [ALPM] upgraded parallel (20220222-1 -> 20220322-1)
+[2022-03-23T23:32:05-0400] [ALPM] upgraded perl-html-parser (3.76-2 -> 3.77-1)
+[2022-03-23T23:32:05-0400] [ALPM] upgraded python-pyparsing (3.0.2-1 -> 3.0.5-1)
+[2022-03-23T23:32:05-0400] [ALPM] upgraded python-setuptools (1:59.3.0-1 -> 1:59.4.0-1)
+[2022-03-23T23:32:05-0400] [ALPM] upgraded python-urllib3 (1.26.8-1 -> 1.26.9-1)
+[2022-03-23T23:32:06-0400] [ALPM] upgraded qt5-base (5.15.3+kde+r136-1 -> 5.15.3+kde+r137-1)
+[2022-03-23T23:32:06-0400] [ALPM] upgraded systemd-sysvcompat (250.4-1 -> 250.4-2)
+[2022-03-23T23:32:06-0400] [ALPM] upgraded tracker3-miners (3.2.2-1 -> 3.3.0-1)
+[2022-03-23T23:32:06-0400] [ALPM] upgraded webkit2gtk-4.1 (2.34.6-1 -> 2.36.0-1)
+[2022-03-23T23:32:06-0400] [ALPM] upgraded welcome (3.17.23-1 -> 3.17.25-1)
+[2022-03-23T23:32:06-0400] [ALPM] upgraded wget (1.21.2-1 -> 1.21.3-1)
+[2022-03-23T23:32:07-0400] [ALPM] transaction completed
+[2022-03-23T23:32:08-0400] [ALPM] running '20-systemd-sysusers.hook'...
+[2022-03-23T23:32:08-0400] [ALPM] running '30-systemd-catalog.hook'...
+[2022-03-23T23:32:08-0400] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-23T23:32:08-0400] [ALPM] running '30-systemd-hwdb.hook'...
+[2022-03-23T23:32:09-0400] [ALPM] running '30-systemd-sysctl.hook'...
+[2022-03-23T23:32:09-0400] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-03-23T23:32:09-0400] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-23T23:32:09-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-23T23:32:09-0400] [ALPM] running '60-depmod.hook'...
+[2022-03-23T23:32:10-0400] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-03-23T23:32:10-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2022-03-23T23:32:10-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2022-03-23T23:32:10-0400] [ALPM-SCRIPTLET] ==> Starting build: 5.16.16-arch1-1
+[2022-03-23T23:32:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-23T23:32:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-23T23:32:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-03-23T23:32:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-23T23:32:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-23T23:32:12-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-23T23:32:12-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-23T23:32:12-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-23T23:32:12-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-23T23:32:12-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-23T23:32:12-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-23T23:32:12-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET] ==> Starting build: 5.16.16-arch1-1
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-23T23:32:13-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-03-23T23:32:14-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: bfa
+[2022-03-23T23:32:14-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qed
+[2022-03-23T23:32:14-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla1280
+[2022-03-23T23:32:14-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla2xxx
+[2022-03-23T23:32:14-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-03-23T23:32:14-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-03-23T23:32:15-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-23T23:32:16-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-23T23:32:16-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-23T23:32:16-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-23T23:32:16-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-23T23:32:17-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-23T23:32:17-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2022-03-23T23:32:17-0400] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-23T23:32:17-0400] [ALPM] running 'dbus-reload.hook'...
+[2022-03-23T23:32:17-0400] [ALPM] running 'detect-old-perl-modules.hook'...
+[2022-03-23T23:32:18-0400] [ALPM] running 'eos-reboot-required.hook'...
+[2022-03-23T23:32:18-0400] [ALPM-SCRIPTLET] ==> INFO: Reboot is recommended due to the upgrade of core system package(s).
+[2022-03-23T23:32:18-0400] [ALPM] running 'gio-querymodules.hook'...
+[2022-03-23T23:32:18-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-23T23:32:18-0400] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2022-03-23T23:32:18-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-23T23:32:18-0400] [ALPM] running 'gtk4-querymodules.hook'...
+[2022-03-23T23:32:18-0400] [ALPM] running 'gvfsd.hook'...
+[2022-03-23T23:32:18-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-23T23:32:20-0400] [ALPM] running 'texinfo-install.hook'...
+[2022-03-23T23:32:21-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-25T22:55:34-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-03-25T22:55:34-0400] [PACMAN] synchronizing package lists
+[2022-03-25T22:55:35-0400] [PACMAN] starting full system upgrade
+[2022-03-25T22:55:39-0400] [ALPM] transaction started
+[2022-03-25T22:55:39-0400] [ALPM] upgraded atk (2.36.0-1 -> 2.38.0-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded libnetfilter_conntrack (1.0.8-1 -> 1.0.9-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded eos-rankmirrors (2.2.6-1 -> 2.2.7-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded inxi (3.3.13.1-1 -> 3.3.14.1-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded iproute2 (5.16.0-1 -> 5.17.0-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded iwd (1.25-1 -> 1.26-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded libnma (1.8.34-1 -> 1.8.36-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded ndisc6 (1.0.4-2 -> 1.0.5-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded openconnect (1:8.20-1 -> 1:8.20-2)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded perl-libwww (6.58-1 -> 6.59-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded python-pyparsing (3.0.5-1 -> 3.0.7-1)
+[2022-03-25T22:55:39-0400] [ALPM] upgraded welcome (3.17.25-1 -> 3.17.26-1)
+[2022-03-25T22:55:39-0400] [ALPM] transaction completed
+[2022-03-25T22:55:39-0400] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-25T22:55:40-0400] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-03-25T22:55:40-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-25T22:55:40-0400] [ALPM] running 'dbus-reload.hook'...
+[2022-03-25T22:55:40-0400] [ALPM] running 'detect-old-perl-modules.hook'...
+[2022-03-25T22:55:40-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-25T22:55:40-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-25T22:55:41-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-25T22:55:46-0400] [PACMAN] Running 'pacman -S -y -y -u --config /etc/pacman.conf --'
+[2022-03-25T22:55:46-0400] [PACMAN] synchronizing package lists
+[2022-03-25T22:55:47-0400] [PACMAN] starting full system upgrade
+[2022-03-25T22:56:03-0400] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/python-pulsectl/python-pulsectl-1:22.3.2-1-any.pkg.tar.zst'
+[2022-03-25T22:56:03-0400] [ALPM] transaction started
+[2022-03-25T22:56:04-0400] [ALPM] upgraded python-pulsectl (1:22.1.3-1 -> 1:22.3.2-1)
+[2022-03-25T22:56:04-0400] [ALPM] transaction completed
+[2022-03-25T22:56:04-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-25T22:56:04-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-25T22:56:26-0400] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/visual-studio-code-bin/visual-studio-code-bin-1.65.2-1-x86_64.pkg.tar.zst'
+[2022-03-25T22:56:26-0400] [ALPM] transaction started
+[2022-03-25T22:56:26-0400] [ALPM] upgraded visual-studio-code-bin (1.65.0-1 -> 1.65.2-1)
+[2022-03-25T22:56:26-0400] [ALPM-SCRIPTLET] (B[m[1m[34m==>(B[m[1m[33m NOTE:(B[m[1m Custom flags should be put directly in: ~/.config/code-flags.conf(B[m
+[2022-03-25T22:56:26-0400] [ALPM] transaction completed
+[2022-03-25T22:56:26-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-25T22:56:26-0400] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-25T22:56:27-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-25T22:56:28-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-26T23:52:16-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-03-26T23:52:16-0400] [PACMAN] synchronizing package lists
+[2022-03-26T23:52:17-0400] [PACMAN] starting full system upgrade
+[2022-03-26T23:52:22-0400] [ALPM] transaction started
+[2022-03-26T23:52:23-0400] [ALPM] upgraded chromium (99.0.4844.82-1 -> 99.0.4844.84-1)
+[2022-03-26T23:52:23-0400] [ALPM] upgraded libevdev (1.12.0-1 -> 1.12.1-1)
+[2022-03-26T23:52:23-0400] [ALPM] upgraded libwacom (2.1.0-1 -> 2.2.0-1)
+[2022-03-26T23:52:23-0400] [ALPM] upgraded welcome (3.17.26-1 -> 3.17.27-1)
+[2022-03-26T23:52:23-0400] [ALPM] transaction completed
+[2022-03-26T23:52:23-0400] [ALPM] running '30-systemd-hwdb.hook'...
+[2022-03-26T23:52:23-0400] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-26T23:52:23-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-26T23:52:23-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-26T23:52:24-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-26T23:52:24-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-27T00:00:11-0400] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/starship'
+[2022-03-27T00:00:13-0400] [ALPM] transaction started
+[2022-03-27T00:00:13-0400] [ALPM] installed http-parser (2.9.4-1)
+[2022-03-27T00:00:13-0400] [ALPM] installed libgit2 (1:1.4.2-1)
+[2022-03-27T00:00:13-0400] [ALPM] installed ttf-iosevka-nerd (2.1.0-2)
+[2022-03-27T00:00:13-0400] [ALPM] installed starship (1.5.4-1)
+[2022-03-27T00:00:13-0400] [ALPM] transaction completed
+[2022-03-27T00:00:13-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-27T00:00:13-0400] [ALPM] running 'fontconfig.hook'...
+[2022-03-27T00:02:08-0400] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/xorg-mkfontscale extra/xorg-bdftopcf extra/xorg-font-util'
+[2022-03-27T00:02:09-0400] [ALPM] transaction started
+[2022-03-27T00:02:09-0400] [ALPM] installed xorg-mkfontscale (1.2.1-2)
+[2022-03-27T00:02:12-0400] [ALPM-SCRIPTLET] Creating X fontdir indices... done.
+[2022-03-27T00:02:12-0400] [ALPM] installed xorg-bdftopcf (1.1-2)
+[2022-03-27T00:02:12-0400] [ALPM] installed xorg-font-util (1.3.2-2)
+[2022-03-27T00:02:12-0400] [ALPM] transaction completed
+[2022-03-27T00:02:12-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-27T00:02:12-0400] [ALPM] running 'fontconfig.hook'...
+[2022-03-27T00:02:12-0400] [ALPM] running 'xorg-mkfontscale.hook'...
+[2022-03-27T00:02:12-0400] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- xorg-mkfontscale xorg-bdftopcf xorg-font-util'
+[2022-03-27T00:16:38-0400] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- xorg-mkfontscale xorg-bdftopcf xorg-font-util'
+[2022-03-27T00:16:38-0400] [ALPM] transaction started
+[2022-03-27T00:16:39-0400] [ALPM] removed xorg-font-util (1.3.2-2)
+[2022-03-27T00:16:39-0400] [ALPM] removed xorg-bdftopcf (1.1-2)
+[2022-03-27T00:16:39-0400] [ALPM] removed xorg-mkfontscale (1.2.1-2)
+[2022-03-27T00:16:39-0400] [ALPM] transaction completed
+[2022-03-27T00:16:39-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-27T00:16:39-0400] [ALPM] running 'fontconfig.hook'...
+[2022-03-27T00:17:15-0400] [PACMAN] Running 'pacman -S starship'
+[2022-03-27T00:17:18-0400] [ALPM] transaction started
+[2022-03-27T00:17:18-0400] [ALPM] reinstalled starship (1.5.4-1)
+[2022-03-27T00:17:18-0400] [ALPM] transaction completed
+[2022-03-27T00:17:18-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-27T00:17:18-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-27T00:23:51-0400] [PACMAN] Running 'pacman -S -u -y -y --config /etc/pacman.conf --'
+[2022-03-27T00:23:51-0400] [PACMAN] synchronizing package lists
+[2022-03-27T00:23:53-0400] [PACMAN] starting full system upgrade
+[2022-03-27T00:27:49-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-03-27T00:27:49-0400] [PACMAN] synchronizing package lists
+[2022-03-27T00:27:49-0400] [PACMAN] starting full system upgrade
+[2022-03-27T00:27:55-0400] [PACMAN] Running 'pacman -S -y -y -u --config /etc/pacman.conf --'
+[2022-03-27T00:27:55-0400] [PACMAN] synchronizing package lists
+[2022-03-27T00:27:55-0400] [PACMAN] starting full system upgrade
+[2022-03-28T21:57:49-0400] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/geany'
+[2022-03-28T21:57:50-0400] [ALPM] transaction started
+[2022-03-28T21:57:51-0400] [ALPM] installed geany (1.38-1)
+[2022-03-28T21:57:51-0400] [ALPM] transaction completed
+[2022-03-28T21:57:51-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-28T21:57:51-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-28T21:57:51-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-30T22:40:02-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-03-30T22:40:02-0400] [PACMAN] synchronizing package lists
+[2022-03-30T22:40:03-0400] [PACMAN] starting full system upgrade
+[2022-03-30T22:40:19-0400] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2022-03-30T22:40:19-0400] [ALPM] transaction started
+[2022-03-30T22:40:19-0400] [ALPM] upgraded eos-translations (1.1.71-1 -> 1.1.74-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded zlib (1:1.2.11-5 -> 1:1.2.12-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded util-linux-libs (2.37.4-1 -> 2.38-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded libsysprof-capture (3.42.1-3 -> 3.44.0-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded ca-certificates-mozilla (3.76-1 -> 3.76.1-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded mesa (21.3.7-2 -> 22.0.0-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded shared-mime-info (2.0+115+gd74a913-1 -> 2.0+144+g13695c7-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded sqlite (3.38.1-1 -> 3.38.2-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded harfbuzz (4.1.0-1 -> 4.2.0-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded util-linux (2.37.4-1 -> 2.38-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded at-spi2-core (2.44.0-1 -> 2.44.0-2)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded harfbuzz-icu (4.1.0-1 -> 4.2.0-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded akm (2.9.3-1 -> 2.9.4-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded alsa-card-profiles (1:0.3.48-1 -> 1:0.3.49-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded nss (3.76-1 -> 3.76.1-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded minizip (1:1.2.11-5 -> 1:1.2.12-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded pipewire (1:0.3.48-1 -> 1:0.3.49-1)
+[2022-03-30T22:40:19-0400] [ALPM] upgraded pipewire-jack (1:0.3.48-1 -> 1:0.3.49-1)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded chromium (99.0.4844.84-1 -> 100.0.4896.60-1)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded colord-gtk-common (0.3.0-1 -> 0.3.0-2)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded colord-gtk (0.3.0-1 -> 0.3.0-2)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded libarchive (3.6.0-1 -> 3.6.0-2)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded eos-update-notifier (1.15.1-1 -> 1.15.2-1)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded geocode-glib (3.26.2+r9+g6047da3-1 -> 3.26.2+r9+g6047da3-2)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded gnome-online-accounts (3.40.1-1 -> 3.44.0-1)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded grub (2:2.06-4 -> 2:2.06-5)
+[2022-03-30T22:40:20-0400] [ALPM] upgraded gst-plugin-pipewire (1:0.3.48-1 -> 1:0.3.49-1)
+[2022-03-30T22:40:21-0400] [ALPM] upgraded imagemagick (7.1.0.28-1 -> 7.1.0.29-1)
+[2022-03-30T22:40:21-0400] [ALPM] upgraded imath (3.1.4-1 -> 3.1.5-1)
+[2022-03-30T22:40:21-0400] [ALPM] upgraded ldb (2:2.4.2-1 -> 2:2.5.0-1)
+[2022-03-30T22:40:21-0400] [ALPM] upgraded libgweather (40.0+r87+g80e5a652-1 -> 40.0+r87+g80e5a652-2)
+[2022-03-30T22:40:21-0400] [ALPM] upgraded mobile-broadband-provider-info (20210805-1 -> 20220315-1)
+[2022-03-30T22:40:21-0400] [ALPM] installed libnma-common (1.8.36-3)
+[2022-03-30T22:40:21-0400] [ALPM] upgraded libnma (1.8.36-1 -> 1.8.36-3)
+[2022-03-30T22:40:24-0400] [ALPM] upgraded linux (5.16.16.arch1-1 -> 5.17.1.arch1-1)
+[2022-03-30T22:40:27-0400] [ALPM] upgraded python (3.10.3-1 -> 3.10.4-1)
+[2022-03-30T22:40:31-0400] [ALPM] upgraded linux-headers (5.16.16.arch1-1 -> 5.17.1.arch1-1)
+[2022-03-30T22:40:31-0400] [ALPM] upgraded netctl (1.27-1 -> 1.28-1)
+[2022-03-30T22:40:31-0400] [ALPM] upgraded pipewire-alsa (1:0.3.48-1 -> 1:0.3.49-1)
+[2022-03-30T22:40:31-0400] [ALPM] upgraded pipewire-pulse (1:0.3.48-1 -> 1:0.3.49-1)
+[2022-03-30T22:40:31-0400] [ALPM] upgraded smbclient (4.15.6-1 -> 4.16.0-4)
+[2022-03-30T22:40:31-0400] [ALPM] upgraded vte-common (0.66.2-1 -> 0.68.0-1)
+[2022-03-30T22:40:31-0400] [ALPM] upgraded vte3 (0.66.2-1 -> 0.68.0-1)
+[2022-03-30T22:40:31-0400] [ALPM] upgraded welcome (3.17.27-1 -> 3.17.30-1)
+[2022-03-30T22:40:31-0400] [ALPM] transaction completed
+[2022-03-30T22:40:32-0400] [ALPM] running '20-systemd-sysusers.hook'...
+[2022-03-30T22:40:32-0400] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-03-30T22:40:32-0400] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-03-30T22:40:32-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-30T22:40:32-0400] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-30T22:40:32-0400] [ALPM] running '40-update-ca-trust.hook'...
+[2022-03-30T22:40:33-0400] [ALPM] running '60-depmod.hook'...
+[2022-03-30T22:40:34-0400] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-03-30T22:40:35-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2022-03-30T22:40:35-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2022-03-30T22:40:35-0400] [ALPM-SCRIPTLET] ==> Starting build: 5.17.1-arch1-1
+[2022-03-30T22:40:35-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-30T22:40:35-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-30T22:40:35-0400] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-03-30T22:40:35-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-30T22:40:35-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET] ==> Starting build: 5.17.1-arch1-1
+[2022-03-30T22:40:36-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-03-30T22:40:37-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-03-30T22:40:37-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-03-30T22:40:37-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-03-30T22:40:37-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-03-30T22:40:37-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: bfa
+[2022-03-30T22:40:38-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qed
+[2022-03-30T22:40:38-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla1280
+[2022-03-30T22:40:38-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: qla2xxx
+[2022-03-30T22:40:38-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-03-30T22:40:38-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-03-30T22:40:39-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-03-30T22:40:40-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2022-03-30T22:40:40-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2022-03-30T22:40:40-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2022-03-30T22:40:40-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-03-30T22:40:40-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2022-03-30T22:40:41-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2022-03-30T22:40:41-0400] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-03-30T22:40:41-0400] [ALPM] running 'detect-old-perl-modules.hook'...
+[2022-03-30T22:40:41-0400] [ALPM] running 'eos-grub-fix-initrd-generation.hook'...
+[2022-03-30T22:40:41-0400] [ALPM-SCRIPTLET] ===> INFO: grub-tools / grub-fix-initrd-generation:
+[2022-03-30T22:40:41-0400] [ALPM-SCRIPTLET] ===> INFO: /etc/grub.d/30_os-prober changed. See file /var/log/grub-fix-initrd-generation.log.
+[2022-03-30T22:40:41-0400] [ALPM-SCRIPTLET] ===> INFO: /etc/grub.d/10_linux changed. See file /var/log/grub-fix-initrd-generation.log.
+[2022-03-30T22:40:41-0400] [ALPM-SCRIPTLET] Generating grub configuration file ...
+[2022-03-30T22:40:42-0400] [ALPM-SCRIPTLET] Found theme: /boot/grub/themes/grub2-deadpool-theme/theme.txt
+[2022-03-30T22:40:42-0400] [ALPM-SCRIPTLET] Found linux image: /boot/vmlinuz-linux
+[2022-03-30T22:40:42-0400] [ALPM-SCRIPTLET] Found initrd image: /boot/intel-ucode.img /boot/initramfs-linux.img
+[2022-03-30T22:40:42-0400] [ALPM-SCRIPTLET] Found fallback initrd image(s) in /boot:  intel-ucode.img initramfs-linux-fallback.img
+[2022-03-30T22:40:42-0400] [ALPM-SCRIPTLET] Warning: os-prober will be executed to detect other bootable partitions.
+[2022-03-30T22:40:42-0400] [ALPM-SCRIPTLET] Its output will be used to detect bootable binaries on them and create new boot entries.
+[2022-03-30T22:40:42-0400] [ALPM-SCRIPTLET] done
+[2022-03-30T22:40:42-0400] [ALPM] running 'eos-reboot-required.hook'...
+[2022-03-30T22:40:42-0400] [ALPM-SCRIPTLET] ==> INFO: Reboot is recommended due to the upgrade of core system package(s).
+[2022-03-30T22:40:42-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-03-30T22:40:42-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-30T22:40:42-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-30T22:40:44-0400] [ALPM] running 'texinfo-install.hook'...
+[2022-03-30T22:40:44-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-31T18:27:09-0400] [PACMAN] Running 'pacman -R --config /etc/pacman.conf -- strartship'
+[2022-03-31T18:27:59-0400] [PACMAN] Running 'pacman -R --config /etc/pacman.conf -- starship'
+[2022-03-31T18:28:01-0400] [ALPM] transaction started
+[2022-03-31T18:28:01-0400] [ALPM] removed starship (1.5.4-1)
+[2022-03-31T18:28:01-0400] [ALPM] transaction completed
+[2022-03-31T18:28:01-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-31T22:16:19-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-03-31T22:16:19-0400] [PACMAN] synchronizing package lists
+[2022-03-31T22:16:19-0400] [PACMAN] starting full system upgrade
+[2022-03-31T22:16:29-0400] [ALPM] transaction started
+[2022-03-31T22:16:29-0400] [ALPM] upgraded cmake (3.22.3-1 -> 3.23.0-1)
+[2022-03-31T22:16:30-0400] [ALPM] upgraded libtiff (4.3.0-1 -> 4.3.0-2)
+[2022-03-31T22:16:33-0400] [ALPM] upgraded libreoffice-fresh (7.3.1-1 -> 7.3.2-1)
+[2022-03-31T22:16:33-0400] [ALPM] upgraded libsoup3 (3.0.5-1 -> 3.0.6-1)
+[2022-03-31T22:16:33-0400] [ALPM] transaction completed
+[2022-03-31T22:16:33-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-31T22:16:33-0400] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-31T22:16:35-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-03-31T22:16:35-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-31T22:16:37-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-03-31T22:16:41-0400] [PACMAN] Running 'pacman -S -y -y -u --config /etc/pacman.conf --'
+[2022-03-31T22:16:41-0400] [PACMAN] synchronizing package lists
+[2022-03-31T22:16:42-0400] [PACMAN] starting full system upgrade
+[2022-03-31T22:17:18-0400] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/cis106/.cache/yay/visual-studio-code-bin/visual-studio-code-bin-1.66.0-1-x86_64.pkg.tar.zst'
+[2022-03-31T22:17:18-0400] [ALPM] transaction started
+[2022-03-31T22:17:19-0400] [ALPM] upgraded visual-studio-code-bin (1.65.2-1 -> 1.66.0-1)
+[2022-03-31T22:17:19-0400] [ALPM-SCRIPTLET] (B[m[1m[34m==>(B[m[1m[33m NOTE:(B[m[1m Custom flags should be put directly in: ~/.config/code-flags.conf(B[m
+[2022-03-31T22:17:19-0400] [ALPM] transaction completed
+[2022-03-31T22:17:19-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-03-31T22:17:19-0400] [ALPM] running '30-update-mime-database.hook'...
+[2022-03-31T22:17:19-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-03-31T22:17:21-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-04-01T21:43:21-0400] [PACMAN] Running 'pacman -Syyu'
+[2022-04-01T21:43:21-0400] [PACMAN] synchronizing package lists
+[2022-04-01T21:43:22-0400] [PACMAN] starting full system upgrade
+[2022-04-01T21:43:29-0400] [ALPM] transaction started
+[2022-04-01T21:43:29-0400] [ALPM] upgraded libgcrypt (1.9.4-1 -> 1.10.1-1)
+[2022-04-01T21:43:29-0400] [ALPM] upgraded fontconfig (2:2.13.96-1 -> 2:2.14.0-1)
+[2022-04-01T21:43:29-0400] [ALPM-SCRIPTLET] Rebuilding fontconfig cache...
+[2022-04-01T21:43:32-0400] [ALPM] upgraded re2 (1:20220201-1 -> 1:20220401-1)
+[2022-04-01T21:43:32-0400] [ALPM] upgraded libx11 (1.7.3.1-1 -> 1.7.4-1)
+[2022-04-01T21:43:32-0400] [ALPM] upgraded json-glib (1.6.6-1 -> 1.6.6-2)
+[2022-04-01T21:43:32-0400] [ALPM] upgraded libstemmer (2.2.0-1 -> 2.2.0-2)
+[2022-04-01T21:43:32-0400] [ALPM] upgraded chromium (100.0.4896.60-1 -> 100.0.4896.60-2)
+[2022-04-01T21:43:33-0400] [ALPM] upgraded gcr (3.41.0-1 -> 3.41.0-2)
+[2022-04-01T21:43:33-0400] [ALPM] upgraded ghostscript (9.55.0-4 -> 9.56.0-1)
+[2022-04-01T21:43:33-0400] [ALPM] upgraded groff (1.22.4-6 -> 1.22.4-7)
+[2022-04-01T21:43:33-0400] [ALPM] upgraded libcanberra (0.30+2+gc0620e4-5 -> 1:0.30+r2+gc0620e4-1)
+[2022-04-01T21:43:33-0400] [ALPM] upgraded libical (3.0.14-1 -> 3.0.14-2)
+[2022-04-01T21:43:33-0400] [ALPM] upgraded libwpe (1.12.0-1 -> 1.12.0-2)
+[2022-04-01T21:43:33-0400] [ALPM] upgraded wpebackend-fdo (1.12.0-1 -> 1.12.0-2)
+[2022-04-01T21:43:34-0400] [ALPM] upgraded webkit2gtk (2.36.0-1 -> 2.36.0-2)
+[2022-04-01T21:43:34-0400] [ALPM] upgraded webkit2gtk-4.1 (2.36.0-1 -> 2.36.0-2)
+[2022-04-01T21:43:34-0400] [ALPM] upgraded xorg-xwayland (22.1.0-1 -> 22.1.1-1)
+[2022-04-01T21:43:35-0400] [ALPM] transaction completed
+[2022-04-01T21:43:35-0400] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-04-01T21:43:35-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-04-01T21:43:35-0400] [ALPM] running '30-update-mime-database.hook'...
+[2022-04-01T21:43:36-0400] [ALPM] running 'fontconfig.hook'...
+[2022-04-01T21:43:36-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-04-01T21:43:36-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-04-01T21:43:36-0400] [ALPM] running 'rebuild-detector.hook'...
+[2022-04-01T21:43:38-0400] [ALPM] running 'texinfo-install.hook'...
+[2022-04-01T21:43:38-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-04-01T21:43:45-0400] [PACMAN] Running 'pacman -S -y -y -u --config /etc/pacman.conf --'
+[2022-04-01T21:43:45-0400] [PACMAN] synchronizing package lists
+[2022-04-01T21:43:46-0400] [PACMAN] starting full system upgrade
+[2022-04-01T21:46:23-0400] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/qt5-tools'
+[2022-04-01T21:46:25-0400] [ALPM] transaction started
+[2022-04-01T21:46:25-0400] [ALPM] installed qt5-tools (5.15.3+kde+r1-1)
+[2022-04-01T21:46:25-0400] [ALPM] transaction completed
+[2022-04-01T21:46:25-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-04-01T21:46:25-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-04-01T21:46:25-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-04-01T21:46:25-0400] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- qt5-tools'
+[2022-04-01T21:50:23-0400] [PACMAN] Running 'pacman -U --config /etc/pacman.conf -- /home/cis106/.cache/yay/flameshot-git/flameshot-git-r1678.c01ffecc-1-x86_64.pkg.tar.zst'
+[2022-04-01T21:50:47-0400] [ALPM] transaction started
+[2022-04-01T21:50:47-0400] [ALPM] removed flameshot (11.0.0-4)
+[2022-04-01T21:50:47-0400] [ALPM] installed flameshot-git (r1678.c01ffecc-1)
+[2022-04-01T21:50:47-0400] [ALPM] transaction completed
+[2022-04-01T21:50:47-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-04-01T21:50:47-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-04-01T21:50:47-0400] [ALPM] running 'update-desktop-database.hook'...
+[2022-04-01T21:50:47-0400] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- qt5-tools'
+[2022-04-01T21:50:47-0400] [ALPM] transaction started
+[2022-04-01T21:50:47-0400] [ALPM] removed qt5-tools (5.15.3+kde+r1-1)
+[2022-04-01T21:50:47-0400] [ALPM] transaction completed
+[2022-04-01T21:50:47-0400] [ALPM] running '30-systemd-update.hook'...
+[2022-04-01T21:50:47-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-04-01T21:50:47-0400] [ALPM] running 'update-desktop-database.hook'...
