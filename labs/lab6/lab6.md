@@ -43,4 +43,10 @@ Semester: Spring 22
 ## challenge-questions
 
 ![challenge-question1](chanllengequestion1.1.png)
-![challenge-question1](chanllengequestion
+![challenge-question1](chanllengequestion1.2.png)
+![challenge-question1](challengequestion1.3.png)
+![challenge-question1](challengequestion1.4.png)
+![challenge-question1](challengequestion1.5.png)
+![challenge-question1](chanllengequestion1.6.png)
+![challenge-question1](chanllengequestion1.8.png)
+![challenge-question1](chanllengequestion1.9.png)
