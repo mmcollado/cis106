@@ -40,7 +40,7 @@ Semester: Spring 22
 ![question5](q5.1.png)
 ![question5](q5.2.png)
 
-## challenge-questions
+## challengequestions
 
 ![challengequestion1](challengequestion1.1.png)
 ![challengequestion1](challengequestion1.2.png)
