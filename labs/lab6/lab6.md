@@ -42,12 +42,12 @@ Semester: Spring 22
 
 ## challenge-questions
 
-![challenge-question1](challengequestion1.1.png)
-![challenge-question1](challengequestion1.2.png)
-![challenge-question1](challengequestion1.3.png)
-![challenge-question1](challengequestion1.4.png)
-![challenge-question1](challengequestion1.5.png)
-![challenge-question1](challengequestion1.6.png)
-![challenge-question1](challengequestion1.7.png)
-![challenge-question1](challengequestion1.8.png)
-![challenge-question1](challengequestion1.9.png)
+![challengequestion1](challengequestion1.1.png)
+![challengequestion1](challengequestion1.2.png)
+![challengequestion1](challengequestion1.3.png)
+![challengequestion1](challengequestion1.4.png)
+![challengequestion1](challengequestion1.5.png)
+![challengequestion1](challengequestion1.6.png)
+![challengequestion1](challengequestion1.7.png)
+![challengequestion1](challengequestion1.8.png)
+![challengequestion1](challengequestion1.9.png)
