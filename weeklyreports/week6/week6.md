@@ -4,8 +4,7 @@ Semester: Spring 2022
 
 ---
 
-## Weekly Report:
- ## willcard
+## Weekly Report: Wildcard
 
 ![wildcard](WILDCARDS.png)
 
