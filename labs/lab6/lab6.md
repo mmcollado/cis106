@@ -52,9 +52,9 @@ Semester: Spring 22
 
 ![challengequestion1](challengeq1.5.png)
 
-![challengequestion1](challengeq1.6.png)
+![challeng](challengeq1.6.png)
 
-![challengequestion1](challengeq1.7.png)
+![challengeq](challengeq1.7.png)
 
 ![challengequestion1](challengeq1.8.png)
 
