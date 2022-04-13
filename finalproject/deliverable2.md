@@ -24,6 +24,15 @@
 
 * Installing Endeavour os is a process that takes several steps First one is installing and configure Libvirt and Qemu. 
 
+* 1. Installing all the packages to run virt-manager.
+
+Basic install:
+
+```sudo pacman -S virt-manager libvirt qemu```
+
+Full-featured install:
+
+```sudo pacman -S --needed virt-manager qemu libvirt edk2-ovmf dnsmasq vde2 bridge-utils openbsd-netcat iptables-nft dmidecode```
 
 [![Installation - configuration - libvirt and qemu - EndeavourOS - ArchLinux](https://res.cloudinary.com/marcomontalbano/image/upload/v1649818776/video_to_markdown/images/youtube--dv5LLEdavN0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=dv5LLEdavN0 "Installation - configuration - libvirt and qemu - EndeavourOS - ArchLinux")
 
