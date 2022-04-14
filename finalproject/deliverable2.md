@@ -6,9 +6,15 @@
 
 ### Types of virtualization
 
+
+
 * **Client-side Virtualization** IS a Virtual machine, but with the differences that are the focus in use with users only with applications. For example, suppose you use your phone daily, and that phone uses an application, you. In that case, the regular user doesn't have access to the server. Instead, you have access to the server, a computer that stores information on the net, to access an application. So your phone as a cloud gaming app like Nvidia cloud or Xbox cloud from your phone, and use the resources. From the server using the app like memory ram, etc. but can't modify what is shown to you. You can't install anything or use anything that the server owner does not predetermine.
   
+  ![client-side](client-Side.png)
+  
 *  **Server-side Virtualization** IS the technique of transforming one powerful computer into a machine that stores data and use it from just one device to avoid the excess power consumption and hardware overcrowding do it, but the excessive amount of racks or spaces that need for this task also is not the best idea since server virtualization tends to use the hardware or physical components of a machine and share with all the others virtual servers going to be overwhelming at some point still have many advantages since you can use as regular Server and modified as much as you need it 
+
+![Serverside](Serverside.png)
 
 ### Hypervisor 
 
@@ -34,7 +40,6 @@ Full-featured install:
 
 ```sudo pacman -S --needed virt-manager qemu libvirt edk2-ovmf dnsmasq vde2 bridge-utils openbsd-netcat iptables-nft dmidecode```
 
-[![Installation - configuration - libvirt and qemu - EndeavourOS - ArchLinux](https://res.cloudinary.com/marcomontalbano/image/upload/v1649818776/video_to_markdown/images/youtube--dv5LLEdavN0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=dv5LLEdavN0 "Installation - configuration - libvirt and qemu - EndeavourOS - ArchLinux")
 
 
 
@@ -61,3 +66,5 @@ Full-featured install:
 * Endeavour os Wiki: https://discovery.endeavouros.com/applications/how-to-install-virt-manager-complete-edition/2021/09/
 
 * Virtualization Basics: https://www.cnblogs.com/popsuper1982/p/3800230.html
+
+* computer hope: https://www.computerhope.com/jargon/s/server-side-scripting.htm
