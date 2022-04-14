@@ -95,8 +95,9 @@ If Network is disabled after rebooting the host machine and you do not find a wa
 
 5. after this you need to Download the iso file from endeavour page and start the installation as regularly you do in a virtual machine 
 
+![How-to-Install-Endeavour-os](How-to-install-Endeavouros-In-Virtual-Manager.png)
 
-
+Link in the source Down Below
 
 ### Updating Endeavour os 
 
@@ -119,3 +120,5 @@ If Network is disabled after rebooting the host machine and you do not find a wa
 * Virtualization Basics: https://www.cnblogs.com/popsuper1982/p/3800230.html
 
 * computer hope: https://www.computerhope.com/jargon/s/server-side-scripting.htm
+
+* How to install Endeavour os : https://youtu.be/N1kfFkSKCOw
