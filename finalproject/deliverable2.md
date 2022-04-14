@@ -93,6 +93,9 @@ If Network is disabled after rebooting the host machine and you do not find a wa
 ```sudo virsh net-autostart default```
 
 
+5. after this you need to Download the iso file from endeavour page and start the installation as regularly you do in a virtual machine 
+
+
 
 
 ### Updating Endeavour os 
