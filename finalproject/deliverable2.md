@@ -41,8 +41,56 @@ Full-featured install:
 ```sudo pacman -S --needed virt-manager qemu libvirt edk2-ovmf dnsmasq vde2 bridge-utils openbsd-netcat iptables-nft dmidecode```
 
 
+2. After installation completes you need to enable libvirtd service.
+
+```sudo systemctl enable --now libvirtd.service```
+
+3. Check for the status to make sure the service is running.
+
+```systemctl status libvirtd.service```
+
+The output should look something like below.
+
+○ libvirtd. service - Virtualization daemon
+     Loaded: loaded (/usr/lib/systemd/system/libvirtd.service; enabled; vendor preset: disabled)
+     Active: inactive (dead) since Tue 2021-08-31 20:33:58 +0530; 1h 14min ago
+TriggeredBy: ● libvirtd-admin.socket
+             ● libvirtd-ro.socket
+             ● libvirtd.socket
+       Docs: man:libvirtd(8)
+             https://libvirt.org
+    Process: 21412 ExecStart=/usr/bin/libvirtd $LIBVIRTD_ARGS (code=exited, status=0/SUCCESS)
+   Main PID: 21412 (code=exited, status=0/SUCCESS)
+      Tasks: 2 (limit: 32768)
+     Memory: 18.5M
+        CPU: 423ms
+     CGroup: /system.slice/libvirtd.service
+             ├─982 /usr/bin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+             └─983 /usr/bin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+To use our normal user without entering the root password we need to configure KVM to enable it. This will also enable the libvirt networking components as well without doing this it won’t work.
+You need to open the libvirt configuration file located at /etc/libvirt/libvirtd.conf. To open you can use your favorite text editor (vi, vim, or nano).
+sudo nano /etc/libvirt/libvirtd.conf
+Now we need to set UNIX domain socket ownership to libvirt. Scroll down till you see the below line and uncomment it.
+unix_sock_group = 'libvirt'
+Let’s set the UNIX socket permission to R/W. Scroll down till you see the below line and uncomment it.
+unix_sock_rw_perms = '0770'
+Add your user account to the libvirt group.
+sudo usermod -a -G libvirt $(whoami) or sudo usermod -a -G libvirt (your user name)
+– `whoami` is a function that put the current user name in the placeholder
+Now we need to add our user to `qemu.conf`. Otherwise, QEMU will give a `permission denied` error when trying to access local drives. You can use your favourite text editor to edit the file.
+sudo nano /etc/libvirt/qemu.conf
+Scroll down or search for `user = “root”` or `group = “root”`. Then uncomment both entries and change the root to your user name or ID and then save and exit. Once edited it should look something like below.
+
+4. You could restart your service, but it’s best to reboot the entire system.
+
+```sudo shutdown -r now```
 
 
+
+Network:
+If Network is disabled after rebooting the host machine and you do not find a way to enable it, you can have it enabled per default from the command line. This will work after rebooting the host:
+
+```sudo virsh net-autostart default```
 
 
 
