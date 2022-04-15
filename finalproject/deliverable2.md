@@ -106,6 +106,8 @@ Link in the source Down Below
 ```sudo pacman -Syyu```
 
 * sudo is for getting user privilege need it for give the necessary permissions to run the command
+* Pacman is the package manage using by Endeavour os that is base on arch linux
+* -Syyu is the command part use to say to pacman hey updates the system and synchronize everything with official repos of Endeavour os.
 
 
 ### Installing Software in Endeavour os
