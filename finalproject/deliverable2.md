@@ -18,7 +18,7 @@
 
 ### Hypervisor 
 
-* Hypervisor is a software that creates and manage virtual machines (Vms).Hypervisor allow a computer to run multiple of virtual computer using the same resources of the host computer 
+* Hypervisor is software that creates also manages virtual machines (Vms). The hypervisor allows a computer to run multiple virtual computers using the same resources as the host computer. Also, these VMS acts as independent computers or servers that control apps as a regular computer does. Hypervisors also use the same memory and configuration from the shot. Still, they can be variable, not the same as the host since it can use the hypervisor to do specific tasks. Such as turning on a machine that makes products or cars or even an ATM that typically uses hypervisors.
 
 ### Types of hypervisors
 
