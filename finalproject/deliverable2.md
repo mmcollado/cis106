@@ -113,7 +113,10 @@ Link in the source Down Below
 ### Installing Software in Endeavour os
 
 * Installation command examples
+  ```sudo pacman -S packagename``` or aur helper in my case yay ```yay package name``` plus number of the package you want aur helper search from repo and give you choose to twhere donwload a package. ```yay qemu``` and  ```sudo pacman -S qemu``` 
+
 * Searching for software
+  ```sudo pacman -S``` or aur yay ```yay name of the package``` 
 * Deleting software
 
 ### Basic linux Commands
