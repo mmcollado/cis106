@@ -103,6 +103,8 @@ Link in the source Down Below
 
 ### Updating Endeavour os 
 
+```sudo pacman -Syyu
+
 
 ### Installing Software in Endeavour os
 
