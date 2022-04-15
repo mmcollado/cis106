@@ -103,7 +103,9 @@ Link in the source Down Below
 
 ### Updating Endeavour os 
 
-```sudo pacman -Syyu
+```sudo pacman -Syyu```
+
+* sudo is for getting user privilege need it for give the necessary permissions to run the command
 
 
 ### Installing Software in Endeavour os
