@@ -18,6 +18,8 @@
 
 ### Hypervisor 
 
+* Hypervisor is a software that creates and manage virtual machines (Vms).Hypervisor allow a computer to run multiple of virtual computer using the same resources of the host computer 
+
 ### Types of hypervisors
 
 ## Virtual Manager
@@ -104,14 +106,23 @@ Link in the source Down Below
 
 ### Installing Software in Endeavour os
 
-
+* Installation command examples
+* Searching for software
+* Deleting software
 
 ### Basic linux Commands
+Nothing here remember it 
 
 ### Navigating the filesystem
 
 ### Managing files and directories
 
+#### Mkdir
+
+* Description:
+* Usage:
+* Examples
+  
 
 ### Sources
 
@@ -122,3 +133,5 @@ Link in the source Down Below
 * computer hope: https://www.computerhope.com/jargon/s/server-side-scripting.htm
 
 * How to install Endeavour os : https://youtu.be/N1kfFkSKCOw
+
+* Hypervisor : https://www.serverwatch.com/virtualization/hypervisor-server/
