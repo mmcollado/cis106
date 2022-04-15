@@ -22,6 +22,10 @@
 
 ### Types of hypervisors
 
+* Type 1
+
+* Type 2
+  
 ## Virtual Manager
 
 * Virtual Manager or virtual-manager is a graphical front-end hypervisor that supports different types of virtualization such as Qemu, Zen, and Xen used in Linux and Windows. Its primary purpose is to virtualize a virtual machine making it. It is easy to use without going into the terminal using a graphical interface that makes the user install it and manage it easily.
