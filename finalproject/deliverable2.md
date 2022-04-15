@@ -117,16 +117,20 @@ Link in the source Down Below
 ### Installing Software in Endeavour os
 
 * Installation command examples
-  ```sudo pacman -S packagename``` or aur helper in my case yay ```yay package name``` plus number of the package you want aur helper search from repo and give you choose to twhere donwload a package. ```yay qemu``` and  ```sudo pacman -S qemu``` 
+  ```sudo pacman -S packagename``` or aur helper in my case yay ```yay package name``` plus number of the package you want aur helper search from repo and give you choose to there download a package. ```yay qemu``` and  ```sudo pacman -S qemu``` 
 
 * Searching for software
-  ```sudo pacman -S``` or aur yay ```yay name of the package``` 
+  ```sudo pacman -Ss package_name``` or aur yay ```yay name of the package``` 
 * Deleting software
+  ```sudo pacman -R package_name```
+  ```sudo pacman -R  anbox```
 
 ### Basic linux Commands
 Nothing here remember it 
 
 ### Navigating the filesystem
+
+Same here
 
 ### Managing files and directories
 
@@ -148,3 +152,5 @@ Nothing here remember it
 * How to install Endeavour os : https://youtu.be/N1kfFkSKCOw
 
 * Hypervisor : https://www.serverwatch.com/virtualization/hypervisor-server/
+
+* Basic commands of Endeavour os : https://discovery.endeavouros.com/pacman/pacman-basic-commands/2021/03/
