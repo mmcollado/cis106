@@ -226,11 +226,6 @@ This command will skip the package from being updated. Similarly, to skip a pack
 * Examples: ```cp anemona.txt Home/Downloads```, ```cp game-of-thrones--chapter1.mp3 Videos/Downloads```
 
 
-
-
-#####
-
-
 ### Sources
 
 * Endeavour os Wiki: https://discovery.endeavouros.com/applications/how-to-install-virt-manager-complete-edition/2021/09/
