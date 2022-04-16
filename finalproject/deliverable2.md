@@ -21,10 +21,9 @@
 * Hypervisor is software that creates also manages virtual machines (Vms). The hypervisor allows a computer to run multiple virtual computers using the same resources as the host computer. Also, these VMS acts as independent computers or servers that control apps as a regular computer does. Hypervisors also use the same memory and configuration from the shot. Still, they can be variable, not the same as the host since it can use the hypervisor to do specific tasks. Such as turning on a machine that makes products or cars or even an ATM that typically uses hypervisors.
 
 ### Types of hypervisors
+* Type 1: are commonly called Bare metal or native if anything runs natively in your computer. You don't even realize it is not meant to work on the computer, but it works perfectly. You don't even notice type 1 hypervisors not only run as is they told to create for that os but also manage the host's resource in a way that is in a form using a real computer with that hardware mounted. Type 1 bare-metal hypervisors support highly scalable virtualization because they run directly on the hardware layer, often embedded in firmware. Additional terms for Type 1 are native or embedded hypervisors because of their hardware location.
 
-* Type 1
-
-* Type 2
+* Type 2: are the one that we know as regular virtual machines but type 2 are dependent of the host to do anything mean while type 1 not need any hypervisor like a must can work separetly from it type 2 runs virtual machines in a virtual layer.
   
 ## Virtual Manager
 
@@ -126,7 +125,9 @@ Link in the source Down Below
   ```sudo pacman -R  anbox```
 
 ### Basic linux Commands
-Nothing here remember it 
+
+
+![Basic-Linux-commands](updating-Endevour-os.png)
 
 ### Navigating the filesystem
 
@@ -136,10 +137,23 @@ Same here
 
 #### Mkdir
 
-* Description:
-* Usage:
-* Examples
+* Description: Create the DIRECTORY, if they do not already exist.
+* Usage: ```mkdir directory_name```
+* Examples: ```mkdir projects``` or ```mkdir avellanas```  or ```mkdir -P florero```
+
+
+#### cp
+
+* Description: short for copy, copies a file from one file location to another. Unlike the move command, the cp command retains the original file in its current location and makes a duplicate copy in a different directory.
   
+* Usage: cp /file/path /destination/path
+* Examples: ```cp anemona.txt Home/Downloads```, ```cp game-of-thrones--chapter1.mp3 Videos/Downloads```
+
+
+
+
+#####
+
 
 ### Sources
 
