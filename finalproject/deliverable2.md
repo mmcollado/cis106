@@ -209,8 +209,6 @@ This command will skip the package from being updated. Similarly, to skip a pack
 
 ### Navigating the filesystem
 
-Same here
-
 ### Managing files and directories
 
 #### Mkdir
