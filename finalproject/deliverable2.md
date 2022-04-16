@@ -130,7 +130,8 @@ EndeavourOS is a rolling release distro based on Arch Linux. This means your sys
 
 To update the system you can use this command
 
-sudo pacman -Syu
+```sudo pacman -Syu```
+
 You will notice that Arch releases updates daily and we strongly recommend doing a full system update instead of a partial one, so install updates at a time in the day you’re able to read and look upon the updates on our forum, so not when you’re thirty minutes from an important presentation.
 
 The community often warns you if an update is broken, so you know it’s better to wait to perform the update, with big issues, Arch usually fixes those within hours. You can also install the updates once a week and keep an eye out on the forum every day to keep yourself informed. Don’t delay installing the updates longer than that, because this can break your system.
@@ -138,7 +139,7 @@ The community often warns you if an update is broken, so you know it’s better 
 Searching for packages
 To search for packages in Pacman you can use the command
 
-pacman -Ss package_name
+```pacman -Ss package_name```
 When you’ve found the package you can install it according to the instructions in the paragraph here below.
 
 When you can’t find the desired package, this means it isn’t in the Arch repo, but you’ll find it most likely in the AUR. For searching and installing packages in the AUR we refer to the yay article.
@@ -146,13 +147,13 @@ When you can’t find the desired package, this means it isn’t in the Arch rep
 Installing packages
 To install a single package from the Arch repository you can use the following command in the terminal.
 
-sudo pacman -S package_name
+```sudo pacman -S package_name```
 You can also use this command to install several packages by just hitting the space bar after the first package name and enter the other package name(s).
 
 Installing package groups.
 Suppose, you have read on our forum or on the internet an article or review of a Desktop Environment that has caught your interest. Instead of installing all the separate packages that the DE depends on, you can also install the entire group by the following style of command
 
-sudo pacman -S plasma
+```sudo pacman -S plasma```
 This installs all the packages that belong to the DE, in this case, I used KDE plasma as an example, just replace plasma with the DE you wish to install. You will notice that Pacman first displays all the packages and asks for your permission to install them. If you want to exclude packages from the DE group you can do so by the following.
 
 Enter a selection (default=all): 1-15 20
@@ -166,7 +167,7 @@ A package is always installed with other packages that it depends on, called dep
 
 To remove a package without the dependencies use the following command.
 
-sudo pacman -R package_name
+```sudo pacman -R package_name```
 If you rather want to avoid a cluttered system you can remove a package and its dependencies, without removing dependencies that are used by other installed packages, use the following command.
 
 ```sudo pacman -Rs package_name```
