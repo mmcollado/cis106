@@ -8,10 +8,13 @@ Default Project
 * Internet browsing I have 2 browsers chromium qnd firefox.
   
 * Reading email: I read it on the Browser always
+            
             Remote assistance
-            Office productivity (writing documents, editing spreadsheets and doing presentations)
-            Streaming music and video
-            Video games
+* Office productivity (writing documents(Libre office Write), editing spreadsheets(libre office cal spreadsheets) and doing presentations(Libre office impress presentations))
+  
+* Streaming music and video
+* Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now and xbox xcloud.
+  
             Video Chatting/calling/conferencing
             Texting/Instant messaging
             Programing
