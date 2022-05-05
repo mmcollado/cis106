@@ -37,3 +37,8 @@ Semester : Spring 2022
 ![q3](q3.4.png)
 
 ## Question 4
+
+![q4](q4.png)
+
+![q4](q4-rest-of-first-part.png)
+
