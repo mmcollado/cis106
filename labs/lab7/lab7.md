@@ -61,3 +61,12 @@ Semester : Spring 2022
 
 ![q4](q4.4.png)
 
+![q4](q4.5.png)
+
+![q4](q4.5.2.png)
+
+![q4](q4.5.3.png)
+
+![q4](q4.5.4.png)
+
+## Question 5
