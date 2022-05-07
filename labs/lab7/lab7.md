@@ -83,4 +83,8 @@ Semester : Spring 2022
 
 ![q5](q5-part3.png)
 
+![q5](q5.2.png)
+
+![q5](q5.2.1.png)
+
 
