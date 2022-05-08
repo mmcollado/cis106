@@ -128,4 +128,11 @@ Semester : Spring 2022
 ![q6](q6.3.png)
 
 
+## Challenge-Questions
+
+![Chanllenge](Challenge-question1.png)
+
+![Chanllenge](Chanllenge-question2.png)
+
+![Chanllenge](Chanllenge-question2.2.png)
 
