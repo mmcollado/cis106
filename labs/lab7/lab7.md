@@ -117,5 +117,7 @@ Semester : Spring 2022
 
 ![q5](q5.8.2.png)
 
+## Question 6
 
+![q6](q6.png)
 
