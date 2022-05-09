@@ -33,11 +33,15 @@ Default Project
 * Internet browsing I have 2 browsers chromium and firefox. Video in the description below explaining it
   [![Performing Daily Task in Endevour os Part1](https://res.cloudinary.com/marcomontalbano/image/upload/v1652059146/video_to_markdown/images/youtube--AFwpYXWYGVo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/AFwpYXWYGVo "Performing Daily Task in Endevour os Part1")
 
-* Reading email: I read it on the Browser always
+[![Performing Daily Task in Endevour os Part2](https://res.cloudinary.com/marcomontalbano/image/upload/v1652060917/video_to_markdown/images/youtube--jKfBHya3DTE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/jKfBHya3DTE "Performing Daily Task in Endevour os Part2")
+
+* Reading email: I read it on the Browser always on the browser I use always firefox
             
 * Remote assistance
   
 * Office productivity (writing documents(Libre office Write), editing spreadsheets(libre office cal spreadsheets) and doing presentations(Libre office impress presentations))
+
+
   
 * Streaming music and video
 * Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now and xbox xcloud.
