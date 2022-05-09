@@ -42,6 +42,8 @@ Default Project
 * Office productivity (writing documents(Libre office Write), editing spreadsheets(libre office cal spreadsheets) and doing presentations(Libre office impress presentations))
 
 
+
+
   
 * Streaming music and video
 * Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now and xbox xcloud.
