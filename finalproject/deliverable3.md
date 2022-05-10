@@ -35,9 +35,14 @@ Default Project
 ### Firefox
 ![Firefox Browser](Firefox-Browser.jpg)
 
+* The Firefox Browser is the only major browser backed by a not-for-profit that doesn’t sell your personal data to advertisers while helping you protect your personal information. Learn more about the Firefox Browsers and other products.
+
+### Alternatives
+
 ### Chromium
 
 ![Chromium](chromium-browser.webp)
+
 
   [![Performing Daily Task in Endevour os Part1](https://res.cloudinary.com/marcomontalbano/image/upload/v1652059146/video_to_markdown/images/youtube--AFwpYXWYGVo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/AFwpYXWYGVo "Performing Daily Task in Endevour os Part1")
 
@@ -78,3 +83,6 @@ Default Project
   
   
   * https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_60,h_60/https://dashboard.snapcraft.io/site_media/appmedia/2018/05/chromium-browser.png  
+
+
+* https://www.mozilla.org/en-US/firefox/faq/
