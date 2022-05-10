@@ -83,6 +83,8 @@ Google first published the Chromium OS source code in late 2009.
 
   
 * Streaming music and video
+
+
 * Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now and xbox xcloud.
   
 * Video Chatting/calling/conferencing
@@ -116,3 +118,5 @@ Google first published the Chromium OS source code in late 2009.
 * https://www.libreoffice.org/themes/libreofficenew/img/discover_flat.png
 
 * https://www.technorms.com/wp-content/uploads/2011/12/LibreOffice.png?ezimgfmt=rs%3Adevice%2Frscb3-1
+
+* https://www.lifewire.com/libreoffice-review-1356322
