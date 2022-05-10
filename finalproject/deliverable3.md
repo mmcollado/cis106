@@ -75,6 +75,7 @@ Google first published the Chromium OS source code in late 2009.
 ![Libre-Office-suite](Libre-office-suite.png)
 
 
+![Libre-Office-suite](LibreOffice.png)
 
 
 
@@ -111,3 +112,5 @@ Google first published the Chromium OS source code in late 2009.
 * https://www.itproportal.com/features/what-is-teamviewer/
 
 * https://www.libreoffice.org/themes/libreofficenew/img/discover_flat.png
+
+* https://www.technorms.com/wp-content/uploads/2011/12/LibreOffice.png?ezimgfmt=rs%3Adevice%2Frscb3-1
