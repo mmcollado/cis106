@@ -43,6 +43,11 @@ Default Project
 
 ![Chromium](chromium-browser.webp)
 
+Chromium OS is a free and open-source operating system designed for running web applications and browsing the World Wide Web. It is the open-source version of Chrome OS, a Linux-based operating system made by Google.
+
+Like Chrome OS, Chromium OS is based on the Linux kernel, but its principal user interface is the Chromium web browser rather than the Google Chrome browser. Chromium OS also includes the Portage package manager, which was originally developed for Gentoo Linux. Because Chromium OS and Chrome OS use a web browser engine for the user interface, they are oriented toward web applications rather than desktop applications or mobile apps.
+
+Google first published the Chromium OS source code in late 2009. 
 
   [![Performing Daily Task in Endevour os Part1](https://res.cloudinary.com/marcomontalbano/image/upload/v1652059146/video_to_markdown/images/youtube--AFwpYXWYGVo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/AFwpYXWYGVo "Performing Daily Task in Endevour os Part1")
 
@@ -54,7 +59,11 @@ Default Project
 
 
             
-* Remote assistance
+* Remote assistance For remote assistance I use team viewer.
+
+### Teamviewer 
+
+
 
   
 * Office productivity (writing documents(Libre office Write), editing spreadsheets(libre office cal spreadsheets) and doing presentations(Libre office impress presentations))
@@ -73,7 +82,7 @@ Default Project
 * Programing
 * Educational Applications (dictionaries and that kind of stuff)
 
-* How to get help with your Endeavour os machine: For get help with endeavour os I normally use telegram channel or also read the wiki of arch since is arch base is the same commands and interface. 
+* How to get help with your Endeavour os machine: For get help with endeavour os I normally use telegram channel or also read the wiki of arch since is arch base is the same commands and interface also use the endeavour page. 
 
 * Sources
   
@@ -86,3 +95,5 @@ Default Project
 
 
 * https://www.mozilla.org/en-US/firefox/faq/
+
+* https://en.wikipedia.org/wiki/Chromium_OS
