@@ -77,6 +77,8 @@ Google first published the Chromium OS source code in late 2009.
 
 ![Libre-Office-suite](LibreOffice.png)
 
+* LibreOffice is a free Microsoft Office alternative, complete with spreadsheet program, database tool, presentation maker, and word processor. With support for the major file types used by corresponding MS Office programs Excel, Access, PowerPoint, and Word, this free office suite should fulfill the needs of most users. 
+
 
 
   
