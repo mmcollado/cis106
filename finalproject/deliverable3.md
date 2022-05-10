@@ -55,7 +55,7 @@ Google first published the Chromium OS source code in late 2009.
 
 * Reading email: I read it on the Browser always on the browser I use always firefox
 
-
+[![Performing Daily Task in Endevour os Part3](https://res.cloudinary.com/marcomontalbano/image/upload/v1652144367/video_to_markdown/images/youtube--E0S7ta6maKM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/E0S7ta6maKM "Performing Daily Task in Endevour os Part3")
 
             
 * Remote assistance For remote assistance I use team viewer.
@@ -66,7 +66,11 @@ Google first published the Chromium OS source code in late 2009.
 
 * TeamViewer is without a doubt one of the best remote desktop software programs on the market. It enables users to access devices remotely, providing support or controlling said devices from a different location.
   
+  [![Performing Daily Task in Endevour os Part3](https://res.cloudinary.com/marcomontalbano/image/upload/v1652144367/video_to_markdown/images/youtube--E0S7ta6maKM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/E0S7ta6maKM "Performing Daily Task in Endevour os Part3")
+  
 * Office productivity (writing documents(Libre office Write), editing spreadsheets(libre office cal spreadsheets) and doing presentations(Libre office impress presentations))
+
+
 
 
 
