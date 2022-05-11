@@ -97,8 +97,11 @@ Hulu is an on-demand video streaming platform that has been around for more than
 
 ### Cinder or apple music
 
+![cider](Cider.png)
 
+An open source and community oriented Apple Music client for Windows, Linux, macOS, and more.
 
+### Apple music
 
 * Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now and xbox xcloud.
   
@@ -139,3 +142,7 @@ Hulu is an on-demand video streaming platform that has been around for more than
 * https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg
 
 * https://www.androidauthority.com/what-is-hulu-997732/
+
+* https://cider.sh/
+
+* https://github.com/ciderapp/cider.sh/blob/main/assets/img/Cider-Logo.png?raw=true
