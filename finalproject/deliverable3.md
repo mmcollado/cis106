@@ -123,10 +123,17 @@ It's packed with features, including offline listening for when you're not conne
 ### Lutris 
 
 ![Lutris](lutris.png)
-* 
+
+* Lutris is a video game preservation platform aiming to keep your video game collection up and running for the years to come.
+Over the years, video games have gone through many different hardware and software platforms. By offering the best software available to run your games, Lutris makes it easy to run all your games, old and new. 
 
 
 ### Nvidia  Geforce now 
+
+
+![Geforce now](GeForce_Now.png)
+
+* GeForce NOW is NVIDIA’s cloud-based game streaming service, delivering real-time gameplay straight from the cloud to your laptop, desktop, Mac, SHIELD TV, iPhone, iPad, and Android devices. Connect to your store accounts and stream your own library of games, or play your favorite free-to-play games. With cloud saves for supported games, you can pick up your game where you left off, on any supported device, wherever you are.
   
 * Video Chatting/calling/conferencing 
 
@@ -179,3 +186,10 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 
 * https://lutris.net/static/images/logo.a2f1036fd4ea.png
   
+  * https://lutris.net/
+
+* https://www.nvidia.com/en-us/geforce-now/faq/
+
+* https://www.nvidia.com/en-us/
+
+* https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/GeForce_Now_logo.svg/512px-GeForce_Now_logo.svg.png
