@@ -115,14 +115,15 @@ It's packed with features, including offline listening for when you're not conne
 
 ### Steam
 
-![Steam]()
+![Steam](Steam.png)
 
 * Steam is the ultimate destination for playing, discussing, and creating games.
 
 
 ### Lutris 
 
-
+![Lutris](lutris.png)
+* 
 
 
 ### Nvidia  Geforce now 
@@ -176,4 +177,5 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 
 * https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1024px-Steam_icon_logo.svg.png
 
+* https://lutris.net/static/images/logo.a2f1036fd4ea.png
   
