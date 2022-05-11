@@ -111,7 +111,21 @@ It's packed with features, including offline listening for when you're not conne
 
 
 
-* Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now and xbox xcloud.
+* Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now.
+
+### Steam
+
+![Steam]()
+
+* Steam is the ultimate destination for playing, discussing, and creating games.
+
+
+### Lutris 
+
+
+
+
+### Nvidia  Geforce now 
   
 * Video Chatting/calling/conferencing 
 
@@ -157,4 +171,9 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 * https://www.pocket-lint.com/apps/news/apple/136725-what-is-apple-music-and-how-does-it-work
 
 * https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpg
+
+* https://store.steampowered.com/about/
+
+* https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1024px-Steam_icon_logo.svg.png
+
   
