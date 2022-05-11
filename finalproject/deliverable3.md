@@ -135,6 +135,9 @@ Over the years, video games have gone through many different hardware and softwa
 
 * GeForce NOW is NVIDIA’s cloud-based game streaming service, delivering real-time gameplay straight from the cloud to your laptop, desktop, Mac, SHIELD TV, iPhone, iPad, and Android devices. Connect to your store accounts and stream your own library of games, or play your favorite free-to-play games. With cloud saves for supported games, you can pick up your game where you left off, on any supported device, wherever you are.
   
+
+
+
 * Video Chatting/calling/conferencing 
 
 * Texting/Instant messaging
