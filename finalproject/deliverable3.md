@@ -103,7 +103,7 @@ An open source and community oriented Apple Music client for Windows, Linux, mac
 
 ### Apple music
 
-![Apple Music]()
+![Apple Music](Apple-Music.jpg)
 
 (Pocket-lint) - Apple Music is a subscription-based music streaming service, like Spotify, offering access to over 90 million songs.
 
@@ -133,8 +133,7 @@ It's packed with features, including offline listening for when you're not conne
 
 
 * https://www.mozilla.org/en-US/firefox/faq/
-
-* https://en.wikipedia.org/wiki/Chromium_OS
+https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_OS
 
 
 * https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.teamviewer.com%2Fresources%2F2019%2F07%2FTeamViewer_Logo_512x512.png&imgrefurl=https%3A%2F%2Fwww.teamviewer.com%2F&tbnid=IpeGirhEcmZvPM&vet=12ahUKEwj4zpCJ1dP3AhVUqHIEHaGOC2sQMygBegUIARDXAQ..i&docid=MetAbN4ID0ahyM&w=512&h=512&q=teamviewer&client=firefox-b-1-d&ved=2ahUKEwj4zpCJ1dP3AhVUqHIEHaGOC2sQMygBegUIARDXAQ
@@ -156,3 +155,6 @@ It's packed with features, including offline listening for when you're not conne
 * https://github.com/ciderapp/cider.sh/blob/main/assets/img/Cider-Logo.png?raw=true
 
 * https://www.pocket-lint.com/apps/news/apple/136725-what-is-apple-music-and-how-does-it-work
+
+* https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpg
+  
