@@ -103,6 +103,14 @@ An open source and community oriented Apple Music client for Windows, Linux, mac
 
 ### Apple music
 
+![Apple Music]()
+
+(Pocket-lint) - Apple Music is a subscription-based music streaming service, like Spotify, offering access to over 90 million songs.
+
+It's packed with features, including offline listening for when you're not connected, and it combines all your music in one place - even songs ripped from a CD. Apple Music also offers up live radio stations and integration with Siri so you can control most things with voice commands.
+
+
+
 * Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now and xbox xcloud.
   
 * Video Chatting/calling/conferencing 
@@ -146,3 +154,5 @@ An open source and community oriented Apple Music client for Windows, Linux, mac
 * https://cider.sh/
 
 * https://github.com/ciderapp/cider.sh/blob/main/assets/img/Cider-Logo.png?raw=true
+
+* https://www.pocket-lint.com/apps/news/apple/136725-what-is-apple-music-and-how-does-it-work
