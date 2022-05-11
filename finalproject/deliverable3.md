@@ -87,12 +87,22 @@ Google first published the Chromium OS source code in late 2009.
 
 [![Performing Daily Task in Endevour os Part4.2.1](https://res.cloudinary.com/marcomontalbano/image/upload/v1652152585/video_to_markdown/images/youtube--aTm_Ji11isw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/aTm_Ji11isw "Performing Daily Task in Endevour os Part4.2.1")
   
-* Streaming music and video
+* Streaming music and video for this one I just hulu and cinder for use apple music in this computer 
+
+### Hulu 
+
+![Hulu](Hulu.png)
+
+Hulu is an on-demand video streaming platform that has been around for more than a decade. It’s one of the best and largest streaming platforms in the United States, with more than 40 million subscribers.
+
+### Cinder or apple music
+
+
 
 
 * Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now and xbox xcloud.
   
-* Video Chatting/calling/conferencing
+* Video Chatting/calling/conferencing 
 
 * Texting/Instant messaging
 
@@ -125,3 +135,7 @@ Google first published the Chromium OS source code in late 2009.
 * https://www.technorms.com/wp-content/uploads/2011/12/LibreOffice.png?ezimgfmt=rs%3Adevice%2Frscb3-1
 
 * https://www.lifewire.com/libreoffice-review-1356322
+
+* https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg
+
+* https://www.androidauthority.com/what-is-hulu-997732/
