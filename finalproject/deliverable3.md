@@ -167,7 +167,14 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 
 ![Telegram](telegram.webp)
 
-### Programing For programing I use vs studio code until now and monodevelop 
+* Telegram is a multi-platform messaging service founded by Russian entrepreneur Pavel Durov. It first rolled out on iOS and Android in late 2013, and now has an estimated 550 million monthly users. Telegram’s user base tends to increase whenever a privacy scandal hits one of its larger competitors. 
+
+* Telegram’s core functionality is the same as most other messaging apps: You can message other Telegram users, create group conversations, call contacts, make video calls, and send files and stickers. However, there are a few specific features that make it work differently from other chat apps.
+
+### Programing
+
+
+ For programing I use vs studio code until now and monodevelop 
 
 
 * Educational Applications (dictionaries and that kind of stuff)
