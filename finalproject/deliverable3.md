@@ -165,9 +165,9 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 
 ### Telegram
 
- I just use whatsapp and Telegram
+![Telegram](telegram.webp)
 
-### Programing For programing I use vs studio code until now 
+### Programing For programing I use vs studio code until now and monodevelop 
 
 
 * Educational Applications (dictionaries and that kind of stuff)
@@ -229,3 +229,7 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 * https://www.lifewire.com/what-is-zoom-and-how-does-it-work-4800476
 
 * https://cdn.technosports.co.in/wp-content/uploads/2020/10/web-whatsapp-com-1-1.png
+
+* https://blogs.opera.com/tips-and-tricks/2020/05/whatsapp-knowledge-hub-and-faq/
+
+* https://www.popsci.com/uploads/2022/03/17/telegram-screenshot.jpg?auto=webp&width=1440&height=1080
