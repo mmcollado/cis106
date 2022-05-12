@@ -123,7 +123,7 @@ It's packed with features, including offline listening for when you're not conne
 
 * Steam is the ultimate destination for playing, discussing, and creating games.
 
-
+* How to install it using aur helper in terminal ```yay steam```
 ### Lutris 
 
 ![Lutris](lutris.png)
@@ -173,8 +173,24 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 
 ### Programing
 
+### Visual studio code
 
- For programing I use vs studio code until now and monodevelop 
+![Visual-Studio-Code](Visual_Studio_Code.png)
+
+
+* Visual Studio Code is a streamlined code editor with support for development operations like debugging, task running, and version control. It aims to provide just the tools a developer needs for a quick code-build-debug cycle and leaves more complex workflows to fuller featured IDEs, such as Visual Studio IDE.
+
+* How to install it Just downloads the snap and follow the instructions for your distribution 
+* https://snapcraft.io/code 
+
+### Monodevelop 
+
+ ![Monodevelop](Monodevelop.png)
+
+* MonoDevelop (also known as Xamarin Studio) was an open-source integrated development environment for Linux, macOS, and Windows. Its primary focus is development of projects that use Mono and .NET Framework. MonoDevelop integrates features similar to those of NetBeans and Microsoft Visual Studio, such as automatic code completion, source control, a graphical user interface (GUI) and Web designer. MonoDevelop integrates a Gtk# GUI designer called Stetic. It supports Boo, C, C++, C#, CIL, D, F#, Java, Oxygene, Vala, JavaScript, TypeScript and Visual Basic.NET.  
+
+
+* How to install is you can fin more information in monodevelop page here: https://www.monodevelop.com/download/
 
 
 * Educational Applications (dictionaries and that kind of stuff)
@@ -186,9 +202,10 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 * https://help.ubuntu.com/stable/ubuntu-help/net-wireless-connect.html.en
 
 * https://www.google.com/search?q=firefox&client=firefox-b-1-d&sxsrf=ALiCzsZo9pJQfCqZC4XyvH8LuiaAPi3R4w:1652136801083&tbm=isch&source=iu&ictx=1&vet=1&fir=WWyjLSDhh2RcxM%252COBAv9VCjAgBERM%252C%252Fm%252F01dyhm%253Bbkjv6X4p3fMjeM%252C6rVm2whPxgNDIM%252C_%253BtbLwKvtGaubVOM%252C311fr-bfg5fkuM%252C_%253BD2GCsI3nqY2ouM%252C6rVm2whPxgNDIM%252C_&usg=AI4_-kRm135TbBkk1fUiCYnzl1rnQ3jMPA&sa=X&ved=2ahUKEwiXh5iZwdP3AhXKk4kEHViSCQwQ_B16BAhiEAE#imgrc=WWyjLSDhh2RcxM
+
+* https://snapcraft.io/code
   
-  
-  * https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_60,h_60/https://dashboard.snapcraft.io/site_media/appmedia/2018/05/chromium-browser.png  
+  https://www.monodevelop.com/download/018/05/chromium-browser.png  
 
 
 * https://www.mozilla.org/en-US/firefox/faq/
@@ -240,3 +257,13 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 * https://blogs.opera.com/tips-and-tricks/2020/05/whatsapp-knowledge-hub-and-faq/
 
 * https://www.popsci.com/uploads/2022/03/17/telegram-screenshot.jpg?auto=webp&width=1440&height=1080
+
+* https://www.androidauthority.com/what-is-telegram-messenger-979357/
+
+* https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/640px-Visual_Studio_Code_1.18_icon.svg.png
+
+* https://www.monodevelop.com/images/388-ss-main-5-4.png
+
+* https://www.monodevelop.com/screenshots/
+
+* https://en.wikipedia.org/wiki/MonoDevelop
