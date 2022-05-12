@@ -1,6 +1,6 @@
-Default Project
 
-*  Connecting Endeavour os to the internet
+
+###  Connecting Endeavour os to the internet
 
 
 
@@ -53,13 +53,15 @@ Google first published the Chromium OS source code in late 2009.
 
 [![Performing Daily Task in Endevour os Part2](https://res.cloudinary.com/marcomontalbano/image/upload/v1652060917/video_to_markdown/images/youtube--jKfBHya3DTE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/jKfBHya3DTE "Performing Daily Task in Endevour os Part2")
 
-* Reading email: I read it on the Browser always on the browser I use always firefox
+#### Reading email 
+
+* I read it on the Browser always on the browser I use always firefox
 
 [![Performing Daily Task in Endevour os Part3](https://res.cloudinary.com/marcomontalbano/image/upload/v1652144367/video_to_markdown/images/youtube--E0S7ta6maKM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/E0S7ta6maKM "Performing Daily Task in Endevour os Part3")
 
             
-* Remote assistance For remote assistance I use team viewer.
-
+### Remote assistance
+  
 ### Teamviewer 
 
 ![Teamviewer](Teamviewer.jpg)
@@ -68,7 +70,7 @@ Google first published the Chromium OS source code in late 2009.
   
   [![Performing Daily Task in Endevour os Part3](https://res.cloudinary.com/marcomontalbano/image/upload/v1652144367/video_to_markdown/images/youtube--E0S7ta6maKM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/E0S7ta6maKM "Performing Daily Task in Endevour os Part3")
 
-* Office productivity (writing documents(Libre office Write), editing spreadsheets(libre office cal spreadsheets) and doing presentations(Libre office impress presentations))
+### Office productivity (writing documents(Libre office Write), editing spreadsheets(libre office cal spreadsheets) and doing presentations(Libre office impress presentations))
 
 ### Libre Office suite
 
@@ -87,8 +89,8 @@ Google first published the Chromium OS source code in late 2009.
 
 [![Performing Daily Task in Endevour os Part4.2.1](https://res.cloudinary.com/marcomontalbano/image/upload/v1652152585/video_to_markdown/images/youtube--aTm_Ji11isw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/aTm_Ji11isw "Performing Daily Task in Endevour os Part4.2.1")
   
-* Streaming music and video for this one I just hulu and cinder for use apple music in this computer 
-
+### Streaming music and video
+ 
 ### Hulu 
 
 ![Hulu](Hulu.png)
@@ -113,7 +115,7 @@ It's packed with features, including offline listening for when you're not conne
 [![Performing Daily Task in Endevour os Part5](https://res.cloudinary.com/marcomontalbano/image/upload/v1652318407/video_to_markdown/images/youtube--NhwUkCtTaJ0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/NhwUkCtTaJ0 "Performing Daily Task in Endevour os Part5")
 
 
-* Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now.
+### Video games  
 
 ### Steam
 
@@ -140,12 +142,34 @@ Over the years, video games have gone through many different hardware and softwa
 
 [![Performing Daily Task in Endevour os Part5](https://res.cloudinary.com/marcomontalbano/image/upload/v1652318407/video_to_markdown/images/youtube--NhwUkCtTaJ0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/NhwUkCtTaJ0 "Performing Daily Task in Endevour os Part5")
 
-* Video Chatting/calling/conferencing For video conferencing I use only zoom until now 
+### Video Chatting/calling/conferencing  
   
+  ### Zoom 
 
-* Texting/Instant messaging
+![Zoom](Zoom.webp)
 
-* Programing
+ Zoom is an online audio and web conferencing platform. People use it to make phone calls or to participate in video conference meetings.
+
+It was founded in 2011 by Eric Yuan, a former Cisco executive. Cisco offered the WebEx web conferencing platform, which remains a competitor in the conferencing space today. Yuan's competitor, Zoom, evolved quickly; the service launched in 2013 and had a million users by the end of the year. 
+
+
+### Texting/Instant messaging
+
+### Whatsapp web
+
+![Whatsapp web](whatsapp.webp)
+
+* WhatsApp Web is an online platform for using your WhatsApp account on your computer. It allows you to chat with people in WhatsApp on your computer, rather than on your phone.
+
+WhatsApp Web is an extension of the WhatsApp mobile application. Because of this, WhatsApp must be installed on your phone before you can use WhatsApp Web. You log in by using your phone to scan a QR code on your computer. This syncs your contacts and messages, effectively mirroring WhatsApp, so that what you do in WhatsApp Web happens on your phone, and vice versa.
+
+### Telegram
+
+ I just use whatsapp and Telegram
+
+### Programing For programing I use vs studio code until now 
+
+
 * Educational Applications (dictionaries and that kind of stuff)
 
 * How to get help with your Endeavour os machine: For get help with endeavour os I normally use telegram channel or also read the wiki of arch since is arch base is the same commands and interface also use the endeavour page. 
@@ -199,3 +223,9 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 * https://www.nvidia.com/en-us/
 
 * https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/GeForce_Now_logo.svg/512px-GeForce_Now_logo.svg.png
+
+* https://www.eweek.com/wp-content/uploads/2021/01/Zoom.logo_.jpg
+
+* https://www.lifewire.com/what-is-zoom-and-how-does-it-work-4800476
+
+* https://cdn.technosports.co.in/wp-content/uploads/2020/10/web-whatsapp-com-1-1.png
