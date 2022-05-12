@@ -110,6 +110,8 @@ An open source and community oriented Apple Music client for Windows, Linux, mac
 It's packed with features, including offline listening for when you're not connected, and it combines all your music in one place - even songs ripped from a CD. Apple Music also offers up live radio stations and integration with Siri so you can control most things with voice commands.
 
 
+[![Performing Daily Task in Endevour os Part5](https://res.cloudinary.com/marcomontalbano/image/upload/v1652318407/video_to_markdown/images/youtube--NhwUkCtTaJ0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/NhwUkCtTaJ0 "Performing Daily Task in Endevour os Part5")
+
 
 * Video games  for video games I use steam from valve also lutris and wine standing to play video games also cloud services as Nvidia geforce now.
 
@@ -136,9 +138,10 @@ Over the years, video games have gone through many different hardware and softwa
 * GeForce NOW is NVIDIA’s cloud-based game streaming service, delivering real-time gameplay straight from the cloud to your laptop, desktop, Mac, SHIELD TV, iPhone, iPad, and Android devices. Connect to your store accounts and stream your own library of games, or play your favorite free-to-play games. With cloud saves for supported games, you can pick up your game where you left off, on any supported device, wherever you are.
   
 
+[![Performing Daily Task in Endevour os Part5](https://res.cloudinary.com/marcomontalbano/image/upload/v1652318407/video_to_markdown/images/youtube--NhwUkCtTaJ0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/NhwUkCtTaJ0 "Performing Daily Task in Endevour os Part5")
 
-
-* Video Chatting/calling/conferencing 
+* Video Chatting/calling/conferencing For video conferencing I use only zoom until now 
+  
 
 * Texting/Instant messaging
 
