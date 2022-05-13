@@ -219,8 +219,22 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 ![Scratch](https://miro.medium.com/max/1400/0*356zWDYXZyGbmQxa.)
 
 * Scratch is the world’s largest coding community for children and a coding language with a simple visual interface that allows young people to create digital stories, games, and animations. Scratch is designed, developed, and moderated by the Scratch Foundation, a nonprofit organization. 
+  
+  * How to install it Just follow the instructions in this link Note this is a program that is base on Scratch and work in similar way : https://snapcraft.io/scratux 
 
-### How to get help with your Endeavour os machine: For get help with endeavour os I normally use telegram channel or also read the wiki of arch since is arch base is the same commands and interface also use the endeavour page. 
+### How to get help with your Endeavour os machine 
+
+* For get help with endeavour os I normally use telegram channel or also read the wiki of arch since is arch base is the same commands and interface also use the endeavour page. 
+
+### Telegram 
+
+
+![Telegram-Official-Chanel-Endevour os](Endevour-Telegramchannel.png)
+
+* Official endeavour os official channel : https://t.me/Endeavouros
+
+###
+
 
 * Sources
   
