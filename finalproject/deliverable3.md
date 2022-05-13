@@ -30,12 +30,16 @@
 
  ## Every day tasks In Endeavour os:
 
-* Internet browsing I have 2 browsers chromium and firefox. Video in the description below explaining it
+### Internet browsing
+
+* I have 2 browsers chromium and firefox. Video in the description below explaining it
 
 ### Firefox
 ![Firefox Browser](Firefox-Browser.jpg)
 
 * The Firefox Browser is the only major browser backed by a not-for-profit that doesn’t sell your personal data to advertisers while helping you protect your personal information. Learn more about the Firefox Browsers and other products.
+
+* How to install it install aur helper in this case yay and open a terminal and ``` yay firefox``` Note: normally is install by default.
 
 ### Alternatives
 
@@ -48,6 +52,8 @@ Chromium OS is a free and open-source operating system designed for running web 
 Like Chrome OS, Chromium OS is based on the Linux kernel, but its principal user interface is the Chromium web browser rather than the Google Chrome browser. Chromium OS also includes the Portage package manager, which was originally developed for Gentoo Linux. Because Chromium OS and Chrome OS use a web browser engine for the user interface, they are oriented toward web applications rather than desktop applications or mobile apps.
 
 Google first published the Chromium OS source code in late 2009. 
+
+* How to install it install aur helper in this case yay and open a terminal and ``` yay chromium```
 
   [![Performing Daily Task in Endevour os Part1](https://res.cloudinary.com/marcomontalbano/image/upload/v1652059146/video_to_markdown/images/youtube--AFwpYXWYGVo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/AFwpYXWYGVo "Performing Daily Task in Endevour os Part1")
 
@@ -67,6 +73,8 @@ Google first published the Chromium OS source code in late 2009.
 ![Teamviewer](Teamviewer.jpg)
 
 * TeamViewer is without a doubt one of the best remote desktop software programs on the market. It enables users to access devices remotely, providing support or controlling said devices from a different location.
+  
+  * How to install it install aur helper in this case yay and open a terminal and ``` yay teamviewer``` 
   
   [![Performing Daily Task in Endevour os Part3](https://res.cloudinary.com/marcomontalbano/image/upload/v1652144367/video_to_markdown/images/youtube--E0S7ta6maKM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/E0S7ta6maKM "Performing Daily Task in Endevour os Part3")
 
