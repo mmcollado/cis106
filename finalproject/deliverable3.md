@@ -201,11 +201,24 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 
 * Celestia is a 3D astronomy software program created by Chris Laurel. The program allows users to virtually travel through a simulated version of our universe. Celestia can display objects of various scales using OpenGL.
 
-* How to install it just go to this link and follow the instructions in snapcraft https://snapcraft.io/celestia-daily
+* How to install it just go to this link and follow the instructions in snapcraft 
+ * Note: first configure the snap packages For you distro
+* https://snapcraft.io/celestia-daily
   
+### GCompris
+
+![GCompris](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gcompris_0.61_screenshot.png/800px-Gcompris_0.61_screenshot.png)
+
+* GCompris is a software suite comprising educational entertainment software for children aged 2 to 10. GCompris was originally written in C and Python using the GTK+ widget toolkit, but a rewrite in C++ and QML using the Qt widget toolkit has been undertaken since early 2014. GCompris is free and open-source software and the current version is subject to the requirements of the AGPL-3.0-only license. It has been part of the GNU project. 
+
+* How to install it just use snap app once configured follow the instructions on the page for your distro https://snapcraft.io/gcompris
 
 
-* How to get help with your Endeavour os machine: For get help with endeavour os I normally use telegram channel or also read the wiki of arch since is arch base is the same commands and interface also use the endeavour page. 
+### 
+
+* Scratch is the world’s largest coding community for children and a coding language with a simple visual interface that allows young people to create digital stories, games, and animations. Scratch is designed, developed, and moderated by the Scratch Foundation, a nonprofit organization. 
+
+### How to get help with your Endeavour os machine: For get help with endeavour os I normally use telegram channel or also read the wiki of arch since is arch base is the same commands and interface also use the endeavour page. 
 
 * Sources
   
@@ -281,3 +294,5 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 * https://en.wikipedia.org/wiki/Celestia
 
 * https://upload.wikimedia.org/wikipedia/commons/e/e9/Celestia_splash.png
+
+* https://en.wikipedia.org/wiki/GCompris
