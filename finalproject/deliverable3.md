@@ -193,7 +193,7 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 * How to install is you can fin more information in monodevelop page here: https://www.monodevelop.com/download/
 
 
-* *Educational Applications (dictionaries and that kind of stuff)
+  ### Educational Applications (dictionaries and that kind of stuff)
 
 ### celestia 
 
@@ -214,7 +214,9 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 * How to install it just use snap app once configured follow the instructions on the page for your distro https://snapcraft.io/gcompris
 
 
-### 
+### Scratch
+
+![Scratch](https://miro.medium.com/max/1400/0*356zWDYXZyGbmQxa.)
 
 * Scratch is the world’s largest coding community for children and a coding language with a simple visual interface that allows young people to create digital stories, games, and animations. Scratch is designed, developed, and moderated by the Scratch Foundation, a nonprofit organization. 
 
@@ -296,3 +298,5 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 * https://upload.wikimedia.org/wikipedia/commons/e/e9/Celestia_splash.png
 
 * https://en.wikipedia.org/wiki/GCompris
+
+* https://scratch.mit.edu/about
