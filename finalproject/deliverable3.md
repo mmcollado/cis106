@@ -89,7 +89,8 @@ Google first published the Chromium OS source code in late 2009.
 
 * LibreOffice is a free Microsoft Office alternative, complete with spreadsheet program, database tool, presentation maker, and word processor. With support for the major file types used by corresponding MS Office programs Excel, Access, PowerPoint, and Word, this free office suite should fulfill the needs of most users. 
 
-
+* How to install it install aur helper in this case yay and open a terminal and ``` yay libreoffice-fresh```
+  
 [![Performing Daily Task in Endevour os Part4](https://res.cloudinary.com/marcomontalbano/image/upload/v1652152334/video_to_markdown/images/youtube--e8Kp-KttweI-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/e8Kp-KttweI "Performing Daily Task in Endevour os Part4")
 
 
@@ -97,7 +98,7 @@ Google first published the Chromium OS source code in late 2009.
 
 [![Performing Daily Task in Endevour os Part4.2.1](https://res.cloudinary.com/marcomontalbano/image/upload/v1652152585/video_to_markdown/images/youtube--aTm_Ji11isw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/aTm_Ji11isw "Performing Daily Task in Endevour os Part4.2.1")
   
-  * How to install it install aur helper in this case yay and open a terminal and ``` yay libreoffice-fresh```
+  
   
 ### Streaming music and video
  
