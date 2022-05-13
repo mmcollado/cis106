@@ -39,7 +39,9 @@
 
 * The Firefox Browser is the only major browser backed by a not-for-profit that doesn’t sell your personal data to advertisers while helping you protect your personal information. Learn more about the Firefox Browsers and other products.
 
-* How to install it install aur helper in this case yay and open a terminal and ``` yay firefox``` Note: normally is install by default.
+* How to install it install aur helper in this case yay and open a terminal and ``` yay firefox``` Note: normally is install by default. 
+
+* Note all the programs that use yay need to select the number read the package description, and then press the n or default option. If you aren't an advanced user, this applies to all packages you install in this way compilation, and the rest leave it, to yay.
 
 ### Alternatives
 
@@ -154,7 +156,8 @@ Over the years, video games have gone through many different hardware and softwa
 
 * GeForce NOW is NVIDIA’s cloud-based game streaming service, delivering real-time gameplay straight from the cloud to your laptop, desktop, Mac, SHIELD TV, iPhone, iPad, and Android devices. Connect to your store accounts and stream your own library of games, or play your favorite free-to-play games. With cloud saves for supported games, you can pick up your game where you left off, on any supported device, wherever you are.
   
-
+* Note that this service does not need to be installed on Linux since it runs in the browser.
+  
 [![Performing Daily Task in Endevour os Part5](https://res.cloudinary.com/marcomontalbano/image/upload/v1652318407/video_to_markdown/images/youtube--NhwUkCtTaJ0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/NhwUkCtTaJ0 "Performing Daily Task in Endevour os Part5")
 
 ### Video Chatting/calling/conferencing  
@@ -180,6 +183,8 @@ It was founded in 2011 by Eric Yuan, a former Cisco executive. Cisco offered the
 
 WhatsApp Web is an extension of the WhatsApp mobile application. Because of this, WhatsApp must be installed on your phone before you can use WhatsApp Web. You log in by using your phone to scan a QR code on your computer. This syncs your contacts and messages, effectively mirroring WhatsApp, so that what you do in WhatsApp Web happens on your phone, and vice versa.
 
+* Note that this service does not need to be installed on Linux since it runs in the browser.
+  
 ### Telegram
 
 ![Telegram](telegram.webp)
@@ -187,6 +192,9 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 * Telegram is a multi-platform messaging service founded by Russian entrepreneur Pavel Durov. It first rolled out on iOS and Android in late 2013, and now has an estimated 550 million monthly users. Telegram’s user base tends to increase whenever a privacy scandal hits one of its larger competitors. 
 
 * Telegram’s core functionality is the same as most other messaging apps: You can message other Telegram users, create group conversations, call contacts, make video calls, and send files and stickers. However, there are a few specific features that make it work differently from other chat apps.
+
+* How to install it install aur helper in this case yay and open a terminal and ``` yay telegram-desktop```
+  
 
 ### Programing
 
