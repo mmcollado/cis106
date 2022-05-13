@@ -233,8 +233,18 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 
 * Official endeavour os official channel : https://t.me/Endeavouros
 
-### 
+### Wiki of arch site
 
+![Wiki-of-arch-site](Arch-Wiki.png)
+
+* https://wiki.archlinux.org/
+
+
+### Endevour os Wiki
+
+![Endevour-os-Wiki](Endevour-os-Wiki.png)
+
+* https://discovery.endeavouros.com/
 
 * Sources
   
