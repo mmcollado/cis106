@@ -1,4 +1,9 @@
+---
+Name: Marcelo Collado
 
+Semester: Spring 2022
+
+---
 
 ###  Connecting Endeavour os to the internet
 
