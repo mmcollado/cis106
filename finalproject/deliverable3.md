@@ -193,7 +193,17 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 * How to install is you can fin more information in monodevelop page here: https://www.monodevelop.com/download/
 
 
-* Educational Applications (dictionaries and that kind of stuff)
+* *Educational Applications (dictionaries and that kind of stuff)
+
+### celestia 
+
+![celestia](https://upload.wikimedia.org/wikipedia/commons/e/e9/Celestia_splash.png)
+
+* Celestia is a 3D astronomy software program created by Chris Laurel. The program allows users to virtually travel through a simulated version of our universe. Celestia can display objects of various scales using OpenGL.
+
+* How to install it just go to this link and follow the instructions in snapcraft https://snapcraft.io/celestia-daily
+  
+
 
 * How to get help with your Endeavour os machine: For get help with endeavour os I normally use telegram channel or also read the wiki of arch since is arch base is the same commands and interface also use the endeavour page. 
 
@@ -267,3 +277,7 @@ https://www.headphonesty.com/wp-content/uploads/2021/04/Main_Image_jpeg-1.jpgum_
 * https://www.monodevelop.com/screenshots/
 
 * https://en.wikipedia.org/wiki/MonoDevelop
+
+* https://en.wikipedia.org/wiki/Celestia
+
+* https://upload.wikimedia.org/wikipedia/commons/e/e9/Celestia_splash.png
