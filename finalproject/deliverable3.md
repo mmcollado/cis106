@@ -89,13 +89,16 @@ Google first published the Chromium OS source code in late 2009.
 
 [![Performing Daily Task in Endevour os Part4.2.1](https://res.cloudinary.com/marcomontalbano/image/upload/v1652152585/video_to_markdown/images/youtube--aTm_Ji11isw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/aTm_Ji11isw "Performing Daily Task in Endevour os Part4.2.1")
   
+  * How to install it install aur helper in this case yay and open a terminal and ``` yay libreoffice-fresh```
+  
 ### Streaming music and video
  
 ### Hulu 
 
 ![Hulu](Hulu.png)
 
-Hulu is an on-demand video streaming platform that has been around for more than a decade. It’s one of the best and largest streaming platforms in the United States, with more than 40 million subscribers.
+* Hulu is an on-demand video streaming platform that has been around for more than a decade. It’s one of the best and largest streaming platforms in the United States, with more than 40 million subscribers.
+
 
 ### Cinder or apple music
 
@@ -103,6 +106,8 @@ Hulu is an on-demand video streaming platform that has been around for more than
 
 An open source and community oriented Apple Music client for Windows, Linux, macOS, and more.
 
+* How to install it install aur helper in this case yay and open a terminal and ``` yay cider```
+  
 ### Apple music
 
 ![Apple Music](Apple-Music.jpg)
@@ -131,7 +136,8 @@ It's packed with features, including offline listening for when you're not conne
 * Lutris is a video game preservation platform aiming to keep your video game collection up and running for the years to come.
 Over the years, video games have gone through many different hardware and software platforms. By offering the best software available to run your games, Lutris makes it easy to run all your games, old and new. 
 
-
+* How to install it install aur helper in this case yay and open a terminal and ``` yay lutris```
+  
 ### Nvidia  Geforce now 
 
 
@@ -150,7 +156,9 @@ Over the years, video games have gone through many different hardware and softwa
 
  Zoom is an online audio and web conferencing platform. People use it to make phone calls or to participate in video conference meetings.
 
-It was founded in 2011 by Eric Yuan, a former Cisco executive. Cisco offered the WebEx web conferencing platform, which remains a competitor in the conferencing space today. Yuan's competitor, Zoom, evolved quickly; the service launched in 2013 and had a million users by the end of the year. 
+It was founded in 2011 by Eric Yuan, a former Cisco executive. Cisco offered the WebEx web conferencing platform, which remains a competitor in the conferencing space today. Yuan's competitor, Zoom, evolved quickly; the service launched in 2013 and had a million users by the end of the year.
+
+* How to install itJust follow the instruction's in the link for your distribution and remember to configure it first : https://snapcraft.io/zoom-client
 
 
 ### Texting/Instant messaging
@@ -192,9 +200,9 @@ WhatsApp Web is an extension of the WhatsApp mobile application. Because of this
 
 * How to install is you can fin more information in monodevelop page here: https://www.monodevelop.com/download/
 
+* Note: since MonoDevelop has an old aur package, you need to compile your own from GitHub. Please read it at the link above.
 
-  ### Educational Applications (dictionaries and that kind of stuff)
-
+  ### Educational Applications 
 ### celestia 
 
 ![celestia](https://upload.wikimedia.org/wikipedia/commons/e/e9/Celestia_splash.png)
