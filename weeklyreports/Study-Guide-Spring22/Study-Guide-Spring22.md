@@ -245,6 +245,9 @@ chmod
 * Description of example:
   * `mkdir {test1,test2,test3}`
 * Description of example:
-  * `man -k cd`
+  * `mkdir -P {one,two,three}/deva{andalai,maniu,manuki}`
+
+
+
 
 
