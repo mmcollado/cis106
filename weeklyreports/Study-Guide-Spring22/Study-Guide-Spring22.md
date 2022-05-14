@@ -119,4 +119,4 @@ chmod
 * Description of example:
   * `echo -e 'Hello, \tGPU!'`
 * Description of example:
-  * ``
+  * `echo -e 'Hello, \vGPU, \vthis \vis \vPNAP!'`
