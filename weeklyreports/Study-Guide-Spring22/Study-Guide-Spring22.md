@@ -190,16 +190,21 @@ chmod
 
 
 # Command name
-```ls```
+```tree```
 ## Description
-* list directory contents
+* list contents of directories in a tree-like format.
 
 ## Syntax
-`ls [OPTION]... [FILE]...`
+` tree  [-acdfghilnpqrstuvxACDFJQNSUX]  [-L level [-R]] [-H baseHREF] [-T
+       title]  [-o  filename]  [-P   pattern]   [-I   pattern]   [--gitignore]
+       [--matchdirs]   [--metafirst]  [--ignore-case]  [--nolinks]  [--inodes]
+       [--device] [--sort[=]name] [--dirsfirst] [--filesfirst] [--filelimit #]
+       [--si]  [--du]  [--prune]  [--timefmt[=]format]  [--fromfile]  [--info]
+       [--noreport] [--version] [--help] [--] [directory ...]`
 ## Example
 * Description of example:
-  * `ls -l`
+  * `tree -df`
 * Description of example:
-  * `ls -ah /repollo`
+  * `tree -f -L 2`
 * Description of example:
-  * `ls -F /Documents`
+  * ` tree -f -P cata*`
