@@ -66,6 +66,7 @@ chmod
 * Description of example:
   * `uname -a`
 * Description of example:
-  * `TZ='America/Los_Angeles' date`
+  * `uname -r`
 * Description of example:
-  * `date --date='@2147483647'`
+  * `uname -m`
+
