@@ -104,3 +104,19 @@ chmod
   * `free -b`
 * Description of example:
   * `free --mega`
+
+# Command name
+```echo```
+## Description
+*  display a line of text
+
+
+## Syntax
+`echo [SHORT-OPTION]... [STRING]...`
+## Example
+* Description of example:
+  * `echo -e 'Hello, GPU! \c This is PNAP!'`
+* Description of example:
+  * `free -b`
+* Description of example:
+  * `free --mega`
