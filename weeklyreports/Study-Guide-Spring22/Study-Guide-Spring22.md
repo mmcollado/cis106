@@ -15,7 +15,7 @@ Semester: Spring 22
 * cd
 * ls
 * tree
-man
+* man
 mkdir
 touch
 rm
@@ -228,6 +228,22 @@ chmod
   * `man printf`
 * Description of example:
   * `man -f ls`
+* Description of example:
+  * `man -k cd`
+
+
+# Command name
+```mkdir```
+## Description
+*  make directories
+
+## Syntax
+`mkdir [OPTION]... DIRECTORY...`
+## Example
+* Description of example:
+  * `mkdir Linux`
+* Description of example:
+  * `mkdir {test1,test2,test3}`
 * Description of example:
   * `man -k cd`
 
