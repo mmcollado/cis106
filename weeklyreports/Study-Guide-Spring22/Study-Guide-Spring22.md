@@ -278,11 +278,12 @@ chmod
 
 
 # Command name
-``````
+```cp```
 ## Description
-*  rm command is used to remove objects such as files, directories, symbolic links and so on from the file system like UNIX.
+*  Copy SOURCE to destination, or multiple SOURCE(s) to DIRECTORY.
+
 ## Syntax
-`rm [OPTION]... [FILE]...`
+` cp [OPTION]... SOURCE... DIRECTORY`
 ## Example
 * Description of example:
   * `rm -i d.txt`
