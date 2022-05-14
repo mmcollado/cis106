@@ -70,3 +70,37 @@ chmod
 * Description of example:
   * `uname -m`
 
+# Command name
+```du```
+## Description
+* Summarize  device  usage  of the set of FILEs, recursively for directo‐
+       ries.
+
+## Syntax
+`du [OPTION]... [FILE]...`
+## Example
+* Description of example:
+  * `du -h /home/cis106/Downloads`
+* Description of example:
+  * `du -a -h /home/cis106/Downloads`
+* Description of example:
+  * `du -c -h /home/cis106/Downloads`
+
+
+# Command name
+```free```
+## Description
+* free  displays the total amount of free and used physical and swap mem‐
+       ory in the system, as well as the buffers and caches used by  the  ker‐
+       nel.  The  information  is  gathered by parsing /proc/meminfo. The dis‐
+       played columns
+
+## Syntax
+`free [options]`
+## Example
+* Description of example:
+  * `free -h`
+* Description of example:
+  * `free -b`
+* Description of example:
+  * `free --mega`
