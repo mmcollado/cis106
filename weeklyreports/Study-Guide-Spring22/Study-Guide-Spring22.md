@@ -302,7 +302,7 @@ chmod
 ` `
 ## Example
 * Description of example:
-  * `cp -i a.txt b.txt`
+  * `Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.`
 * Description of example:
   * `cp -b alimony.txt juvenile.txt`
 * Description of example:
