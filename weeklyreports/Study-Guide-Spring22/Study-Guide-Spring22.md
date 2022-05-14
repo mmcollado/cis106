@@ -11,7 +11,8 @@ Semester: Spring 22
 * free
 * echo
 * apt
-pwd
+* pwd
+
 cd
 ls
 tree
@@ -156,4 +157,19 @@ chmod
 * Description of example:
   * `pwd -L`
 * Description of example:
-  * `sudo apt install nginx`
+  * `pwd`
+
+# Command name
+```cd```
+## Description
+* change the working directory
+
+## Syntax
+` cd [-L|-P] [directory]`
+## Example
+* Description of example:
+  * `cd ..`
+* Description of example:
+  * `cd /Downloads`
+* Description of example:
+  * `cd /Downloads/cis106`
