@@ -41,14 +41,17 @@ chmod
 
 
 # Command name
+```date```
 ## Description
-Enter description here
+ Display  date  and  time  in  the given FORMAT.  With -s, or with [MMD‐
+       Dhhmm[[CC]YY][.ss]], set the date and time.
+
 ## Syntax
-`cmd + options`
+``
 ## Example
 * Description of example:
-  * `command here`
+  * `date --date='TZ="America/Los_Angeles" 09:00 next Fri`
 * Description of example:
-  * `command here`
+  * `TZ='America/Los_Angeles' date`
 * Description of example:
-  * `command here`
+  * `date --date='@2147483647'`
