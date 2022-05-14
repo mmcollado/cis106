@@ -18,7 +18,7 @@ Semester: Spring 22
 * man
 * mkdir
 * touch
-rm
+* rm
 cp
 mv
 stat
@@ -267,17 +267,29 @@ chmod
 ## Description
 *  rm command is used to remove objects such as files, directories, symbolic links and so on from the file system like UNIX.
 ## Syntax
-`touch <options> <file or directory name>`
+`rm [OPTION]... [FILE]...`
 ## Example
 * Description of example:
-  * `touch bismuto1 bismuto2 bismuto3`
+  * `rm -i d.txt`
 * Description of example:
-  * `touch -m bismuto3`
+  * `rm -f e.txt`
 * Description of example:
-  * `touch -c bismuto4`
+  * ` rm -r *`
 
 
-
+# Command name
+``````
+## Description
+*  rm command is used to remove objects such as files, directories, symbolic links and so on from the file system like UNIX.
+## Syntax
+`rm [OPTION]... [FILE]...`
+## Example
+* Description of example:
+  * `rm -i d.txt`
+* Description of example:
+  * `rm -f e.txt`
+* Description of example:
+  * ` rm -r *`
 
 
 
