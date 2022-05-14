@@ -47,7 +47,7 @@ chmod
        Dhhmm[[CC]YY][.ss]], set the date and time.
 
 ## Syntax
-``
+`date OPTION + FORMAT`
 ## Example
 * Description of example:
   * `date --date='TZ="America/Los_Angeles" 09:00 next Fri`
