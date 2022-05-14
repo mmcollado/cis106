@@ -222,18 +222,13 @@ chmod
        the first page found, even if page exists in several sections.
 
 ## Syntax
-` tree  [-acdfghilnpqrstuvxACDFJQNSUX]  [-L level [-R]] [-H baseHREF] [-T
-       title]  [-o  filename]  [-P   pattern]   [-I   pattern]   [--gitignore]
-       [--matchdirs]   [--metafirst]  [--ignore-case]  [--nolinks]  [--inodes]
-       [--device] [--sort[=]name] [--dirsfirst] [--filesfirst] [--filelimit #]
-       [--si]  [--du]  [--prune]  [--timefmt[=]format]  [--fromfile]  [--info]
-       [--noreport] [--version] [--help] [--] [directory ...]`
+`man [OPTION]... [COMMAND NAME]...`
 ## Example
 * Description of example:
-  * `tree -df`
+  * `man printf`
 * Description of example:
-  * `tree -f -L 2`
+  * `man -f ls`
 * Description of example:
-  * ` tree -f -P cata*`
+  * `man -k cd`
 
 
