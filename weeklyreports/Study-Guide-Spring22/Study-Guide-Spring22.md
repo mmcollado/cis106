@@ -117,6 +117,6 @@ chmod
 * Description of example:
   * `echo -e 'Hello, GPU! \c This is PNAP!'`
 * Description of example:
-  * `free -b`
+  * `echo -e 'Hello, \tGPU!'`
 * Description of example:
-  * `free --mega`
+  * ``
