@@ -12,8 +12,8 @@ Semester: Spring 22
 * echo
 * apt
 * pwd
-
-cd
+* cd
+  
 ls
 tree
 man
@@ -173,3 +173,18 @@ chmod
   * `cd /Downloads`
 * Description of example:
   * `cd /Downloads/cis106`
+
+# Command name
+```ls```
+## Description
+* list directory contents
+
+## Syntax
+`ls [OPTION]... [FILE]...`
+## Example
+* Description of example:
+  * `ls -l`
+* Description of example:
+  * `ls -ah /repollo`
+* Description of example:
+  * `ls -F /Documents`
