@@ -16,8 +16,8 @@ Semester: Spring 22
 * ls
 * tree
 * man
-mkdir
-touch
+* mkdir
+* touch
 rm
 cp
 mv
@@ -246,6 +246,36 @@ chmod
   * `mkdir {test1,test2,test3}`
 * Description of example:
   * `mkdir -P {one,two,three}/deva{andalai,maniu,manuki}`
+
+
+# Command name
+```touch```
+## Description
+*  The touch command is a standard program for Unix/Linux operating systems, that is used to create, change and modify timestamps of a file. Before heading up for touch command examples, please check out the following options.
+## Syntax
+`touch <options> <file or directory name>`
+## Example
+* Description of example:
+  * `touch bismuto1 bismuto2 bismuto3`
+* Description of example:
+  * `touch -m bismuto3`
+* Description of example:
+  * `touch -c bismuto4`
+
+# Command name
+```rm```
+## Description
+*  rm command is used to remove objects such as files, directories, symbolic links and so on from the file system like UNIX.
+## Syntax
+`touch <options> <file or directory name>`
+## Example
+* Description of example:
+  * `touch bismuto1 bismuto2 bismuto3`
+* Description of example:
+  * `touch -m bismuto3`
+* Description of example:
+  * `touch -c bismuto4`
+
 
 
 
