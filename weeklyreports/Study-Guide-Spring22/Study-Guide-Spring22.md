@@ -5,12 +5,12 @@ Semester: Spring 22
 
 ---
 
-date
-uname
-du
-free
-echo
-apt
+* date
+* uname
+* du
+* free
+* echo
+* apt
 pwd
 cd
 ls
@@ -120,3 +120,40 @@ chmod
   * `echo -e 'Hello, \tGPU!'`
 * Description of example:
   * `echo -e 'Hello, \vGPU, \vthis \vis \vPNAP!'`
+
+# Command name
+```apt```
+## Description
+* apt is a command-line utility for installing, updating, removing, and otherwise managing deb packages on Ubuntu, Debian, and related Linux distributions. It combines the most frequently used commands from the apt-get and apt-cache tools with different default values of some options.
+
+
+## Syntax
+`apt [-h] [-o=config_string] [-c=config_file] [-t=target_release]
+    [-a=architecture] {list | search | show | update |
+    install pkg [{=pkg_version_number | /target_release}]... |
+    remove pkg... | upgrade | full-upgrade | edit-sources | 
+    {-v | --version} | {-h | --help}}`
+## Example
+* Description of example:
+  * `sudo apt full-upgrade`
+* Description of example:
+  * `apt list --upgradable`
+* Description of example:
+  * `sudo apt install nginx`
+
+
+# Command name
+```pwd```
+## Description
+* Print the full filename of the current working directory.
+
+
+## Syntax
+` pwd [OPTION]...`
+## Example
+* Description of example:
+  * `pwd -P`
+* Description of example:
+  * `pwd -L`
+* Description of example:
+  * `sudo apt install nginx`
