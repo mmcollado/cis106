@@ -19,7 +19,7 @@ Semester: Spring 22
 * mkdir
 * touch
 * rm
-cp
+* cp
 mv
 stat
 Wildcards (*,?,[])
@@ -286,11 +286,27 @@ chmod
 ` cp [OPTION]... SOURCE... DIRECTORY`
 ## Example
 * Description of example:
-  * `rm -i d.txt`
+  * `cp -i a.txt b.txt`
 * Description of example:
-  * `rm -f e.txt`
+  * `cp -b alimony.txt juvenile.txt`
 * Description of example:
-  * ` rm -r *`
+  * `cp -f repulsion.txt lamusa.txt`
+
+
+# Command name
+```mv```
+## Description
+*  Copy SOURCE to destination, or multiple SOURCE(s) to DIRECTORY.
+
+## Syntax
+` `
+## Example
+* Description of example:
+  * `cp -i a.txt b.txt`
+* Description of example:
+  * `cp -b alimony.txt juvenile.txt`
+* Description of example:
+  * `cp -f repulsion.txt lamusa.txt`
 
 
 
