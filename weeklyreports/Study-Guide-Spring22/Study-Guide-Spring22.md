@@ -299,10 +299,10 @@ chmod
 *  Copy SOURCE to destination, or multiple SOURCE(s) to DIRECTORY.
 
 ## Syntax
-` `
+`mv [OPTION]... SOURCE... DIRECTORY`
 ## Example
 * Description of example:
-  * `Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.`
+  * ``
 * Description of example:
   * `cp -b alimony.txt juvenile.txt`
 * Description of example:
