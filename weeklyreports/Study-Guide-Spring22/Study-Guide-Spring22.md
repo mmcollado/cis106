@@ -55,3 +55,17 @@ chmod
   * `TZ='America/Los_Angeles' date`
 * Description of example:
   * `date --date='@2147483647'`
+
+# Command name
+```uname```
+## Description
+  Print certain system information.  With no OPTION, same as -s.
+## Syntax
+`uname [OPTION]...`
+## Example
+* Description of example:
+  * `uname -a`
+* Description of example:
+  * `TZ='America/Los_Angeles' date`
+* Description of example:
+  * `date --date='@2147483647'`
