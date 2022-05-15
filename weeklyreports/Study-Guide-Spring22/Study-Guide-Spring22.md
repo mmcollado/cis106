@@ -29,7 +29,7 @@ Semester: Spring 22
 * tail
 * cut
 * tr
-paste
+* paste
 wc
 grep
 output redirection
@@ -466,17 +466,20 @@ chmod
 
 
 # Command name
-``````
+```wc```
 ## Description
-*  merge lines of files
+*  Print newline, word, and byte counts for each FILE, and a total line if
+       more than one FILE is specified.  A word is a non-zero-length  sequence
+       of printable characters delimited by white space.
+
 ## Syntax
-` paste [OPTION]... [FILE]...`
+`wc [OPTION]... [FILE]...`
 ## Example
 * Description of example:
-  * `paste film.csv cereal.csv`
+  * `wc film.csv cereal.csv`
 * Description of example:
-  * `paste -d '_' film.csv cereal.csv`
+  * `wc -l film.csv cereal.csv`
 * Description of example:
-  * `paste -d '%|' film.csv cereal.csv`
+  * `wc -w film.csv cereal.csv`
 
 
