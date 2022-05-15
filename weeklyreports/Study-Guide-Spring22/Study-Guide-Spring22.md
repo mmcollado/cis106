@@ -321,7 +321,7 @@ chmod
 * Description of example:
   * `stat /etc/`
 * Description of example:
-  * `stat /etc/hostname`
+  * `stat locale.conf  login.defs`
 
 
 
