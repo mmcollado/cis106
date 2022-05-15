@@ -26,8 +26,8 @@ Semester: Spring 22
 * Brace expansion
 * cat
 * head
-tail
-cut
+* tail
+* cut
 tr
 paste
 wc
@@ -416,6 +416,37 @@ chmod
   * `tail -c -253 cereal.csv`
 
 
+# Command name
+```cut```
+## Description
+* Remove sections from each line of files
+## Syntax
+`cut OPTION... [FILE]...`
+## Example
+* Description of example:
+  * `cut -b 1,2,3 cereal.csv`
+* Description of example:
+  * `cut -d " " -f 1 cereal.csv`
+* Description of example:
+  * `cut --complement -d " " -f 1 cereal.csv`
+
+
+# Command name
+```tr```
+## Description
+*  Translate, squeeze, and/or delete characters from standard input, writ‐
+       ing to standard output.  STRING1 and STRING2 specify arrays of  charac‐
+       ters ARRAY1 and ARRAY2 that control the action.
+
+## Syntax
+``
+## Example
+* Description of example:
+  * `cut -b 1,2,3 cereal.csv`
+* Description of example:
+  * `cut -d " " -f 1 cereal.csv`
+* Description of example:
+  * `cut --complement -d " " -f 1 cereal.csv`
 
 
 
