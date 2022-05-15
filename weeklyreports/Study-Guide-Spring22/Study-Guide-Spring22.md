@@ -439,15 +439,32 @@ chmod
        ters ARRAY1 and ARRAY2 that control the action.
 
 ## Syntax
-``
+`  tr [OPTION]... STRING1 [STRING2]`
 ## Example
 * Description of example:
-  * `cut -b 1,2,3 cereal.csv`
+  * `echo "Welcome To Fedora" | tr [:space:] '\t'`
 * Description of example:
-  * `cut -d " " -f 1 cereal.csv`
+  * `echo "Welcome To Universe Transformers" | tr -d 'w'`
 * Description of example:
-  * `cut --complement -d " " -f 1 cereal.csv`
+  * `echo "my ID is 73535" | tr -d [:digit:]`
 
+
+# Command name
+``````
+## Description
+*  Translate, squeeze, and/or delete characters from standard input, writ‐
+       ing to standard output.  STRING1 and STRING2 specify arrays of  charac‐
+       ters ARRAY1 and ARRAY2 that control the action.
+
+## Syntax
+`  tr [OPTION]... STRING1 [STRING2]`
+## Example
+* Description of example:
+  * `echo "Welcome To Fedora" | tr [:space:] '\t'`
+* Description of example:
+  * `echo "Welcome To Universe Transformers" | tr -d 'w'`
+* Description of example:
+  * `echo "my ID is 73535" | tr -d [:digit:]`
 
 
 
