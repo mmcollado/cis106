@@ -311,17 +311,17 @@ chmod
 # Command name
 ```stat```
 ## Description
-*  Copy SOURCE to destination, or multiple SOURCE(s) to DIRECTORY.
+*  Display file or file system status.
 
 ## Syntax
-`mv [OPTION]... SOURCE... DIRECTORY`
+`stat [OPTION]... FILE...`
 ## Example
 * Description of example:
-  * `mv sample1.txt sample2.txt sample3.txt ~/Documents/`
+  * `stat /etc/resolv.conf`
 * Description of example:
-  * `mv testdir1/ testdir2/`
+  * `stat /etc/`
 * Description of example:
-  * `mv -i sample.png ~/Documents/`
+  * `stat /etc/hostname`
 
 
 
