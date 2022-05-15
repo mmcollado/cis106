@@ -36,7 +36,7 @@ Semester: Spring 22
 * Saving the output of a command
 * vim or nano (basic stuff: open a file, close a file, edit a file)
 * tar
-gz, bzip2, or xz
+* gz, bzip2, or xz
 chmod
 
 
@@ -601,6 +601,35 @@ There will be times when you need to save the output to a file for future refere
   * `gzip -c cereal.csv`
 * Description of example:
   * `gzip -v cereal.csv`
+
+
+
+# Command name
+```chmod```
+## Description
+* chmod changes the
+       file mode bits of each given file according to mode, which can  be  ei‐
+       ther  a  symbolic representation of changes to make, or an octal number
+       representing the bit pattern for the new mode bits.
+
+## Syntax
+`chmod [OPTION]... MODE[,MODE]... FILE...`
+## Example
+* Description of example:
+  * `chmod u=rw,og=r papiro.txt`
+* Description of example:
+  * `chmod a+x papiro.sh`
+* Description of example:
+  * `chmod +x papiro.sh`
+
+
+
+
+
+
+
+
+
 
 
 
