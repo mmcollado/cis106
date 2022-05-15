@@ -28,7 +28,7 @@ Semester: Spring 22
 * head
 * tail
 * cut
-tr
+* tr
 paste
 wc
 grep
@@ -450,21 +450,33 @@ chmod
 
 
 # Command name
-``````
+```paste```
 ## Description
-*  Translate, squeeze, and/or delete characters from standard input, writ‐
-       ing to standard output.  STRING1 and STRING2 specify arrays of  charac‐
-       ters ARRAY1 and ARRAY2 that control the action.
-
+*  merge lines of files
 ## Syntax
-`  tr [OPTION]... STRING1 [STRING2]`
+` paste [OPTION]... [FILE]...`
 ## Example
 * Description of example:
-  * `echo "Welcome To Fedora" | tr [:space:] '\t'`
+  * `paste film.csv cereal.csv`
 * Description of example:
-  * `echo "Welcome To Universe Transformers" | tr -d 'w'`
+  * `paste -d '_' film.csv cereal.csv`
 * Description of example:
-  * `echo "my ID is 73535" | tr -d [:digit:]`
+  * `paste -d '%|' film.csv cereal.csv`
 
+
+
+# Command name
+``````
+## Description
+*  merge lines of files
+## Syntax
+` paste [OPTION]... [FILE]...`
+## Example
+* Description of example:
+  * `paste film.csv cereal.csv`
+* Description of example:
+  * `paste -d '_' film.csv cereal.csv`
+* Description of example:
+  * `paste -d '%|' film.csv cereal.csv`
 
 
