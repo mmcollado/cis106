@@ -578,19 +578,29 @@ There will be times when you need to save the output to a file for future refere
 
 
 # Command name
-```gz```
+```gzip```
 ## Description
-* 
+* The  gzip  command reduces the size of the named files using Lempel-Ziv
+       coding (LZ77).  Whenever possible, each file is replaced  by  one  with
+       the  extension  .gz, while keeping the same ownership modes, access and
+       modification times.  (The default extension is z for MSDOS,  OS/2  FAT,
+       Windows  NT  FAT  and  Atari.)  If no files are specified, or if a file
+       name is "-", the standard input is compressed to the  standard  output.
+       The  gzip command will only attempt to compress regular files.  In par‐
+       ticular, it will ignore symbolic links.
 
 ## Syntax
-`tar -A [OPTIONS] ARCHIVE ARCHIVE`
+` gzip [ -acdfhklLnNrtvV19 ] [-S suffix] [ name ...  ]
+       gunzip [ -acfhklLnNrtvV ] [-S suffix] [ name ...  ]
+       zcat [ -fhLV ] [ name ...  ]
+`
 ## Example
 * Description of example:
-  * `tar cvf file.tar *.c`
+  * `gzip -k cereal.csv`
 * Description of example:
-  * `tar xvf file.tar`
+  * `gzip -c cereal.csv`
 * Description of example:
-  * `tar cvzf file.tar.gz *.c`
+  * `gzip -v cereal.csv`
 
 
 
