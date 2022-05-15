@@ -37,7 +37,7 @@ Semester: Spring 22
 * vim or nano (basic stuff: open a file, close a file, edit a file)
 * tar
 * gz, bzip2, or xz
-chmod
+* chmod
 
 
 # Command name
