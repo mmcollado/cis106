@@ -24,7 +24,7 @@ Semester: Spring 22
 * stat
 * Wildcards (*,?,[])
 * Brace expansion
-cat
+* cat
 head
 tail
 cut
@@ -371,14 +371,14 @@ chmod
 
 
 # Command name
-```cat```
+```head```
 ## Description
-* concatenate files and print on the standard output
+* output the first part of files
 ## Syntax
-`cat [OPTION]... [FILE]...`
+`head [OPTION]... [FILE]...`
 ## Example
 * Description of example:
-  * `cat`
+  * ``
 * Description of example:
   * `cat /etc/issue`
 * Description of example:
