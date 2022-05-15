@@ -378,7 +378,7 @@ chmod
 `head [OPTION]... [FILE]...`
 ## Example
 * Description of example:
-  * ``
+  * `head -v cars.txt`
 * Description of example:
   * `cat /etc/issue`
 * Description of example:
