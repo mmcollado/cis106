@@ -30,8 +30,8 @@ Semester: Spring 22
 * cut
 * tr
 * paste
-wc
-grep
+* wc
+* grep
 output redirection
 Saving the output of a command
 vim or nano (basic stuff: open a file, close a file, edit a file)
@@ -481,5 +481,44 @@ chmod
   * `wc -l film.csv cereal.csv`
 * Description of example:
   * `wc -w film.csv cereal.csv`
+
+
+# Command name
+```grep```
+## Description
+* grep  searches  for  PATTERNS  in  each  FILE.  PATTERNS is one or more
+       patterns separated by newline characters, and  grep  prints  each  line
+       that  matches a pattern.  Typically PATTERNS should be quoted when grep
+       is used in a shell command.
+
+
+## Syntax
+`grep [OPTION...] PATTERNS [FILE...]`
+## Example
+* Description of example:
+  * `grep -i 'trix' cereal.csv`
+* Description of example:
+  * `lspci | grep -i --color 'vga\|3d\|2d'`
+* Description of example:
+  * `ngrep -d any port 25`
+
+
+
+# Command name
+```output redirection```
+## Description
+* 
+
+
+## Syntax
+`grep [OPTION...] PATTERNS [FILE...]`
+## Example
+* Description of example:
+  * `grep -i 'trix' cereal.csv`
+* Description of example:
+  * `lspci | grep -i --color 'vga\|3d\|2d'`
+* Description of example:
+  * `ngrep -d any port 25`
+
 
 
