@@ -386,4 +386,24 @@ chmod
 
 
 
+# Command name
+```head```
+## Description
+* output the first part of files
+## Syntax
+`head [OPTION]... [FILE]...`
+## Example
+* Description of example:
+  * `head -v cars.txt`
+* Description of example:
+  * `head --lines 5 cars.txt `
+* Description of example:
+  * `head cars.txt names.txt `
+
+
+
+
+
+
+
 
