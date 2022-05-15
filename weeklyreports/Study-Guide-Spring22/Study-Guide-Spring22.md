@@ -35,7 +35,7 @@ Semester: Spring 22
 * output redirection
 * Saving the output of a command
 * vim or nano (basic stuff: open a file, close a file, edit a file)
-tar
+* tar
 gz, bzip2, or xz
 chmod
 
@@ -566,17 +566,36 @@ There will be times when you need to save the output to a file for future refere
 ## Description
 * an archiving utility
 
-
-
 ## Syntax
-` nano [options] [[+line[,column]] file]...`
+`tar -A [OPTIONS] ARCHIVE ARCHIVE`
 ## Example
 * Description of example:
-  * `nano /etc/nanorc`
+  * `tar cvf file.tar *.c`
 * Description of example:
-  * ` nano -w /etc/apache2/apache2.conf`
+  * `tar xvf file.tar`
 * Description of example:
-  * `nano +2,5 abc.txt`
+  * `tar cvzf file.tar.gz *.c`
+
+
+# Command name
+```gz```
+## Description
+* 
+
+## Syntax
+`tar -A [OPTIONS] ARCHIVE ARCHIVE`
+## Example
+* Description of example:
+  * `tar cvf file.tar *.c`
+* Description of example:
+  * `tar xvf file.tar`
+* Description of example:
+  * `tar cvzf file.tar.gz *.c`
+
+
+
+
+
 
 
 
