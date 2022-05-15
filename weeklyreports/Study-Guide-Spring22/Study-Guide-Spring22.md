@@ -507,18 +507,21 @@ chmod
 # Command name
 ```output redirection```
 ## Description
-* 
+* Input/Output (I/O) redirection in Linux refers to the ability of the Linux operating system that allows us to change the standard input (stdin) and standard output (stdout) when executing a command on the terminal.
+
+By default, the standard input device is your keyboard and the standard output device is your screen.
+
 
 
 ## Syntax
-`grep [OPTION...] PATTERNS [FILE...]`
+`input command + option > output file`
 ## Example
 * Description of example:
-  * `grep -i 'trix' cereal.csv`
+  * `ls -al > listings`
 * Description of example:
-  * `lspci | grep -i --color 'vga\|3d\|2d'`
+  * `cat music.mp3 > /dev/audio`
 * Description of example:
-  * `ngrep -d any port 25`
+  * `myprogram 2>errorsfile`
 
 
 
