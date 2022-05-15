@@ -21,7 +21,7 @@ Semester: Spring 22
 * rm
 * cp
 * mv
-stat
+* stat
 Wildcards (*,?,[])
 Brace expansion
 cat
@@ -323,5 +323,21 @@ chmod
 * Description of example:
   * `stat locale.conf  login.defs`
 
+
+
+# Command name
+```Wildcards (*,?,[])```
+## Description
+*  Wildcards (also referred to as meta characters) are symbols or special characters that represent other characters. You can use them with any command such as ls command or rm command to list or remove files matching a given criteria, receptively.
+
+## Syntax
+`* + option or option and *`
+## Example
+* Description of example:
+  * ` ls -l l*	`
+* Description of example:
+  * `ls users-0*`
+* Description of example:
+  * `ls l?st.sh	`
 
 
