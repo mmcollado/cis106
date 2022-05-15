@@ -302,11 +302,11 @@ chmod
 `mv [OPTION]... SOURCE... DIRECTORY`
 ## Example
 * Description of example:
+  * `mv sample1.txt sample2.txt sample3.txt ~/Documents/`
+* Description of example:
+  * `mv testdir1/ testdir2/`
+* Description of example:
   * ``
-* Description of example:
-  * `cp -b alimony.txt juvenile.txt`
-* Description of example:
-  * `cp -f repulsion.txt lamusa.txt`
 
 
 
