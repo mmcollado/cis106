@@ -32,8 +32,8 @@ Semester: Spring 22
 * paste
 * wc
 * grep
-output redirection
-Saving the output of a command
+* output redirection
+* Saving the output of a command
 vim or nano (basic stuff: open a file, close a file, edit a file)
 tar
 gz, bzip2, or xz
@@ -524,21 +524,66 @@ By default, the standard input device is your keyboard and the standard output d
   * `myprogram 2>errorsfile`
 
 # Command name
-``````
+```Saving the output of a command```
 ## Description
-* Input/Output (I/O) redirection in Linux refers to the ability of the Linux operating system that allows us to change the standard input (stdin) and standard output (stdout) when executing a command on the terminal.
+* When you run a command or script in the Linux terminal, it prints the output on the screen for your immediate viewing.
 
-By default, the standard input device is your keyboard and the standard output device is your screen.
+There will be times when you need to save the output to a file for future references. Now, you can surely copy and paste in Linux terminal but there are better ways to save the output of a shell script or command in Linux command line. Let me show them to you.
+
+
+## Syntax
+`command > file`
+## Example
+* Description of example:
+  * `ls * .c >> output.txt`
+* Description of example:
+  * `ls -l | tree output.txt`
+* Description of example:
+  * `ls -A | output.txt`
+
+# Command name
+```nano```
+## Description
+* nano  is  a  small and friendly editor.  It copies the look and feel of
+       Pico, but is free software, and implements several features  that  Pico
+       lacks,  such as: opening multiple files, scrolling per line, undo/redo,
+       syntax coloring, line numbering, and soft-wrapping overlong lines.
 
 
 
 ## Syntax
-`input command + option > output file`
+` nano [options] [[+line[,column]] file]...`
 ## Example
 * Description of example:
-  * `ls -al > listings`
+  * `nano /etc/nanorc`
 * Description of example:
-  * `cat music.mp3 > /dev/audio`
+  * ` nano -w /etc/apache2/apache2.conf`
 * Description of example:
-  * `myprogram 2>errorsfile`
+  * `nano +2,5 abc.txt`
+
+# Command name
+``````
+## Description
+* nano  is  a  small and friendly editor.  It copies the look and feel of
+       Pico, but is free software, and implements several features  that  Pico
+       lacks,  such as: opening multiple files, scrolling per line, undo/redo,
+       syntax coloring, line numbering, and soft-wrapping overlong lines.
+
+
+
+## Syntax
+` nano [options] [[+line[,column]] file]...`
+## Example
+* Description of example:
+  * `nano /etc/nanorc`
+* Description of example:
+  * ` nano -w /etc/apache2/apache2.conf`
+* Description of example:
+  * `nano +2,5 abc.txt`
+
+
+
+
+
+
 
