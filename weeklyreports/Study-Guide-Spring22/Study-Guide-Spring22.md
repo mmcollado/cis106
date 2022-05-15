@@ -34,7 +34,7 @@ Semester: Spring 22
 * grep
 * output redirection
 * Saving the output of a command
-vim or nano (basic stuff: open a file, close a file, edit a file)
+* vim or nano (basic stuff: open a file, close a file, edit a file)
 tar
 gz, bzip2, or xz
 chmod
@@ -562,12 +562,9 @@ There will be times when you need to save the output to a file for future refere
   * `nano +2,5 abc.txt`
 
 # Command name
-``````
+```tar```
 ## Description
-* nano  is  a  small and friendly editor.  It copies the look and feel of
-       Pico, but is free software, and implements several features  that  Pico
-       lacks,  such as: opening multiple files, scrolling per line, undo/redo,
-       syntax coloring, line numbering, and soft-wrapping overlong lines.
+* an archiving utility
 
 
 
