@@ -25,7 +25,7 @@ Semester: Spring 22
 * Wildcards (*,?,[])
 * Brace expansion
 * cat
-head
+* head
 tail
 cut
 tr
@@ -401,6 +401,19 @@ chmod
   * `head cars.txt names.txt `
 
 
+# Command name
+```tail```
+## Description
+* output the last part of files
+## Syntax
+` tail [OPTION]... [FILE]...`
+## Example
+* Description of example:
+  * `tail -n 3 state.txt`
+* Description of example:
+  * `tail +25 state.txt`
+* Description of example:
+  * `tail -c -253 cereal.csv`
 
 
 
