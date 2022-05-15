@@ -380,9 +380,9 @@ chmod
 * Description of example:
   * `head -v cars.txt`
 * Description of example:
-  * `cat /etc/issue`
+  * `head --lines 5 cars.txt `
 * Description of example:
-  * `cat -e test`
+  * `head cars.txt names.txt `
 
 
 
