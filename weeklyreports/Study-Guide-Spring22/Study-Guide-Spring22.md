@@ -22,8 +22,8 @@ Semester: Spring 22
 * cp
 * mv
 * stat
-Wildcards (*,?,[])
-Brace expansion
+* Wildcards (*,?,[])
+* Brace expansion
 cat
 head
 tail
@@ -339,5 +339,51 @@ chmod
   * `ls users-0*`
 * Description of example:
   * `ls l?st.sh	`
+
+
+# Command name
+```Brace expansion```
+## Description
+* Brace expansion is a mechanism by which arbitrary strings may be generated. This mechanism is similar to filename expansion (see Filename Expansion), but the filenames generated need not exist. Patterns to be brace expanded take the form of an optional preamble, followed by either a series of comma-separated strings or a sequence expression between a pair of braces, followed by an optional postscript. The preamble is prefixed to each string contained within the braces, and the postscript is then appended to each resulting string, expanding left to right. 
+## Syntax
+`{}`
+## Example
+* Description of example:
+  * `echo {one,two,three,four}`
+* Description of example:
+  * `echo {1..10}`
+* Description of example:
+  * `echo {q..v}`
+
+# Command name
+```cat```
+## Description
+* concatenate files and print on the standard output
+## Syntax
+`cat [OPTION]... [FILE]...`
+## Example
+* Description of example:
+  * `cat`
+* Description of example:
+  * `cat /etc/issue`
+* Description of example:
+  * `cat -e test`
+
+
+# Command name
+```cat```
+## Description
+* concatenate files and print on the standard output
+## Syntax
+`cat [OPTION]... [FILE]...`
+## Example
+* Description of example:
+  * `cat`
+* Description of example:
+  * `cat /etc/issue`
+* Description of example:
+  * `cat -e test`
+
+
 
 
