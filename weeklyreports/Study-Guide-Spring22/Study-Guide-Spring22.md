@@ -20,7 +20,7 @@ Semester: Spring 22
 * touch
 * rm
 * cp
-mv
+* mv
 stat
 Wildcards (*,?,[])
 Brace expansion
@@ -306,7 +306,22 @@ chmod
 * Description of example:
   * `mv testdir1/ testdir2/`
 * Description of example:
-  * ``
+  * `mv -i sample.png ~/Documents/`
+
+# Command name
+```stat```
+## Description
+*  Copy SOURCE to destination, or multiple SOURCE(s) to DIRECTORY.
+
+## Syntax
+`mv [OPTION]... SOURCE... DIRECTORY`
+## Example
+* Description of example:
+  * `mv sample1.txt sample2.txt sample3.txt ~/Documents/`
+* Description of example:
+  * `mv testdir1/ testdir2/`
+* Description of example:
+  * `mv -i sample.png ~/Documents/`
 
 
 
