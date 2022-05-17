@@ -17,7 +17,8 @@ Semester: Spring 2022
 
 
 ### Question 3
-
+![q1](q3.1.1.png)
+![q3](q3.1.png)
 
 ### Question 4
 1. What is the Absolute path of the image you picked?
@@ -34,3 +35,5 @@ directory, including their permissions, and the full date of the last time it wa
 ![q4](q4.3.2png)
 4. Which command would you use to get this output of the ~/midtermfiles3/question1 directory. Include
 the whole command that will give you this output.
+
+ 
