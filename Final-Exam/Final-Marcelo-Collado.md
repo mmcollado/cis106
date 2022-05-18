@@ -32,7 +32,8 @@ whole command. This must be done in a single command.
 ![q4](q4.3.1.png)
 1. What command would you use to know the size of every image in the ~/midtermfiles3/question1
 directory, including their permissions, and the full date of the last time it was modified?
-![q4](q4.3.2png)
+
+![q4](q4.3.2.png)
 
 4. Which command would you use to get this output of the ~/midtermfiles3/question1 directory. Include
 the whole command that will give you this output.
